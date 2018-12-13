@@ -1,2 +1,2 @@
-<h2>Header</h2>    
+<h2>eJkiva Webpage</h2>    
 <hr/>    

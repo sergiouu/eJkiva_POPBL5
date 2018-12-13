@@ -14,11 +14,16 @@
 </head>
 <body style="background-color:#43bcff">
 
-	<div class="container" >
+	<div class="container container-table" >
 	
-		<div class="row align-items-center justify-content-center ">
-			<div class="col-lg-8 ">
-				<img class="align-middle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBnWqerZYBMWL12SWVAgTBSlpvPLoOxUt4ANLCG3Ns_Oy_Owg0Mg">  
+		<div class="row h-20">
+		</div>
+	
+		<div class="row align-items-center justify-content-center vertical-center-row">
+			<div class="col-lg-8 col-centered">
+				<div class="text-center">
+					<img class="img-responsive center-block" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBnWqerZYBMWL12SWVAgTBSlpvPLoOxUt4ANLCG3Ns_Oy_Owg0Mg">
+				</div>  
 			</div>
 		</div>
 		

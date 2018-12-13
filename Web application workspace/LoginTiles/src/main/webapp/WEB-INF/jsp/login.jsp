@@ -4,7 +4,7 @@
     <title>Login</title>    
 </head>    
 <body>    
-<h2>Contact Manager</h2>    
+<h2>Enter information</h2>    
 <form:form method="post" action="login.html">    
     
     <table>    
