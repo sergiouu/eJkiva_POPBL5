@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 11-dic-2018 16:27:36 by Hibernate Tools 5.1.0.Alpha1 -->
+<hibernate-mapping>
+    <class name="probeHibernate.User" table="user" catalog="MYDATABASE" optimistic-lock="version">
+        <id name="userId" type="short">
+            <column name="userID" />
+            <generator class="assigned" />
+        </id>
+        <property name="uname" type="string">
+            <column name="uName" length="25" not-null="true" />
+        </property>
+        <property name="password" type="string">
+            <column name="password" length="25" not-null="true" />
+        </property>
+        <property name="rname" type="string">
+            <column name="rName" length="25" not-null="true" />
+        </property>
+        <property name="surname" type="string">
+            <column name="surname" length="25" not-null="true" />
+        </property>
+        <property name="mail" type="string">
+            <column name="mail" length="45" not-null="true" />
+        </property>
+        <property name="bornDat" type="date">
+            <column name="bornDat" length="10" />
+        </property>
+        <property name="userTypeId" type="java.lang.Byte">
+            <column name="userTypeID" />
+        </property>
+    </class>
+</hibernate-mapping>

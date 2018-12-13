@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 11-dic-2018 16:27:36 by Hibernate Tools 5.1.0.Alpha1 -->
+<hibernate-mapping>
+    <class name="probeHibernate.Product" table="product" catalog="MYDATABASE" optimistic-lock="version">
+        <id name="productId" type="short">
+            <column name="productID" />
+            <generator class="assigned" />
+        </id>
+        <property name="prodName" type="string">
+            <column name="prodName" length="20" not-null="true" />
+        </property>
+        <property name="price" type="java.lang.Byte">
+            <column name="price" />
+        </property>
+        <property name="departamentId" type="java.lang.Byte">
+            <column name="departamentID" />
+        </property>
+    </class>
+</hibernate-mapping>
