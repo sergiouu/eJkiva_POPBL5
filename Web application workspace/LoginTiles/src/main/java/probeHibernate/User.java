@@ -119,5 +119,11 @@ public class User implements java.io.Serializable {
 	public void setUserTypeId(Byte userTypeId) {
 		this.userTypeId = userTypeId;
 	}
+	
+	@Override
+	public String toString() {
+		return this.rname;
+	}
+
 
 }
