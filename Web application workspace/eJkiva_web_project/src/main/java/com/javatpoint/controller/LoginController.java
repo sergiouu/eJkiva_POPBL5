@@ -92,10 +92,7 @@ public class LoginController {
 	        
 	    if(request.getParameter("uname")!= null) {
 
-			Date dat;
-			dat=transformDate(request.getParameter("bornDat"));
-			System.out.println(request.getParameter("bornDat")+" vs "+dat);
-	    	User newUser = new User((short)6, 
+	    	User newUser = new User(
 					request.getParameter("uname"),
 					request.getParameter("password"),
 					request.getParameter("rname"), 
@@ -104,9 +101,8 @@ public class LoginController {
 					request.getParameter("bornDat"),
 					(byte)1);
 	    	
-	    	System.out.println("New user: "+newUser+" "+newUser.getBornDat());
 	    	session.save(newUser);
-	        /*tx.commit();*/
+	        tx.commit();
 		}
 		//List<User> users=query.list();
 		//m.addAttribute("repeatpassword", new String());
