@@ -28,7 +28,7 @@ public class User implements java.io.Serializable {
 	@Column(name="mail")
 	private String mail;
 	@Column(name="bornDat")
-	private Date bornDat;
+	private String bornDat;
 	@Column(name="userTypeId")
 	private Byte userTypeId;
 
@@ -44,7 +44,7 @@ public class User implements java.io.Serializable {
 		this.mail = mail;
 	}
 
-	public User(short userId, String uname, String password, String rname, String surname, String mail, Date bornDat,
+	public User(short userId, String uname, String password, String rname, String surname, String mail, String bornDat,
 			Byte userTypeId) {
 		this.userId = userId;
 		this.uname = uname;
@@ -104,11 +104,11 @@ public class User implements java.io.Serializable {
 		this.mail = mail;
 	}
 
-	public Date getBornDat() {
+	public String getBornDat() {
 		return this.bornDat;
 	}
 
-	public void setBornDat(Date bornDat) {
+	public void setBornDat(String bornDat) {
 		this.bornDat = bornDat;
 	}
 

@@ -1,0 +1,22 @@
+@charset "ISO-8859-1";
+
+*{
+	
+}
+
+body{
+	--main-bg-color: #43bcff;
+	--main-text-color: white;
+	--article-bg-color: #6ac5d4;
+	--main-padding: 10px;
+	--main-margin: 15px;
+	--main-font-size: 1em; 
+	--main-font-family: "Liberation Serif Italic", "Times New Roman", Serif;
+    --main-font-style: italic;
+    
+}
+
+.start{
+	background-color: var(----main-bg-color)
+}
+

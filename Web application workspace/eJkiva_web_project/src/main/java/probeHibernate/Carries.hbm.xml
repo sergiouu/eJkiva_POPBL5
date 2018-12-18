@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 11-dic-2018 16:27:36 by Hibernate Tools 5.1.0.Alpha1 -->
+<hibernate-mapping>
+    <class name="probeHibernate.Carries" table="carries" catalog="MYDATABASE" optimistic-lock="version">
+        <composite-id name="id" class="probeHibernate.CarriesId">
+            <key-property name="orderProductId" type="java.lang.Short">
+                <column name="orderProductId" />
+            </key-property>
+            <key-property name="workstationId" type="java.lang.Byte">
+                <column name="workstationID" />
+            </key-property>
+            <key-property name="machineId" type="java.lang.Byte">
+                <column name="machineID" />
+            </key-property>
+            <key-property name="state" type="java.lang.Boolean">
+                <column name="state" />
+            </key-property>
+        </composite-id>
+    </class>
+</hibernate-mapping>
