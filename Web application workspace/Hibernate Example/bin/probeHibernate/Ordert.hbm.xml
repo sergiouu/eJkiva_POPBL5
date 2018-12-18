@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 11-dic-2018 16:27:36 by Hibernate Tools 5.1.0.Alpha1 -->
+<hibernate-mapping>
+    <class name="probeHibernate.Ordert" table="ordert" catalog="MYDATABASE" optimistic-lock="version">
+        <id name="orderId" type="short">
+            <column name="orderID" />
+            <generator class="assigned" />
+        </id>
+        <property name="refD" type="date">
+            <column name="refD" length="10" />
+        </property>
+        <property name="userId" type="java.lang.Short">
+            <column name="userId" />
+        </property>
+    </class>
+</hibernate-mapping>
