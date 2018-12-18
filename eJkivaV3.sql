@@ -1,6 +1,6 @@
-DROP DATABASE IF EXISTS mydatabase;
-CREATE DATABASE mydatabase;
-USE mydatabase;
+DROP DATABASE IF EXISTS FEFE;
+CREATE DATABASE FEFE;
+USE FEFE;
 
 CREATE TABLE userType (
  userTypeID     TINYINT UNSIGNED AUTO_INCREMENT,
@@ -78,11 +78,13 @@ CREATE TABLE workstation (
 );
 CREATE TABLE carries (
  orderProductId smallint UNSIGNED AUTO_INCREMENT,
- workstationID     tinyint UNSIGNED,
+ initialWorkstationID     tinyint UNSIGNED,
+ destinyWorkstationID     tinyint UNSIGNED,
  machineID       tinyint UNSIGNED,
  state          boolean,/*eraman duen o ez*/
  CONSTRAINT ORDPRD_FK FOREIGN KEY (orderProductId) REFERENCES orderProduct (orderProductId),
- CONSTRAINT WORK_FK FOREIGN KEY (workstationID) REFERENCES workstation (workstationID),
+ CONSTRAINT WORK_IN_FK FOREIGN KEY (initialWorkstationID) REFERENCES workstation (workstationID),
+ CONSTRAINT WORK_FIN_FK FOREIGN KEY (destinyWorkstationID) REFERENCES workstation (workstationID),
  CONSTRAINT MACH_FK FOREIGN KEY (machineID) REFERENCES authoMach (machineID)
 );
 /* Values*/
@@ -111,3 +113,5 @@ INSERT INTO authoMach VALUES (2,'Petanca izar',NULL,2,0);
 INSERT INTO workstation VALUES (2,'Zigarro sueltuak',NULL,2,1);
 
 INSERT INTO carries VALUES (1,2,2,1);
+
+
