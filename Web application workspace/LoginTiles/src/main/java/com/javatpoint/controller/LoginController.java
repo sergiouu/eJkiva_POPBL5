@@ -1,7 +1,17 @@
 package com.javatpoint.controller;
 
+import java.math.BigInteger;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
 import org.hibernate.Session;
+import org.hibernate.Transaction;
 import org.hibernate.query.Query;
+import org.springframework.http.HttpMethod;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -10,6 +20,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.context.request.WebRequest;
+
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+import org.hibernate.query.Query;
 
 import com.javatpoint.form.Contact;
 
@@ -26,8 +40,6 @@ public class LoginController {
         String u = request.getParameter("uname");
         String p = request.getParameter("password");
         
-
-        
         System.out.println(u + " "+p);
          if(u!=null && p!=null) {
         	 if(consult(u, p)) {
@@ -42,7 +54,7 @@ public class LoginController {
         return "login";  
     }  
 	
-	public static boolean consult(String name, String password) {
+	private static boolean consult(String name, String password) {
 		String uType;
 		
 		Session session=HibernateUtils.getSessionFactory().openSession();
@@ -56,9 +68,10 @@ public class LoginController {
 			return false;
 		}else {
 			System.out.println(user.getUserTypeId());
-			if(user.getUserTypeId()==1) {uType="customer";}
+			//GERO HAUEK TESTEATU
+			/*if(user.getUserTypeId()==1) {uType="customer";}
 			else if(user.getUserTypeId()==2) {uType="operator";}
-			else if(user.getUserTypeId()==3) {uType="manager";}
+			else if(user.getUserTypeId()==3) {uType="manager";}*/
 			return true;
 		}
 		
@@ -68,9 +81,53 @@ public class LoginController {
 
 	 }
 
-	@RequestMapping(value = "/register", method = RequestMethod.POST)  
-    public String register(@ModelAttribute("user") User user, BindingResult result) {  
+	@RequestMapping("/register")  
+    public String register(Model m, WebRequest request) { 
+		m.addAttribute("command", new User());
+		Session session=HibernateUtils.getSessionFactory().openSession();
+		Transaction tx= session.beginTransaction();   
+	
+		
+		//NOLA JAKIN SUBMITAI EMANZAION	        
+	        
+	    if(request.getParameter("uname")!= null) {
+
+			Date dat;
+			dat=transformDate(request.getParameter("bornDat"));
+			System.out.println(request.getParameter("bornDat")+" vs "+dat);
+	    	User newUser = new User((short)6, 
+					request.getParameter("uname"),
+					request.getParameter("password"),
+					request.getParameter("rname"), 
+					request.getParameter("surname"),
+					request.getParameter("mail"),
+					dat,
+					(byte)1);
+	    	
+	    	System.out.println("New user: "+newUser+" "+newUser.getBornDat());
+	    	session.save(newUser);
+	        /*tx.commit();*/
+		}
+		//List<User> users=query.list();
+		//m.addAttribute("repeatpassword", new String());
         //write the code here to add contact  
-        return "redirect:contact.html";  
+        return "register";  
     }
+
+	private static Date transformDate(String dateString) {
+		 
+		DateFormat df = new SimpleDateFormat("dd/MM/yyyy"); 
+		Date date = null;
+		try {
+		    date = (Date) df.parse(dateString);
+		    date = df.parse(df.format(date));
+		    System.out.println("Date: "+date);
+		} catch (ParseException e) {
+		    e.printStackTrace();
+		}
+		return date;
+
+	}
+
+
 }

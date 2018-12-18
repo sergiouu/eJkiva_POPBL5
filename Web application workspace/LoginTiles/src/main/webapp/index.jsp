@@ -30,7 +30,7 @@
 		<div class="row align-items-center justify-content-center">
 			<div class="col-lg-3 col-centered">
 				<a href="login.html" style="color:white">Sign in</a> |   
-				<a href="contact.html" style="color:white">Create account</a>  
+				<a href="register.html" style="color:white">Create account</a>  
 			</div>
 		</div>
 	
