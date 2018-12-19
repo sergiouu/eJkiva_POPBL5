@@ -30,5 +30,14 @@
         <put-attribute name="title" value="Register User" />  
         <put-attribute name="body" value="/WEB-INF/jsp/register.jsp" />  
     </definition> 
+    
+    <definition name="customer" extends="base.definition">  
+		<put-attribute name="title" value="Customer" />          
+        <put-attribute name="menu" value="/WEB-INF/jsp/customer/menu.jsp" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/customer/customer.jsp" />   
+    
+         
+         
+    </definition> 
   
 </tiles-definitions>  

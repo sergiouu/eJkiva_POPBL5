@@ -34,7 +34,7 @@
     </tr>    
     <tr>    
         <td colspan="2">    
-            <input type="submit" value="Add User"/>    
+            <input type="submit" value="adduser"/>    
         </td>    
     </tr>    
 </table>      

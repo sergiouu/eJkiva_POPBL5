@@ -1,5 +1,6 @@
 package com.javatpoint.controller;
 
+import java.io.IOException;
 import java.math.BigInteger;
 import java.text.DateFormat;
 import java.text.ParseException;
@@ -7,6 +8,8 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+
+import javax.servlet.http.HttpServletResponse;
 
 import org.hibernate.Session;
 import org.hibernate.Transaction;
@@ -35,26 +38,31 @@ import utils.HibernateUtils;
 public class LoginController {
 	
 	@RequestMapping("/login")  
-    public String login(Model m, WebRequest request) {  
+    public String login(Model m, WebRequest request, HttpServletResponse response) throws IOException {  
         m.addAttribute("command", new User());
         String u = request.getParameter("uname");
         String p = request.getParameter("password");
         
         System.out.println(u + " "+p);
          if(u!=null && p!=null) {
-        	 if(consult(u, p)) {
+        	 User user = consult(u, p);
+        	 if(user != null) {
             	System.out.println("ENTER");
-            	return "hello";
-            }else System.out.println("FAIL");
+            	request.setAttribute("user", user, WebRequest.SCOPE_REQUEST);
+            	response.sendRedirect("/eJkiva_web_project/"+pageType(user.getUserTypeId())+".html");
+            	//return pageType(user.getUserTypeId());
+            }else {
+            	System.out.println("FAIL");
+            	return null;
+            }
         	
-        	;
         }
             
         
         return "login";  
     }  
 	
-	private static boolean consult(String name, String password) {
+	private static User consult(String name, String password) {
 		String uType;
 		
 		Session session=HibernateUtils.getSessionFactory().openSession();
@@ -63,21 +71,7 @@ public class LoginController {
 		
 		User user=query.uniqueResult();
 		
-		if(user==null) {
-			System.out.println("Ez du balio");
-			return false;
-		}else {
-			System.out.println(user.getUserTypeId());
-			//GERO HAUEK TESTEATU
-			/*if(user.getUserTypeId()==1) {uType="customer";}
-			else if(user.getUserTypeId()==2) {uType="operator";}
-			else if(user.getUserTypeId()==3) {uType="manager";}*/
-			return true;
-		}
-		
-		
-		//System.out.println("Hau da nire zenbakia"+numb);
-		
+		return user;	
 
 	 }
 
@@ -86,10 +80,7 @@ public class LoginController {
 		m.addAttribute("command", new User());
 		Session session=HibernateUtils.getSessionFactory().openSession();
 		Transaction tx= session.beginTransaction();   
-	
-		
-		//NOLA JAKIN SUBMITAI EMANZAION	        
-	        
+		        
 	    if(request.getParameter("uname")!= null) {
 
 	    	User newUser = new User(
@@ -103,10 +94,10 @@ public class LoginController {
 	    	
 	    	session.save(newUser);
 	        tx.commit();
+	                
+	        return pageType(newUser.getUserTypeId());
 		}
-		//List<User> users=query.list();
-		//m.addAttribute("repeatpassword", new String());
-        //write the code here to add contact  
+	    
         return "register";  
     }
 
@@ -125,5 +116,15 @@ public class LoginController {
 
 	}
 
+	private String pageType(int i) {
+		
+		String type;
+		
+		if(i == 1) type = "customer";
+		else if(i == 1) type = "operator";
+		else type = "manager";
+		
+		return type;
+	}
 
 }

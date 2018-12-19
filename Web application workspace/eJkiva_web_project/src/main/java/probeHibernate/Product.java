@@ -8,8 +8,8 @@ public class Product implements java.io.Serializable {
 
 	private short productId;
 	private String prodName;
-	private Byte price;
-	private Byte departamentId;
+	private float price;
+	private int departamentId;
 
 	public Product() {
 	}
@@ -19,8 +19,7 @@ public class Product implements java.io.Serializable {
 		this.prodName = prodName;
 	}
 
-	public Product(short productId, String prodName, Byte price, Byte departamentId) {
-		this.productId = productId;
+	public Product(String prodName, float price, int departamentId) {
 		this.prodName = prodName;
 		this.price = price;
 		this.departamentId = departamentId;
@@ -42,19 +41,19 @@ public class Product implements java.io.Serializable {
 		this.prodName = prodName;
 	}
 
-	public Byte getPrice() {
+	public float getPrice() {
 		return this.price;
 	}
 
-	public void setPrice(Byte price) {
+	public void setPrice(float price) {
 		this.price = price;
 	}
 
-	public Byte getDepartamentId() {
+	public int getDepartamentId() {
 		return this.departamentId;
 	}
 
-	public void setDepartamentId(Byte departamentId) {
+	public void setDepartamentId(int departamentId) {
 		this.departamentId = departamentId;
 	}
 
