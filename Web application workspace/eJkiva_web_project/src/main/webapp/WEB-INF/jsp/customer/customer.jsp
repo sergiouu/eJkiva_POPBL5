@@ -4,31 +4,38 @@
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>    
 <html>    
 <head>    
-    <title><tiles:insertAttribute name="title" ignore="true" /></title>    
+    <title><tiles:insertAttribute name="title" ignore="true" /></title>  
 </head>    
-<body>    
-	<h2>eJkiva</h2>   
-<c:choose> 
-	<c:when test="${not empty requestScope.products}">
-		<form:form method="post" action="customer.html">  
+<body>      
+	<form:form method="post" action="customer.html"> 
+		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 		
-			<h1>Products</h1>
+		  <ol class="carousel-indicators">
+		    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		  </ol>
 		
-			<c:forEach items="${requestScope.products}" var="product">
-				<article class="product">
-					<h3><c:out value="${product.prodName}"/></h3>
-					<p><c:out value="${product.price}"/></p>
-					<!-- BEIDAU NEWSITEM -->
-				</article>
-			</c:forEach>
-			
-			
-		</form:form>
-	</c:when>
-	<c:otherwise>
-		<p>EZ DAU PRODUKTUIK</p>
-	</c:otherwise>
-
-</c:choose>  
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img class="d-block w-100" src="img/1.jpg" alt="First slide">
+		    </div>	    
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="img/2.jpg" alt="Second slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="img/3.gif" alt="Third slide">
+		    </div>
+		  </div>
+		  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+	</form:form>
 </body>    
 </html> 

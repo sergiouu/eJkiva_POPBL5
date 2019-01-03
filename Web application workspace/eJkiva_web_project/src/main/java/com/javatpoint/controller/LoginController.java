@@ -65,7 +65,7 @@ public class LoginController {
 	private static User consult(String name, String password) {
 		String uType;
 		
-		Session session=HibernateUtils.getSessionFactory().openSession();
+		Session session= HibernateUtils.getSessionFactory().openSession();
 		Query<User> query=session.createSQLQuery("SELECT * FROM user where uName = '"+name+ "' and password ='"+password+"'").addEntity(User.class);
 		//List<User> users=query.list();
 		
@@ -118,11 +118,11 @@ public class LoginController {
 
 	private String pageType(int i) {
 		
-		String type;
+		String type=null;
 		
 		if(i == 1) type = "customer";
-		else if(i == 1) type = "operator";
-		else type = "manager";
+		else if(i == 2) type = "operator";
+		else if(i == 3) type = "manager";
 		
 		return type;
 	}

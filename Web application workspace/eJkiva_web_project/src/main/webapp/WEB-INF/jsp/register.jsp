@@ -1,9 +1,5 @@
 <%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>    
-<html>    
-<head>    
-    <title>Register</title>    
-</head>    
-<body>    
+   
 <h2>Enter information</h2>    
 <form:form method="post" action="register.html">    
     
@@ -39,6 +35,4 @@
     </tr>    
 </table>      
         
-</form:form>    
-</body>    
-</html> 
+</form:form> 

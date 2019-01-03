@@ -10,11 +10,11 @@
  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
  crossorigin="anonymous">
- <title>Bootstrap 4 basic Layout</title>
+ <title>eJkiva start page</title>
 </head>
 <body style="background-color:#43bcff">
 
-	<div class="container container-table" >
+	<div class="container h-100">
 	
 		<div class="row h-20">
 		</div>
@@ -33,7 +33,13 @@
 				<a href="register.html" style="color:white">Create account</a>  
 			</div>
 		</div>
+			
+	</div>
 	
+	<div class="footer fixed-bottom">
+		<div class="container" style="color:white">
+			<p>Copyright  2018-2019 eJkiva.com.</p> 	
+		</div>
 	</div>
 	
 	

@@ -7,7 +7,7 @@
         template="/WEB-INF/jsp/layout.jsp">  
         <put-attribute name="title" value="" />  
         <put-attribute name="header" value="/WEB-INF/jsp/header.jsp" />  
-        <put-attribute name="menu" value="/WEB-INF/jsp/menu.jsp" />  
+        <put-attribute name="menu" value="" />  
         <put-attribute name="body" value="" />  
         <put-attribute name="footer" value="/WEB-INF/jsp/footer.jsp" />  
     </definition>  
@@ -33,11 +33,68 @@
     
     <definition name="customer" extends="base.definition">  
 		<put-attribute name="title" value="Customer" />          
-        <put-attribute name="menu" value="/WEB-INF/jsp/customer/menu.jsp" />  
-        <put-attribute name="body" value="/WEB-INF/jsp/customer/customer.jsp" />   
-    
-         
-         
+        <put-attribute name="header" value="/WEB-INF/jsp/customer/header.jsp" /> 
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu.jsp" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/customer/customer.jsp" /> 
     </definition> 
+    
+    <definition name="products" extends="base.definition">  
+        <put-attribute name="menu" value="/WEB-INF/jsp/customer/menu.jsp" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/customer/products.jsp" /> 
+    </definition> 
+    
+    <definition name="customerOrders" extends="base.definition">  
+        <put-attribute name="menu" value="/WEB-INF/jsp/customer/menu.jsp" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/customer/orders.jsp" /> 
+    </definition>
+    
+    <definition name="customerChart" extends="base.definition">  
+        <put-attribute name="menu" value="/WEB-INF/jsp/customer/menu.jsp" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/customer/chart.jsp" /> 
+    </definition>
+    
+    <definition name="operator" extends="base.definition">  
+		<put-attribute name="title" value="Operator" />          
+        <put-attribute name="header" value="/WEB-INF/jsp/operator/header.jsp" /> 
+        <put-attribute name="menu" value="/WEB-INF/jsp/operator/menu.jsp" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/operator/operator.jsp" /> 
+    </definition> 
+    
+    <definition name="operatorOrders" extends="base.definition">  
+        <put-attribute name="menu" value="/WEB-INF/jsp/operator/menu.jsp" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/operator/orders.jsp" /> 
+    </definition>
+    
+    <definition name="operatorStock" extends="base.definition">  
+        <put-attribute name="menu" value="/WEB-INF/jsp/operator/menu.jsp" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/operator/stock.jsp" /> 
+    </definition>
+    
+    <definition name="warehouse" extends="base.definition">  
+        <put-attribute name="menu" value="/WEB-INF/jsp/operator/menu.jsp" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/operator/warehouse.jsp" /> 
+    </definition>
+    
+    <definition name="manager" extends="base.definition">  
+		<put-attribute name="title" value="Manager" />          
+        <put-attribute name="header" value="/WEB-INF/jsp/manager/header.jsp" /> 
+        <put-attribute name="menu" value="/WEB-INF/jsp/manager/menu.jsp" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/manager/manager.jsp" /> 
+    </definition> 
+  
+  <definition name="managerOrders" extends="base.definition">  
+        <put-attribute name="menu" value="/WEB-INF/jsp/manager/menu.jsp" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/manager/orders.jsp" /> 
+    </definition>
+    
+    <definition name="managerStock" extends="base.definition">  
+        <put-attribute name="menu" value="/WEB-INF/jsp/manager/menu.jsp" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/manager/stock.jsp" /> 
+    </definition>
+    
+    <definition name="sales" extends="base.definition">  
+        <put-attribute name="menu" value="/WEB-INF/jsp/manager/menu.jsp" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/manager/warehouse.jsp" /> 
+    </definition>
   
 </tiles-definitions>  
