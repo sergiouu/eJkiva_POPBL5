@@ -13,16 +13,16 @@
  crossorigin="anonymous">
 <title><tiles:insertAttribute name="title" ignore="true" /></title>    
 </head>    
-<body class="h-100">    
-        <header class="page-header">
+<body class="container-fluid height-full">    
+        <header>
         	<tiles:insertAttribute name="header" />
-        </header>     	  
-        <div class = "main">
-	        <div class="aside" style="float:left;padding:10px;width:15%;"><tiles:insertAttribute name="menu" /></div>    
-	        <div class="center" style="float:left;padding:10px;width:80%;">    
-	        <tiles:insertAttribute name="body" /></div>  
+        </header>     
+        <br/>	  
+        <div class = "row">
+	        <div class="col col-lg-2"><tiles:insertAttribute name="menu" /></div>    
+	        <div class="col col-lg-8"><tiles:insertAttribute name="body" /></div>  
         </div> 
-        <footer class="footer">
+        <footer class="navbar fixed-bottom">
         	<tiles:insertAttribute name="footer" />    
     	</footer>
     	

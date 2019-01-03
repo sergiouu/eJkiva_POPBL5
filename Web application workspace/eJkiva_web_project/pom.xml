@@ -30,8 +30,7 @@
 	<dependency>
 	    <groupId>org.jacoco</groupId>
 	    <artifactId>jacoco-maven-plugin</artifactId>
-	    <version>0.7.9</version>
-	   
+	    <version>0.7.9</version>	   
 	</dependency>	
 	<dependency>
 	    <groupId>org.hibernate</groupId>
@@ -87,6 +86,11 @@
 		<artifactId>tiles-el</artifactId>
 		<version>3.0.5</version>
 	</dependency>  
+	<dependency>
+	    <groupId>org.jtwig</groupId>
+	    <artifactId>jtwig-spring-boot-starter</artifactId>
+	    <version>5.87.0.RELEASE</version>
+	</dependency>
   </dependencies>
 
   <build>

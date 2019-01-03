@@ -11,16 +11,7 @@
         <put-attribute name="body" value="" />  
         <put-attribute name="footer" value="/WEB-INF/jsp/footer.jsp" />  
     </definition>  
-    <definition name="contact" extends="base.definition">  
-        <put-attribute name="title" value="Contact Manager" />  
-        <put-attribute name="body" value="/WEB-INF/jsp/contact.jsp" />  
-    </definition>  
-  
-    <definition name="hello" extends="base.definition">  
-        <put-attribute name="title" value="Hello Spring MVC" />  
-        <put-attribute name="body" value="/WEB-INF/jsp/hello.jsp" />  
-    </definition>  
-    
+        
     <definition name="login" extends="base.definition">  
         <put-attribute name="title" value="Login" />  
         <put-attribute name="body" value="/WEB-INF/jsp/login.jsp" />  
@@ -34,21 +25,21 @@
     <definition name="customer" extends="base.definition">  
 		<put-attribute name="title" value="Customer" />          
         <put-attribute name="header" value="/WEB-INF/jsp/customer/header.jsp" /> 
-        <put-attribute name="menu" value="/WEB-INF/jsp/menu.jsp" />  
+        <put-attribute name="menu" value="/WEB-INF/jsp/customer/menu.jsp" />  
         <put-attribute name="body" value="/WEB-INF/jsp/customer/customer.jsp" /> 
     </definition> 
     
-    <definition name="products" extends="base.definition">  
+    <definition name="products" extends="customer">  
         <put-attribute name="menu" value="/WEB-INF/jsp/customer/menu.jsp" />  
         <put-attribute name="body" value="/WEB-INF/jsp/customer/products.jsp" /> 
     </definition> 
     
-    <definition name="customerOrders" extends="base.definition">  
+    <definition name="customerOrders" extends="customer">  
         <put-attribute name="menu" value="/WEB-INF/jsp/customer/menu.jsp" />  
         <put-attribute name="body" value="/WEB-INF/jsp/customer/orders.jsp" /> 
     </definition>
     
-    <definition name="customerChart" extends="base.definition">  
+    <definition name="customerChart" extends="customer">  
         <put-attribute name="menu" value="/WEB-INF/jsp/customer/menu.jsp" />  
         <put-attribute name="body" value="/WEB-INF/jsp/customer/chart.jsp" /> 
     </definition>
@@ -60,17 +51,17 @@
         <put-attribute name="body" value="/WEB-INF/jsp/operator/operator.jsp" /> 
     </definition> 
     
-    <definition name="operatorOrders" extends="base.definition">  
+    <definition name="operatorOrders" extends="operator">  
         <put-attribute name="menu" value="/WEB-INF/jsp/operator/menu.jsp" />  
         <put-attribute name="body" value="/WEB-INF/jsp/operator/orders.jsp" /> 
     </definition>
     
-    <definition name="operatorStock" extends="base.definition">  
+    <definition name="operatorStock" extends="operator">  
         <put-attribute name="menu" value="/WEB-INF/jsp/operator/menu.jsp" />  
         <put-attribute name="body" value="/WEB-INF/jsp/operator/stock.jsp" /> 
     </definition>
     
-    <definition name="warehouse" extends="base.definition">  
+    <definition name="warehouse" extends="operator">  
         <put-attribute name="menu" value="/WEB-INF/jsp/operator/menu.jsp" />  
         <put-attribute name="body" value="/WEB-INF/jsp/operator/warehouse.jsp" /> 
     </definition>
@@ -82,17 +73,17 @@
         <put-attribute name="body" value="/WEB-INF/jsp/manager/manager.jsp" /> 
     </definition> 
   
-  <definition name="managerOrders" extends="base.definition">  
+  <definition name="managerOrders" extends="manager">  
         <put-attribute name="menu" value="/WEB-INF/jsp/manager/menu.jsp" />  
         <put-attribute name="body" value="/WEB-INF/jsp/manager/orders.jsp" /> 
     </definition>
     
-    <definition name="managerStock" extends="base.definition">  
+    <definition name="managerStock" extends="manager">  
         <put-attribute name="menu" value="/WEB-INF/jsp/manager/menu.jsp" />  
         <put-attribute name="body" value="/WEB-INF/jsp/manager/stock.jsp" /> 
     </definition>
     
-    <definition name="sales" extends="base.definition">  
+    <definition name="sales" extends="manager">  
         <put-attribute name="menu" value="/WEB-INF/jsp/manager/menu.jsp" />  
         <put-attribute name="body" value="/WEB-INF/jsp/manager/warehouse.jsp" /> 
     </definition>

@@ -2,12 +2,9 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>    
-<html>    
-<head>    
-    <title><tiles:insertAttribute name="title" ignore="true" /></title>  
-</head>    
-<body>      
+   
 	<form:form method="post" action="customer.html"> 
+	<div class="form-group">
 		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 		
 		  <ol class="carousel-indicators">
@@ -36,6 +33,5 @@
 		    <span class="sr-only">Next</span>
 		  </a>
 		</div>
+	</div>
 	</form:form>
-</body>    
-</html> 
