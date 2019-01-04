@@ -32,6 +32,7 @@ public class Main {
 	}
 	
 	public void initializeSimulation() {
+		createWorkStations();
 		createRobots();
 	}
 	

@@ -5,8 +5,11 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
+import com.mysql.fabric.xmlrpc.base.Array;
+
 import Packages.Packages;
 import Packages.Supervisor;
+import Road.Road;
 import Workstation.Workstation;
 
 public class Robot extends Thread{
@@ -35,6 +38,8 @@ public class Robot extends Thread{
 		this.packages = new ArrayList<Packages>();
 		this.access = false;
 		
+		this.wsDest = new Workstation(1, "WS1");
+		
 		//this.connection = new SQLConnector();
 
 	}
@@ -62,6 +67,22 @@ public class Robot extends Thread{
 
 	public void setOn(boolean on) {
 		this.on = on;
+	}
+
+	public Workstation getWsActual() {
+		return wsActual;
+	}
+
+	public void setWsActual(Workstation wsActual) {
+		this.wsActual = wsActual;
+	}
+
+	public Workstation getWsDest() {
+		return wsDest;
+	}
+
+	public void setWsDest(Workstation wsDest) {
+		this.wsDest = wsDest;
 	}
 
 	public void waiting() {
@@ -122,9 +143,9 @@ public class Robot extends Thread{
 		this.disconnect.signal();
 	}
 	
-	public void chargePackage(Packages p) {
+	private void chargePackage(Packages p) {
 		this.packages.add(p);
-		System.out.println("Package"+p.getId()+" assigned to "+this.getNamee()+" destination: "+wsDest);
+		System.out.println("Package "+p.getId()+" assigned to "+this.getNamee()+" destination: "+wsDest);
 		
 	}
 	
@@ -140,6 +161,31 @@ public class Robot extends Thread{
 			}
 		}
 	}
+	
+	private void accessWorkstation(Road r) {
+		wsDest.addRobotToWorkstation(this);
+		System.out.println("ENTERED TO WORKSTATION!");
+	}
+	
+	private void trip() {
+		if(!this.access) {
+			this.access = wsDest.askForAccess(this);
+		}
+	}
+	
+	private void dischargePackage() {
+		
+		ArrayList<Packages> discharged = new ArrayList<Packages>();
+		System.out.println(getNamee()+" DISCHARGING PACKAGE!");
+		
+		for (int i = 0; i< packages.size(); i++) {
+			//if(packages.get(i).getWsDestiny().getId() == getWsActual().getId()) {
+				discharged.add(packages.get(i));
+			}
+		//}
+		
+		discharged = null;
+	}
 
 	@Override
 	public void run() {
@@ -154,12 +200,21 @@ public class Robot extends Thread{
 				//chargePackageFromWS();
 				chargePackage(p);
 				
-				waiting();
-				
-				//waitAccess();
-				
+				Road r = new Road(id, wsActual, wsDest);
+			
 				if(packages.size() > 0) {
+					r.askForPermission(this);
+					
+					System.out.println("IN TRIP...");
+					
+					trip();
+
 					notifyWaitingAccessRobot();
+					
+					accessWorkstation(r);
+					
+					dischargePackage();
+					
 				}
 				
 				
@@ -168,6 +223,4 @@ public class Robot extends Thread{
 		}while(program);
 
 	}
-
-
 }

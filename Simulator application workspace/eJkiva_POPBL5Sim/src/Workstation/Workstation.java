@@ -125,7 +125,7 @@ public class Workstation {
 	}
 
 	public void addPackage(Packages p) {
-		
+
 		switch(p.getRobotDesignated().getRobotId()) {
 		case 1:
 			packageRobot1.add(p);
@@ -143,12 +143,36 @@ public class Workstation {
 			packageRobot5.add(p);
 			break;
 		}
-		
+
 		if(!p.getRobotDesignated().isOn()){
 			System.out.println("A ROBOT HAS A PACKAGE WAITING IN WORKSTATION: "+p.getRobotDesignated().getNamee());
 			p.getRobotDesignated().wakeUpRobot();
 		}
-		
-		
+	}
+
+	public void addRobotToWorkstation(Robot r) {
+		this.robotsIn.add(r);
+
+		if(robotsIn.size() == 1) {
+			ArrayList<Robot> in = new ArrayList<Robot>();
+			in = robotsIn;
+
+			for (int i = 0; i < in.size(); i++) {
+				if(!in.get(i).isOn()) {
+					in.get(i).wakeUpRobot();
+				}
+			}
+		}
+
+	}
+	
+	public boolean askForAccess(Robot r) {
+		if(robotsIn.size() < 1) {
+			robotsIn.add(r);
+			return true;
+		}else {
+			return false;
+		}
 	}
 }
+
