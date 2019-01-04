@@ -1,21 +1,21 @@
-package SQLconnection;
+package SQLConnector;
 
 import java.sql.*;
 
-public class SQLconnection {
+public class SQLConnector {
 
 		//SQL conexion initial parameters
 		Connection connection = null;
 		Statement statement = null;
 		String serverName = "ejkiva.duckdns.org";
-		String dataBaseName = "MYDATABASE";
+		String dataBaseName = "mydatabase";
 		String url = "jdbc:mysql://";
 		String username = "root";
 		String password = "eJkiva_POPBL5";
 		String connectionString = null;
 
 	
-	public SQLconnection(){
+	public SQLConnector(){
 		this.connectionString = url + serverName + "/" + dataBaseName;
 
 	}
