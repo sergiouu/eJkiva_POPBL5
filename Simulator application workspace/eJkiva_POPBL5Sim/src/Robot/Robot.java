@@ -7,12 +7,17 @@ import java.util.concurrent.locks.ReentrantLock;
 
 import com.mysql.fabric.xmlrpc.base.Array;
 
+import Move.Movimiento;
 import Packages.Packages;
 import Packages.Supervisor;
 import Road.Road;
 import Workstation.Workstation;
 
 public class Robot extends Thread{
+	
+	int posX;
+	int posY;
+	boolean amaiera;
 	
 	int id;
 	String namee;
@@ -38,11 +43,38 @@ public class Robot extends Thread{
 		this.packages = new ArrayList<Packages>();
 		this.access = false;
 		
+		/*this.posX = posX;
+		this.posY=posY;
+		amaiera=false;*/
+		
+		this.posX = 0;
+		this.posY=0;
+		amaiera=false;
+		
 		this.wsDest = new Workstation(1, "WS1");
 		
 		//this.connection = new SQLConnector();
 
 	}
+	
+	@Override
+	public String toString() {
+		return "PosX: "+ this.posX +"\n" +
+		        "PosY: " + this.posY +"\n";
+	}
+	
+	public int getPosX() {
+		return posX;
+	}
+	public void setPosX(int posX) {
+		this.posX = posX;
+	}
+	public int getPosY() {
+		return posY;
+	}
+	public void setPosY(int posY) {
+		this.posY = posY;
+	}	
 	
 	public int getRobotId() {
 		return this.id;
@@ -199,6 +231,7 @@ public class Robot extends Thread{
 				
 				//chargePackageFromWS();
 				chargePackage(p);
+				//Movimiento movimiento1=new Movimiento(this, 2, 0);
 				
 				Road r = new Road(id, wsActual, wsDest);
 			
