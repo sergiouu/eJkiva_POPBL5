@@ -11,7 +11,7 @@ public class Workstation {
 	String name;
 
 	ArrayList<Robot> robotsIn, accessRobots;	
-	ArrayList<Packages> packageRobot1, packageRobot2, packageRobot3, packageRobot4, packageRobot5;
+	Packages packageRobot1, packageRobot2, packageRobot3, packageRobot4, packageRobot5;
 
 	public Workstation(int id, String name) {
 		this.id = id;
@@ -20,11 +20,11 @@ public class Workstation {
 		robotsIn = new ArrayList<Robot>();
 		accessRobots = new ArrayList<Robot>();
 
-		packageRobot1 = new ArrayList<Packages>();
-		packageRobot2 = new ArrayList<Packages>();
-		packageRobot3 = new ArrayList<Packages>();
-		packageRobot4 = new ArrayList<Packages>();
-		packageRobot5 = new ArrayList<Packages>();
+		packageRobot1 = null;
+		packageRobot2 = null;
+		packageRobot3 = null;
+		packageRobot4 = null;
+		packageRobot5 = null;
 	}
 
 	public int getId() {
@@ -59,49 +59,9 @@ public class Workstation {
 		this.accessRobots = accessRobots;
 	}
 
-	public ArrayList<Packages> getPackageRobot1() {
-		return packageRobot1;
-	}
+	public Packages getPackages(int id) {
 
-	public void setPackageRobot1(ArrayList<Packages> packageRobot1) {
-		this.packageRobot1 = packageRobot1;
-	}
-
-	public ArrayList<Packages> getPackageRobot2() {
-		return packageRobot2;
-	}
-
-	public void setPackageRobot2(ArrayList<Packages> packageRobot2) {
-		this.packageRobot2 = packageRobot2;
-	}
-
-	public ArrayList<Packages> getPackageRobot3() {
-		return packageRobot3;
-	}
-
-	public void setPackageRobot3(ArrayList<Packages> packageRobot3) {
-		this.packageRobot3 = packageRobot3;
-	}
-
-	public ArrayList<Packages> getPackageRobot4() {
-		return packageRobot4;
-	}
-
-	public void setPackageRobot4(ArrayList<Packages> packageRobot4) {
-		this.packageRobot4 = packageRobot4;
-	}
-
-	public ArrayList<Packages> getPackageRobot5() {
-		return packageRobot5;
-	}
-
-	public void setPackageRobot5(ArrayList<Packages> packageRobot5) {
-		this.packageRobot5 = packageRobot5;
-	}
-
-	public ArrayList<Packages> getPackages(int id) {
-
-		ArrayList<Packages> packages = new ArrayList<Packages>();
+		Packages packages = new Packages();
 
 		switch(id){
 		case 1:
@@ -128,19 +88,19 @@ public class Workstation {
 
 		switch(p.getRobotDesignated().getRobotId()) {
 		case 1:
-			packageRobot1.add(p);
+			packageRobot1 = p;
 			break;
 		case 2:
-			packageRobot2.add(p);
+			packageRobot2 = p;
 			break;
 		case 3:
-			packageRobot3.add(p);
+			packageRobot3 = p;
 			break;
 		case 4:
-			packageRobot4.add(p);
+			packageRobot4 = p;
 			break;
 		case 5:
-			packageRobot5.add(p);
+			packageRobot5 = p;
 			break;
 		}
 

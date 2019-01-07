@@ -35,10 +35,10 @@ public class Robot extends Thread{
 
 	//SQLConnector connection;
 
-	public Robot(int id, String name, boolean on, Workstation wsActual) {
+	public Robot(int id, String name, Workstation wsActual) {
 		this.id = id;
 		this.namee = name;
-		this.on = on;
+		this.on = false;
 		this.wsActual = wsActual;
 		this.packages = new ArrayList<Packages>();
 		this.access = false;
@@ -46,10 +46,6 @@ public class Robot extends Thread{
 		/*this.posX = posX;
 		this.posY=posY;
 		amaiera=false;*/
-		
-		this.posX = 0;
-		this.posY=0;
-		amaiera=false;
 		
 		this.wsDest = new Workstation(1, "WS1");
 		
@@ -181,9 +177,9 @@ public class Robot extends Thread{
 		
 	}
 	
-	public void chargePackageFromWS() {
+	/*public void chargePackageFromWS() {
 		
-		ArrayList<Packages> chargeablePackages = new ArrayList<Packages>();
+		Packages chargeablePackages = new Packages();
 		chargeablePackages = this.wsActual.getPackages(id);
 		
 		for (int i= 0; i < chargeablePackages.size(); i++) {
@@ -192,7 +188,7 @@ public class Robot extends Thread{
 				System.out.println("PACKAGE CHARGED!"+chargeablePackages.get(i).getId());
 			}
 		}
-	}
+	}*/
 	
 	private void accessWorkstation(Road r) {
 		wsDest.addRobotToWorkstation(this);
