@@ -24,11 +24,11 @@ public class Main {
 	}
 	
 	public void createRobots() {
-		r1 = new Robot(1, "Robot 1", false, ws1);
-		r2 = new Robot(2, "Robot 2", false, ws2);
-		r3 = new Robot(3, "Robot 3", false, ws3);
-		r4 = new Robot(4, "Robot 4", false, ws4);
-		r5 = new Robot(5, "Robot 5", false, ws5);
+		r1 = new Robot(1, "Robot 1", ws1);
+		r2 = new Robot(2, "Robot 2", ws2);
+		r3 = new Robot(3, "Robot 3", ws3);
+		r4 = new Robot(4, "Robot 4", ws4);
+		r5 = new Robot(5, "Robot 5", ws5);
 	}
 	
 	public void initializeSimulation() {
