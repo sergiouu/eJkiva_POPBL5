@@ -9,7 +9,9 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import org.hibernate.Session;
 import org.hibernate.Transaction;
@@ -31,37 +33,66 @@ import org.hibernate.query.Query;
 import com.javatpoint.form.Contact;
 
 import probeHibernate.User;
+import probeHibernate.Usertype;
 import utils.HibernateUtils;
+
+/**
+ * Login class.
+ * 
+ * @author Leire
+ *
+ */
 
 @Controller  
 @SessionAttributes 
 public class LoginController {
-	
+	/**
+     * This method will login a user and direct them depending on their type
+     */
 	@RequestMapping("/login")  
-    public String login(Model m, WebRequest request, HttpServletResponse response) throws IOException {  
+    public String login(Model m, WebRequest request, HttpServletResponse response, HttpServletRequest hrequest) throws IOException {  
         m.addAttribute("command", new User());
+      //  HttpSession session = request.getSession(true);
+        
         String u = request.getParameter("uname");
         String p = request.getParameter("password");
         
-        System.out.println(u + " "+p);
-         if(u!=null && p!=null) {
+        System.out.println("REQUEST"+hrequest.getMethod());
+         if("POST".equals(hrequest.getMethod())) {
+        	 
+        	 if(hrequest.getParameter("action")!= null) {
+        		 if(hrequest.getParameter("action").equals("logout")) {
+        	 
+        		 System.out.println("*************************LOGOUUUUTTT******************************");
+        		 }
+        	 }
+        	 
         	 User user = consult(u, p);
         	 if(user != null) {
             	System.out.println("ENTER");
-            	request.setAttribute("user", user, WebRequest.SCOPE_REQUEST);
+            	System.out.println("LOGIN USER"+user);
+            	request.setAttribute("user", user, WebRequest.SCOPE_SESSION);
+            //	request.setAttribute("message", "login.successful");
+            	m.addAttribute("user", user);
             	response.sendRedirect("/eJkiva_web_project/"+pageType(user.getUserTypeId())+".html");
             	//return pageType(user.getUserTypeId());
             }else {
             	System.out.println("FAIL");
-            	return null;
+            	System.out.println("No user loaded");
+            	request.setAttribute("error", "The user or password are incorrect.", WebRequest.SCOPE_REQUEST);
+            	response.sendRedirect("/eJkiva_web_project/login.html");
             }
         	
         }
-            
-        
+              
         return "login";  
-    }  
+    }  	
 	
+	/**
+     * This function will check the user and password on the database
+     * @param name the username of the logger
+     * @param password the password of the logger
+     */
 	private static User consult(String name, String password) {
 		String uType;
 		
@@ -70,11 +101,15 @@ public class LoginController {
 		//List<User> users=query.list();
 		
 		User user=query.uniqueResult();
-		
-		return user;	
+		System.out.println(user);
+		if(user!=null)return user;
+		else return null;	
 
 	 }
 
+	/**
+     * This method will register a new user on the database
+     */
 	@RequestMapping("/register")  
     public String register(Model m, WebRequest request) { 
 		m.addAttribute("command", new User());
@@ -115,7 +150,28 @@ public class LoginController {
 		return date;
 
 	}
+	
+	/**
+     * This function will return the type of user that is being logged
+     * @param user the user that is being logged
+     */
+	private static String pageType(User user) {
+		Usertype uType;
+		
+		Session session= HibernateUtils.getSessionFactory().openSession();
+		Query<Usertype> query=session.createSQLQuery("SELECT * FROM usertype where userTypeID = '"+user.getUserTypeId()+ "'").addEntity(Usertype.class);
+		//List<User> users=query.list();
+		
+		uType=query.uniqueResult();
+		
+		return uType.getUtype();	
 
+	 }
+	
+	/**
+     * This method returns the user type name depending on the key given
+     * @param i the identification key of each user type
+     */
 	private String pageType(int i) {
 		
 		String type=null;
@@ -123,7 +179,7 @@ public class LoginController {
 		if(i == 1) type = "customer";
 		else if(i == 2) type = "operator";
 		else if(i == 3) type = "manager";
-		
+		else type ="admin";
 		return type;
 	}
 

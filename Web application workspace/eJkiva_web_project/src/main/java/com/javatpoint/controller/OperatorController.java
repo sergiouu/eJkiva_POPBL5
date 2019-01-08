@@ -14,18 +14,29 @@ import probeHibernate.Ordert;
 import probeHibernate.Product;
 import probeHibernate.User;
 
+/**
+ * OperatorController
+ * @author Leire
+ * 
+ */
 @Controller  
 @SessionAttributes 
 public class OperatorController {
 	
 	OperatorRepository repo = new OperatorRepository();
 	
+	/**
+     * This method will access the operator's main site.
+     */
 	@RequestMapping("/operator" ) 
 	public String customer(Model m, WebRequest request) {  
         m.addAttribute("command", new User()); 
         return "operator";  
     }  
 
+	/**
+     * This method will access the operator's 'orders' option, showing the orders of the warehouse at the time checked.
+     */
 	@RequestMapping("/operator/orders" )  
 	public String products(Model m, WebRequest request) {  
         m.addAttribute("command", new User()); 
@@ -34,6 +45,9 @@ public class OperatorController {
         return "operatorOrders";  
     }  
 	
+	/**
+     * This method will access the operator's 'stock' optionshowing the current stock of the products on the warehouse.
+     */
 	@RequestMapping("/operator/stock" )  
 	public String orders(Model m, WebRequest request) {  
         m.addAttribute("command", new User()); 
@@ -42,6 +56,10 @@ public class OperatorController {
         return "operatorStock";  
     }  
 	
+	/**
+     * This method will access the operator's 'warehouse' option, where the operator will be able to 
+     * see the overall situation of the warehouse, such as the robots' status, or an order's location.
+     */
 	@RequestMapping("/operator/warehouse" )  
 	public String chart(Model m, WebRequest request) {  
         m.addAttribute("command", new User()); 

@@ -14,18 +14,31 @@ import probeHibernate.Ordert;
 import probeHibernate.Product;
 import probeHibernate.User;
 
+/**
+ * ManagerController
+ * @author Leire
+ * 
+ */
+
 @Controller  
 @SessionAttributes 
 public class ManagerController {
 	
 	ManagerRepository repo = new ManagerRepository();
 	
+	/**
+     * This method will access the manager's main site.
+     */
 	@RequestMapping("/manager" ) 
 	public String customer(Model m, WebRequest request) {  
         m.addAttribute("command", new User()); 
         return "manager";  
     }  
 
+	/**
+     * This method will access the manager's 'orders' option, where the manager will be able to see all the 
+     * orders' history of the workstation.
+     */
 	@RequestMapping("/manager/orders" )  
 	public String products(Model m, WebRequest request) {  
         m.addAttribute("command", new User()); 
@@ -34,12 +47,19 @@ public class ManagerController {
         return "managerOrders";  
     }  
 	
+	/**
+     * This method will access the manager's 'stock' option, where the availability of the products (the stock)
+     * of the warehouse will be shown.
+     */
 	@RequestMapping("/manager/stock" )  
 	public String orders(Model m, WebRequest request) {  
         m.addAttribute("command", new User()); 
         return "managerStock";  
     }  
 	
+	/**
+     * This method will access the manager's 'sales' option, showing the sales history information of the warehouse.
+     */
 	@RequestMapping("/manager/sales" )  
 	public String chart(Model m, WebRequest request) {  
         m.addAttribute("command", new User()); 

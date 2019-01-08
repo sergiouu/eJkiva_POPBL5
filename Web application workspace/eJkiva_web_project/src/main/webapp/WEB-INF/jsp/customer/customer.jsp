@@ -3,7 +3,15 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>    
    
-	<form:form method="post" action="customer.html"> 
+   
+ <c:if test="${not empty sessionScope.user }">
+	<fmt:bundle basename="resources.View">
+	<form action="Customer" method="get">
+		<button type="submit" name="action" value="new"><fmt:message key="action.customer"/></button>
+	</form>
+	</fmt:bundle>
+</c:if>
+<form:form method="post" action="customer.html"> 
 	<div class="form-group">
 		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 		
@@ -34,4 +42,21 @@
 		  </a>
 		</div>
 	</div>
-	</form:form>
+</form:form>
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+	

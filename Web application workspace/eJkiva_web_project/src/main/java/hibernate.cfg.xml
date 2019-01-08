@@ -1,16 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE hibernate-configuration PUBLIC
-		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
-		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-configuration SYSTEM 
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
-    <session-factory>
-        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="hibernate.connection.url">jdbc:mysql://127.0.0.1:3306/MYDATABASE</property>
-        <property name="hibernate.connection.username">root</property>
-        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
-        
-        <property name="hibernate.show_sql">true</property>
-        
-        <mapping resource="User.hbm.xml"></mapping>
-    </session-factory>
+   <session-factory>
+   
+      <property name = "hibernate.dialect">
+         org.hibernate.dialect.MySQLDialect
+      </property>
+      
+      <property name = "hibernate.connection.driver_class">
+         com.mysql.jdbc.Driver
+      </property>
+      
+      <!-- Assume test is the database name -->
+      
+      <property name = "hibernate.connection.url">
+         jdbc:mysql://localhost/MYDATABASE
+      </property>
+      
+      <property name = "hibernate.connection.username">
+         root
+      </property>
+            
+      <property name="hibernate.show_sql">true</property>
+            
+      <!-- List of XML mapping files -->
+      <mapping resource = "Automatch.hbm.xml"/>
+      <mapping resource = "Carries.hbm.xml"/>
+      <mapping resource="Departament.hbm.xml"></mapping>
+      <mapping resource = "Orderproduct.hbm.xml"/>
+      <mapping resource="Ordert.hbm.xml"></mapping>
+      <mapping resource = "Product.hbm.xml"/>
+      <mapping resource="Segment.hbm.xml"></mapping>
+      <mapping resource="User.hbm.xml"></mapping>
+      <mapping resource = "Usertype.hbm.xml"/>
+      <mapping resource="Workstation.hbm.xml"></mapping>
+   </session-factory>
 </hibernate-configuration>
