@@ -1,9 +1,8 @@
 package Workstation;
 
+import java.awt.Robot;
 import java.util.ArrayList;
 
-import Packages.Packages;
-import Robot.Robot;
 
 public class Workstation {
 

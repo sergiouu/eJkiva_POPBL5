@@ -1,7 +1,7 @@
 package Packages;
 
 import Robot.Robot;
-import Workstation.Workstation;
+import Robot.Workstation;
 
 public class Packages {
 

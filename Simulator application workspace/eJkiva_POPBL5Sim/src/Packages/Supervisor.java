@@ -3,8 +3,8 @@ package Packages;
 import java.util.ArrayList;
 
 import Robot.Robot;
+import Robot.Workstation;
 import SQLConnector.SQLConnector;
-import Workstation.Workstation;
 
 public class Supervisor extends Thread{
 

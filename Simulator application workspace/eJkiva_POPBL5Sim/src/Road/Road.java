@@ -3,7 +3,7 @@ package Road;
 import java.util.ArrayList;
 
 import Robot.Robot;
-import Workstation.Workstation;
+import Robot.Workstation;
 
 public class Road {
 

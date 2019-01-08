@@ -2,7 +2,7 @@ package Main;
 
 import Packages.Supervisor;
 import Robot.Robot;
-import Workstation.Workstation;
+import Robot.Workstation;
 
 public class Main {
 	

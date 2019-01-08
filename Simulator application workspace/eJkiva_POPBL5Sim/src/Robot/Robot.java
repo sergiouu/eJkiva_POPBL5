@@ -11,7 +11,6 @@ import Move.Movimiento;
 import Packages.Packages;
 import Packages.Supervisor;
 import Road.Road;
-import Workstation.Workstation;
 
 public class Robot extends Thread{
 	
@@ -23,6 +22,7 @@ public class Robot extends Thread{
 	String namee;
 	boolean on, access;
 	
+	AdministradorDeProductos ap;
 	
 	private final Lock lock = new ReentrantLock();
 	private final Condition disconnect = lock.newCondition();
@@ -35,7 +35,7 @@ public class Robot extends Thread{
 
 	//SQLConnector connection;
 
-	public Robot(int id, String name, boolean on, Workstation wsActual) {
+	public Robot(int id, String name, boolean on, Workstation wsActual, AdministradorDeProductos ap) {
 		this.id = id;
 		this.namee = name;
 		this.on = on;
@@ -237,6 +237,8 @@ public class Robot extends Thread{
 			
 				if(packages.size() > 0) {
 					r.askForPermission(this);
+					
+					waiting();
 					
 					System.out.println("IN TRIP...");
 					
