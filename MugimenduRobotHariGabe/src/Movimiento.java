@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 public class Movimiento {
 
@@ -8,20 +9,24 @@ public class Movimiento {
 	boolean amaiera;
 	Robot robot;
 	Mover mover;
+	
 
-    public Movimiento(Robot robot, int finPosX,int finPosY) {
+    public Movimiento(Robot robot, ArrayList<Workstation> workstationList) {
 		this.robot=robot;
-		this.finPosX=finPosX;
-		this.finPosY=finPosY;
+		
+		this.finPosX=robot.getWorkstationDestino().getPosX();
+		this.finPosY=robot.getWorkstationDestino().getPosY();
 		this.amaiera=false;
 		
-		mover=new Mover(this.robot, this);
+		
+		mover=new Mover(this.robot, this,workstationList);
     }
     public void move() {
-		
+		//elena hau da threadendako posizinua
+    	//cada vez que se mueve if ian sartzen da!
 		do {
-			xValue=robot.getPosX()-finPosX;
-			yValue=robot.getPosY()-finPosY;
+			xValue=robot.getWorkstationActual().getPosX()-finPosX;
+			yValue=robot.getWorkstationActual().getPosY()-finPosY;
 			
 			if(xValue>0 && yValue>0) {mover.xPosyPos();}
 			else if(xValue>0 && yValue<0) {mover.xPosyNeg();}

@@ -1,29 +1,33 @@
-
 public class Robot {
-	int posX;
-	int posY;
-	boolean amaiera;
+	
+	Workstation workstationActual,workstationDestino;
+	String description;
+	public Robot(Workstation workstationActual,Workstation workstationDestino){
+		this.workstationActual = workstationActual;
+		this.workstationDestino=workstationDestino;
+		this.description=null;
+	}
 
-	public Robot(int posX,int posY){
-		this.posX = posX;
-		this.posY=posY;
-		amaiera=false;
+	public Workstation getWorkstationActual() {
+		return workstationActual;
 	}
-	public int getPosX() {
-		return posX;
+
+	public void setWorkstationActual(Workstation workstationActual) {
+		this.workstationActual = workstationActual;
 	}
-	public void setPosX(int posX) {
-		this.posX = posX;
+
+	public Workstation getWorkstationDestino() {
+		return workstationDestino;
 	}
-	public int getPosY() {
-		return posY;
+
+	public void setWorkstationDestino(Workstation workstationDestino) {
+		this.workstationDestino = workstationDestino;
 	}
-	public void setPosY(int posY) {
-		this.posY = posY;
-	}
+
 	@Override
 	public String toString() {
-		return "PosX: "+ this.posX +"\n" +
-		        "PosY: " + this.posY +"\n";
+		return "PosX: "+ workstationActual.getPosX() +"\n" +
+		        "PosY: " + workstationActual.getPosY() +"\n";
+		
 	}	
 }

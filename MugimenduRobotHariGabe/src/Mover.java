@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 public class Mover {
 	
@@ -5,11 +6,11 @@ public class Mover {
     Movimiento movimiento;
 	Accion accion;
 	
-	public Mover(Robot robot, Movimiento movimiento) {
+	public Mover(Robot robot, Movimiento movimiento,ArrayList<Workstation> workstationList) {
 		
 		this.robot=robot;
 		this.movimiento=movimiento;
-		accion=new Accion(this.robot);
+		accion=new Accion(this.robot,workstationList);
 
     }
 	
@@ -29,7 +30,7 @@ public class Mover {
 	}
 
 	public void xPosyZero() {
-		if(robot.getPosY()==1) {accion.aurrera();}
+		if(robot.getWorkstationActual().getPosY()==1) {accion.aurrera();}
 		else {
 			if(accion.igo()) {}
 			else accion.aurrera();}
@@ -55,7 +56,7 @@ public class Mover {
 	}
 
 	public void xNegyZero() {
-		if(robot.getPosY()==0) {accion.aurrera();}
+		if(robot.getWorkstationActual().getPosY()==0) {accion.aurrera();}
 		else {
 			if(accion.jeitsi()) {}
 			else accion.aurrera();}
