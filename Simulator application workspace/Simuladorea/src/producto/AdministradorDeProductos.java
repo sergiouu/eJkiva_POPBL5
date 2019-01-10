@@ -24,6 +24,7 @@ public class AdministradorDeProductos extends Thread{
 		if(asignarProductoARobot(productosEnCola.get(0))) {
 			productosEnCola.remove(0);
 		}
+		System.out.println("cola ssize:" + productosEnCola);
 	}
 
 	List<Producto> productosEnCola; //pasar a sincronizada para que no pete
@@ -53,7 +54,7 @@ public class AdministradorDeProductos extends Thread{
 		p = new Producto (4, "boli", circuito.getWorkstationById(2));
 		añadirProducto(p);
 		
-	System.out.println("Products added");
+		System.out.println("Products added");
 	}
 
 	public Circuito getCircuito() {

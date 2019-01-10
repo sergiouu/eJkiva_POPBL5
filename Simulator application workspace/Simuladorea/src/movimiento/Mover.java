@@ -1,18 +1,22 @@
+
 package movimiento;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import circuito.Workstation;
 import objeto.Robot;
 
 public class Mover {
 	
 	Robot robot;
-    Movimiento movimiento;
+    
 	Accion accion;
 	
-	public Mover(Robot robot, Movimiento movimiento) {
+	public Mover(Robot robot,List<Workstation> workstationList) {
 		
 		this.robot=robot;
-		this.movimiento=movimiento;
-		accion=new Accion(this.robot);
+		accion=new Accion(this.robot,workstationList);
 
     }
 	
@@ -58,11 +62,11 @@ public class Mover {
 	}
 
 	public void xNegyZero() {
-		if(robot.getWsActual().getPosX()==0) {accion.aurrera();}
+		if(robot.getWsActual().getPosY()==0) {accion.aurrera();}
 		else {
 			if(accion.jeitsi()) {}
 			else accion.aurrera();}
-		System.out.println(robot);
+		System.out.println();
 		
 	}
 
@@ -82,10 +86,7 @@ public class Mover {
 	}
 
 	public void xZeroyZero() {
-		
-		movimiento.setAmaiera(true);
 		System.out.println(robot);
-		
 	}
 
 }

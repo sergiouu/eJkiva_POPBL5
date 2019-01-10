@@ -5,8 +5,7 @@ import producto.Producto;
 
 public class Workstation {
 	int id, posX, posY;
-	boolean stateInside;
-	boolean stateOutside;
+	boolean stateInside, stateOutside;
 	String description;
 	ArrayList<Producto> listaProductos;
 	
@@ -56,6 +55,14 @@ public class Workstation {
 		return description;
 	}
 	
+	public ArrayList<Producto> getListaProductos() {
+		return listaProductos;
+	}
+
+	public void setListaProductos(ArrayList<Producto> listaProductos) {
+		this.listaProductos = listaProductos;
+	}
+
 	@Override
 	public String toString() {
 		return id+"."+description;

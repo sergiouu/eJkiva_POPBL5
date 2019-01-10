@@ -64,26 +64,26 @@ public class Circuito {
 	public void initRobots() {
 		Robot robot;
 		
-		robot=new Robot(1,"Robot A", this.getByDescription("Parking A"));
+		robot=new Robot(1,"Robot A", this.getByDescription("Parking A"), listaWorkstation);
 		System.out.println(this.getByDescription("Parking A"));
 		listaRobot.add(robot);
 		
-		robot=new Robot(2,"Robot B",this.getByDescription("Parking B"));
+		robot=new Robot(2,"Robot B",this.getByDescription("Parking B"), listaWorkstation);
 		this.getByDescription("Parking B").stateInside = true;
 
 		listaRobot.add(robot);
 		
-		robot=new Robot(3,"Robot C",this.getByDescription("Parking C"));
+		robot=new Robot(3,"Robot C",this.getByDescription("Parking C"), listaWorkstation);
 		this.getByDescription("Parking C").stateInside = true;
 
 		listaRobot.add(robot);
 		
-		robot=new Robot(4,"Robot D", this.getByDescription("Parking D"));
+		robot=new Robot(4,"Robot D", this.getByDescription("Parking D"), listaWorkstation);
 		this.getByDescription("Parking D").stateInside = true;
 
 		listaRobot.add(robot);
 		
-		robot=new Robot(5,"Robot E", this.getByDescription("Product Entry"));
+		robot=new Robot(5,"Robot E", this.getByDescription("Product Entry"), listaWorkstation);
 		this.getByDescription("Product Entry").stateInside = true;
 
 		listaRobot.add(robot);
