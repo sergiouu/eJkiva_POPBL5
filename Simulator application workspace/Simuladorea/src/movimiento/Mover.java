@@ -1,4 +1,3 @@
-
 package movimiento;
 
 import java.util.ArrayList;
@@ -87,6 +86,7 @@ public class Mover {
 
 	public void xZeroyZero() {
 		System.out.println(robot);
+		
 	}
 
 }

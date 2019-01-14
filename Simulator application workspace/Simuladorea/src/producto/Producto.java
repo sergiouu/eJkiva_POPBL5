@@ -8,10 +8,11 @@ public class Producto {
 	Workstation wsActual, wsDestino;
 
 	
-	public Producto(int id, String description, Workstation ws) {
+	public Producto(int id, String description, Workstation ws, Workstation wsD) {
 		this.id=id;
 		this.description=description;
 		this.wsActual = ws;
+		this.wsDestino = wsD; //calcularlo solo
 	}
 	
 	public int getId() {
@@ -28,6 +29,12 @@ public class Producto {
 	}
 	public void setWsActual(Workstation wsActual) {
 		this.wsActual = wsActual;
+	}
+	public Workstation getWsDestino() {
+		return wsDestino;
+	}
+	public void setWsDestino(Workstation wsDestino) {
+		this.wsDestino = wsDestino;
 	}
 
 	@Override

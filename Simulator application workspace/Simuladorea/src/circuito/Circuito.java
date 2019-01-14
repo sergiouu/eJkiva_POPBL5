@@ -62,31 +62,32 @@ public class Circuito {
 	}
 	
 	public void initRobots() {
-		Robot robot;
+		Robot robot1, robot2, robot3, robot4, robot5;
 		
-		robot=new Robot(1,"Robot A", this.getByDescription("Parking A"), listaWorkstation);
-		System.out.println(this.getByDescription("Parking A"));
-		listaRobot.add(robot);
+		robot1=new Robot(1,"Robot A", this.getByDescription("Parking A"), listaWorkstation);
+		this.getByDescription("Parking A").setInside(robot1);
+		listaRobot.add(robot1);
+		robot1.start();
 		
-		robot=new Robot(2,"Robot B",this.getByDescription("Parking B"), listaWorkstation);
-		this.getByDescription("Parking B").stateInside = true;
-
-		listaRobot.add(robot);
+		robot2=new Robot(2,"Robot B",this.getByDescription("Parking B"), listaWorkstation);
+		this.getByDescription("Parking B").setInside(robot2);
+		listaRobot.add(robot2);
+		robot2.start();
 		
-		robot=new Robot(3,"Robot C",this.getByDescription("Parking C"), listaWorkstation);
-		this.getByDescription("Parking C").stateInside = true;
-
-		listaRobot.add(robot);
+		robot3=new Robot(3,"Robot C",this.getByDescription("Parking C"), listaWorkstation);
+		this.getByDescription("Parking C").setInside(robot3);
+		listaRobot.add(robot3);
+		robot3.start();
 		
-		robot=new Robot(4,"Robot D", this.getByDescription("Parking D"), listaWorkstation);
-		this.getByDescription("Parking D").stateInside = true;
-
-		listaRobot.add(robot);
+		robot4=new Robot(4,"Robot D", this.getByDescription("Parking D"), listaWorkstation);
+		this.getByDescription("Parking D").setInside(robot4);
+		listaRobot.add(robot4);
+		robot4.start();
 		
-		robot=new Robot(5,"Robot E", this.getByDescription("Product Entry"), listaWorkstation);
-		this.getByDescription("Product Entry").stateInside = true;
-
-		listaRobot.add(robot);
+		robot5=new Robot(5,"Robot E", this.getByDescription("Product Entry"), listaWorkstation);
+		this.getByDescription("Product Entry").setInside(robot5);
+		listaRobot.add(robot5);
+		robot5.start();
 		
 		System.out.println("Robots created");
 	}
@@ -112,14 +113,5 @@ public class Circuito {
 		return copia;
 	}
 	
-	public Workstation getWorkstationById(int id) {
-		Workstation ws= null;
-		for(Workstation w : listaWorkstation) {
-			if(w.getId() == id) {
-				ws = w;
-			}
-		}
-		return ws;
-	}
 
 }

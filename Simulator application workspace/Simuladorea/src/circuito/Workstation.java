@@ -1,11 +1,12 @@
 package circuito;
 import java.util.ArrayList;
 
+import objeto.Robot;
 import producto.Producto;
 
 public class Workstation {
 	int id, posX, posY;
-	boolean stateInside, stateOutside;
+	Robot inside, outside, insideEspera, outsideEspera;
 	String description;
 	ArrayList<Producto> listaProductos;
 	
@@ -13,12 +14,28 @@ public class Workstation {
 		this.id=id;
 		this.posX=posX;
 		this.posY=posY;
-		this.stateInside=false;
-		this.stateOutside=false;
+		this.inside = null;
+		this.outside = null;
 		this.description=description;
 		listaProductos = new ArrayList<Producto>();	
 	}
 	
+	public Robot getInsideEspera() {
+		return insideEspera;
+	}
+
+	public void setInsideEspera(Robot insideEspera) {
+		this.insideEspera = insideEspera;
+	}
+
+	public Robot getOutsideEspera() {
+		return outsideEspera;
+	}
+
+	public void setOutsideEspera(Robot outsideEspera) {
+		this.outsideEspera = outsideEspera;
+	}
+
 	public void añadirProducto(Producto p) {
 		listaProductos.add(p);
 	}
@@ -39,16 +56,24 @@ public class Workstation {
 		this.posY = posY;
 	}
 	public boolean isStateInside() {
-		return stateInside;
+		if (this.inside == null) return false;
+		return true;
 	}
-	public void setState(boolean state) {
-		this.stateInside = state;
+	public void setInside(Robot inside) {
+		this.inside = inside;
 	}
 	public boolean isStateOutside() {
-		return stateInside;
+		if (this.inside == null) return false;
+		return true;
 	}
-	public void setOutside(boolean state) {
-		this.stateInside = state;
+	public void setOutside(Robot outside) {
+		this.outside = outside;
+	}
+	public Robot getInside() {
+		return this.inside;
+	}
+	public Robot getOutside() {
+		return this.outside;
 	}
 	
 	public String getDescription() {

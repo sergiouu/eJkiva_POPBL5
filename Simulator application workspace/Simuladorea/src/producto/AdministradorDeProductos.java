@@ -6,7 +6,7 @@ import circuito.Circuito;
 import objeto.Robot;
 
 public class AdministradorDeProductos extends Thread{
-	
+	int kont =0;
 	//SQLconnector conexion;
 	@Override
 	public void run() {
@@ -24,7 +24,7 @@ public class AdministradorDeProductos extends Thread{
 		if(asignarProductoARobot(productosEnCola.get(0))) {
 			productosEnCola.remove(0);
 		}
-		System.out.println("cola ssize:" + productosEnCola);
+		System.out.println("cola size:" + productosEnCola);
 	}
 
 	List<Producto> productosEnCola; //pasar a sincronizada para que no pete
@@ -37,24 +37,26 @@ public class AdministradorDeProductos extends Thread{
 
 	private void añadirProductos() {
 		
-		añadirProducto(new Producto (1,"iphone", circuito.getByDescription("Product Entry")));
-		añadirProducto(new Producto (2,"samsung", circuito.getByDescription("Product Entry")));
-		
+		if(kont==0) {
+		añadirProducto(new Producto (1,"iphone", circuito.getByDescription("Product Entry"), circuito.getByDescription("Packaging A")));
+		añadirProducto(new Producto (2,"samsung", circuito.getByDescription("Product Entry"),circuito.getByDescription("Packaging A")));
 		
 		Producto p; 
-		p = new Producto (5,"pantalon", circuito.getWorkstationById(2));
+		p = new Producto (5,"pantalon", circuito.getByDescription("Product Entry"), circuito.getByDescription("Packaging A"));
 		añadirProducto(p);
 
-		p = new Producto (6, "movil", circuito.getWorkstationById(2));
+		p = new Producto (6, "movil", circuito.getByDescription("Product Entry"), circuito.getByDescription("Packaging A"));
 		añadirProducto(p);
 		
-		p = new Producto (3, "psp", circuito.getWorkstationById(2));
+		p = new Producto (3, "psp", circuito.getByDescription("Product Entry"), circuito.getByDescription("Packaging A"));
 		añadirProducto(p);
 		
-		p = new Producto (4, "boli", circuito.getWorkstationById(2));
+		p = new Producto (4, "boli", circuito.getByDescription("Product Entry"), circuito.getByDescription("Packaging A"));
 		añadirProducto(p);
 		
 		System.out.println("Products added");
+		kont++;
+		}
 	}
 
 	public Circuito getCircuito() {
@@ -106,8 +108,10 @@ public class AdministradorDeProductos extends Thread{
 		if(robot!=null) {
 			robot.cargarProducto(producto);
 			System.out.println("Producto asignado:" + "robot id:" + robot.getId()+ "producto:" + robot.getProducto().getDescription());
+			robot.setWsCogerProducto(producto.wsDestino); //CAMBIAR
+			robot.setWsDestino(circuito.getByDescription("Order Exit")); //CAMBIAR
 			libre = true;
-			
+			robot.encenderRobot();
 			}
 		else {
 			libre=false;

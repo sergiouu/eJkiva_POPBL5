@@ -11,8 +11,8 @@ public class Accion {
 	final static float MIN_LENGTH=0;
 	Robot robot;
 	List<Workstation> workstationList;
-	
 	public Accion(Robot robot, List<Workstation> workstationList2) {
+		
 		this.robot=robot;
 		this.workstationList=workstationList2;
     }
@@ -21,7 +21,7 @@ public class Accion {
 	public boolean jeitsi() {
 		System.out.println("jeitsi");
 		if((robot.getWsActual().getPosX()%2)==0) {
-		//robot.setPosY(robot.getWsActual().getPosY()-1);
+		//robot.setPosY(robot.getWorkstationActual().getPosY()-1);
 		cambiarWorkstationActual(false,false);
 		return true;}
 		return false;
@@ -30,7 +30,7 @@ public class Accion {
 	public boolean igo() {
 		if((robot.getWsActual().getPosX()%2)!=0) {
 			System.out.println("Igo");
-		//robot.setPosY(robot.getWsActual().getPosY()+1);
+		//robot.setPosY(robot.getWorkstationActual().getPosY()+1);
 		cambiarWorkstationActual(true,false);
 		return true;}
 		return false;
@@ -38,13 +38,13 @@ public class Accion {
 	public boolean aurrera() {
 		System.out.println("aurrera");
 		if(robot.getWsActual().getPosY()==1) {
-		    if(robot.getWsActual().getPosX()==MIN_LENGTH) {cambiarWorkstationActual(false,false);}//robot.setPosY(robot.getWsActual().getPosY()-1);}
-		    else{cambiarWorkstationActual(false,true);}//robot.setPosX(robot.getWsActual().getPosY()-1);}
+		    if(robot.getWsActual().getPosX()==MIN_LENGTH) {cambiarWorkstationActual(false,false);}//robot.setPosY(robot.getWorkstationActual().getPosY()-1);}
+		    else{cambiarWorkstationActual(false,true);}//robot.setPosX(robot.getWorkstationActual().getPosY()-1);}
 		    return true;
 		}
 		else {
 			//if(robot.getPosY()!=0) {
-			    if(robot.getWsActual().getPosX()==MAX_LENGTH) {cambiarWorkstationActual(true,false);}//robot.setPosY(robot.getWsActual().getPosY()+1);}
+			    if(robot.getWsActual().getPosX()==MAX_LENGTH) {cambiarWorkstationActual(true,false);}//robot.setPosY(robot.getWorkstationActual().getPosY()+1);}
 			    else{cambiarWorkstationActual(true,true);}
 			    return true;
 		//	}
@@ -65,6 +65,7 @@ public class Accion {
 		for(Workstation w : workstationList) {
 			if(w.getPosX()==nextX && w.getPosY()==nextY) {
 				robot.setWsSiguiente(w);
+				System.out.println("Mugitu den Robota"+ robot+" Posizio hontara X:"+ robot.getWsSiguiente().getPosX()+" PosY:"+robot.getWsSiguiente().getPosX()+"\n");
 				
 			}
 		}
