@@ -3,12 +3,14 @@
 "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-    <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<!-- link rel="stylesheet" href="css/style.css"-->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">   
+<link rel="stylesheet" href="css/style.css">
+<!-- Bootstrap CSS -->
+ <link
+ rel="stylesheet"
+ href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+ integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+ crossorigin="anonymous">
 	<title><tiles:insertAttribute name="title" ignore="true" /></title>
     <style>
       .bd-placeholder-img {
@@ -28,11 +30,12 @@
 <body class="container-fluid height-full">
 	<header> <tiles:insertAttribute name="header" /> </header>
 	<br />
-	<main role="main">
-		<tiles:insertAttribute name="body" />
-		<footer class="container"> <tiles:insertAttribute
-		name="footer" /> </footer>
-	</main>
+	<div class = "row">
+		<tiles:insertAttribute name="body" />		
+	</div>
+	<footer class="container"> <tiles:insertAttribute
+		name="footer" />
+	</footer>
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script>window.jQuery || document.write('<script src="/docs/4.2/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>

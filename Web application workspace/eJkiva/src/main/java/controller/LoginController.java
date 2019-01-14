@@ -22,7 +22,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.SessionAttributes;
+import org.springframework.web.context.request.WebRequest;
 
+import entity.Order;
 import entity.User;
 import entity.Usertype;
 import utils.HibernateUtils;
@@ -73,11 +75,11 @@ public class LoginController {
 					request.setAttribute("message", "login.successful");
 					Usertype usertype = checkUsertype(user);
 					System.out.println(usertype);
-			        return "consumer"; 
+			        return "customer"; 
 				}else{
 					System.out.println("No user loaded");
 					session.setAttribute("user", null);
-					request.setAttribute("error", "Wrong username ("+username+") or password ("+password+").");//"login.uperror");
+					request.setAttribute("errorL", "Wrong username ("+username+") or password ("+password+").");//"login.uperror");
 					request.setAttribute("username", username);
 					request.setAttribute("password", password);
 			        return "login"; 
@@ -91,9 +93,17 @@ public class LoginController {
 				String borndate = request.getParameter("borndat");
 				String pwd = request.getParameter("password");
 				String passwordRepeat = request.getParameter("confirm-password");
-			/*	Usertype utype = repo.userType(1);
-				User newuser = new User(utype, uname, pwd, name, surname, email, borndate);*/
-		        return "login"; 
+				Usertype utype = getUsertypeById(1);
+				if(pwd.equals(passwordRepeat)) {
+					User newUser = addUser(utype, uname, pwd, name, surname, email, borndate);
+					System.out.println(newUser);
+			        return "customer"; 
+				}else {
+					System.out.println("Passwords don't match!");
+					request.setAttribute("errorR", "Passwords don't match!");
+					request.setAttribute("register", true);
+			        return "login"; 
+				}
 		} 
         return "login"; 
     }  	
@@ -112,6 +122,27 @@ public class LoginController {
 		
 		Session session= HibernateUtils.getSessionFactory().openSession();
 		Query<Usertype> query=session.createSQLQuery("SELECT * FROM usertype where id = '"+user.getUsertype()+"'").addEntity(Usertype.class);
+		//List<User> users=query.list();
+		
+		Usertype usertype=query.uniqueResult();
+		return usertype;
+	}
+	
+	public User addUser(Usertype usertype, String uname, String password, String rname, String surname, String mail,
+			String bornDat) {
+
+		Session session=HibernateUtils.getSessionFactory().openSession();
+		Transaction tx= session.beginTransaction(); 
+		User newuser = new User(usertype, uname, password, rname, surname, mail, bornDat);
+		session.save(newuser);
+        tx.commit();
+		return newuser;
+	}
+	
+	public Usertype getUsertypeById(int id) {
+		
+		Session session= HibernateUtils.getSessionFactory().openSession();
+		Query<Usertype> query=session.createSQLQuery("SELECT * FROM usertype where id = '"+id+"'").addEntity(Usertype.class);
 		//List<User> users=query.list();
 		
 		Usertype usertype=query.uniqueResult();

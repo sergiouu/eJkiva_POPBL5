@@ -4,6 +4,7 @@ package entity;
 import java.util.HashSet;
 import java.util.Set;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
@@ -20,7 +21,10 @@ public class Order implements java.io.Serializable {
 	@ManyToOne
     @JoinColumn(name="user_id", nullable=false)
 	private User user;
+	@Column(name="refD")
 	private String refD;
+	@ManyToOne
+    @JoinColumn(name="userId", nullable=false)
 	private Set orderproducts = new HashSet(0);
 
 	public Order() {

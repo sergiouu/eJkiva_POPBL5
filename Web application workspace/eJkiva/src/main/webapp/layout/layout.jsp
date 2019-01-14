@@ -18,8 +18,7 @@
         	<tiles:insertAttribute name="header" />
         </header>     
         <br/>	  
-        <div class = "row">
-	        <div class="col col-lg-2"><tiles:insertAttribute name="menu" /></div>    
+        <div class = "row">  
 	        <div class="col col-lg-8"><tiles:insertAttribute name="body" /></div>  
         </div> 
         <footer class="navbar fixed-bottom">
