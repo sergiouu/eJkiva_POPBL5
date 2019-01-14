@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 13-ene-2019 23:20:34 by Hibernate Tools 5.1.0.Alpha1 -->
+<hibernate-mapping>
+    <class name="entity.Orderproduct" table="orderproduct" catalog="mydatabase" optimistic-lock="version">
+        <id name="orderProductId" type="java.lang.Short">
+            <column name="orderProductId" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="order" class="entity.Order" fetch="select">
+            <column name="orderId" />
+        </many-to-one>
+        <many-to-one name="product" class="entity.Product" fetch="select">
+            <column name="productID" />
+        </many-to-one>
+        <property name="quantity" type="java.lang.Short">
+            <column name="quantity" />
+        </property>
+        <set name="carrieses" table="carries" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="orderProductId" not-null="true" />
+            </key>
+            <one-to-many class="entity.Carries" />
+        </set>
+    </class>
+</hibernate-mapping>

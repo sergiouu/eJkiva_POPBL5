@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 13-ene-2019 23:20:34 by Hibernate Tools 5.1.0.Alpha1 -->
+<hibernate-mapping>
+    <class name="entity.Workstation" table="workstation" catalog="mydatabase" optimistic-lock="version">
+        <id name="workstationId" type="java.lang.Byte">
+            <column name="workstationID" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="segment" class="entity.Segment" fetch="select">
+            <column name="segmentID" />
+        </many-to-one>
+        <property name="workstationNam" type="string">
+            <column name="workstationNam" length="20" not-null="true" />
+        </property>
+        <property name="description" type="string">
+            <column name="description" length="20" />
+        </property>
+        <property name="state" type="java.lang.Boolean">
+            <column name="state" />
+        </property>
+        <set name="carriesesForDestinyWorkstationId" table="carries" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="destinyWorkstationID" />
+            </key>
+            <one-to-many class="entity.Carries" />
+        </set>
+        <set name="carriesesForInitialWorkstationId" table="carries" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="initialWorkstationID" />
+            </key>
+            <one-to-many class="entity.Carries" />
+        </set>
+    </class>
+</hibernate-mapping>

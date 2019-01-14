@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 13-ene-2019 23:20:34 by Hibernate Tools 5.1.0.Alpha1 -->
+<hibernate-mapping>
+    <class name="entity.User" table="user" catalog="mydatabase" optimistic-lock="version">
+        <id name="userId" type="java.lang.Short">
+            <column name="userID" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="usertype" class="entity.Usertype" fetch="select">
+            <column name="userTypeID" />
+        </many-to-one>
+        <property name="uname" type="string">
+            <column name="uName" length="25" not-null="true" unique="true" />
+        </property>
+        <property name="password" type="string">
+            <column name="password" length="25" not-null="true" />
+        </property>
+        <property name="rname" type="string">
+            <column name="rName" length="25" not-null="true" />
+        </property>
+        <property name="surname" type="string">
+            <column name="surname" length="25" not-null="true" />
+        </property>
+        <property name="mail" type="string">
+            <column name="mail" length="45" not-null="true" />
+        </property>
+        <property name="bornDat" type="string">
+            <column name="bornDat" length="10" />
+        </property>
+      <!--   <set name="orders" table="order" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="userId" />
+            </key>
+            <one-to-many class="entity.Order" />
+        </set> -->
+    </class>
+</hibernate-mapping>
