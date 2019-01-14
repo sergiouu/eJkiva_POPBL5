@@ -75,14 +75,15 @@ public class LoginController {
 					request.setAttribute("message", "login.successful");
 					Usertype usertype = checkUsertype(user);
 					System.out.println(usertype);
-			        return "customer"; 
+					response.sendRedirect("/eJkiva/customer.html");
+			        break; 
 				}else{
 					System.out.println("No user loaded");
 					session.setAttribute("user", null);
 					request.setAttribute("errorL", "Wrong username ("+username+") or password ("+password+").");//"login.uperror");
 					request.setAttribute("username", username);
 					request.setAttribute("password", password);
-			        return "login"; 
+			        break; 
 				}
 			case "Register Now":
 				System.out.println("REGISTER");
@@ -97,15 +98,15 @@ public class LoginController {
 				if(pwd.equals(passwordRepeat)) {
 					User newUser = addUser(utype, uname, pwd, name, surname, email, borndate);
 					System.out.println(newUser);
-			        return "customer"; 
+					response.sendRedirect("/eJkiva/customer.html");
 				}else {
 					System.out.println("Passwords don't match!");
 					request.setAttribute("errorR", "Passwords don't match!");
 					request.setAttribute("register", true);
-			        return "login"; 
+			        break; 
 				}
 		} 
-        return "login"; 
+		return "login";
     }  	
 	
 	public User checkUser(String uname, String password) {
