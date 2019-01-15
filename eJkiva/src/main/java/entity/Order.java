@@ -8,6 +8,9 @@ import java.util.Set;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.MapsId;
 import javax.persistence.Table;
 
 /**
@@ -19,7 +22,9 @@ public class Order implements java.io.Serializable {
 	@Id
 	@Column(name="orderID")
 	private Byte orderId;
-	@Column(name="userID")
+	@MapsId @ManyToOne
+	@JoinColumn(name="userID")
+	//@Column(name="userID")
 	private User user;
 	@Column(name="date")
 	private Date date;	

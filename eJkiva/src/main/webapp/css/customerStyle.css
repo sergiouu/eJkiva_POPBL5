@@ -1,0 +1,10 @@
+@charset "ISO-8859-1";
+
+#products{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+#product{
+	
+}

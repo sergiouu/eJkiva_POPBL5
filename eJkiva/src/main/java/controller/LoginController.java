@@ -123,7 +123,7 @@ public class LoginController {
 	public Usertype checkUsertype(User user) {
 		
 		Session session= HibernateUtils.getSessionFactory().openSession();
-		Query<Usertype> query=session.createSQLQuery("SELECT * FROM usertype where usertypeID = '"+user.getUsertype()+"'").addEntity(Usertype.class);
+		Query<Usertype> query=session.createSQLQuery("SELECT * FROM usertype where usertypeID = '"+user.getUsertype().getUsertypeId()+"'").addEntity(Usertype.class);
 		//List<User> users=query.list();
 		
 		Usertype usertype=query.uniqueResult();

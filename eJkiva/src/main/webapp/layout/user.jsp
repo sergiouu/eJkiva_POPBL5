@@ -5,41 +5,13 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" href="css/style.css">
-
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700">
-
-Bootstrap CSS
-<link rel="stylesheet"
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-	integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-	crossorigin="anonymous">
 <title><tiles:insertAttribute name="title" ignore="true" /></title>
-<!-- Bootstrap core CSS -->
-<link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
-
-<!-- Custom styles for this template -->
-<link href="cover.css" rel="stylesheet">
-<style>
-.bd-placeholder-img {
-	font-size: 1.125rem;
-	text-anchor: middle;
-}
-
-@media ( min-width : 768px) {
-	.bd-placeholder-img-lg {
-		font-size: 3.5rem;
-	}
-}
-</style>
-
 </head>
 
 <body class="container-fluid height-full">
 	<header> <tiles:insertAttribute name="header" /> </header>
 	<br />
-	<div class = "row">
+	<div class = "row center-block">
 		<tiles:insertAttribute name="body" />		
 	</div>
 	<footer class="container"> <tiles:insertAttribute

@@ -58,6 +58,10 @@ public class Usertype implements java.io.Serializable {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return this.usertype;
+	}
 
 }

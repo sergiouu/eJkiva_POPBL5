@@ -125,5 +125,12 @@ public class User implements java.io.Serializable {
 		this.bornDat = bornDat;
 	}
 
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return this.username;
+	}
+
+	
 
 }

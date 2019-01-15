@@ -13,35 +13,34 @@
         <put-attribute name="body" value="" />  
         <put-attribute name="footer" value="/layout/footer.jsp" />  
     </definition> 
+    
     <definition name="customer" extends="user">  
         <put-attribute name="title" value="Customer" />   
         <put-attribute name="header" value="/layout/customer/header.jsp" />
         <put-attribute name="body" value="/layout/customer/body.jsp" />   
     </definition>  
-    <definition name="customerOrders" extends="user">  
+    <definition name="product" extends="customer">  
         <put-attribute name="title" value="Customer" />   
-        <put-attribute name="header" value="/layout/customer/header.jsp" />
-        <put-attribute name="body" value="/layout/customer/body.jsp" />   
+        <put-attribute name="body" value="/layout/customer/product.jsp" />   
+    </definition>
+    <definition name="customerOrders" extends="customer">  
+        <put-attribute name="title" value="Customer Orders" />   
+        <put-attribute name="body" value="/layout/customer/orders.jsp" />   
     </definition>  
-    <definition name="customerProducts" extends="user">  
+    <definition name="customerOrder" extends="customer">  
         <put-attribute name="title" value="Customer" />   
-        <put-attribute name="header" value="/layout/customer/header.jsp" />
-        <put-attribute name="body" value="/layout/customer/body.jsp" />   
-    </definition>  
-    <definition name="customerOrder" extends="user">  
-        <put-attribute name="title" value="Customer" />   
-        <put-attribute name="header" value="/layout/customer/header.jsp" />
         <put-attribute name="body" value="/layout/customer/body.jsp" />   
     </definition>
-    <definition name="customerChart" extends="user">  
+    <definition name="productHistory" extends="customer">  
         <put-attribute name="title" value="Customer" />   
-        <put-attribute name="header" value="/layout/customer/header.jsp" />
-        <put-attribute name="body" value="/layout/customer/body.jsp" />   
+        <put-attribute name="body" value="/layout/customer/chart.jsp" />   
     </definition>
+    
     <definition name="manager" extends="user">  
         <put-attribute name="title" value="Manager" />  
         <put-attribute name="body" value="/layout/login.jsp" />  
     </definition>      
+    
     <definition name="operator" extends="user">  
         <put-attribute name="title" value="Operator" />  
         <put-attribute name="body" value="/layout/login.jsp" />  

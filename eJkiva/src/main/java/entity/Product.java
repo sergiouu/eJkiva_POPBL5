@@ -4,7 +4,12 @@ package entity;
 import java.util.HashSet;
 import java.util.Set;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.MapsId;
 import javax.persistence.Table;
 
 /**
@@ -13,13 +18,20 @@ import javax.persistence.Table;
 @Entity
 @Table(name="product")
 public class Product implements java.io.Serializable {
-
+	@Id
+	@Column(name="productID")
 	private Byte productId;
+	@MapsId @ManyToOne
+	@JoinColumn(name="departamentID")
+	//@Column(name="departamentID")
 	private Departament departament;
+	@Column(name="product_name")
 	private String productName;
+	@Column(name="description")
 	private String description;
+	@Column(name="price")
 	private float price;
-	private Set orderproducts = new HashSet(0);
+	//private Set orderproducts = new HashSet(0);
 
 	public Product() {
 	}
@@ -29,12 +41,12 @@ public class Product implements java.io.Serializable {
 		this.price = price;
 	}
 
-	public Product(Departament departament, String productName, String description, float price, Set orderproducts) {
+	public Product(Departament departament, String productName, String description, float price) {
 		this.departament = departament;
 		this.productName = productName;
 		this.description = description;
 		this.price = price;
-		this.orderproducts = orderproducts;
+		//this.orderproducts = orderproducts;
 	}
 
 	public Byte getProductId() {
@@ -76,13 +88,19 @@ public class Product implements java.io.Serializable {
 	public void setPrice(float price) {
 		this.price = price;
 	}
-
+/*
 	public Set getOrderproducts() {
 		return this.orderproducts;
 	}
 
 	public void setOrderproducts(Set orderproducts) {
 		this.orderproducts = orderproducts;
-	}
+	}*/
 
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return this.productName;
+	}
+	
 }

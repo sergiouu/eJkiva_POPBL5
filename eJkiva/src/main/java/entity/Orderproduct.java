@@ -7,6 +7,10 @@ import java.util.Set;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.MapsId;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 /**
@@ -18,9 +22,13 @@ public class Orderproduct implements java.io.Serializable {
 	@Id
 	@Column(name="orderProductID")
 	private Byte orderProductId;
-	@Column(name="orderID")
+	@MapsId @ManyToOne
+	@JoinColumn(name="orderID")
+	//@Column(name="orderID")
 	private Order order;
-	@Column(name="productID")
+	@MapsId @OneToMany
+	@JoinColumn(name="productID")
+	//@Column(name="productID")
 	private Product product;
 	@Column(name="quantity")
 	private short quantity;
