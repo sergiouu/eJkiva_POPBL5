@@ -1,0 +1,415 @@
+Searching for include files...
+Searching for example files...
+Searching for images...
+Searching for dot files...
+Searching for msc files...
+Searching for dia files...
+Searching for files to exclude
+Searching INPUT for files to process...
+Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva
+Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src
+Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main
+Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java
+Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/controller
+Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity
+Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/utils
+Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/webapp
+Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/webapp/layout
+Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/webapp/layout/customer
+Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/webapp/layout/manager
+Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/webapp/layout/operator
+Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/webapp/META-INF
+Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/webapp/WEB-INF
+Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/webapp/WEB-INF/lib
+Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/test
+Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/test/java
+Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/target
+Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/target/classes
+Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/target/classes/controller
+Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/target/classes/entity
+Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/target/classes/utils
+Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/target/m2e-wtp
+Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/target/m2e-wtp/web-resources
+Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/target/m2e-wtp/web-resources/META-INF
+Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/target/m2e-wtp/web-resources/META-INF/maven
+Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/target/m2e-wtp/web-resources/META-INF/maven/org.mondragon
+Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/target/m2e-wtp/web-resources/META-INF/maven/org.mondragon/eJkiva
+Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/target/test-classes
+Reading and parsing tag files
+Parsing files
+Reading D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/controller/CustomerController.java...
+Parsing file D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/controller/CustomerController.java...
+Reading D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/controller/LoginController.java...
+Parsing file D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/controller/LoginController.java...
+Reading D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Authomach.java...
+Parsing file D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Authomach.java...
+Reading D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Carries.java...
+Parsing file D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Carries.java...
+Reading D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/CarriesId.java...
+Parsing file D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/CarriesId.java...
+Reading D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Departament.java...
+Parsing file D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Departament.java...
+Reading D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Order.java...
+Parsing file D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Order.java...
+Reading D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Orderproduct.java...
+Parsing file D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Orderproduct.java...
+Reading D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Product.java...
+Parsing file D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Product.java...
+Reading D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Segment.java...
+Parsing file D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Segment.java...
+Reading D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/User.java...
+Parsing file D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/User.java...
+Reading D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Usertype.java...
+Parsing file D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Usertype.java...
+Reading D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Workstation.java...
+Parsing file D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Workstation.java...
+Reading D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/utils/HibernateUtils.java...
+Parsing file D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/utils/HibernateUtils.java...
+Building group list...
+Building directory list...
+Building namespace list...
+Building file list...
+Building class list...
+Associating documentation with classes...
+Computing nesting relations for classes...
+Building example list...
+Searching for enumerations...
+Searching for documented typedefs...
+Searching for members imported via using declarations...
+Searching for included using directives...
+Searching for documented variables...
+Building interface member list...
+Building member list...
+Searching for friends...
+Searching for documented defines...
+Computing class inheritance relations...
+Computing class usage relations...
+Flushing cached template relations that have become invalid...
+Computing class relations...
+Add enum values to enums...
+Searching for member function documentation...
+Creating members for template instances...
+Building page list...
+Search for main page...
+Computing page relations...
+Determining the scope of groups...
+Sorting lists...
+Freeing entry tree
+Determining which enums are documented
+Computing member relations...
+Building full member lists recursively...
+Adding members to member groups.
+Computing member references...
+Inheriting documentation...
+Generating disk names...
+Adding source references...
+Adding xrefitems...
+Sorting member lists...
+Computing dependencies between directories...
+Generating citations page...
+Counting data structures...
+Resolving user defined references...
+Finding anchors and sections in the documentation...
+Transferring function references...
+Combining using relations...
+Adding members to index pages...
+Generating style sheet...
+Generating search indices...
+Generating example documentation...
+Generating file sources...
+Generating file documentation...
+Generating page documentation...
+Generating group documentation...
+Generating class documentation...
+Generating namespace index...
+Generating docs for compound controller::CustomerController...
+Generating docs for compound controller::LoginController...
+Generating docs for compound entity::Authomach...
+warning: the dot tool could not be found at C:\Program Files (x86)\Graphviz2.38
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/utils/HibernateUtils.java:7: warning: Compound utils::HibernateUtils is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/controller/LoginController.java:113: warning: Member checkUser(String uname, String password) (function) of class controller::LoginController is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/controller/LoginController.java:123: warning: Member checkUsertype(User user) (function) of class controller::LoginController is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/controller/LoginController.java:133: warning: Member addUser(Usertype usertype, String uname, String password, String rname, String surname, String mail, String bornDat) (function) of class controller::LoginController is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/controller/LoginController.java:144: warning: Member getUsertypeById(int id) (function) of class controller::LoginController is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Authomach.java:27: warning: Member Authomach(String machine) (function) of class entity::Authomach is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Authomach.java:31: warning: Member Authomach(Segment segment, String machine, String description, Boolean state, Set carrieses) (function) of class entity::Authomach is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Authomach.java:39: warning: Member getMachineId() (function) of class entity::Authomach is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Authomach.java:43: warning: Member setMachineId(Byte machineId) (function) of class entity::Authomach is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Authomach.java:47: warning: Member getSegment() (function) of class entity::Authomach is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Authomach.java:51: warning: Member setSegment(Segment segment) (function) of class entity::Authomach is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Authomach.java:55: warning: Member getMachine() (function) of class entity::Authomach is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Authomach.java:59: warning: Member setMachine(String machine) (function) of class entity::Authomach is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Authomach.java:63: warning: Member getDescription() (function) of class entity::Authomach is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Authomach.java:67: warning: Member setDescription(String description) (function) of class entity::Authomach is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Authomach.java:71: warning: Member getState() (function) of class entity::AuGenerating docs for compound entity::Carries...
+Generating docs for compound entity::CarriesId...
+thomach is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Authomach.java:75: warning: Member setState(Boolean state) (function) of class entity::Authomach is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Authomach.java:79: warning: Member getCarrieses() (function) of class entity::Authomach is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Authomach.java:83: warning: Member setCarrieses(Set carrieses) (function) of class entity::Authomach is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Carries.java:23: warning: Member Carries(CarriesId id, Orderproduct orderproduct) (function) of class entity::Carries is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Carries.java:28: warning: Member Carries(CarriesId id, Authomach authomach, Orderproduct orderproduct, Workstation workstationByDestinyWorkstationId, Workstation workstationByInitialWorkstationId) (function) of class entity::Carries is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Carries.java:37: warning: Member getId() (function) of class entity::Carries is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Carries.java:41: warning: Member setId(CarriesId id) (function) of class entity::Carries is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Carries.java:45: warning: Member getAuthomach() (function) of class entity::Carries is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Carries.java:49: warning: Member setAuthomach(Authomach authomach) (function) of class entity::Carries is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Carries.java:53: warning: Member getOrderproduct() (function) of class entity::Carries is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Carries.java:57: warning: Member setOrderproduct(Orderproduct orderproduct) (function) of class entity::Carries is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Carries.java:61: warning: Member getWorkstationByDestinyWorkstationId() (function) of class entity::Carries is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Carries.java:65: warning: Member setWorkstationByDestinyWorkstationId(Workstation workstationByDestinyWorkstationId) (function) of class entity::Carries is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Carries.java:69: warning: Member getWorkstationByInitialWorkstationId() (function) of class entity::Carries is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Carries.java:73: warning: Member setWorkstationByInitialWorkstationId(Workstation workstationByInitialWorkstationId) (function) of class entity::Carries is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/CarriesId.java:23: warning: Member CarriesId(short orderProductId) (function) of class enGenerating docs for compound entity::Departament...
+tity::CarriesId is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/CarriesId.java:27: warning: Member CarriesId(short orderProductId, Byte initialWorkstationId, Byte destinyWorkstationId, Byte machineId, Boolean state) (function) of class entity::CarriesId is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/CarriesId.java:36: warning: Member getOrderProductId() (function) of class entity::CarriesId is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/CarriesId.java:40: warning: Member setOrderProductId(short orderProductId) (function) of class entity::CarriesId is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/CarriesId.java:44: warning: Member getInitialWorkstationId() (function) of class entity::CarriesId is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/CarriesId.java:48: warning: Member setInitialWorkstationId(Byte initialWorkstationId) (function) of class entity::CarriesId is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/CarriesId.java:52: warning: Member getDestinyWorkstationId() (function) of class entity::CarriesId is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/CarriesId.java:56: warning: Member setDestinyWorkstationId(Byte destinyWorkstationId) (function) of class entity::CarriesId is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/CarriesId.java:60: warning: Member getMachineId() (function) of class entity::CarriesId is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/CarriesId.java:64: warning: Member setMachineId(Byte machineId) (function) of class entity::CarriesId is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/CarriesId.java:68: warning: Member getState() (function) of class entity::CarriesId is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/CarriesId.java:72: warning: Member setState(Boolean state) (function) of class entity::CarriesId is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/CarriesId.java:76: warning: Member equals(Object other) (function) of class entity::CarriesId is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/CarriesId.java:98: warning: Member hashCode() (function) of class entity::CarriesId is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Departament.java:25: warning: Member Departament(byte departamentId, String depName) (function) of class entity::Departament is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Departament.java:30: warning: Member Departament(byte departamentId, String depName, String description, Set products) (function) of class entity::Departament is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Departament.java:37: warning: Member getDepartamentId() (function) of class entity::Departament is not documented.
+D:Generating docs for compound entity::Order...
+Generating docs for compound entity::Orderproduct...
+/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Departament.java:41: warning: Member setDepartamentId(byte departamentId) (function) of class entity::Departament is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Departament.java:45: warning: Member getDepName() (function) of class entity::Departament is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Departament.java:49: warning: Member setDepName(String depName) (function) of class entity::Departament is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Departament.java:53: warning: Member getDescription() (function) of class entity::Departament is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Departament.java:57: warning: Member setDescription(String description) (function) of class entity::Departament is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Departament.java:61: warning: Member getProducts() (function) of class entity::Departament is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Departament.java:65: warning: Member setProducts(Set products) (function) of class entity::Departament is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Order.java:33: warning: Member Order(User user, String refD, Set orderproducts) (function) of class entity::Order is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Order.java:39: warning: Member getOrderId() (function) of class entity::Order is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Order.java:43: warning: Member setOrderId(Short orderId) (function) of class entity::Order is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Order.java:47: warning: Member getUser() (function) of class entity::Order is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Order.java:51: warning: Member setUser(User user) (function) of class entity::Order is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Order.java:55: warning: Member getRefD() (function) of class entity::Order is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Order.java:59: warning: Member setRefD(String refD) (function) of class entity::Order is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Order.java:63: warning: Member getOrderproducts() (function) of class entity::Order is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Order.java:67: warning: Member setOrderproducts(Set orderproducts) (function) of class entity::Order is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Orderproduct.java:26: warning: Member Orderproduct(Order order, Product product, Short quantity, Set carrieses) (function) of class entity::Orderproduct is not documented.
+D:/Users/user/DocuGenerating docs for compound entity::Product...
+ments/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Orderproduct.java:33: warning: Member getOrderProductId() (function) of class entity::Orderproduct is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Orderproduct.java:37: warning: Member setOrderProductId(Short orderProductId) (function) of class entity::Orderproduct is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Orderproduct.java:41: warning: Member getOrder() (function) of class entity::Orderproduct is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Orderproduct.java:45: warning: Member setOrder(Order order) (function) of class entity::Orderproduct is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Orderproduct.java:49: warning: Member getProduct() (function) of class entity::Orderproduct is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Orderproduct.java:53: warning: Member setProduct(Product product) (function) of class entity::Orderproduct is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Orderproduct.java:57: warning: Member getQuantity() (function) of class entity::Orderproduct is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Orderproduct.java:61: warning: Member setQuantity(Short quantity) (function) of class entity::Orderproduct is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Orderproduct.java:65: warning: Member getCarrieses() (function) of class entity::Orderproduct is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Orderproduct.java:69: warning: Member setCarrieses(Set carrieses) (function) of class entity::Orderproduct is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Product.java:26: warning: Member Product(String prodName) (function) of class entity::Product is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Product.java:30: warning: Member Product(Departament departament, String prodName, Byte price, Set orderproducts) (function) of class entity::Product is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Product.java:37: warning: Member getProductId() (function) of class entity::Product is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Product.java:41: warning: Member setProductId(Short productId) (function) of class entity::Product is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Product.java:45: warning: Member getDepartament() (function) of class entity::Product is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Product.java:49: warning: Member setDepartament(Departament departament) (function) of class entity::Product is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Product.java:53: warning: Member getProdName() (function) of class entiGenerating docs for compound entity::Segment...
+ty::Product is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Product.java:57: warning: Member setProdName(String prodName) (function) of class entity::Product is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Product.java:61: warning: Member getPrice() (function) of class entity::Product is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Product.java:65: warning: Member setPrice(Byte price) (function) of class entity::Product is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Product.java:69: warning: Member getOrderproducts() (function) of class entity::Product is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Product.java:73: warning: Member setOrderproducts(Set orderproducts) (function) of class entity::Product is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Segment.java:28: warning: Member Segment(String segment, short posX, short posY) (function) of class entity::Segment is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Segment.java:34: warning: Member Segment(String segment, short posX, short posY, String description, Set authomaches, Set workstations) (function) of class entity::Segment is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Segment.java:43: warning: Member getSegmentId() (function) of class entity::Segment is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Segment.java:47: warning: Member setSegmentId(Byte segmentId) (function) of class entity::Segment is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Segment.java:51: warning: Member getSegment() (function) of class entity::Segment is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Segment.java:55: warning: Member setSegment(String segment) (function) of class entity::Segment is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Segment.java:59: warning: Member getPosX() (function) of class entity::Segment is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Segment.java:63: warning: Member setPosX(short posX) (function) of class entity::Segment is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Segment.java:67: warning: Member getPosY() (function) of class entity::Segment is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Segment.java:71: warning: Member setPosY(short posY) (function) of class entity::Segment is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Segment.java:75: warning: Member getDescription() (function) of class entity::Segment is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Segment.java:79: warning: Member setDescription(String description) (function) of class entity::Segment is not documentedGenerating docs for compound entity::User...
+.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Segment.java:83: warning: Member getAuthomaches() (function) of class entity::Segment is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Segment.java:87: warning: Member setAuthomaches(Set authomaches) (function) of class entity::Segment is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Segment.java:91: warning: Member getWorkstations() (function) of class entity::Segment is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Segment.java:95: warning: Member setWorkstations(Set workstations) (function) of class entity::Segment is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/User.java:53: warning: Member User(String uname, String password, String rname, String surname, String mail) (function) of class entity::User is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/User.java:61: warning: Member User(Usertype usertype, String uname, String password, String rname, String surname, String mail, String bornDat) (function) of class entity::User is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/User.java:73: warning: Member getUserId() (function) of class entity::User is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/User.java:77: warning: Member setUserId(Short userId) (function) of class entity::User is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/User.java:81: warning: Member getUsertype() (function) of class entity::User is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/User.java:85: warning: Member setUsertype(Usertype usertype) (function) of class entity::User is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/User.java:89: warning: Member getUname() (function) of class entity::User is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/User.java:93: warning: Member setUname(String uname) (function) of class entity::User is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/User.java:97: warning: Member getPassword() (function) of class entity::User is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/User.java:101: warning: Member setPassword(String password) (function) of class entity::User is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/User.java:105: warning: Member getRname() (function) of class entity::User is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/User.java:109: warning: Member setRname(String rname) (function) of class entity::User is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/User.java:113: warning: Member getSurname() (function) of class entity::User is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POGenerating docs for compound entity::Usertype...
+Generating docs for compound entity::Workstation...
+PBL5/Web application workspace/eJkiva/src/main/java/entity/User.java:117: warning: Member setSurname(String surname) (function) of class entity::User is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/User.java:121: warning: Member getMail() (function) of class entity::User is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/User.java:125: warning: Member setMail(String mail) (function) of class entity::User is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/User.java:129: warning: Member getBornDat() (function) of class entity::User is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/User.java:133: warning: Member setBornDat(String bornDat) (function) of class entity::User is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/User.java:139: warning: Member toString() (function) of class entity::User is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Usertype.java:34: warning: Member Usertype(String utype) (function) of class entity::Usertype is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Usertype.java:38: warning: Member Usertype(String utype, String description, Set users) (function) of class entity::Usertype is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Usertype.java:44: warning: Member getId() (function) of class entity::Usertype is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Usertype.java:48: warning: Member setId(Byte userTypeId) (function) of class entity::Usertype is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Usertype.java:52: warning: Member getUtype() (function) of class entity::Usertype is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Usertype.java:56: warning: Member setUtype(String utype) (function) of class entity::Usertype is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Usertype.java:60: warning: Member getDescription() (function) of class entity::Usertype is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Usertype.java:64: warning: Member setDescription(String description) (function) of class entity::Usertype is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Workstation.java:28: warning: Member Workstation(String workstationNam) (function) of class entity::Workstation is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Workstation.java:32: warning: Member Workstation(Segment segment, String workstationNam, String description, Boolean state, Set carriesesForDestinyWorkstationId, Set carriesesForInitialWorkstationId) (function) of class entity::Workstation is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Workstation.java:42: warning: Member getWorkstationId() (function) of class entity::Workstation is not documented.
+D:/Users/user/Documents/MONGenerating docs for compound utils::HibernateUtils...
+Generating graph info page...
+Generating directory documentation...
+Generating index page...
+Generating page index...
+Generating module index...
+Generating namespace index...
+Generating namespace member index...
+Generating annotated compound index...
+Generating alphabetical compound index...
+Generating hierarchical class index...
+Generating graphical class hierarchy...
+Generating member index...
+Generating file index...
+Generating file member index...
+Generating example index...
+finalizing index lists...
+writing tag file...
+Running dot...
+Generating dot graphs using 9 parallel threads...
+Running dot for graph 1/49
+Running dot for graph 2/49
+Running dot for graph 3/49
+Running dot for graph 4/49
+Running dot for graph 5/49
+Running dot for graph 6/49
+Running dot for graph 7/49
+Running dot for graph 8/49
+Running dot for graph 9/49
+DRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Workstation.java:46: warning: Member setWorkstationId(Byte workstationId) (function) of class entity::Workstation is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Workstation.java:50: warning: Member getSegment() (function) of class entity::Workstation is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Workstation.java:54: warning: Member setSegment(Segment segment) (function) of class entity::Workstation is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Workstation.java:58: warning: Member getWorkstationNam() (function) of class entity::Workstation is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Workstation.java:62: warning: Member setWorkstationNam(String workstationNam) (function) of class entity::Workstation is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Workstation.java:66: warning: Member getDescription() (function) of class entity::Workstation is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Workstation.java:70: warning: Member setDescription(String description) (function) of class entity::Workstation is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Workstation.java:74: warning: Member getState() (function) of class entity::Workstation is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Workstation.java:78: warning: Member setState(Boolean state) (function) of class entity::Workstation is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Workstation.java:82: warning: Member getCarriesesForDestinyWorkstationId() (function) of class entity::Workstation is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Workstation.java:86: warning: Member setCarriesesForDestinyWorkstationId(Set carriesesForDestinyWorkstationId) (function) of class entity::Workstation is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Workstation.java:90: warning: Member getCarriesesForInitialWorkstationId() (function) of class entity::Workstation is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/entity/Workstation.java:94: warning: Member setCarriesesForInitialWorkstationId(Set carriesesForInitialWorkstationId) (function) of class entity::Workstation is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/utils/HibernateUtils.java:22: warning: Member getSessionFactory() (function) of class utils::HibernateUtils is not documented.
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_authomach__coll__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_authomach__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_authomach__coll__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_authomach__coll__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_carries__inherit__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_carries__inherit__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_authomach__inherit__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_authomach__inherit__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_carries__coll__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_carries__coll__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_carries_id__inherit__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_carries_id__inherit__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_authomach__inherit__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_authomach__inherit__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_carries__inherit__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_carries__inherit__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_order__inherit__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_order__inherit__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_departament__inherit__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_departament__inherit__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_carries__coll__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_carries__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_carries_id__coll__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_carries_id__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_departament__coll__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_departament__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_departament__inherit__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_departament__inherit__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_carries_id__inherit__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_carries_id__inherit__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_departament__coll__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_departament__coll__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_carries_id__coll__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_carries_id__coll__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_order__inherit__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_order__inherit__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_order__coll__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_order__coll__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_orderproduct__inherit__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_orderproduct__inherit__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_orderproduct__inherit__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_orderproduct__inherit__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_order__coll__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_order__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_product__inherit__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_product__inherit__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_orderproduct__coll__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_orderproduct__coll__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_orderproduct__coll__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_orderproduct__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_product__inherit__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_product__inherit__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_product__coll__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_product__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_product__coll__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_product__coll__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_segment__inherit__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_segment__inherit__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_segment__coll__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_segment__coll__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_user__inherit__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_user__inherit__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_segment__inherit__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_segment__inherit__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_user__inherit__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_user__inherit__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_user__coll__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_user__coll__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_segment__coll__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_segment__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_user__coll__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_user__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_usertype__inherit__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_usertype__inherit__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_usertype__coll__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_usertype__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_workstation__inherit__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_workstation__inherit__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_usertype__inherit__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_usertype__inherit__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_usertype__coll__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_usertype__coll__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_workstation__coll__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_workstation__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_workstation__coll__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_workstation__coll__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/graph_legend.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspRunning dot for graph 10/49
+Running dot for graph 11/49
+Running dot for graph 12/49
+Running dot for graph 13/49
+Running dot for graph 14/49
+Running dot for graph 15/49
+Running dot for graph 16/49
+Running dot for graph 17/49
+Running dot for graph 18/49
+Running dot for graph 19/49
+Running dot for graph 20/49
+Running dot for graph 21/49
+Running dot for graph 22/49
+Running dot for graph 23/49
+Running dot for graph 24/49
+Running dot for graph 25/49
+Running dot for graph 26/49
+Running dot for graph 27/49
+Running dot for graph 28/49
+Running dot for graph 29/49
+Running dot for graph 30/49
+Running dot for graph 31/49
+Running dot for graph 32/49
+Running dot for graph 33/49
+Running dot for graph 34/49
+Running dot for graph 35/49
+Running dot for graph 36/49
+Running dot for graph 37/49
+Running dot for graph 38/49
+Running dot for graph 39/49
+Running dot for graph 40/49
+Running dot for graph 41/49
+Running dot for graph 42/49
+Running dot for graph 43/49
+Running dot for graph 44/49
+Running dot for graph 45/49
+Running dot for graph 46/49
+Running dot for graph 47/49
+Running dot for graph 48/49
+Running dot for graph 49/49
+Patching output file 1/23
+Patching output file 2/23
+lookup cache used 125/65536 hits=621 misses=159
+finished...
+ace/eJkiva/html/graph_legend.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_workstation__inherit__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/latex/classentity_1_1_workstation__inherit__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/inherit_graph_2.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/inherit_graph_2.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/inherit_graph_0.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/inherit_graph_0.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/inherit_graph_1.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/inherit_graph_1.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/inherit_graph_3.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/inherit_graph_3.png"'
+error: problems opening map file D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_authomach__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/html/classentity_1_1_authomach__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problem writing FIG 0 figure!
+*** Doxygen has finished

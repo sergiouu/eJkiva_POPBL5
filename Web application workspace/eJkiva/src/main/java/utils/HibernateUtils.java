@@ -13,6 +13,8 @@ private static SessionFactory sessionFactory;
 		configuration.configure();
 		configuration.addResource("/entity/User.hbm.xml");
 		configuration.addResource("/entity/Usertype.hbm.xml");
+		configuration.addResource("/entity/Product.hbm.xml");
+		configuration.addResource("/entity/Departament.hbm.xml");
 		StandardServiceRegistryBuilder builder = new StandardServiceRegistryBuilder().
 		applySettings(configuration.getProperties());
 		sessionFactory = configuration.buildSessionFactory(builder.build());

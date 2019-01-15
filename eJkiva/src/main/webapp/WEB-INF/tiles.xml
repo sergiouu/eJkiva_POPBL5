@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE tiles-definitions PUBLIC  
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"  
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">  
+<tiles-definitions>  
+    <definition name="login"  
+        template="/index.jsp">   
+    </definition>  
+                      
+    <definition name="user" template="/layout/user.jsp">  
+        <put-attribute name="title" value="" />  
+        <put-attribute name="header" value="" />  
+        <put-attribute name="body" value="" />  
+        <put-attribute name="footer" value="/layout/footer.jsp" />  
+    </definition> 
+    <definition name="customer" extends="user">  
+        <put-attribute name="title" value="Customer" />   
+        <put-attribute name="header" value="/layout/customer/header.jsp" />
+        <put-attribute name="body" value="/layout/customer/body.jsp" />   
+    </definition>  
+    <definition name="customerOrders" extends="user">  
+        <put-attribute name="title" value="Customer" />   
+        <put-attribute name="header" value="/layout/customer/header.jsp" />
+        <put-attribute name="body" value="/layout/customer/body.jsp" />   
+    </definition>  
+    <definition name="customerProducts" extends="user">  
+        <put-attribute name="title" value="Customer" />   
+        <put-attribute name="header" value="/layout/customer/header.jsp" />
+        <put-attribute name="body" value="/layout/customer/body.jsp" />   
+    </definition>  
+    <definition name="customerOrder" extends="user">  
+        <put-attribute name="title" value="Customer" />   
+        <put-attribute name="header" value="/layout/customer/header.jsp" />
+        <put-attribute name="body" value="/layout/customer/body.jsp" />   
+    </definition>
+    <definition name="customerChart" extends="user">  
+        <put-attribute name="title" value="Customer" />   
+        <put-attribute name="header" value="/layout/customer/header.jsp" />
+        <put-attribute name="body" value="/layout/customer/body.jsp" />   
+    </definition>
+    <definition name="manager" extends="user">  
+        <put-attribute name="title" value="Manager" />  
+        <put-attribute name="body" value="/layout/login.jsp" />  
+    </definition>      
+    <definition name="operator" extends="user">  
+        <put-attribute name="title" value="Operator" />  
+        <put-attribute name="body" value="/layout/login.jsp" />  
+    </definition> 
+    
+  
+</tiles-definitions>  

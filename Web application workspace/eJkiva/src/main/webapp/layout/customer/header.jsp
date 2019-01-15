@@ -7,7 +7,7 @@
     </button>
     <c:if test="${not empty sessionScope.user }">
 		<fmt:bundle basename="resources.View">
-		<div><p class="navbar-brand">${sessionScope.user.uname }</p></div>			
+		<div><p class="navbar-brand">${sessionScope.user.username }</p></div>			
 		</fmt:bundle>
 	</c:if>
     <div class="collapse navbar-collapse" id="navbarCollapse">
