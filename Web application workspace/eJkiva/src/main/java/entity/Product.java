@@ -1,5 +1,5 @@
 package entity;
-// Generated 13-ene-2019 23:20:34 by Hibernate Tools 5.1.0.Alpha1
+// Generated 15-ene-2019 0:02:31 by Hibernate Tools 5.1.0.Alpha1
 
 import java.util.HashSet;
 import java.util.Set;
@@ -14,31 +14,34 @@ import javax.persistence.Table;
 @Table(name="product")
 public class Product implements java.io.Serializable {
 
-	private Short productId;
+	private Byte productId;
 	private Departament departament;
-	private String prodName;
-	private Byte price;
+	private String productName;
+	private String description;
+	private float price;
 	private Set orderproducts = new HashSet(0);
 
 	public Product() {
 	}
 
-	public Product(String prodName) {
-		this.prodName = prodName;
+	public Product(String productName, float price) {
+		this.productName = productName;
+		this.price = price;
 	}
 
-	public Product(Departament departament, String prodName, Byte price, Set orderproducts) {
+	public Product(Departament departament, String productName, String description, float price, Set orderproducts) {
 		this.departament = departament;
-		this.prodName = prodName;
+		this.productName = productName;
+		this.description = description;
 		this.price = price;
 		this.orderproducts = orderproducts;
 	}
 
-	public Short getProductId() {
+	public Byte getProductId() {
 		return this.productId;
 	}
 
-	public void setProductId(Short productId) {
+	public void setProductId(Byte productId) {
 		this.productId = productId;
 	}
 
@@ -50,19 +53,27 @@ public class Product implements java.io.Serializable {
 		this.departament = departament;
 	}
 
-	public String getProdName() {
-		return this.prodName;
+	public String getProductName() {
+		return this.productName;
 	}
 
-	public void setProdName(String prodName) {
-		this.prodName = prodName;
+	public void setProductName(String productName) {
+		this.productName = productName;
 	}
 
-	public Byte getPrice() {
+	public String getDescription() {
+		return this.description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public float getPrice() {
 		return this.price;
 	}
 
-	public void setPrice(Byte price) {
+	public void setPrice(float price) {
 		this.price = price;
 	}
 

@@ -1,13 +1,13 @@
 package entity;
-// Generated 13-ene-2019 23:20:34 by Hibernate Tools 5.1.0.Alpha1
+// Generated 15-ene-2019 0:02:31 by Hibernate Tools 5.1.0.Alpha1
 
+import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
@@ -16,31 +16,27 @@ import javax.persistence.Table;
 @Entity
 @Table(name="order")
 public class Order implements java.io.Serializable {
-
-	private Short orderId;
-	@ManyToOne
-    @JoinColumn(name="user_id", nullable=false)
+	@Id
+	@Column(name="orderID")
+	private Byte orderId;
+	@Column(name="userID")
 	private User user;
-	@Column(name="refD")
-	private String refD;
-	@ManyToOne
-    @JoinColumn(name="userId", nullable=false)
-	private Set orderproducts = new HashSet(0);
+	@Column(name="date")
+	private Date date;	
 
 	public Order() {
 	}
 
-	public Order(User user, String refD, Set orderproducts) {
+	public Order(User user, Date date) {
 		this.user = user;
-		this.refD = refD;
-		this.orderproducts = orderproducts;
+		this.date = date;
 	}
 
-	public Short getOrderId() {
+	public Byte getOrderId() {
 		return this.orderId;
 	}
 
-	public void setOrderId(Short orderId) {
+	public void setOrderId(Byte orderId) {
 		this.orderId = orderId;
 	}
 
@@ -52,20 +48,13 @@ public class Order implements java.io.Serializable {
 		this.user = user;
 	}
 
-	public String getRefD() {
-		return this.refD;
+	public Date getDate() {
+		return this.date;
 	}
 
-	public void setRefD(String refD) {
-		this.refD = refD;
+	public void setDate(Date date) {
+		this.date = date;
 	}
 
-	public Set getOrderproducts() {
-		return this.orderproducts;
-	}
-
-	public void setOrderproducts(Set orderproducts) {
-		this.orderproducts = orderproducts;
-	}
 
 }

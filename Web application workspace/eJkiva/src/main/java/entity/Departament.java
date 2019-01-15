@@ -1,10 +1,12 @@
 package entity;
-// Generated 13-ene-2019 23:20:34 by Hibernate Tools 5.1.0.Alpha1
+// Generated 15-ene-2019 0:02:31 by Hibernate Tools 5.1.0.Alpha1
 
 import java.util.HashSet;
 import java.util.Set;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
@@ -13,41 +15,40 @@ import javax.persistence.Table;
 @Entity
 @Table(name="departament")
 public class Departament implements java.io.Serializable {
-
-	private byte departamentId;
-	private String depName;
+	@Id
+	@Column(name="departamentID")
+	private Byte departamentId;
+	@Column(name="departament_name")
+	private String departamentName;
+	@Column(name="description")
 	private String description;
-	private Set products = new HashSet(0);
 
 	public Departament() {
 	}
 
-	public Departament(byte departamentId, String depName) {
-		this.departamentId = departamentId;
-		this.depName = depName;
+	public Departament(String departamentName) {
+		this.departamentName = departamentName;
 	}
 
-	public Departament(byte departamentId, String depName, String description, Set products) {
-		this.departamentId = departamentId;
-		this.depName = depName;
+	public Departament(String departamentName, String description) {
+		this.departamentName = departamentName;
 		this.description = description;
-		this.products = products;
 	}
 
-	public byte getDepartamentId() {
+	public Byte getDepartamentId() {
 		return this.departamentId;
 	}
 
-	public void setDepartamentId(byte departamentId) {
+	public void setDepartamentId(Byte departamentId) {
 		this.departamentId = departamentId;
 	}
 
-	public String getDepName() {
-		return this.depName;
+	public String getDepartamentName() {
+		return this.departamentName;
 	}
 
-	public void setDepName(String depName) {
-		this.depName = depName;
+	public void setDepartamentName(String departamentName) {
+		this.departamentName = departamentName;
 	}
 
 	public String getDescription() {
@@ -56,14 +57,6 @@ public class Departament implements java.io.Serializable {
 
 	public void setDescription(String description) {
 		this.description = description;
-	}
-
-	public Set getProducts() {
-		return this.products;
-	}
-
-	public void setProducts(Set products) {
-		this.products = products;
 	}
 
 }

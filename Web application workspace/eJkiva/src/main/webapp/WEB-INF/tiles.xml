@@ -17,7 +17,27 @@
         <put-attribute name="title" value="Customer" />   
         <put-attribute name="header" value="/layout/customer/header.jsp" />
         <put-attribute name="body" value="/layout/customer/body.jsp" />   
-    </definition>      
+    </definition>  
+    <definition name="customerOrders" extends="user">  
+        <put-attribute name="title" value="Customer" />   
+        <put-attribute name="header" value="/layout/customer/header.jsp" />
+        <put-attribute name="body" value="/layout/customer/body.jsp" />   
+    </definition>  
+    <definition name="customerProducts" extends="user">  
+        <put-attribute name="title" value="Customer" />   
+        <put-attribute name="header" value="/layout/customer/header.jsp" />
+        <put-attribute name="body" value="/layout/customer/body.jsp" />   
+    </definition>  
+    <definition name="customerOrder" extends="user">  
+        <put-attribute name="title" value="Customer" />   
+        <put-attribute name="header" value="/layout/customer/header.jsp" />
+        <put-attribute name="body" value="/layout/customer/body.jsp" />   
+    </definition>
+    <definition name="customerChart" extends="user">  
+        <put-attribute name="title" value="Customer" />   
+        <put-attribute name="header" value="/layout/customer/header.jsp" />
+        <put-attribute name="body" value="/layout/customer/body.jsp" />   
+    </definition>
     <definition name="manager" extends="user">  
         <put-attribute name="title" value="Manager" />  
         <put-attribute name="body" value="/layout/login.jsp" />  

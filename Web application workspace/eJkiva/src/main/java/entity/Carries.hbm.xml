@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
-<!-- Generated 13-ene-2019 23:20:34 by Hibernate Tools 5.1.0.Alpha1 -->
+<!-- Generated 15-ene-2019 0:02:31 by Hibernate Tools 5.1.0.Alpha1 -->
 <hibernate-mapping>
     <class name="entity.Carries" table="carries" catalog="mydatabase" optimistic-lock="version">
         <composite-id name="id" class="entity.CarriesId">
-            <key-property name="orderProductId" type="short">
-                <column name="orderProductId" />
+            <key-property name="orderProductId" type="byte">
+                <column name="orderProductID" />
             </key-property>
             <key-property name="initialWorkstationId" type="java.lang.Byte">
                 <column name="initialWorkstationID" />
@@ -25,7 +25,7 @@
             <column name="machineID" />
         </many-to-one>
         <many-to-one name="orderproduct" class="entity.Orderproduct" update="false" insert="false" fetch="select">
-            <column name="orderProductId" not-null="true" />
+            <column name="orderProductID" not-null="true" />
         </many-to-one>
         <many-to-one name="workstationByDestinyWorkstationId" class="entity.Workstation" update="false" insert="false" fetch="select">
             <column name="destinyWorkstationID" />

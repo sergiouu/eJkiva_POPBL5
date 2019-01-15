@@ -1,10 +1,12 @@
 package entity;
-// Generated 13-ene-2019 23:20:34 by Hibernate Tools 5.1.0.Alpha1
+// Generated 15-ene-2019 0:02:31 by Hibernate Tools 5.1.0.Alpha1
 
 import java.util.HashSet;
 import java.util.Set;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
@@ -13,28 +15,30 @@ import javax.persistence.Table;
 @Entity
 @Table(name="orderproduct")
 public class Orderproduct implements java.io.Serializable {
-
-	private Short orderProductId;
+	@Id
+	@Column(name="orderProductID")
+	private Byte orderProductId;
+	@Column(name="orderID")
 	private Order order;
+	@Column(name="productID")
 	private Product product;
-	private Short quantity;
-	private Set carrieses = new HashSet(0);
+	@Column(name="quantity")
+	private short quantity;
 
 	public Orderproduct() {
 	}
 
-	public Orderproduct(Order order, Product product, Short quantity, Set carrieses) {
+	public Orderproduct(Order order, Product product, short quantity) {
 		this.order = order;
 		this.product = product;
 		this.quantity = quantity;
-		this.carrieses = carrieses;
 	}
 
-	public Short getOrderProductId() {
+	public Byte getOrderProductId() {
 		return this.orderProductId;
 	}
 
-	public void setOrderProductId(Short orderProductId) {
+	public void setOrderProductId(Byte orderProductId) {
 		this.orderProductId = orderProductId;
 	}
 
@@ -54,20 +58,13 @@ public class Orderproduct implements java.io.Serializable {
 		this.product = product;
 	}
 
-	public Short getQuantity() {
+	public short getQuantity() {
 		return this.quantity;
 	}
 
-	public void setQuantity(Short quantity) {
+	public void setQuantity(short quantity) {
 		this.quantity = quantity;
 	}
 
-	public Set getCarrieses() {
-		return this.carrieses;
-	}
-
-	public void setCarrieses(Set carrieses) {
-		this.carrieses = carrieses;
-	}
 
 }

@@ -1,24 +1,24 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
-<!-- Generated 13-ene-2019 23:20:34 by Hibernate Tools 5.1.0.Alpha1 -->
+<!-- Generated 15-ene-2019 0:02:31 by Hibernate Tools 5.1.0.Alpha1 -->
 <hibernate-mapping>
     <class name="entity.Order" table="order" catalog="mydatabase" optimistic-lock="version">
-        <id name="orderId" type="java.lang.Short">
+        <id name="orderId" type="java.lang.Byte">
             <column name="orderID" />
             <generator class="identity" />
         </id>
         <many-to-one name="user" class="entity.User" fetch="select">
-            <column name="userId" />
+            <column name="userID" />
         </many-to-one>
-        <property name="refD" type="string">
-            <column name="refD" length="10" />
+        <property name="date" type="date">
+            <column name="date" length="10" />
         </property>
-        <set name="orderproducts" table="orderproduct" inverse="true" lazy="true" fetch="select">
+       <!-- <set name="orderproducts" table="orderproduct" inverse="true" lazy="true" fetch="select">
             <key>
-                <column name="orderId" />
+                <column name="orderID" not-null="true" />
             </key>
             <one-to-many class="entity.Orderproduct" />
-        </set>
+        </set> --> 
     </class>
 </hibernate-mapping>

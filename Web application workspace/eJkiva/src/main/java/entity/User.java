@@ -1,15 +1,16 @@
 package entity;
-// Generated 13-ene-2019 23:20:34 by Hibernate Tools 5.1.0.Alpha1
+// Generated 15-ene-2019 0:02:31 by Hibernate Tools 5.1.0.Alpha1
 
+import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.OneToMany;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.MapsId;
 import javax.persistence.Table;
 
 /**
@@ -18,63 +19,53 @@ import javax.persistence.Table;
 @Entity
 @Table(name="user")
 public class User implements java.io.Serializable {
-
 	@Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-	private Short userId;
-	@Column(name="userTypeId")
+	@Column(name="userID")
+	private Byte userId;
+	@MapsId @ManyToOne
+	@JoinColumn(name="usertypeID")
+//	@Column(name="usertypeID")
 	private Usertype usertype;
-	@Column(name="uname")
-	private String uname;
+	@Column(name="username") //, nullable = false, length=50)
+	private String username;
 	@Column(name="password")
 	private String password;
-	@Column(name="rname")
-	private String rname;
+	@Column(name="name")
+	private String name;
 	@Column(name="surname")
 	private String surname;
 	@Column(name="mail")
 	private String mail;
 	@Column(name="bornDat")
-	private String bornDat;
-	/*@OneToMany (mappedBy="orders")
-	private Set orders = new HashSet(0);
-	
-	public Set getOrders() {
-		return this.orders;
-	}
-
-	public void setOrders(Set orders) {
-		this.orders = orders;
-	}*/
+	private Date bornDat;
 
 	public User() {
 	}
 
-	public User(String uname, String password, String rname, String surname, String mail) {
-		this.uname = uname;
+	public User(String username, String password, String name, String surname, String mail) {
+		this.username = username;
 		this.password = password;
-		this.rname = rname;
+		this.name = name;
 		this.surname = surname;
 		this.mail = mail;
 	}
 
-	public User(Usertype usertype, String uname, String password, String rname, String surname, String mail,
-			String bornDat/*, Set orders*/) {
+	public User(Usertype usertype, String username, String password, String name, String surname, String mail,
+			Date bornDat) {
 		this.usertype = usertype;
-		this.uname = uname;
+		this.username = username;
 		this.password = password;
-		this.rname = rname;
+		this.name = name;
 		this.surname = surname;
 		this.mail = mail;
 		this.bornDat = bornDat;
-		//this.orders = orders;
 	}
 
-	public Short getUserId() {
+	public Byte getUserId() {
 		return this.userId;
 	}
 
-	public void setUserId(Short userId) {
+	public void setUserId(Byte userId) {
 		this.userId = userId;
 	}
 
@@ -86,12 +77,12 @@ public class User implements java.io.Serializable {
 		this.usertype = usertype;
 	}
 
-	public String getUname() {
-		return this.uname;
+	public String getUsername() {
+		return this.username;
 	}
 
-	public void setUname(String uname) {
-		this.uname = uname;
+	public void setUsername(String username) {
+		this.username = username;
 	}
 
 	public String getPassword() {
@@ -102,12 +93,12 @@ public class User implements java.io.Serializable {
 		this.password = password;
 	}
 
-	public String getRname() {
-		return this.rname;
+	public String getName() {
+		return this.name;
 	}
 
-	public void setRname(String rname) {
-		this.rname = rname;
+	public void setName(String name) {
+		this.name = name;
 	}
 
 	public String getSurname() {
@@ -126,18 +117,13 @@ public class User implements java.io.Serializable {
 		this.mail = mail;
 	}
 
-	public String getBornDat() {
+	public Date getBornDat() {
 		return this.bornDat;
 	}
 
-	public void setBornDat(String bornDat) {
+	public void setBornDat(Date bornDat) {
 		this.bornDat = bornDat;
 	}
 
-	
-	@Override
-	public String toString() {
-		return this.rname;
-	}
 
 }

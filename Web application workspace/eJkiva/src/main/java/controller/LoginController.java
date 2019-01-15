@@ -42,9 +42,10 @@ public class LoginController {
 		
 	/**
      * This method will login a user and direct them depending on their type
+	 * @throws Exception 
      */
 	@RequestMapping("/login")  
-    public String login(Model m, HttpServletResponse response, HttpServletRequest request) throws IOException {  
+    public String login(Model m, HttpServletResponse response, HttpServletRequest request) throws Exception {  
         m.addAttribute("command", new User());
 
 		//UserRepository repo = new UserRepository();
@@ -70,7 +71,7 @@ public class LoginController {
 					
 				//Save login in session
 				if(user != null){
-					System.out.println("Username:"+user.getUname());
+					System.out.println("Username:"+user.getUsername());
 					session.setAttribute("user",user);
 					request.setAttribute("message", "login.successful");
 					Usertype usertype = checkUsertype(user);
@@ -112,7 +113,7 @@ public class LoginController {
 	public User checkUser(String uname, String password) {
 	
 		Session session= HibernateUtils.getSessionFactory().openSession();
-		Query<User> query=session.createSQLQuery("SELECT * FROM user where uName = '"+uname+ "' and password ='"+password+"'").addEntity(User.class);
+		Query<User> query=session.createSQLQuery("SELECT * FROM user where username = '"+uname+ "' and password ='"+password+"'").addEntity(User.class);
 		//List<User> users=query.list();
 		
 		User user=query.uniqueResult();
@@ -122,7 +123,7 @@ public class LoginController {
 	public Usertype checkUsertype(User user) {
 		
 		Session session= HibernateUtils.getSessionFactory().openSession();
-		Query<Usertype> query=session.createSQLQuery("SELECT * FROM usertype where id = '"+user.getUsertype()+"'").addEntity(Usertype.class);
+		Query<Usertype> query=session.createSQLQuery("SELECT * FROM usertype where usertypeID = '"+user.getUsertype()+"'").addEntity(Usertype.class);
 		//List<User> users=query.list();
 		
 		Usertype usertype=query.uniqueResult();
@@ -130,11 +131,16 @@ public class LoginController {
 	}
 	
 	public User addUser(Usertype usertype, String uname, String password, String rname, String surname, String mail,
-			String bornDat) {
+			String bornDat) throws Exception {
 
 		Session session=HibernateUtils.getSessionFactory().openSession();
 		Transaction tx= session.beginTransaction(); 
-		User newuser = new User(usertype, uname, password, rname, surname, mail, bornDat);
+		
+		DateFormat df = DateFormat.getDateInstance();
+		Date date;
+		date = df.parse(bornDat);
+		User newuser = new User(usertype, uname, password, rname, surname, mail, date);
+		
 		session.save(newuser);
         tx.commit();
 		return newuser;
@@ -143,7 +149,7 @@ public class LoginController {
 	public Usertype getUsertypeById(int id) {
 		
 		Session session= HibernateUtils.getSessionFactory().openSession();
-		Query<Usertype> query=session.createSQLQuery("SELECT * FROM usertype where id = '"+id+"'").addEntity(Usertype.class);
+		Query<Usertype> query=session.createSQLQuery("SELECT * FROM usertype where usertypeID = '"+id+"'").addEntity(Usertype.class);
 		//List<User> users=query.list();
 		
 		Usertype usertype=query.uniqueResult();

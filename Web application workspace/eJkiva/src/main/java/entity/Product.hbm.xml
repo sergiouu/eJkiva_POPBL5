@@ -1,27 +1,30 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
-<!-- Generated 13-ene-2019 23:20:34 by Hibernate Tools 5.1.0.Alpha1 -->
+<!-- Generated 15-ene-2019 0:02:31 by Hibernate Tools 5.1.0.Alpha1 -->
 <hibernate-mapping>
     <class name="entity.Product" table="product" catalog="mydatabase" optimistic-lock="version">
-        <id name="productId" type="java.lang.Short">
+        <id name="productId" type="java.lang.Byte">
             <column name="productID" />
             <generator class="identity" />
         </id>
         <many-to-one name="departament" class="entity.Departament" fetch="select">
             <column name="departamentID" />
         </many-to-one>
-        <property name="prodName" type="string">
-            <column name="prodName" length="20" not-null="true" />
+        <property name="productName" type="string">
+            <column name="product_name" length="20" not-null="true" />
         </property>
-        <property name="price" type="java.lang.Byte">
-            <column name="price" />
+        <property name="description" type="string">
+            <column name="description" />
         </property>
-        <set name="orderproducts" table="orderproduct" inverse="true" lazy="true" fetch="select">
+        <property name="price" type="float">
+            <column name="price" precision="12" scale="0" not-null="true" />
+        </property>
+      <!--   <set name="orderproducts" table="orderproduct" inverse="true" lazy="true" fetch="select">
             <key>
-                <column name="productID" />
+                <column name="productID" not-null="true" />
             </key>
             <one-to-many class="entity.Orderproduct" />
-        </set>
+        </set> -->
     </class>
 </hibernate-mapping>
