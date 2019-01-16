@@ -27,6 +27,7 @@ import org.springframework.web.context.request.WebRequest;
 import entity.Order;
 import entity.User;
 import entity.Usertype;
+import repository.UserRepository;
 import utils.HibernateUtils;
 
 /**
@@ -40,6 +41,7 @@ import utils.HibernateUtils;
 @SessionAttributes 
 public class LoginController {
 		
+	UserRepository repo;
 	/**
      * This method will login a user and direct them depending on their type
 	 * @throws Exception 
@@ -47,7 +49,7 @@ public class LoginController {
 	@RequestMapping("/login")  
     public String login(Model m, HttpServletResponse response, HttpServletRequest request) throws Exception {  
         m.addAttribute("command", new User());
-
+        repo = new UserRepository();
 		//UserRepository repo = new UserRepository();
         String action = request.getParameter("action");
 		HttpSession session = request.getSession(true);
@@ -65,7 +67,7 @@ public class LoginController {
 				//Test loggin
 				if(username!=null && password!=null){
 					//user = repo.checkUser(username, password);
-					user = checkUser(username, password);
+					user = repo.checkUser(username, password);
 					System.out.println("USER "+user);
 				}
 					
@@ -74,9 +76,8 @@ public class LoginController {
 					System.out.println("Username:"+user.getUsername());
 					session.setAttribute("user",user);
 					request.setAttribute("message", "login.successful");
-					Usertype usertype = checkUsertype(user);
-					System.out.println(usertype);
-					response.sendRedirect("/eJkiva/customer.html");
+					Usertype usertype = repo.checkUsertype(user);
+					response.sendRedirect("/eJkiva/"+usertype.getUsertype().toLowerCase()+".html");
 			        break; 
 				}else{
 					System.out.println("No user loaded");
@@ -95,8 +96,14 @@ public class LoginController {
 				String borndate = request.getParameter("borndat");
 				String pwd = request.getParameter("password");
 				String passwordRepeat = request.getParameter("confirm-password");
-				Usertype utype = getUsertypeById(1);
-				if(pwd.equals(passwordRepeat)) {
+				Usertype utype = repo.getUsertypeById(1);
+				if(uname==null||name==null||surname==null||email==null||borndate==null||pwd==null||passwordRepeat==null) {
+					System.out.println("Empty input!");
+					request.setAttribute("errorR", "Empty field!");
+					request.setAttribute("register", true);
+			        break; 
+				}
+				else if(pwd.equals(passwordRepeat)) {
 					User newUser = addUser(utype, uname, pwd, name, surname, email, borndate);
 					System.out.println(newUser);
 					response.sendRedirect("/eJkiva/customer.html");
@@ -106,30 +113,17 @@ public class LoginController {
 					request.setAttribute("register", true);
 			        break; 
 				}
+				
+			case "Log Out":
+				session.removeAttribute("user");
+				break;
 		} 
 		return "login";
     }  	
 	
-	public User checkUser(String uname, String password) {
-	
-		Session session= HibernateUtils.getSessionFactory().openSession();
-		Query<User> query=session.createSQLQuery("SELECT * FROM user where username = '"+uname+ "' and password ='"+password+"'").addEntity(User.class);
-		//List<User> users=query.list();
-		
-		User user=query.uniqueResult();
-		return user;
-	}
-	
-	public Usertype checkUsertype(User user) {
-		
-		Session session= HibernateUtils.getSessionFactory().openSession();
-		Query<Usertype> query=session.createSQLQuery("SELECT * FROM usertype where usertypeID = '"+user.getUsertype().getUsertypeId()+"'").addEntity(Usertype.class);
-		//List<User> users=query.list();
-		
-		Usertype usertype=query.uniqueResult();
-		return usertype;
-	}
-	
+	/**
+     * Adds a user to the database
+     */
 	public User addUser(Usertype usertype, String uname, String password, String rname, String surname, String mail,
 			String bornDat) throws Exception {
 
@@ -145,17 +139,6 @@ public class LoginController {
         tx.commit();
 		return newuser;
 	}
-	
-	public Usertype getUsertypeById(int id) {
-		
-		Session session= HibernateUtils.getSessionFactory().openSession();
-		Query<Usertype> query=session.createSQLQuery("SELECT * FROM usertype where usertypeID = '"+id+"'").addEntity(Usertype.class);
-		//List<User> users=query.list();
-		
-		Usertype usertype=query.uniqueResult();
-		return usertype;
-	}
-	
 	
 	
 }

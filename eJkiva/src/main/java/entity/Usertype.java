@@ -17,7 +17,7 @@ import javax.persistence.Table;
 public class Usertype implements java.io.Serializable {
 	@Id
 	@Column(name="usertypeID")
-	private Byte usertypeId;
+	private int usertypeId;
 	@Column(name="usertype")
 	private String usertype;
 	@Column(name="description")
@@ -35,11 +35,11 @@ public class Usertype implements java.io.Serializable {
 		this.description = description;
 	}
 
-	public Byte getUsertypeId() {
+	public int getUsertypeId() {
 		return this.usertypeId;
 	}
 
-	public void setUsertypeId(Byte usertypeId) {
+	public void setUsertypeId(int usertypeId) {
 		this.usertypeId = usertypeId;
 	}
 

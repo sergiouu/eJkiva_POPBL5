@@ -21,7 +21,7 @@ import javax.persistence.Table;
 public class Order implements java.io.Serializable {
 	@Id
 	@Column(name="orderID")
-	private Byte orderId;
+	private int orderId;
 	@MapsId @ManyToOne
 	@JoinColumn(name="userID")
 	//@Column(name="userID")
@@ -37,11 +37,11 @@ public class Order implements java.io.Serializable {
 		this.date = date;
 	}
 
-	public Byte getOrderId() {
+	public int getOrderId() {
 		return this.orderId;
 	}
 
-	public void setOrderId(Byte orderId) {
+	public void setOrderId(int orderId) {
 		this.orderId = orderId;
 	}
 

@@ -17,7 +17,7 @@ import javax.persistence.Table;
 public class Departament implements java.io.Serializable {
 	@Id
 	@Column(name="departamentID")
-	private Byte departamentId;
+	private int departamentId;
 	@Column(name="departament_name")
 	private String departamentName;
 	@Column(name="description")
@@ -35,11 +35,11 @@ public class Departament implements java.io.Serializable {
 		this.description = description;
 	}
 
-	public Byte getDepartamentId() {
+	public int getDepartamentId() {
 		return this.departamentId;
 	}
 
-	public void setDepartamentId(Byte departamentId) {
+	public void setDepartamentId(int departamentId) {
 		this.departamentId = departamentId;
 	}
 

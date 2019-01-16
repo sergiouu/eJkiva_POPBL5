@@ -5,16 +5,16 @@
 <hibernate-mapping>
     <class name="entity.Carries" table="carries" catalog="mydatabase" optimistic-lock="version">
         <composite-id name="id" class="entity.CarriesId">
-            <key-property name="orderProductId" type="byte">
+            <key-property name="orderProductId" type="int">
                 <column name="orderProductID" />
             </key-property>
-            <key-property name="initialWorkstationId" type="java.lang.Byte">
+            <key-property name="initialWorkstationId" type="java.lang.Integer">
                 <column name="initialWorkstationID" />
             </key-property>
-            <key-property name="destinyWorkstationId" type="java.lang.Byte">
+            <key-property name="destinyWorkstationId" type="java.lang.Integer">
                 <column name="destinyWorkstationID" />
             </key-property>
-            <key-property name="machineId" type="java.lang.Byte">
+            <key-property name="machineId" type="java.lang.Integer">
                 <column name="machineID" />
             </key-property>
             <key-property name="state" type="java.lang.Boolean">

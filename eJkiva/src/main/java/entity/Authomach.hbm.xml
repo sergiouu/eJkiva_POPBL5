@@ -4,7 +4,7 @@
 <!-- Generated 15-ene-2019 0:02:31 by Hibernate Tools 5.1.0.Alpha1 -->
 <hibernate-mapping>
     <class name="entity.Authomach" table="authomach" catalog="mydatabase" optimistic-lock="version">
-        <id name="machineId" type="java.lang.Byte">
+        <id name="machineId" type="java.lang.Integer">
             <column name="machineID" />
             <generator class="identity" />
         </id>

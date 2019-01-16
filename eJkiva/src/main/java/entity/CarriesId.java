@@ -6,7 +6,7 @@ package entity;
  */
 public class CarriesId implements java.io.Serializable {
 
-	private byte orderProductId;
+	private int orderProductId;
 	private Byte initialWorkstationId;
 	private Byte destinyWorkstationId;
 	private Byte machineId;
@@ -28,11 +28,11 @@ public class CarriesId implements java.io.Serializable {
 		this.state = state;
 	}
 
-	public byte getOrderProductId() {
+	public int getOrderProductId() {
 		return this.orderProductId;
 	}
 
-	public void setOrderProductId(byte orderProductId) {
+	public void setOrderProductId(int orderProductId) {
 		this.orderProductId = orderProductId;
 	}
 

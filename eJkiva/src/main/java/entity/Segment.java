@@ -14,7 +14,7 @@ import javax.persistence.Table;
 @Table(name="segment")
 public class Segment implements java.io.Serializable {
 
-	private Byte segmentId;
+	private int segmentId;
 	private String segment;
 	private short posX;
 	private short posY;
@@ -40,7 +40,7 @@ public class Segment implements java.io.Serializable {
 		this.workstations = workstations;
 	}
 
-	public Byte getSegmentId() {
+	public int getSegmentId() {
 		return this.segmentId;
 	}
 

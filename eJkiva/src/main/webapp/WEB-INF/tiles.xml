@@ -17,34 +17,74 @@
     <definition name="customer" extends="user">  
         <put-attribute name="title" value="Customer" />   
         <put-attribute name="header" value="/layout/customer/header.jsp" />
-        <put-attribute name="body" value="/layout/customer/body.jsp" />   
+        <put-attribute name="body" value="/layout/customer/customer.jsp" />   
     </definition>  
+    <definition name="manager" extends="user">  
+        <put-attribute name="title" value="Manager" />  
+        <put-attribute name="header" value="/layout/manager/header.jsp" />
+        <put-attribute name="body" value="/layout/manager/manager.jsp" />  
+    </definition>      
+    <definition name="operator" extends="user">  
+        <put-attribute name="title" value="Operator" />  
+        <put-attribute name="header" value="/layout/operator/header.jsp" />
+        <put-attribute name="body" value="/layout/operator/operator.jsp" />  
+    </definition> 
+    
     <definition name="product" extends="customer">  
-        <put-attribute name="title" value="Customer" />   
+        <put-attribute name="title" value="Show Product" />   
         <put-attribute name="body" value="/layout/customer/product.jsp" />   
     </definition>
     <definition name="customerOrders" extends="customer">  
         <put-attribute name="title" value="Customer Orders" />   
-        <put-attribute name="body" value="/layout/customer/orders.jsp" />   
+        <put-attribute name="body" value="/layout/orders.jsp" />   
     </definition>  
     <definition name="customerOrder" extends="customer">  
-        <put-attribute name="title" value="Customer" />   
-        <put-attribute name="body" value="/layout/customer/body.jsp" />   
-    </definition>
+        <put-attribute name="title" value="Customer Order" />   
+        <put-attribute name="body" value="/layout/order.jsp" />   
+    </definition>  
     <definition name="productHistory" extends="customer">  
-        <put-attribute name="title" value="Customer" />   
+        <put-attribute name="title" value="Products History" />   
         <put-attribute name="body" value="/layout/customer/chart.jsp" />   
     </definition>
+        
+    <definition name="managerStock" extends="manager">  
+        <put-attribute name="title" value="Manager Stock" />   
+        <put-attribute name="body" value="/layout/orders.jsp" />   
+    </definition>
+    <definition name="sales" extends="manager">  
+        <put-attribute name="title" value="Manager Orders" />   
+        <put-attribute name="body" value="/layout/orders.jsp" />   
+    </definition>
+    <definition name="warehouseHistory" extends="manager">  
+        <put-attribute name="title" value="Manager Orders" />   
+        <put-attribute name="body" value="/layout/orders.jsp" />   
+    </definition>    
+    <definition name="managerOrders" extends="manager">  
+        <put-attribute name="title" value="Show Orders" />   
+        <put-attribute name="body" value="/layout/orders.jsp" />   
+    </definition>
+    <definition name="managerOrder" extends="manager">  
+        <put-attribute name="title" value="Show Order" />   
+        <put-attribute name="body" value="/layout/order.jsp" />   
+    </definition>
     
-    <definition name="manager" extends="user">  
-        <put-attribute name="title" value="Manager" />  
-        <put-attribute name="body" value="/layout/login.jsp" />  
-    </definition>      
+    <definition name="operatorOrders" extends="operator">  
+        <put-attribute name="title" value="Operator Orders" />   
+        <put-attribute name="body" value="/layout/orders.jsp" />   
+    </definition>
+    <definition name="operatorOrder" extends="operator">  
+        <put-attribute name="title" value="Operator Order" />   
+        <put-attribute name="body" value="/layout/order.jsp" />   
+    </definition>
+    <definition name="operatorStock" extends="operator">  
+        <put-attribute name="title" value="Stock" />   
+        <put-attribute name="body" value="/layout/orders.jsp" />   
+    </definition>
+    <definition name="warehouseState" extends="operator">  
+        <put-attribute name="title" value="Warehouse State" />   
+        <put-attribute name="body" value="/layout/orders.jsp" />   
+    </definition>
     
-    <definition name="operator" extends="user">  
-        <put-attribute name="title" value="Operator" />  
-        <put-attribute name="body" value="/layout/login.jsp" />  
-    </definition> 
     
   
 </tiles-definitions>  

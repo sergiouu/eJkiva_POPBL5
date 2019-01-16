@@ -20,7 +20,7 @@ import javax.persistence.Table;
 public class Product implements java.io.Serializable {
 	@Id
 	@Column(name="productID")
-	private Byte productId;
+	private int productId;
 	@MapsId @ManyToOne
 	@JoinColumn(name="departamentID")
 	//@Column(name="departamentID")
@@ -49,11 +49,11 @@ public class Product implements java.io.Serializable {
 		//this.orderproducts = orderproducts;
 	}
 
-	public Byte getProductId() {
+	public int getProductId() {
 		return this.productId;
 	}
 
-	public void setProductId(Byte productId) {
+	public void setProductId(int productId) {
 		this.productId = productId;
 	}
 

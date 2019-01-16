@@ -21,7 +21,7 @@ import javax.persistence.Table;
 public class User implements java.io.Serializable {
 	@Id
 	@Column(name="userID")
-	private Byte userId;
+	private int userId;
 	@MapsId @ManyToOne
 	@JoinColumn(name="usertypeID")
 //	@Column(name="usertypeID")
@@ -61,11 +61,11 @@ public class User implements java.io.Serializable {
 		this.bornDat = bornDat;
 	}
 
-	public Byte getUserId() {
+	public int getUserId() {
 		return this.userId;
 	}
 
-	public void setUserId(Byte userId) {
+	public void setUserId(int userId) {
 		this.userId = userId;
 	}
 

@@ -14,7 +14,7 @@ import javax.persistence.Table;
 @Table(name="automatch")
 public class Authomach implements java.io.Serializable {
 
-	private Byte machineId;
+	private int machineId;
 	private Segment segment;
 	private String machine;
 	private String description;
@@ -36,11 +36,11 @@ public class Authomach implements java.io.Serializable {
 		this.carrieses = carrieses;
 	}
 
-	public Byte getMachineId() {
+	public int getMachineId() {
 		return this.machineId;
 	}
 
-	public void setMachineId(Byte machineId) {
+	public void setMachineId(int machineId) {
 		this.machineId = machineId;
 	}
 

@@ -14,7 +14,7 @@ import javax.persistence.Table;
 @Table(name="workstation")
 public class Workstation implements java.io.Serializable {
 
-	private Byte workstationId;
+	private int workstationId;
 	private Segment segment;
 	private String workstationNam;
 	private String description;
@@ -39,11 +39,11 @@ public class Workstation implements java.io.Serializable {
 		this.carriesesForInitialWorkstationId = carriesesForInitialWorkstationId;
 	}
 
-	public Byte getWorkstationId() {
+	public int getWorkstationId() {
 		return this.workstationId;
 	}
 
-	public void setWorkstationId(Byte workstationId) {
+	public void setWorkstationId(int workstationId) {
 		this.workstationId = workstationId;
 	}
 
