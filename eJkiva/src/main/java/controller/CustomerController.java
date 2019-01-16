@@ -39,6 +39,7 @@ import utils.HibernateUtils;
 @SessionAttributes 
 public class CustomerController {
 
+	List<Product> cart= new ArrayList<>();
 	UserRepository urepo = new UserRepository();
 	CustomerRepository repo = new CustomerRepository();
 	/**
@@ -50,15 +51,29 @@ public class CustomerController {
 	public String customer(Model m, WebRequest request, HttpServletResponse response, HttpServletRequest hrequest) throws IOException {  
         m.addAttribute("command", new User()); 
         
-
 		HttpSession session = hrequest.getSession(true);
         String productId = hrequest.getParameter("product");
+        String addProductId = hrequest.getParameter("addProduct");
+        
+        List<Product> cartIsEmpty = (List<Product>) request.getAttribute("cart", WebRequest.SCOPE_SESSION);
+        if(cartIsEmpty!=null) {
+        	cart = cartIsEmpty;
+        }
+        
         
         if (productId!= null) {
 			session.setAttribute("product",repo.findProductById(Integer.parseInt(productId)));
         	response.sendRedirect("/eJkiva/customer/product.html");
         }
         
+        if(addProductId!= null) {
+        	System.out.println("PRODUCT ADDED!!!"+addProductId);
+        	cart.add(repo.findProductById(Integer.parseInt(addProductId)));
+        	System.out.println(cart);
+        	hrequest.removeAttribute("addproduct");
+        	session.removeAttribute("addproduct");
+            session.setAttribute("cart", cart);
+        }
         
         User sessionUser = (User) request.getAttribute("user", WebRequest.SCOPE_SESSION);
         Product[] products = repo.getAllProducts();
@@ -72,10 +87,23 @@ public class CustomerController {
 	/**
      * This method will access the customer's 'products' option, where the customer will be able to see all the 
      * products available on the store.
+	 * @throws IOException 
      */
 	@RequestMapping("/customer/product" )  
-	public String showProduct(Model m, WebRequest request, HttpServletRequest hrequest) {  
+	public String showProduct(Model m, WebRequest request, HttpServletResponse response, HttpServletRequest hrequest) throws IOException {  
         m.addAttribute("command", new User()); 
+        
+        HttpSession session = hrequest.getSession(true);
+        String productId = hrequest.getParameter("product");
+        String addProductId = hrequest.getParameter("addProduct");
+                
+        if(addProductId!= null) {
+        	System.out.println("PRODUCT ADDED!!!"+addProductId);
+        	cart.add(repo.findProductById(Integer.parseInt(addProductId)));
+            request.setAttribute("cart", cart, WebRequest.SCOPE_REQUEST);
+        	response.sendRedirect("/eJkiva/customer.html");
+        }
+        
         Product product = (Product) request.getAttribute("product", WebRequest.SCOPE_SESSION);
         request.setAttribute("product", product, WebRequest.SCOPE_REQUEST);
         return "product";  

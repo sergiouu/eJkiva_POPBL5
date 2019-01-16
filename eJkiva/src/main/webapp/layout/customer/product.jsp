@@ -38,11 +38,24 @@
 								type="submit" name="action" value="add">Add</button>
 						</form>
 					</div>
+					<div class="form-group">
+						<div class="row">
+							<div class="col-sm-6 col-sm-offset-3">
+								<input type="submit" id="register-submit" tabindex="4"
+									class="btn btn-primary" name="addProduct"
+									value="${product.productId}">
+							</div>
+							<div>
+								<input type="number" id="number" name="number" min="0" max="50">
+							</div>
+						</div>
+					</div>
 					<div>
 						<form action="backToProducts.html"
 							class="form-inline mt-2 mt-md-0">
-							<button class="btn btn-outline-success my-2 my-sm-0"
-								type="submit" name="action" value="back">Back</button>
+							
+							<a class="btn btn-outline-success my-2 my-sm-0"
+								 href="/eJkiva/customer.html">Back</a>
 						</form>
 					</div>
 				</div>
