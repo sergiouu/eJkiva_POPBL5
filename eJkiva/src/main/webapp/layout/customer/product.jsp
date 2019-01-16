@@ -46,7 +46,7 @@
 									value="${product.productId}">
 							</div>
 							<div>
-								<input type="number" id="number" name="number" min="0" max="50">
+								<input type="number" id="number" name="number" min="1" max="50"  value="1">
 							</div>
 						</div>
 					</div>

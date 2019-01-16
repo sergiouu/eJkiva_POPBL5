@@ -144,6 +144,24 @@ public class CustomerController {
         request.setAttribute("orders", orders, WebRequest.SCOPE_REQUEST);
         return "customerOrder";  
     } 
+	
+	/**
+     * This method will show the actual cart of the customer
+     * 
+     */
+	@RequestMapping("/customer/cart" )  
+	public String cart(Model m, WebRequest request) {  
+        m.addAttribute("command", new User()); 
+        User sessionUser = (User) request.getAttribute("user", WebRequest.SCOPE_SESSION);
+        List<String>listP = repo.getProductList(sessionUser.getUserId());
+        System.out.println(listP);
+        List<Integer>listC = repo.getQuantityList(sessionUser.getUserId(), listP);
+		System.out.println(listC.get(1)+"!!!!!!!!!!!!!!!!!!!!");
+        request.setAttribute("myListP", listP, WebRequest.SCOPE_REQUEST);
+        request.setAttribute("myListC", listC, WebRequest.SCOPE_REQUEST);
+        return "cart";  
+    }
+	
 	/**
      * This method will show a chart showing...
      * 

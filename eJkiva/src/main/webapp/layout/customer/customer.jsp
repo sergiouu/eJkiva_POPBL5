@@ -67,15 +67,15 @@
 												<div class="form-group">
 													<div class="row">
 														<div class="col-sm-2 col-sm-offset-3">
-															<input type="submit" id="register-submit" tabindex="4"
-																class="btn btn-primary" name="addProduct"
-																value="${product.productId}">
+															<button type="submit" id="register-submit" tabindex="4"
+																class="btn btn-secondary" name="addProduct" 
+																value="${product.productId}">Add</button>
 														</div>
 														
 														<div class="col-sm-2 col-sm-offset-3">
-															<input type="submit" id="register-submit" tabindex="4"
-																class="btn btn-primary" name="product"
-																value="${product.productId}">
+															<button type="submit" id="register-submit" tabindex="4"
+																class="btn btn-secondary" name="product"
+																value="${product.productId}">More</button>
 														</div>
 													</div>
 												</div>
@@ -98,8 +98,8 @@
 	<div class="col-xl-3 sidebar">
 		<c:if test="${not empty sessionScope.cart}">
 			<div class="price-range mbr-section-btn" buttons="0">
-				Cart <a class="btn btn-sm btn-primary" href="/eJkiva/customer/cart.html">${fn:length(sessionScope.cart)}</a>
-				
+				Cart <button class="btn btn-sm btn-secondary" href="/eJkiva/customer/cart.html">${fn:length(sessionScope.cart)}</button>
+				<p alt="" class="rounded-circle" style="background-color:red; color:white;">${fn:length(sessionScope.cart)}</p>
 			</div>
 		</c:if>
 		

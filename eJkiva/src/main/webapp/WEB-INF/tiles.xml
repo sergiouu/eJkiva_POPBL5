@@ -46,6 +46,10 @@
         <put-attribute name="title" value="Products History" />   
         <put-attribute name="body" value="/layout/customer/chart.jsp" />   
     </definition>
+    <definition name="cart" extends="customer">  
+        <put-attribute name="title" value="Products Cart" />   
+        <put-attribute name="body" value="/layout/customer/cart.jsp" />   
+    </definition>
         
     <definition name="managerStock" extends="manager">  
         <put-attribute name="title" value="Manager Stock" />   
