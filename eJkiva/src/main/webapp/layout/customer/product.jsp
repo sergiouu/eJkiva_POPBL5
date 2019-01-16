@@ -41,9 +41,9 @@
 					<div class="form-group">
 						<div class="row">
 							<div class="col-sm-6 col-sm-offset-3">
-								<input type="submit" id="register-submit" tabindex="4"
+								<button type="submit" id="register-submit" tabindex="4"
 									class="btn btn-primary" name="addProduct"
-									value="${product.productId}">
+									value="${product.productId}">Add</button>
 							</div>
 							<div>
 								<input type="number" id="number" name="number" min="1" max="50"  value="1">
