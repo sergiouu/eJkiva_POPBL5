@@ -15,9 +15,17 @@
             org.springframework.web.servlet.DispatcherServlet  
     </servlet-class>  
     <load-on-startup>1</load-on-startup>  
-  </servlet>  
+  </servlet>
   <servlet-mapping>  
     <servlet-name>spring</servlet-name>  
     <url-pattern>*.html</url-pattern>  
   </servlet-mapping> 
+  <error-page>
+		<error-code>404</error-code>
+		<location>/layout/error-404.jsp</location>
+	</error-page>
+	<error-page>
+		<error-code>500</error-code>
+		<location>/layout/error-500.jsp</location>
+	</error-page>
 </web-app>
