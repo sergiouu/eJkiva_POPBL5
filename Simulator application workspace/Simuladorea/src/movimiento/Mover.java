@@ -22,42 +22,29 @@ public class Mover {
 	public void xPosyPos() {
 		if(accion.aurrera()) {}
 		else accion.jeitsi();
-		
-		System.out.println(robot);
 	}
 
 	public void xPosyNeg() {
 		if(accion.igo()) {}
 		else accion.aurrera();
-		
-		System.out.println(robot);
-		
 	}
 
 	public void xPosyZero() {
 		if(robot.getWsActual().getPosY()==1) {accion.aurrera();}
 		else {
 			if(accion.igo()) {}
-			else accion.aurrera();}
-		
-		System.out.println(robot);
-		
+			else accion.aurrera();}	
 	}
 
 	public void xNegyPos() {
 		//Beti goian dago.Normal bada Aurrera eta begiratu eskina den. Hala bada igo edo jeitsi
 		if(accion.jeitsi()) {}
 		else accion.aurrera();
-		
-		System.out.println(robot);
-		
 	}
 
 	public void xNegyNeg() {
 		if(accion.aurrera()) {}
 		else accion.igo();
-		
-		System.out.println(robot);
 	}
 
 	public void xNegyZero() {
@@ -65,27 +52,20 @@ public class Mover {
 		else {
 			if(accion.jeitsi()) {}
 			else accion.aurrera();}
-		System.out.println();
-		
 	}
 
 	public void xZeroyPos() {
+		
 		if(accion.jeitsi()) {}
 		else accion.aurrera();
-		
-		System.out.println(robot);
-		
 	}
 	
 	public void xZeroyNeg() {
 		if(accion.igo()) {}
 		else accion.aurrera();
-		System.out.println(robot);
-		
 	}
 
 	public void xZeroyZero() {
-		System.out.println(robot);
 		
 	}
 

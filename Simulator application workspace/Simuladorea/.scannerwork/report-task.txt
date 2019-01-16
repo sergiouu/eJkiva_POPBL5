@@ -1,6 +1,0 @@
-projectKey=Simuladorea
-serverUrl=http://localhost:9000
-serverVersion=7.3.0.15553
-dashboardUrl=http://localhost:9000/dashboard?id=Simuladorea
-ceTaskId=AWgyFveulMznOdBNXF-z
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AWgyFveulMznOdBNXF-z

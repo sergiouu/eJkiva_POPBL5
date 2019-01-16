@@ -4,6 +4,7 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
+
 import circuito.Workstation;
 import movimiento.Mover;
 import producto.Producto;
@@ -19,7 +20,7 @@ public class Robot extends Thread {
 	boolean encendido;
 	String description;
 	Producto producto;
-	Workstation wsActual,wsCogerProducto, wsDestino, wsSiguiente;
+	Workstation wsActual, wsCogerProducto, wsDestino, wsSiguiente;
 	List <Workstation> listaAllWorstations;
 
 	public Robot(int id, String description, Workstation actual, List<Workstation> listaAllWs) {
@@ -33,16 +34,13 @@ public class Robot extends Thread {
 		this.wsDestino = null;
 	}
 	
-	
 	public Workstation getWsCogerProducto() {
 		return wsCogerProducto;
 	}
 
-
 	public void setWsCogerProducto(Workstation wsCogerProducto) {
 		this.wsCogerProducto = wsCogerProducto;
 	}
-
 
 	public void descargarProducto() {
 		this.producto = null;
@@ -92,8 +90,10 @@ public class Robot extends Thread {
 	public void apagarRobot() {
 		lock.lock();
 		try {
+		
 			this.encendido = false;
-			System.out.println("Apagado el robot...");
+			
+		//	System.out.println("Apagado el robot...");
 			this.apagado.await();
 		} catch (InterruptedException e) {
 			e.printStackTrace();
@@ -103,7 +103,7 @@ public class Robot extends Thread {
 	
 	public void encenderRobot() {
 		lock.lock();
-		System.out.println("Encendiendo robot");
+	//	System.out.println(this + "Encendiendo robot...");
 		this.apagado.signal();
 		this.encendido = true;
 		lock.unlock();
@@ -116,36 +116,43 @@ public class Robot extends Thread {
 		do {
 			
 			isEnDestino();	//Si esta en destino deja el paquete
-			try {
-				sleep(500);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+		
+			
 			calcularSiguientePaso(listaAllWorstations);
 			if(this.wsActual.isStateOutside()) {
+			//	System.out.println("viajando en circuito");
 				viajandoEnCircuito();
 			}
 			else {
+			//	System.out.println("esta en ws");
 				estaEnWorkstation();
 			}	
 		}while(ejecucion);
 	}
-	
-	 public void calcularSiguientePaso(List<Workstation> workstationList) {
-			//elena hau da threadendako posizinua
-	    	//cada vez que se mueve if ian sartzen da!
-		 Mover mover =new Mover(this, workstationList);
-//		 System.out.println(this + "Destino 1:" + this.getWsCogerProducto());
-		 int finPosX=this.getWsCogerProducto().getPosX();
-		 int finPosY=this.getWsCogerProducto().getPosY();
+		 
+	private void calcularSiguientePaso(List<Workstation> listaAllWorstations2) {
+	 	//cada vez que se mueve if ian sartzen da!
+		 Mover mover =new Mover(this, listaAllWorstations2);
+		 int finPosX;
+		 int finPosY;
 		 int xValue;
 		 int yValue;
+		 
+		 if(this.getWsCogerProducto()!=null) {
+			   finPosX=this.getWsCogerProducto().getPosX();
+			   finPosY=this.getWsCogerProducto().getPosY();
+			  
+			 }
+	     else {
+			   finPosX=this.getWsDestino().getPosX();
+			   finPosY=this.getWsDestino().getPosY();
+	     }
 		 boolean amaiera=false;
-		//	do {
+			//do {	
 				xValue=this.getWsActual().getPosX()-finPosX;
 				yValue=this.getWsActual().getPosY()-finPosY;
-				
+			
+			
 				if(xValue>0 && yValue>0) {mover.xPosyPos();}
 				else if(xValue>0 && yValue<0) {mover.xPosyNeg();}
 				else if(xValue>0 && yValue==0) {mover.xPosyZero();}
@@ -154,9 +161,11 @@ public class Robot extends Thread {
 				else if(xValue<0 && yValue==0) {mover.xNegyZero();}
 				else if(xValue==0 && yValue>0) {mover.xZeroyPos();}
 				else if(xValue==0 && yValue<0) {mover.xZeroyNeg();}
-				else if(xValue==0 && yValue==0) {amaiera=true;}
-		//	}while(!amaiera);	
-			}
+				else if(xValue==0 && yValue==0) {amaiera=true;
+				}
+			//}while(!amaiera);	
+			
+	}
 
 	private void viajandoEnCircuito() {
 		comprobarSiEstaLibreDentro();
@@ -165,25 +174,29 @@ public class Robot extends Thread {
 		cargarSiDebe();
 	}
 
-
 	private void comprobarSiEstaLibreFuera() {
+
 		if(wsSiguiente.isStateOutside()) {
 			wsSiguiente.setOutsideEspera(this);
+		//	System.out.println(this.wsSiguiente);
+		//	System.out.println(this + "ESPEROOOOO CAMINO");
+			waitAccesoCamino();
 		}
-		waitAccesoCamino();
 	}
-
-
+	
 	private void comprobarSiEstaLibreDentro() {
 		if(wsSiguiente.isStateInside()) {
 			wsSiguiente.setInsideEspera(this);
 			desalojarWs();
+		//	System.out.println(this + " ESPERARWS en :"+this.wsActual);
 			waitAccesoWs();
 		}
 	}
 
 	private void desalojarWs() {
+		wsSiguiente.getInside().setWsCogerProducto(null);
 		wsSiguiente.getInside().setWsDestino(getWorkstationVacio());
+	//	System.out.println("---------------------------desalojando robot:"+ wsSiguiente.getInside() +" a:" + wsSiguiente.getInside().getWsDestino());
 		wsSiguiente.getInside().encenderRobot();
 	}
 
@@ -191,18 +204,19 @@ public class Robot extends Thread {
 		boolean assigned = false;
 		Workstation wsVacio = null;
 		
-		for(id = this.getWsActual().getId(); id <= listaAllWorstations.size(); id++) {
-			if(!getWorkstationById(id).isStateInside() && !assigned) {
-				wsVacio = getWorkstationById(id);
-				assigned = false;
+		for(int n = wsSiguiente.getId(); n <= listaAllWorstations.size(); n++) {
+			if(!getWorkstationById(n).isStateInside() && !assigned) {
+	//			System.out.println(getWorkstationById(n) + "-"+ getWorkstationById(n).isStateInside());
+				wsVacio = getWorkstationById(n);
+				assigned = true;
 			}
 		}
 		
 		if(!assigned) {
-			for(id = this.getWsActual().getId(); id < this.getWsActual().getId() ; id++) {
-				if(!getWorkstationById(id).isStateInside() && !assigned) {
-					wsVacio = getWorkstationById(id);
-					assigned = false;
+			for(int n = 1; n < wsSiguiente.getId() ; n++) {
+				if(!getWorkstationById(n).isStateInside() && !assigned) {
+					wsVacio = getWorkstationById(n);
+					assigned = true;
 				}
 			}
 		}
@@ -221,46 +235,67 @@ public class Robot extends Thread {
 	}
 	
 	private void estaEnWorkstation() {
-		
-		if(wsActual.isStateOutside()) {
-			wsActual.setOutsideEspera(this);
-			this.waitAccesoCamino();
-			wsActual.setOutside(this);
-			wsActual.setOutsideEspera(null);
-			wsActual.setInside(null);
-			this.notificarAccesoCamino();
+		comprobarSiEstaLibreFuera();
+		moverDentroAFuera();
+	}
+
+	private void moverDentroAFuera() {
+		wsActual.setOutside(this);
+		wsActual.setInside(null);
+		try {
+			sleep(200);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
-		
+		notificarAccesoWs();
 	}
 
 	private void cargarSiDebe() {
 		if(wsActual.equals(wsCogerProducto)) {
-			wsActual.setOutside(null);
-			wsActual.setInside(this);
+			entrarDentro();
 			cogerProductoDeWs();
+			wsCogerProducto = null;
+			try {
+				sleep(500);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		//	System.out.println(this + "ha cogido:" + this.producto);
 		}
+	}
+
+	private void entrarDentro() {
+		wsActual.setOutside(null);
+		wsActual.setInside(this);
 	}
 
 	@SuppressWarnings("static-access")
 	private void mover() {
-		System.out.println(this.getId() + "se mueve a" + this.getWsActual());
+		Workstation wsAnterior;
+		wsAnterior = wsActual;
+		wsActual.setOutside(null);
+	//	System.out.println(this+ "se mueve a" + this.getWsSiguiente().getDescription());
 		wsActual = wsSiguiente;
+		
 		wsSiguiente.setOutside(this);
+		wsSiguiente =null;
+		
 		try {
 			this.sleep(2000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		notificarAccesoCamino();
+		notificarAccesoCamino(wsAnterior);
 	}
 
-
-
-	
 	private void waitAccesoCamino() {
 		lock.lock();
-		System.out.println("Esperando acceso al camino");
+	//	System.out.println("WAAAAAAAAAAAIT CAMINO");
+	//	System.out.println(this.wsSiguiente);
+	//	System.out.println(this + "Esperando acceso al camino");
 		try {
 			this.waitAccesoCamino.await();
 		} catch (InterruptedException e) {
@@ -270,17 +305,27 @@ public class Robot extends Thread {
 		lock.unlock();
 	}
 	
-	private void notificarAccesoCamino() {
+	private void notificarAccesoCamino(Workstation wsAnterior) {
 		lock.lock();
-		System.out.println("Permiso concedido a ws");
-		this.waitAccesoCamino.signal();
+		if(wsAnterior.getOutsideEspera()!= null) {
+		//	System.out.println("Notificar acceso a: " + wsAnterior.getOutsideEspera());
+			wsAnterior.getOutsideEspera().despertarOutside();
+			waitAccesoCamino.signal();
+		}
 		lock.unlock();
 	}
 
+	public void despertarOutside()
+	{
+		lock.lock();
+		waitAccesoCamino.signal();
+		lock.unlock();
+	}
+	
 	public void waitAccesoWs() {
 		lock.lock();
 		try {
-			System.out.println("Esperando acceso a ws");
+		//	System.out.println("Esperando acceso a ws");
 			this.waitAccesoWorkstation.await();
 		} catch (InterruptedException e) {
 			e.printStackTrace();
@@ -288,24 +333,42 @@ public class Robot extends Thread {
 		lock.unlock();
 	}
 
-	
 	public void notificarAccesoWs() {
+	//	lock.lock();
+			if(wsActual.getInsideEspera() != null) {
+				wsActual.getInsideEspera().despertarInside();
+			
+			}
+	//	lock.unlock();
+	}
+	
+	public void despertarInside()
+	{
 		lock.lock();
-		System.out.println("Permiso concedido a ws");
-		this.waitAccesoWorkstation.signal();
+		waitAccesoWorkstation.signal();
 		lock.unlock();
 	}
 	
+	
 	void isEnDestino() {
-		if(wsActual.equals(this.wsDestino) || wsCogerProducto == null && wsDestino == null) {
+		if(wsActual.equals(this.wsDestino)) {
 			dejarProductoEnWs();
+			apagarRobot();
+		}
+		if( wsCogerProducto == null && wsDestino == null) {
 			apagarRobot();
 		}
 	}
 	
 	void dejarProductoEnWs() {
-		this.getWsActual().añadirProducto(this.producto);
+		this.getWsActual().setInside(this);
+		this.getWsActual().setOutside(null);
+		if(this.producto!=null) {
+			this.getWsActual().añadirProducto(this.producto);
+			System.out.println(this + "deja:" + this.producto);
+		}
 		this.producto = null;
+		
 	}
 	
 	void cogerProductoDeWs() {
@@ -317,30 +380,6 @@ public class Robot extends Thread {
 		}
 	}
 	
-	public void calcularSiguientePaso(Workstation destino) {
-		//elena hau da threadendako posizinua
-    	//cada vez que se mueve if ian sartzen da!
-		Mover mover =new Mover(this, listaAllWorstations);
-		int finPosX=this.getWsDestino().getPosX();
-		int finPosY=this.getWsDestino().getPosY();
-		int xValue;
-		int yValue;
-		boolean amaiera=false;
-		//do {
-			xValue=this.getWsActual().getPosX()-finPosX;
-			yValue=this.getWsActual().getPosY()-finPosY;
-			
-			if(xValue>0 && yValue>0) {mover.xPosyPos();}
-			else if(xValue>0 && yValue<0) {mover.xPosyNeg();}
-			else if(xValue>0 && yValue==0) {mover.xPosyZero();}
-			else if(xValue<0 && yValue>0) {mover.xNegyPos();}
-			else if(xValue<0 && yValue<0) {mover.xNegyNeg();}
-			else if(xValue<0 && yValue==0) {mover.xNegyZero();}
-			else if(xValue==0 && yValue>0) {mover.xZeroyPos();}
-			else if(xValue==0 && yValue<0) {mover.xZeroyNeg();}
-			else if(xValue==0 && yValue==0) {amaiera=true;}
-		//}while(!amaiera);	
-	}
 }
 	
 

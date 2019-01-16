@@ -1,5 +1,7 @@
 package producto;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 
 import circuito.Circuito;
@@ -12,19 +14,28 @@ public class AdministradorDeProductos extends Thread{
 	public void run() {
 	//	boolean encendido = true;
 		int encendido= 0;
+		añadirProductos();
 		do {
 		//producto = funcion comprobar productos nuevos y añadirlos a la lista
-		añadirProductos();
-		encendido ++;
-		}while(encendido<10);
+	//	añadirProductos();
+			if(productosEnCola.size()>0) {
+				asignarProductoARobot(productosEnCola.get(0), buscarRobotLibre());
+			}
+		}while(true);
 	}
 
+	public void eliminarProducto(Producto eliminarProducto) {
+		for (Iterator<Producto> it = productosEnCola.iterator(); it.hasNext(); ) {
+		    Producto p = it.next();
+		    if (p.equals(eliminarProducto)) {
+		        it.remove();
+		    }
+		}
+	}
+	
+	
 	private void añadirProducto(Producto p) {
 		productosEnCola.add(p);
-		if(asignarProductoARobot(productosEnCola.get(0))) {
-			productosEnCola.remove(0);
-		}
-		System.out.println("cola size:" + productosEnCola);
 	}
 
 	List<Producto> productosEnCola; //pasar a sincronizada para que no pete
@@ -32,31 +43,33 @@ public class AdministradorDeProductos extends Thread{
 	
 	public AdministradorDeProductos(Circuito circuito) {
 		this.circuito = circuito;
-		productosEnCola=new ArrayList<>();
+		productosEnCola=Collections.synchronizedList(new ArrayList<Producto>());
 	}
 
 	private void añadirProductos() {
 		
 		if(kont==0) {
-		añadirProducto(new Producto (1,"iphone", circuito.getByDescription("Product Entry"), circuito.getByDescription("Packaging A")));
-		añadirProducto(new Producto (2,"samsung", circuito.getByDescription("Product Entry"),circuito.getByDescription("Packaging A")));
+		añadirProducto(new Producto (1,"iphone", circuito.getByDescription("Packaging A"), circuito.getByDescription("Order Exit")));
+		añadirProducto(new Producto (2,"samsung",circuito.getByDescription("Packaging A"), circuito.getByDescription("Order Exit")));
 		
 		Producto p; 
-		p = new Producto (5,"pantalon", circuito.getByDescription("Product Entry"), circuito.getByDescription("Packaging A"));
+		p = new Producto (5,"pantalon", circuito.getByDescription("Packaging A"), circuito.getByDescription("Order Exit"));
 		añadirProducto(p);
 
-		p = new Producto (6, "movil", circuito.getByDescription("Product Entry"), circuito.getByDescription("Packaging A"));
+		p = new Producto (6, "movil", circuito.getByDescription("Packaging A"), circuito.getByDescription("Order Exit"));
 		añadirProducto(p);
 		
-		p = new Producto (3, "psp", circuito.getByDescription("Product Entry"), circuito.getByDescription("Packaging A"));
+		p = new Producto (3, "psp", circuito.getByDescription("Packaging A"), circuito.getByDescription("Order Exit"));
 		añadirProducto(p);
 		
-		p = new Producto (4, "boli", circuito.getByDescription("Product Entry"), circuito.getByDescription("Packaging A"));
-		añadirProducto(p);
+		//p = new Producto (4, "boli", circuito.getByDescription("Packaging A"), circuito.getByDescription("Packaging D"));
+		//añadirProducto(p);
 		
 		System.out.println("Products added");
 		kont++;
+		
 		}
+		
 	}
 
 	public Circuito getCircuito() {
@@ -71,8 +84,7 @@ public class AdministradorDeProductos extends Thread{
 	
 	public void asignarPaqueteAWorkstation(Producto producto) {
 		
-			asignarProductoARobot(producto);
-
+		
 		//	System.out.println("ROBOT DESIGNADO PARA PAQUETE: "+producto.getId()+" ES EL ROBOT: "+producto.getRobot());
 			
 			switch(producto.getWsActual().getId()) {
@@ -100,22 +112,22 @@ public class AdministradorDeProductos extends Thread{
 		
 	}
 
-	public boolean asignarProductoARobot(Producto producto) {
-		Robot robot;
+	public boolean asignarProductoARobot(Producto producto, Robot robot) {
+		
 		boolean libre = false;
 		
-		robot = buscarRobotLibre();
 		if(robot!=null) {
 			robot.cargarProducto(producto);
 			System.out.println("Producto asignado:" + "robot id:" + robot.getId()+ "producto:" + robot.getProducto().getDescription());
-			robot.setWsCogerProducto(producto.wsDestino); //CAMBIAR
-			robot.setWsDestino(circuito.getByDescription("Order Exit")); //CAMBIAR
+			robot.setWsCogerProducto(producto.wsActual); //CAMBIAR
+			robot.setWsDestino(producto.wsDestino); //CAMBIAR
 			libre = true;
 			robot.encenderRobot();
+			eliminarProducto(producto);
+			productosEnCola.remove(producto);
 			}
 		else {
 			libre=false;
-			System.out.println("no hay robots libres");
 		}
 		return libre;
 	}
@@ -130,7 +142,6 @@ public class AdministradorDeProductos extends Thread{
 				asignado = true;
 			}		
 		}
-		System.out.println("libre");
 		return libre;
 	}	
 	

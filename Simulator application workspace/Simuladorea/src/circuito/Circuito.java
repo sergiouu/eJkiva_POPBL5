@@ -31,31 +31,31 @@ public class Circuito {
 		workstation=new Workstation(1,0, 0, "Order Exit");
 		listaWorkstation.add(workstation);
 		
-		workstation=new Workstation(2,2, 0, "Product Entry");
+		workstation=new Workstation(3,2, 0, "Product Entry");
 		listaWorkstation.add(workstation);
 
-		workstation=new Workstation(3,0, 1, "Packaging A");
+		workstation=new Workstation(10,0, 1, "Packaging A");
 		listaWorkstation.add(workstation);
 		
-		workstation=new Workstation(4,2, 1, "Packaging B");
+		workstation=new Workstation(8,2, 1, "Packaging B");
 		listaWorkstation.add(workstation);
 		
-		workstation=new Workstation(5,4, 1, "Packaging C");
+		workstation=new Workstation(6,4, 1, "Packaging C");
 		listaWorkstation.add(workstation);
 		
-		workstation=new Workstation(6,4, 0, "Packaging D");
+		workstation=new Workstation(5,4, 0, "Packaging D");
 		listaWorkstation.add(workstation);
 		
-		workstation=new Workstation(7,1, 1, "Parking A");
+		workstation=new Workstation(9,1, 1, "Parking A");
 		listaWorkstation.add(workstation);
 		
-		workstation=new Workstation(8,3, 1, "Parking B");
+		workstation=new Workstation(7,3, 1, "Parking B");
 		listaWorkstation.add(workstation);
 		
-		workstation=new Workstation(9,3, 0, "Parking C");
+		workstation=new Workstation(4,3, 0, "Parking C");
 		listaWorkstation.add(workstation);
 		
-		workstation=new Workstation(10,1, 0, "Parking D");
+		workstation=new Workstation(2,1, 0, "Parking D");
 		listaWorkstation.add(workstation);
 		
 		System.out.println("Workstations created");
@@ -70,9 +70,10 @@ public class Circuito {
 		robot1.start();
 		
 		robot2=new Robot(2,"Robot B",this.getByDescription("Parking B"), listaWorkstation);
-		this.getByDescription("Parking B").setInside(robot2);
+		this.getByDescription("Parking C").setInside(robot2);
 		listaRobot.add(robot2);
 		robot2.start();
+		System.out.println("robots added" + listaRobot.size());
 		
 		robot3=new Robot(3,"Robot C",this.getByDescription("Parking C"), listaWorkstation);
 		this.getByDescription("Parking C").setInside(robot3);

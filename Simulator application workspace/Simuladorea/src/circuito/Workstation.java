@@ -1,5 +1,6 @@
 package circuito;
 import java.util.ArrayList;
+import java.util.List;
 
 import objeto.Robot;
 import producto.Producto;
@@ -8,7 +9,7 @@ public class Workstation {
 	int id, posX, posY;
 	Robot inside, outside, insideEspera, outsideEspera;
 	String description;
-	ArrayList<Producto> listaProductos;
+	List<Producto> listaProductos;
 	
 	public Workstation(int id,int posX,int posY, String description) {
 		this.id=id;
@@ -20,10 +21,11 @@ public class Workstation {
 		listaProductos = new ArrayList<Producto>();	
 	}
 	
+
 	public Robot getInsideEspera() {
 		return insideEspera;
 	}
-
+	
 	public void setInsideEspera(Robot insideEspera) {
 		this.insideEspera = insideEspera;
 	}
@@ -63,7 +65,7 @@ public class Workstation {
 		this.inside = inside;
 	}
 	public boolean isStateOutside() {
-		if (this.inside == null) return false;
+		if (this.outside == null) return false;
 		return true;
 	}
 	public void setOutside(Robot outside) {
@@ -80,7 +82,7 @@ public class Workstation {
 		return description;
 	}
 	
-	public ArrayList<Producto> getListaProductos() {
+	public List<Producto> getListaProductos() {
 		return listaProductos;
 	}
 
