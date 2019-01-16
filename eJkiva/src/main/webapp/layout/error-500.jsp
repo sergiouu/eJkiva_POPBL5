@@ -199,7 +199,7 @@ body {
 <body>
 	<div class="wrap">
 		<div class="logo">
-			<img src="../img/500-1.png" alt="error 500 image" />
+			<img src="img/500-1.png" alt="error 500 image" />
 			<p>OOPS! - An error occurred! ;(</p>
 			<div class="sub">
 				<p>

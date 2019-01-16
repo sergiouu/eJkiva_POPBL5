@@ -48,7 +48,7 @@
 										<div class="galleryItem" data-toggle="modal">
 											<div class="style_overlay"></div>
 											<div class="img_wraper">
-												<img alt="" src="assets/images/shop0.jpg">
+												<img alt="" src="${product.image}">
 											</div>
 											<span class="onsale mbr-fonts-style display-7"
 												data-onsale="false" style="display: none;">-50%</span>
@@ -98,7 +98,8 @@
 	<div class="col-xl-3 sidebar">
 		<c:if test="${not empty sessionScope.cart}">
 			<div class="price-range mbr-section-btn" buttons="0">
-				Cart <button class="btn btn-sm btn-secondary" href="/eJkiva/customer/cart.html">${fn:length(sessionScope.cart)}</button>
+			<img src="img/cart.png" ${fn:length(sessionScope.cart)}>
+				<a class="btn btn-sm btn-secondary" href="/eJkiva/customer/cart.html">${fn:length(sessionScope.cart)}</a>
 				<p alt="" class="rounded-circle" style="background-color:red; color:white;">${fn:length(sessionScope.cart)}</p>
 			</div>
 		</c:if>

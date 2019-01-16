@@ -198,7 +198,7 @@ body {
 <body>
 	<div class="wrap">
 		<div class="logo">
-			<img src="../img/404-1.png" alt="404 error image"/>
+			<img src="img/404-1.png" alt="404 error image"/>
 			<p>OOPS! - Could not Find it</p>
 			<div class="sub">
 				<p>
