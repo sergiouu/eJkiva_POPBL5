@@ -47,7 +47,7 @@ public class LoginController {
 	 * @throws Exception 
      */
 	@RequestMapping("/login")  
-    public String login(Model m, HttpServletResponse response, HttpServletRequest request) throws Exception {  
+    public String login(Model m, HttpServletResponse response, HttpServletRequest request, WebRequest wrequest) throws Exception {  
         m.addAttribute("command", new User());
         repo = new UserRepository();
 		//UserRepository repo = new UserRepository();
@@ -114,8 +114,10 @@ public class LoginController {
 			        break; 
 				}
 				
-			case "Log Out":
+			case "logout":
 				session.removeAttribute("user");
+				session.removeAttribute("cart");
+				session.invalidate();
 				break;
 		} 
 		return "login";

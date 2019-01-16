@@ -58,7 +58,7 @@
 												<div class="price-block">
 													<span class="shop-item-price mbr-fonts-style display-5">${product.price}</span><span
 														class="oldprice mbr-fonts-style display-7"
-														style="display: none;">${product.price}</span>
+														style="display: none;">${product.price} </span>
 												</div>
 												<div class="card-description">
 													${product.description}<br> <br>

@@ -39,6 +39,7 @@ import utils.HibernateUtils;
 @SessionAttributes 
 public class CustomerController {
 
+	
 	List<Product> cart= new ArrayList<>();
 	UserRepository urepo = new UserRepository();
 	CustomerRepository repo = new CustomerRepository();
@@ -69,10 +70,12 @@ public class CustomerController {
         if(addProductId!= null) {
         	System.out.println("PRODUCT ADDED!!!"+addProductId);
         	cart.add(repo.findProductById(Integer.parseInt(addProductId)));
-        	System.out.println(cart);
+        	hrequest.removeAttribute("number");
         	hrequest.removeAttribute("addproduct");
         	session.removeAttribute("addproduct");
+        	System.out.println(cart);
             session.setAttribute("cart", cart);
+            session.setAttribute("number", cart);
         }
         
         User sessionUser = (User) request.getAttribute("user", WebRequest.SCOPE_SESSION);
@@ -99,8 +102,13 @@ public class CustomerController {
                 
         if(addProductId!= null) {
         	System.out.println("PRODUCT ADDED!!!"+addProductId);
-        	cart.add(repo.findProductById(Integer.parseInt(addProductId)));
-            request.setAttribute("cart", cart, WebRequest.SCOPE_REQUEST);
+        	int num = Integer.parseInt(hrequest.getParameter("number"));
+        	for(int i=0; i<num; i++) {
+        		cart.add(repo.findProductById(Integer.parseInt(addProductId)));
+        	}
+        	session.setAttribute("cart", cart);
+            session.setAttribute("number", cart);
+        	System.out.println(cart);
         	response.sendRedirect("/eJkiva/customer.html");
         }
         
