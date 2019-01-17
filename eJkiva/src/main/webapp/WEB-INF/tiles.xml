@@ -61,7 +61,7 @@
     </definition>
     <definition name="warehouseHistory" extends="manager">  
         <put-attribute name="title" value="Manager Orders" />   
-        <put-attribute name="body" value="/layout/orders.jsp" />   
+        <put-attribute name="body" value="/layout/manager/history.jsp" />   
     </definition>    
     <definition name="managerOrders" extends="manager">  
         <put-attribute name="title" value="Show Orders" />   

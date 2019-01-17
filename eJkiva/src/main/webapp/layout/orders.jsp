@@ -13,9 +13,12 @@
 					<div class="col-lg-12">
 						<div class="card">
 							<div class="card-header" id="headingOne">
-								<div class="form-group">								
-									<p class="display-4">${order.date}<a href="order.html"
-											class='btn btn-primary float-right display-7' name="order" value="${order.orderId}">More</a>
+								<div class="form-group">	
+									<button type="submit" id="register-submit" tabindex="4"
+																class="btn btn-primary float-right display-7" name="order"
+																value="${order.orderId}">More</button>							
+									<p class="display-4">${order.date}<!--a href="order.html"
+											class='btn btn-primary float-right display-7' name="order" value="${order.orderId}">More</a-->
 									</p>
 								</div>
 							</div>

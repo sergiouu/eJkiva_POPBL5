@@ -1,13 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
-<%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 
-	  <h1>PRODUCT HISTORY</h1>
-<c:if test="${not empty requestScope.mylistP}">
-BAI
-</c:if>
 	<div id="container" style="height: 100%"></div>
        <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts.min.js"></script>
        <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-gl/echarts-gl.min.js"></script>
@@ -22,10 +15,10 @@ BAI
 		
        var dom = document.getElementById("container");
 		
-		list ="${mylistP}";
+		list ="${myListP}";
 		console.log(list);
 		console.log(list[1]);
-		valueList =${mylistC}; 
+		valueList =${myListC}; 
 		console.log(valueList);
 		
 		

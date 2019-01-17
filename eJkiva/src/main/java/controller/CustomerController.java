@@ -202,9 +202,9 @@ public class CustomerController {
         m.addAttribute("command", new User()); 
         User sessionUser = (User) request.getAttribute("user", WebRequest.SCOPE_SESSION);
         List<String>listP = repo.getProductList(sessionUser.getUserId());
-        System.out.println(listP);
         List<Integer>listC = repo.getQuantityList(sessionUser.getUserId(), listP);
-		System.out.println(listC.get(1)+"!!!!!!!!!!!!!!!!!!!!");
+        System.out.println(listP+"!!!!!!!!*****!!!!!!!!!!!!");
+		System.out.println(listC+"!!!*****!!!!!!!!!!!!!!!!!");
         request.setAttribute("myListP", listP, WebRequest.SCOPE_REQUEST);
         request.setAttribute("myListC", listC, WebRequest.SCOPE_REQUEST);
         return "productHistory";  

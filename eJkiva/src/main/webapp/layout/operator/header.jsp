@@ -27,7 +27,7 @@
       </ul>
       <c:if test="${not empty sessionScope.user}">
 			<div class="logout">
-				<form action="login.html" class="form-inline mt-2 mt-md-0">
+				<form action="/eJkiva/login.html" class="form-inline mt-2 mt-md-0">
 					<button class="btn btn-outline-success my-2 my-sm-0" type="submit" name="action" value="logout">Logout</button>
 				</form>
 			</div>

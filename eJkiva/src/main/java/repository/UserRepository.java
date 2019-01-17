@@ -77,4 +77,21 @@ public class UserRepository {
 		Order order=query.uniqueResult();
 		return order;
 	}
+	
+	/**
+     * This method will find an order by its ID
+     */
+	public List<Product> getProductsFromOrder(int id) {
+		Session session= HibernateUtils.getSessionFactory().openSession();
+		Query<Product> query=session.createSQLQuery("select p.productID as productID, p.product_name as product_name, o.dateDelivered as dateDelivered, p.image as image, op.quantity as quantity\r\n" + 
+				"from product p\r\n" + 
+				"inner join orderproduct op on p.productID =  op.productID\r\n" + 
+				"inner join `order` o on op.orderId = o.orderID\r\n" + 
+				"where o.orderID = '"+id+"';").addEntity(Product.class);
+		List<Product> products=query.getResultList();
+		return products;
+	}
+	
+	
+	
 }
