@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-
+QSSC
 	<div id="container" style="height: 100%"></div>
        <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts.min.js"></script>
        <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-gl/echarts-gl.min.js"></script>
@@ -26,7 +26,7 @@
 		prod = list.split('[');
 		prod = prod[1].split(']');
 		prod = prod[0].split(',');
-		
+		console.log(prod);
 		var dom = document.getElementById("container");
 		var myChart = echarts.init(dom);
 		var app = {};

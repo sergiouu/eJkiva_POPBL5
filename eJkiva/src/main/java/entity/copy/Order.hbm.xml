@@ -11,11 +11,8 @@
         <many-to-one name="user" class="entity.User" fetch="select">
             <column name="userID" />
         </many-to-one>
-        <property name="dateOrder" type="date">
-            <column name="dateOrder" length="10" />
-        </property>
-        <property name="dateDelivered" type="date">
-            <column name="dateDelivered" length="10" />
+        <property name="date" type="date">
+            <column name="date" length="10" />
         </property>
        <!-- <set name="orderproducts" table="orderproduct" inverse="true" lazy="true" fetch="select">
             <key>

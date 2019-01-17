@@ -20,9 +20,6 @@
         <property name="price" type="float">
             <column name="price" precision="12" scale="0" not-null="true" />
         </property>
-        <property name="image" type="string">
-            <column name="image" />
-        </property>
       <!--   <set name="orderproducts" table="orderproduct" inverse="true" lazy="true" fetch="select">
             <key>
                 <column name="productID" not-null="true" />

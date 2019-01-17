@@ -1,15 +1,13 @@
-package entity;
+package entity.copy;
 // Generated 15-ene-2019 0:02:31 by Hibernate Tools 5.1.0.Alpha1
 
 import java.util.HashSet;
 import java.util.Set;
 
-import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
-import javax.persistence.JoinTable;
 import javax.persistence.ManyToOne;
 import javax.persistence.MapsId;
 import javax.persistence.Table;
@@ -23,10 +21,8 @@ public class Product implements java.io.Serializable {
 	@Id
 	@Column(name="productID")
 	private int productId;
-	@MapsId //@ManyToOne
-	@ManyToOne( cascade = {CascadeType.PERSIST, CascadeType.MERGE}, targetEntity=Departament.class )
-    @JoinColumn(name="departamentID")
-	//@JoinColumn(name="departamentID")
+	@MapsId @ManyToOne
+	@JoinColumn(name="departamentID")
 	//@Column(name="departamentID")
 	private Departament departament;
 	@Column(name="product_name")
@@ -35,8 +31,6 @@ public class Product implements java.io.Serializable {
 	private String description;
 	@Column(name="price")
 	private float price;
-	@Column(name="image")
-	private String image;
 	//private Set orderproducts = new HashSet(0);
 
 	public Product() {
@@ -47,12 +41,11 @@ public class Product implements java.io.Serializable {
 		this.price = price;
 	}
 
-	public Product(Departament departament, String productName, String description, float price, String image) {
+	public Product(Departament departament, String productName, String description, float price) {
 		this.departament = departament;
 		this.productName = productName;
 		this.description = description;
 		this.price = price;
-		this.image = image;
 		//this.orderproducts = orderproducts;
 	}
 
@@ -95,8 +88,6 @@ public class Product implements java.io.Serializable {
 	public void setPrice(float price) {
 		this.price = price;
 	}
-	
-	
 /*
 	public Set getOrderproducts() {
 		return this.orderproducts;
@@ -105,14 +96,6 @@ public class Product implements java.io.Serializable {
 	public void setOrderproducts(Set orderproducts) {
 		this.orderproducts = orderproducts;
 	}*/
-
-	public String getImage() {
-		return image;
-	}
-
-	public void setImage(String image) {
-		this.image = image;
-	}
 
 	@Override
 	public String toString() {

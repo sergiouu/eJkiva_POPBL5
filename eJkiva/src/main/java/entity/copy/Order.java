@@ -1,4 +1,4 @@
-package entity;
+package entity.copy;
 // Generated 15-ene-2019 0:02:31 by Hibernate Tools 5.1.0.Alpha1
 
 import java.util.Date;
@@ -26,18 +26,15 @@ public class Order implements java.io.Serializable {
 	@JoinColumn(name="userID")
 	//@Column(name="userID")
 	private User user;
-	@Column(name="dateOrder")
-	private Date dateOrder;	
-	@Column(name="dateDelivered")
-	private Date dateDelivered;	
+	@Column(name="date")
+	private Date date;	
 
 	public Order() {
 	}
 
-	public Order(User user, Date dateOrder, Date dateDelivered) {
+	public Order(User user, Date date) {
 		this.user = user;
-		this.dateOrder = dateOrder;
-		this.dateDelivered = dateDelivered;
+		this.date = date;
 	}
 
 	public int getOrderId() {
@@ -56,23 +53,13 @@ public class Order implements java.io.Serializable {
 		this.user = user;
 	}
 
-	public Date getDateOrder() {
-		return dateOrder;
+	public Date getDate() {
+		return this.date;
 	}
 
-	public void setDateOrder(Date dateOrder) {
-		this.dateOrder = dateOrder;
+	public void setDate(Date date) {
+		this.date = date;
 	}
-
-	public Date getDateDelivered() {
-		return dateDelivered;
-	}
-
-	public void setDateDelivered(Date dateDelivered) {
-		this.dateDelivered = dateDelivered;
-	}
-
-	
 
 
 }

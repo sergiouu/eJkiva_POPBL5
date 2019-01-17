@@ -17,7 +17,7 @@
 									<button type="submit" id="register-submit" tabindex="4"
 																class="btn btn-primary float-right display-7" name="order"
 																value="${order.orderId}">More</button>							
-									<p class="display-4">${order.date}<!--a href="order.html"
+									<p class="display-4">${order.dateOrder}<!--a href="order.html"
 											class='btn btn-primary float-right display-7' name="order" value="${order.orderId}">More</a-->
 									</p>
 								</div>
