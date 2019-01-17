@@ -98,8 +98,8 @@
 	<div class="col-xl-3 sidebar">
 		<c:if test="${not empty sessionScope.cart}">
 			<div class="price-range mbr-section-btn" buttons="0">
-				Cart <a class="btn btn-sm btn-secondary" href="/eJkiva/customer/cart.html" value="cart">${fn:length(sessionScope.cart)}
-				<p alt="" class="rounded-circle" style="background-color:red; color:white;">${fn:length(sessionScope.cart)}</p>
+				Cart <a class="btn btn-sm btn-secondary" href="/eJkiva/customer/cart.html" value="cart">${sessionScope.totalCart} items on cart
+				<p alt="" class="rounded-circle" style="background-color:red; width:20px; color:white;">${fn:length(sessionScope.cart)}</p>
 			</div>
 		</c:if>
 		

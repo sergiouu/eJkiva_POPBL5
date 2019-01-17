@@ -41,6 +41,7 @@ public class CustomerController {
 
 	
 	List<Product> cart= new ArrayList<>();
+	List<Integer> nums= new ArrayList<>();
 	UserRepository urepo = new UserRepository();
 	CustomerRepository repo = new CustomerRepository();
 	/**
@@ -59,6 +60,7 @@ public class CustomerController {
         List<Product> cartIsEmpty = (List<Product>) request.getAttribute("cart", WebRequest.SCOPE_SESSION);
         if(cartIsEmpty!=null) {
         	cart = cartIsEmpty;
+        	nums = (List<Integer>) request.getAttribute("number", WebRequest.SCOPE_SESSION);
         }
         
         
@@ -69,13 +71,14 @@ public class CustomerController {
         
         if(addProductId!= null) {
         	System.out.println("PRODUCT ADDED!!!"+addProductId);
-        	cart.add(repo.findProductById(Integer.parseInt(addProductId)));
+        	addProductToCart(repo.findProductById(Integer.parseInt(addProductId)) , 1);
         	hrequest.removeAttribute("number");
+        	hrequest.removeAttribute("cart");
         	hrequest.removeAttribute("addproduct");
         	session.removeAttribute("addproduct");
-        	System.out.println(cart);
             session.setAttribute("cart", cart);
-            session.setAttribute("number", cart);
+            session.setAttribute("number", nums);
+            session.setAttribute("totalCart", getTotalCart());
         }
         
         User sessionUser = (User) request.getAttribute("user", WebRequest.SCOPE_SESSION);
@@ -107,8 +110,7 @@ public class CustomerController {
         		cart.add(repo.findProductById(Integer.parseInt(addProductId)));
         	}
         	session.setAttribute("cart", cart);
-            session.setAttribute("number", cart);
-        	System.out.println(cart);
+            session.setAttribute("number", nums);
         	response.sendRedirect("/eJkiva/customer.html");
         }
         
@@ -153,15 +155,44 @@ public class CustomerController {
 	public String cart(Model m, WebRequest request) {  
         m.addAttribute("command", new User()); 
         User sessionUser = (User) request.getAttribute("user", WebRequest.SCOPE_SESSION);
-        List<String>listP = repo.getProductList(sessionUser.getUserId());
-        System.out.println(listP);
-        List<Integer>listC = repo.getQuantityList(sessionUser.getUserId(), listP);
-		System.out.println(listC.get(1)+"!!!!!!!!!!!!!!!!!!!!");
-        request.setAttribute("myListP", listP, WebRequest.SCOPE_REQUEST);
-        request.setAttribute("myListC", listC, WebRequest.SCOPE_REQUEST);
+        request.setAttribute("numbers", nums, WebRequest.SCOPE_REQUEST);
+        request.setAttribute("products", cart, WebRequest.SCOPE_REQUEST);
         return "cart";  
     }
 	
+	private void addProductToCart(Product p, int n) {
+		boolean isRepeated = false;
+		int pos = -1;
+		for(Product pr: cart) {
+			if(pr.getProductId() == p.getProductId()) {
+				isRepeated = true;
+				pos = cart.indexOf(pr);
+				break;
+			}
+		}
+		
+		if(isRepeated) {
+			int i = nums.get(pos) + n;
+			nums.set(pos, i);
+			
+		}else {
+			cart.add(p);
+			nums.add(n);
+		}
+	
+		System.out.println("CART"+cart);
+		System.out.println("QUANTITIES"+nums);
+	}
+
+	private int getTotalCart() {
+		int total = 0;
+		for(int n : nums) {
+			total+=n;
+		}
+		return total;
+	}
+
+
 	/**
      * This method will show a chart showing...
      * 
