@@ -28,10 +28,10 @@
       <ul class="navbar-nav mr-auto">
       
         <li class="nav-item">
-          <a class="nav-link disabled" href="/eJkiva/customer/cart.html"><img src="../img/cart.png">Cart</a>
+          <a class="nav-link disabled" href="/eJkiva/customer/cart.html">Cart</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/eJkiva/customer/orders.html"><img src="img/history.png">History</a>
+          <a class="nav-link" href="/eJkiva/customer/orders.html">History</a>
         </li>
         <li class="nav-item active">
         	

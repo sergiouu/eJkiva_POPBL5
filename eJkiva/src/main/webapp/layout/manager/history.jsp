@@ -1,62 +1,94 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 
-	<div style="height: 100%; width:100%">
-	   <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts.min.js"></script>
-	   <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-gl/echarts-gl.min.js"></script>
-       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-stat/ecStat.min.js"></script>
-       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/dataTool.min.js"></script>
-       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/china.js"></script>
-       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/world.js"></script>
-       <script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=ZUONbpqGBsYGXNIYHicvbAbM"></script>
-       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/bmap.min.js"></script>
-       <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/simplex.js"></script>
-       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  	   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
 
-  	  <p  class="text-center display-4">ITEMS THAT HAVE BEEN TAKEN OUT FROM THE WAREHOUSE</p><br/>
-	<form method="post" action="history.html" class="center-block">
-			<div class="col-lg-8 col-centered">
-				<div class="form-group"
-					class="d-flex justify-content-center bg-secondary mb-3">
-					<div class="row center-block">
-						<div class="p-2">
-							<label for="sel1">Select month:</label>
-						</div>
+#styled {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#styled2 {
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+#text {
+	margin: 0;
+	display: flex;
+	align-self:center;
+}
+</style>
+
+<div style="height: 100%; width: 100%;">
+	<script type="text/javascript"
+		src="http://echarts.baidu.com/gallery/vendors/echarts/echarts.min.js"></script>
+	<script type="text/javascript"
+		src="http://echarts.baidu.com/gallery/vendors/echarts-gl/echarts-gl.min.js"></script>
+	<script type="text/javascript"
+		src="http://echarts.baidu.com/gallery/vendors/echarts-stat/ecStat.min.js"></script>
+	<script type="text/javascript"
+		src="http://echarts.baidu.com/gallery/vendors/echarts/extension/dataTool.min.js"></script>
+	<script type="text/javascript"
+		src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/china.js"></script>
+	<script type="text/javascript"
+		src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/world.js"></script>
+	<script type="text/javascript"
+		src="https://api.map.baidu.com/api?v=2.0&ak=ZUONbpqGBsYGXNIYHicvbAbM"></script>
+	<script type="text/javascript"
+		src="http://echarts.baidu.com/gallery/vendors/echarts/extension/bmap.min.js"></script>
+	<script type="text/javascript"
+		src="http://echarts.baidu.com/gallery/vendors/simplex.js"></script>
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<p class="text-center display-4">ITEMS THAT HAVE BEEN TAKEN OUT
+		FROM THE WAREHOUSE</p>
+	<br />
+	<form method="post" action="history.html" >
+		<div class="col-lg-12">
+			<div class="form-group"
+				class="d-flex justify-content-center bg-secondary mb-3">
+				<div class="row" id="styled2">
+					<div class="col col-lg-6" id="styled">
+						<select class="form-control" name="month" id="month">
+							<option value="1">January</option>
+							<option value="2">February</option>
+							<option value="3">March</option>
+							<option value="4">April</option>
+							<option value="5">May</option>
+							<option value="6">June</option>
+							<option value="7">July</option>
+							<option value="8">August</option>
+							<option value="9">September</option>
+							<option value="10">October</option>
+							<option value="11">November</option>
+							<option value="12">December</option>
+						</select>
 					</div>
-					<div class="row">
-						<div class="col col-lg-6 center-block">
-							<select class="form-control" name="month" id="month">
-								<option value="1">January</option>
-								<option value="2">February</option>
-								<option value="3">March</option>
-								<option value="4">April</option>
-								<option value="5">May</option>
-								<option value="6">June</option>
-								<option value="7">July</option>
-								<option value="8">August</option>
-								<option value="9">September</option>
-								<option value="10">October</option>
-								<option value="11">November</option>
-								<option value="12">December</option>
-							</select>
-						</div>
 
-						<div class="col col-lg-2 center-block" class="text-center">
+					<div class="col col-lg-2 center-block" class="text-center">
 
-							<button class="form-control" type="Submit" name="action"
-								value="ok" class="btn btn-secondary btn-lg active" role="button"
-								aria-pressed="true">ok</button>
-						</div>
+						<button class="form-control" type="Submit" name="action"
+							value="ok" class="btn btn-secondary btn-lg active" role="button"
+							aria-pressed="true">ok</button>
 					</div>
-
-
 				</div>
+
+
 			</div>
+		</div>
 
 	</form>
-	<div id="container" style="height: 500px; width:100%"></div>
-       
-     <script type="text/javascript">     
+	<div id="container" style="height: 500px; width: 100%"></div>
+
+	<script type="text/javascript">     
 		var dom = document.getElementById("container");
 		
 		list = null;
@@ -103,4 +135,4 @@
 		    myChart.setOption(option, true);
 		}
        </script>
-	</div>
+</div>

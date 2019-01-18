@@ -16,9 +16,6 @@
           <a class="nav-link" href="/eJkiva/operator/orders.html">Orders</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="/eJkiva/operator/stock.html">Stock</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="/eJkiva/operator/warehouse.html">Warehouse current state</a>
         </li>
       </ul>
