@@ -1,4 +1,8 @@
 var searchData=
 [
-  ['login',['login',['../classcontroller_1_1_login_controller.html#a9fd62e375ad30b0553200ad40d859cbc',1,'controller::LoginController']]]
+  ['cart',['cart',['../classcontroller_1_1_customer_controller.html#a90aa906ff9e90be62b82941992350235',1,'controller::CustomerController']]],
+  ['chart',['chart',['../classcontroller_1_1_customer_controller.html#add866b64d6e08876db8b97087eaeb389',1,'controller::CustomerController']]],
+  ['checkuser',['checkUser',['../classrepository_1_1_user_repository.html#adf10692a176bf2819fb70895530ef086',1,'repository::UserRepository']]],
+  ['checkusertype',['checkUsertype',['../classrepository_1_1_user_repository.html#a8e4a797c0eb806d34793295af70fd281',1,'repository::UserRepository']]],
+  ['customer',['customer',['../classcontroller_1_1_customer_controller.html#a5496f4bf5f03f585ee223c0192d4fc85',1,'controller.CustomerController.customer()'],['../classcontroller_1_1_manager_controller.html#aa49d493a4fb9aa5f0e99f942b21d3991',1,'controller.ManagerController.customer()'],['../classcontroller_1_1_operator_controller.html#af4c2983ca84d7115743de160da84135c',1,'controller.OperatorController.customer()']]]
 ];

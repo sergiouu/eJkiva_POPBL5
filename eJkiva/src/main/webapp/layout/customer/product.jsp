@@ -17,7 +17,7 @@
 				<div class="card-image">
 					<span class="card-notify-badge">${requestScope.product.productName}</span> <span
 						class="card-notify-year">${requestScope.product.price}</span> <img class="img-fluid"
-						src="https://imageonthefly.autodatadirect.com/images/?USER=eDealer&PW=edealer872&IMG=CAC80HOC021B121001.jpg&width=440&height=262"
+						src="../img/${requestScope.product.image}"
 						alt="Alternate Text" />
 				</div>
 				<div class="card-image-overlay m-auto">
@@ -31,18 +31,11 @@
 
 				</div>
 				<div id="buttons">
-					<div>
-						<form action="backToProducts.html"
-							class="form-inline mt-2 mt-md-0">
-							<button class="btn btn-outline-success my-2 my-sm-0"
-								type="submit" name="action" value="add">Add</button>
-						</form>
-					</div>
 					<div class="form-group">
 						<div class="row">
 							<div class="col-sm-6 col-sm-offset-3">
 								<button type="submit" id="register-submit" tabindex="4"
-									class="btn btn-primary" name="addProduct"
+									class="btn btn-outline-success my-2 my-sm-0" name="addProduct"
 									value="${product.productId}">Add</button>
 							</div>
 							<div>

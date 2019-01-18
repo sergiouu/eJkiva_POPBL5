@@ -8,7 +8,7 @@
 	<c:when test="${not empty requestScope.orders}">
 		<form:form method="post" action="orders.html">
 		<div class="form-group">
-			<h1>Your orders</h1>
+			<p class="display-4">Your orders</p>
 			<c:forEach items="${requestScope.orders}" var="order">
 					<div class="col-lg-12">
 						<div class="card">
@@ -19,6 +19,8 @@
 																value="${order.orderId}">More</button>							
 									<p class="display-4">${order.dateOrder}<!--a href="order.html"
 											class='btn btn-primary float-right display-7' name="order" value="${order.orderId}">More</a-->
+									</p>
+									<p style="color:red;"><c:if test = "${order.dateDelivered != null}">Delievered</c:if>
 									</p>
 								</div>
 							</div>

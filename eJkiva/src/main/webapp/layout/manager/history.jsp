@@ -13,7 +13,7 @@
        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   	   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-  	  <h1  class="text-center">ITEMS THAT HAVE BEEN TAKEN OUT FROM THE WAREHOUSE</h1><br/>
+  	  <p  class="text-center display-4">ITEMS THAT HAVE BEEN TAKEN OUT FROM THE WAREHOUSE</p><br/>
 	<form method="post" action="history.html" class="center-block">
 			<div class="col-lg-8 col-centered">
 				<div class="form-group"

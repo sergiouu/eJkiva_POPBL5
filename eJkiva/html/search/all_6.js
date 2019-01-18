@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['product',['Product',['../classentity_1_1_product.html',1,'entity']]],
-  ['products',['products',['../classcontroller_1_1_customer_controller.html#afb6819bc842a49356132ba336b1694d9',1,'controller::CustomerController']]]
+  ['login',['login',['../classcontroller_1_1_login_controller.html#a98e670c0e2a6a391f1b5b9cb451aedeb',1,'controller::LoginController']]],
+  ['logincontroller',['LoginController',['../classcontroller_1_1_login_controller.html',1,'controller']]]
 ];

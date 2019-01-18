@@ -19,9 +19,6 @@
           <a class="nav-link disabled" href="/eJkiva/manager/stock.html">Stock</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/eJkiva/manager/sales.html">Sales</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="/eJkiva/manager/history.html">Warehouse history</a>
         </li>
       </ul>

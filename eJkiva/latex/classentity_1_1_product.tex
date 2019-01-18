@@ -11,17 +11,17 @@ Collaboration diagram for entity.\+Product\+:
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\Hypertarget{classentity_1_1_product_a5c20116e136e01b4c3919ee4446551ac}\label{classentity_1_1_product_a5c20116e136e01b4c3919ee4446551ac}} 
-{\bfseries Product} (String prod\+Name)
+\mbox{\Hypertarget{classentity_1_1_product_a16490d212d113e14eb833a18ffd35c9e}\label{classentity_1_1_product_a16490d212d113e14eb833a18ffd35c9e}} 
+{\bfseries Product} (String product\+Name, float price)
 \item 
-\mbox{\Hypertarget{classentity_1_1_product_aefcb6d85d34a0e81ad3f1f7db8b3cab1}\label{classentity_1_1_product_aefcb6d85d34a0e81ad3f1f7db8b3cab1}} 
-{\bfseries Product} (\mbox{\hyperlink{classentity_1_1_departament}{Departament}} departament, String prod\+Name, Byte price, Set orderproducts)
+\mbox{\Hypertarget{classentity_1_1_product_aac8d06cb1b251960fd960abec0ed08ce}\label{classentity_1_1_product_aac8d06cb1b251960fd960abec0ed08ce}} 
+{\bfseries Product} (\mbox{\hyperlink{classentity_1_1_departament}{Departament}} departament, String product\+Name, String description, float price, String image)
 \item 
-\mbox{\Hypertarget{classentity_1_1_product_af05024d236d0c3b6b71ba8b770274cec}\label{classentity_1_1_product_af05024d236d0c3b6b71ba8b770274cec}} 
-Short {\bfseries get\+Product\+Id} ()
+\mbox{\Hypertarget{classentity_1_1_product_a2d097a6e21ca5384407ef2d5629409d0}\label{classentity_1_1_product_a2d097a6e21ca5384407ef2d5629409d0}} 
+int {\bfseries get\+Product\+Id} ()
 \item 
-\mbox{\Hypertarget{classentity_1_1_product_ab5f1b94906f3e47f8fe0625adf5745ce}\label{classentity_1_1_product_ab5f1b94906f3e47f8fe0625adf5745ce}} 
-void {\bfseries set\+Product\+Id} (Short product\+Id)
+\mbox{\Hypertarget{classentity_1_1_product_ad9a9458cf69f508b1d80cd90f4649343}\label{classentity_1_1_product_ad9a9458cf69f508b1d80cd90f4649343}} 
+void {\bfseries set\+Product\+Id} (int product\+Id)
 \item 
 \mbox{\Hypertarget{classentity_1_1_product_a78bd5ae5f85a3d22bdd23b84c07f1ed4}\label{classentity_1_1_product_a78bd5ae5f85a3d22bdd23b84c07f1ed4}} 
 \mbox{\hyperlink{classentity_1_1_departament}{Departament}} {\bfseries get\+Departament} ()
@@ -29,23 +29,32 @@ void {\bfseries set\+Product\+Id} (Short product\+Id)
 \mbox{\Hypertarget{classentity_1_1_product_aa67771d630e8eb1922b751a266df6a62}\label{classentity_1_1_product_aa67771d630e8eb1922b751a266df6a62}} 
 void {\bfseries set\+Departament} (\mbox{\hyperlink{classentity_1_1_departament}{Departament}} departament)
 \item 
-\mbox{\Hypertarget{classentity_1_1_product_ad215b898d498a54eb3cd193d8fc413aa}\label{classentity_1_1_product_ad215b898d498a54eb3cd193d8fc413aa}} 
-String {\bfseries get\+Prod\+Name} ()
+\mbox{\Hypertarget{classentity_1_1_product_a81d43916d1f7b73a2f087e3570d73de0}\label{classentity_1_1_product_a81d43916d1f7b73a2f087e3570d73de0}} 
+String {\bfseries get\+Product\+Name} ()
 \item 
-\mbox{\Hypertarget{classentity_1_1_product_a1543a67426dc73be92263f46ab89fa91}\label{classentity_1_1_product_a1543a67426dc73be92263f46ab89fa91}} 
-void {\bfseries set\+Prod\+Name} (String prod\+Name)
+\mbox{\Hypertarget{classentity_1_1_product_abbed2e3b34beb9eff42595b8e2641f7a}\label{classentity_1_1_product_abbed2e3b34beb9eff42595b8e2641f7a}} 
+void {\bfseries set\+Product\+Name} (String product\+Name)
 \item 
-\mbox{\Hypertarget{classentity_1_1_product_a37caae68537d3039c5ff4d0f7a7e08a5}\label{classentity_1_1_product_a37caae68537d3039c5ff4d0f7a7e08a5}} 
-Byte {\bfseries get\+Price} ()
+\mbox{\Hypertarget{classentity_1_1_product_a33ba8df9ce2e2cbf6091bb97a0ee0f2c}\label{classentity_1_1_product_a33ba8df9ce2e2cbf6091bb97a0ee0f2c}} 
+String {\bfseries get\+Description} ()
 \item 
-\mbox{\Hypertarget{classentity_1_1_product_a31e32a4352c58dcf21cae188aebfd967}\label{classentity_1_1_product_a31e32a4352c58dcf21cae188aebfd967}} 
-void {\bfseries set\+Price} (Byte price)
+\mbox{\Hypertarget{classentity_1_1_product_a275f824222328131f6a00f383196da41}\label{classentity_1_1_product_a275f824222328131f6a00f383196da41}} 
+void {\bfseries set\+Description} (String description)
 \item 
-\mbox{\Hypertarget{classentity_1_1_product_a52a56edb9243b5cb98a98c2537a91062}\label{classentity_1_1_product_a52a56edb9243b5cb98a98c2537a91062}} 
-Set {\bfseries get\+Orderproducts} ()
+\mbox{\Hypertarget{classentity_1_1_product_af6bbc7b34e0ab7b7f2fe758d174fa5f4}\label{classentity_1_1_product_af6bbc7b34e0ab7b7f2fe758d174fa5f4}} 
+float {\bfseries get\+Price} ()
 \item 
-\mbox{\Hypertarget{classentity_1_1_product_aff3384ffaa013c53b169a753516ef730}\label{classentity_1_1_product_aff3384ffaa013c53b169a753516ef730}} 
-void {\bfseries set\+Orderproducts} (Set orderproducts)
+\mbox{\Hypertarget{classentity_1_1_product_a096085200f5ea9730661bc114a0f929d}\label{classentity_1_1_product_a096085200f5ea9730661bc114a0f929d}} 
+void {\bfseries set\+Price} (float price)
+\item 
+\mbox{\Hypertarget{classentity_1_1_product_a5466888d66016874eb475a2703cbc709}\label{classentity_1_1_product_a5466888d66016874eb475a2703cbc709}} 
+String {\bfseries get\+Image} ()
+\item 
+\mbox{\Hypertarget{classentity_1_1_product_a02b293f40f4d82e30617fdc2be6fac49}\label{classentity_1_1_product_a02b293f40f4d82e30617fdc2be6fac49}} 
+void {\bfseries set\+Image} (String image)
+\item 
+\mbox{\Hypertarget{classentity_1_1_product_ad77da4f2b6b67974fd2a040e2b930970}\label{classentity_1_1_product_ad77da4f2b6b67974fd2a040e2b930970}} 
+String {\bfseries to\+String} ()
 \end{DoxyCompactItemize}
 
 
@@ -54,4 +63,4 @@ void {\bfseries set\+Orderproducts} (Set orderproducts)
 
 The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
 \item 
-D\+:/\+Users/user/\+Documents/\+M\+O\+N\+D\+R\+A/3.\+M\+A\+I\+L\+A/\+P\+O\+P\+B\+L5/\+Programak/e\+Jkiva\+\_\+\+P\+O\+P\+B\+L5/\+Web application workspace/e\+Jkiva/src/main/java/entity/Product.\+java\end{DoxyCompactItemize}
+D\+:/\+Users/user/\+Documents/\+M\+O\+N\+D\+R\+A/3.\+M\+A\+I\+L\+A/\+P\+O\+P\+B\+L5/\+G\+I\+T/e\+Jkiva\+\_\+\+P\+O\+P\+B\+L5/e\+Jkiva/src/main/java/entity/Product.\+java\end{DoxyCompactItemize}

@@ -23,7 +23,6 @@
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">eJkiva
    </div>
-   <div id="projectbrief">eJkiva webpage documentation</div>
   </td>
  </tr>
  </tbody>
@@ -73,30 +72,93 @@ $(function() {
 <div class="title">controller.LoginController Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+<div class="dynheader">
+Collaboration diagram for controller.LoginController:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcontroller_1_1_login_controller__coll__graph.png" border="0" usemap="#controller_8_login_controller_coll__map" alt="Collaboration graph"/></div>
+<!-- MAP 0 -->
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a9fd62e375ad30b0553200ad40d859cbc"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcontroller_1_1_login_controller.html#a9fd62e375ad30b0553200ad40d859cbc">login</a> (Model m, HttpServletResponse response, HttpServletRequest request)  throws IOException </td></tr>
-<tr class="separator:a9fd62e375ad30b0553200ad40d859cbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d8cdcfd7a22080b7c97087a662802bb"><td class="memItemLeft" align="right" valign="top"><a id="a8d8cdcfd7a22080b7c97087a662802bb"></a>
-<a class="el" href="classentity_1_1_user.html">User</a>&#160;</td><td class="memItemRight" valign="bottom"><b>checkUser</b> (String uname, String password)</td></tr>
-<tr class="separator:a8d8cdcfd7a22080b7c97087a662802bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada6f6ceca4def5442683619cb669a34e"><td class="memItemLeft" align="right" valign="top"><a id="ada6f6ceca4def5442683619cb669a34e"></a>
-<a class="el" href="classentity_1_1_usertype.html">Usertype</a>&#160;</td><td class="memItemRight" valign="bottom"><b>checkUsertype</b> (<a class="el" href="classentity_1_1_user.html">User</a> user)</td></tr>
-<tr class="separator:ada6f6ceca4def5442683619cb669a34e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42297a84ac9029ac0d92530a62fa868b"><td class="memItemLeft" align="right" valign="top"><a id="a42297a84ac9029ac0d92530a62fa868b"></a>
-<a class="el" href="classentity_1_1_user.html">User</a>&#160;</td><td class="memItemRight" valign="bottom"><b>addUser</b> (<a class="el" href="classentity_1_1_usertype.html">Usertype</a> usertype, String uname, String password, String rname, String surname, String mail, String bornDat)</td></tr>
+<tr class="memitem:a98e670c0e2a6a391f1b5b9cb451aedeb"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcontroller_1_1_login_controller.html#a98e670c0e2a6a391f1b5b9cb451aedeb">login</a> (Model m, HttpServletResponse response, HttpServletRequest request, WebRequest wrequest)  throws Exception </td></tr>
+<tr class="separator:a98e670c0e2a6a391f1b5b9cb451aedeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42297a84ac9029ac0d92530a62fa868b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classentity_1_1_user.html">User</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcontroller_1_1_login_controller.html#a42297a84ac9029ac0d92530a62fa868b">addUser</a> (<a class="el" href="classentity_1_1_usertype.html">Usertype</a> usertype, String uname, String password, String rname, String surname, String mail, String bornDat)  throws Exception </td></tr>
 <tr class="separator:a42297a84ac9029ac0d92530a62fa868b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c5c1c0ad9dfebe970d224e40cc096f9"><td class="memItemLeft" align="right" valign="top"><a id="a9c5c1c0ad9dfebe970d224e40cc096f9"></a>
-<a class="el" href="classentity_1_1_usertype.html">Usertype</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getUsertypeById</b> (int id)</td></tr>
-<tr class="separator:a9c5c1c0ad9dfebe970d224e40cc096f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Login class.</p>
 <dl class="section author"><dt>Author</dt><dd>Leire </dd></dl>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a9fd62e375ad30b0553200ad40d859cbc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9fd62e375ad30b0553200ad40d859cbc">&#9670;&nbsp;</a></span>login()</h2>
+<a id="a42297a84ac9029ac0d92530a62fa868b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42297a84ac9029ac0d92530a62fa868b">&#9670;&nbsp;</a></span>addUser()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classentity_1_1_user.html">User</a> controller.LoginController.addUser </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classentity_1_1_usertype.html">Usertype</a>&#160;</td>
+          <td class="paramname"><em>usertype</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>uname</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>password</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>rname</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>surname</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>mail</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>bornDat</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws Exception</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Adds a user to the database </p>
+
+</div>
+</div>
+<a id="a98e670c0e2a6a391f1b5b9cb451aedeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98e670c0e2a6a391f1b5b9cb451aedeb">&#9670;&nbsp;</a></span>login()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -120,12 +182,18 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">HttpServletRequest&#160;</td>
-          <td class="paramname"><em>request</em>&#160;</td>
+          <td class="paramname"><em>request</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">WebRequest&#160;</td>
+          <td class="paramname"><em>wrequest</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> throws IOException</td>
+          <td></td><td> throws Exception</td>
         </tr>
       </table>
   </td>
@@ -134,12 +202,17 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>This method will login a user and direct them depending on their type </p>
+<p>This method will login a user and direct them depending on their type </p><dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/Programak/eJkiva_POPBL5/Web application workspace/eJkiva/src/main/java/controller/LoginController.java</li>
+<li>D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/controller/LoginController.java</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

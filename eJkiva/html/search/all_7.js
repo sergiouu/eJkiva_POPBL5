@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['segment',['Segment',['../classentity_1_1_segment.html',1,'entity']]]
+  ['managercontroller',['ManagerController',['../classcontroller_1_1_manager_controller.html',1,'controller']]],
+  ['managerrepository',['ManagerRepository',['../classrepository_1_1_manager_repository.html',1,'repository']]]
 ];

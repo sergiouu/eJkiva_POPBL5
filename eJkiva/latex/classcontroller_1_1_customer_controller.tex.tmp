@@ -1,0 +1,91 @@
+\hypertarget{classcontroller_1_1_customer_controller}{}\section{controller.\+Customer\+Controller Class Reference}
+\label{classcontroller_1_1_customer_controller}\index{controller.\+Customer\+Controller@{controller.\+Customer\+Controller}}
+
+
+Collaboration diagram for controller.\+Customer\+Controller\+:
+% FIG 0
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classcontroller_1_1_customer_controller_a5496f4bf5f03f585ee223c0192d4fc85}{customer}} (Model m, Web\+Request request, Http\+Servlet\+Response response, Http\+Servlet\+Request hrequest)  throws I\+O\+Exception 
+\item 
+String \mbox{\hyperlink{classcontroller_1_1_customer_controller_a9c7aebe2a5ae4e7419fd10121a6a7189}{show\+Product}} (Model m, Web\+Request request, Http\+Servlet\+Response response, Http\+Servlet\+Request hrequest)  throws I\+O\+Exception 
+\item 
+String \mbox{\hyperlink{classcontroller_1_1_customer_controller_af47f965b533083f4415c63f1065cbd64}{orders}} (Model m, Web\+Request request, Http\+Servlet\+Request hrequest, Http\+Servlet\+Response response)  throws I\+O\+Exception 
+\item 
+String \mbox{\hyperlink{classcontroller_1_1_customer_controller_a74ff447f25dce313f84a08cf5356f8e8}{order}} (Model m, Web\+Request request)
+\item 
+String \mbox{\hyperlink{classcontroller_1_1_customer_controller_a90aa906ff9e90be62b82941992350235}{cart}} (Model m, Web\+Request request, Http\+Servlet\+Request hrequest, Http\+Servlet\+Response response)  throws I\+O\+Exception 
+\item 
+String \mbox{\hyperlink{classcontroller_1_1_customer_controller_add866b64d6e08876db8b97087eaeb389}{chart}} (Model m, Web\+Request request)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\mbox{\hyperlink{classcontroller_1_1_customer_controller}{Customer\+Controller}} contains the U\+RL actions of the Customer user type \begin{DoxyAuthor}{Author}
+Leire 
+\end{DoxyAuthor}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classcontroller_1_1_customer_controller_a90aa906ff9e90be62b82941992350235}\label{classcontroller_1_1_customer_controller_a90aa906ff9e90be62b82941992350235}} 
+\index{controller\+::\+Customer\+Controller@{controller\+::\+Customer\+Controller}!cart@{cart}}
+\index{cart@{cart}!controller\+::\+Customer\+Controller@{controller\+::\+Customer\+Controller}}
+\subsubsection{\texorpdfstring{cart()}{cart()}}
+{\footnotesize\ttfamily String controller.\+Customer\+Controller.\+cart (\begin{DoxyParamCaption}\item[{Model}]{m,  }\item[{Web\+Request}]{request,  }\item[{Http\+Servlet\+Request}]{hrequest,  }\item[{Http\+Servlet\+Response}]{response }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+This method will show the actual cart of the customer 
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classcontroller_1_1_customer_controller_add866b64d6e08876db8b97087eaeb389}\label{classcontroller_1_1_customer_controller_add866b64d6e08876db8b97087eaeb389}} 
+\index{controller\+::\+Customer\+Controller@{controller\+::\+Customer\+Controller}!chart@{chart}}
+\index{chart@{chart}!controller\+::\+Customer\+Controller@{controller\+::\+Customer\+Controller}}
+\subsubsection{\texorpdfstring{chart()}{chart()}}
+{\footnotesize\ttfamily String controller.\+Customer\+Controller.\+chart (\begin{DoxyParamCaption}\item[{Model}]{m,  }\item[{Web\+Request}]{request }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+This method will show a chart showing... \mbox{\Hypertarget{classcontroller_1_1_customer_controller_a5496f4bf5f03f585ee223c0192d4fc85}\label{classcontroller_1_1_customer_controller_a5496f4bf5f03f585ee223c0192d4fc85}} 
+\index{controller\+::\+Customer\+Controller@{controller\+::\+Customer\+Controller}!customer@{customer}}
+\index{customer@{customer}!controller\+::\+Customer\+Controller@{controller\+::\+Customer\+Controller}}
+\subsubsection{\texorpdfstring{customer()}{customer()}}
+{\footnotesize\ttfamily String controller.\+Customer\+Controller.\+customer (\begin{DoxyParamCaption}\item[{Model}]{m,  }\item[{Web\+Request}]{request,  }\item[{Http\+Servlet\+Response}]{response,  }\item[{Http\+Servlet\+Request}]{hrequest }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+This method will access the customer\textquotesingle{}s main site. Here, the customer will be able to see all the products available on the store. 
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classcontroller_1_1_customer_controller_a74ff447f25dce313f84a08cf5356f8e8}\label{classcontroller_1_1_customer_controller_a74ff447f25dce313f84a08cf5356f8e8}} 
+\index{controller\+::\+Customer\+Controller@{controller\+::\+Customer\+Controller}!order@{order}}
+\index{order@{order}!controller\+::\+Customer\+Controller@{controller\+::\+Customer\+Controller}}
+\subsubsection{\texorpdfstring{order()}{order()}}
+{\footnotesize\ttfamily String controller.\+Customer\+Controller.\+order (\begin{DoxyParamCaption}\item[{Model}]{m,  }\item[{Web\+Request}]{request }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+This method will access the customer\textquotesingle{}s \textquotesingle{}orders\textquotesingle{} option, where the customer will be able to see the orders made through their history. \mbox{\Hypertarget{classcontroller_1_1_customer_controller_af47f965b533083f4415c63f1065cbd64}\label{classcontroller_1_1_customer_controller_af47f965b533083f4415c63f1065cbd64}} 
+\index{controller\+::\+Customer\+Controller@{controller\+::\+Customer\+Controller}!orders@{orders}}
+\index{orders@{orders}!controller\+::\+Customer\+Controller@{controller\+::\+Customer\+Controller}}
+\subsubsection{\texorpdfstring{orders()}{orders()}}
+{\footnotesize\ttfamily String controller.\+Customer\+Controller.\+orders (\begin{DoxyParamCaption}\item[{Model}]{m,  }\item[{Web\+Request}]{request,  }\item[{Http\+Servlet\+Request}]{hrequest,  }\item[{Http\+Servlet\+Response}]{response }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+This method will access the customer\textquotesingle{}s \textquotesingle{}orders\textquotesingle{} option, where the customer will be able to see the orders made through their history. 
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classcontroller_1_1_customer_controller_a9c7aebe2a5ae4e7419fd10121a6a7189}\label{classcontroller_1_1_customer_controller_a9c7aebe2a5ae4e7419fd10121a6a7189}} 
+\index{controller\+::\+Customer\+Controller@{controller\+::\+Customer\+Controller}!show\+Product@{show\+Product}}
+\index{show\+Product@{show\+Product}!controller\+::\+Customer\+Controller@{controller\+::\+Customer\+Controller}}
+\subsubsection{\texorpdfstring{show\+Product()}{showProduct()}}
+{\footnotesize\ttfamily String controller.\+Customer\+Controller.\+show\+Product (\begin{DoxyParamCaption}\item[{Model}]{m,  }\item[{Web\+Request}]{request,  }\item[{Http\+Servlet\+Response}]{response,  }\item[{Http\+Servlet\+Request}]{hrequest }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+This method will access the customer\textquotesingle{}s \textquotesingle{}products\textquotesingle{} option, where the customer will be able to see all the products available on the store. 
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Users/user/\+Documents/\+M\+O\+N\+D\+R\+A/3.\+M\+A\+I\+L\+A/\+P\+O\+P\+B\+L5/\+G\+I\+T/e\+Jkiva\+\_\+\+P\+O\+P\+B\+L5/e\+Jkiva/src/main/java/controller/Customer\+Controller.\+java\end{DoxyCompactItemize}

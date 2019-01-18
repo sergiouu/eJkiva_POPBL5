@@ -1,7 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 
+<div class="col col-lg-12 center-block">
+	<p class="display-4">History of your purchases</p>
+</div>
 
+<div id="container" style="height: 500px; width:100%">
 
 <script type="text/javascript"
 	src="http://echarts.baidu.com/gallery/vendors/echarts/echarts.min.js"></script>
@@ -115,3 +119,5 @@
 		
 
        </script>
+
+</div>

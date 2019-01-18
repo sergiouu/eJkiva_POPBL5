@@ -1,21 +1,15 @@
 \hypertarget{classcontroller_1_1_login_controller}{}\section{controller.\+Login\+Controller Class Reference}
 \label{classcontroller_1_1_login_controller}\index{controller.\+Login\+Controller@{controller.\+Login\+Controller}}
+
+
+Collaboration diagram for controller.\+Login\+Controller\+:
+% FIG 0
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-String \mbox{\hyperlink{classcontroller_1_1_login_controller_a9fd62e375ad30b0553200ad40d859cbc}{login}} (Model m, Http\+Servlet\+Response response, Http\+Servlet\+Request request)  throws I\+O\+Exception 
+String \mbox{\hyperlink{classcontroller_1_1_login_controller_a98e670c0e2a6a391f1b5b9cb451aedeb}{login}} (Model m, Http\+Servlet\+Response response, Http\+Servlet\+Request request, Web\+Request wrequest)  throws Exception 
 \item 
-\mbox{\Hypertarget{classcontroller_1_1_login_controller_a8d8cdcfd7a22080b7c97087a662802bb}\label{classcontroller_1_1_login_controller_a8d8cdcfd7a22080b7c97087a662802bb}} 
-\mbox{\hyperlink{classentity_1_1_user}{User}} {\bfseries check\+User} (String uname, String password)
-\item 
-\mbox{\Hypertarget{classcontroller_1_1_login_controller_ada6f6ceca4def5442683619cb669a34e}\label{classcontroller_1_1_login_controller_ada6f6ceca4def5442683619cb669a34e}} 
-\mbox{\hyperlink{classentity_1_1_usertype}{Usertype}} {\bfseries check\+Usertype} (\mbox{\hyperlink{classentity_1_1_user}{User}} user)
-\item 
-\mbox{\Hypertarget{classcontroller_1_1_login_controller_a42297a84ac9029ac0d92530a62fa868b}\label{classcontroller_1_1_login_controller_a42297a84ac9029ac0d92530a62fa868b}} 
-\mbox{\hyperlink{classentity_1_1_user}{User}} {\bfseries add\+User} (\mbox{\hyperlink{classentity_1_1_usertype}{Usertype}} usertype, String uname, String password, String rname, String surname, String mail, String born\+Dat)
-\item 
-\mbox{\Hypertarget{classcontroller_1_1_login_controller_a9c5c1c0ad9dfebe970d224e40cc096f9}\label{classcontroller_1_1_login_controller_a9c5c1c0ad9dfebe970d224e40cc096f9}} 
-\mbox{\hyperlink{classentity_1_1_usertype}{Usertype}} {\bfseries get\+Usertype\+By\+Id} (int id)
+\mbox{\hyperlink{classentity_1_1_user}{User}} \mbox{\hyperlink{classcontroller_1_1_login_controller_a42297a84ac9029ac0d92530a62fa868b}{add\+User}} (\mbox{\hyperlink{classentity_1_1_usertype}{Usertype}} usertype, String uname, String password, String rname, String surname, String mail, String born\+Dat)  throws Exception 
 \end{DoxyCompactItemize}
 
 
@@ -28,14 +22,25 @@ Leire
 
 
 \subsection{Member Function Documentation}
-\mbox{\Hypertarget{classcontroller_1_1_login_controller_a9fd62e375ad30b0553200ad40d859cbc}\label{classcontroller_1_1_login_controller_a9fd62e375ad30b0553200ad40d859cbc}} 
+\mbox{\Hypertarget{classcontroller_1_1_login_controller_a42297a84ac9029ac0d92530a62fa868b}\label{classcontroller_1_1_login_controller_a42297a84ac9029ac0d92530a62fa868b}} 
+\index{controller\+::\+Login\+Controller@{controller\+::\+Login\+Controller}!add\+User@{add\+User}}
+\index{add\+User@{add\+User}!controller\+::\+Login\+Controller@{controller\+::\+Login\+Controller}}
+\subsubsection{\texorpdfstring{add\+User()}{addUser()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classentity_1_1_user}{User}} controller.\+Login\+Controller.\+add\+User (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classentity_1_1_usertype}{Usertype}}}]{usertype,  }\item[{String}]{uname,  }\item[{String}]{password,  }\item[{String}]{rname,  }\item[{String}]{surname,  }\item[{String}]{mail,  }\item[{String}]{born\+Dat }\end{DoxyParamCaption}) throws Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Adds a user to the database \mbox{\Hypertarget{classcontroller_1_1_login_controller_a98e670c0e2a6a391f1b5b9cb451aedeb}\label{classcontroller_1_1_login_controller_a98e670c0e2a6a391f1b5b9cb451aedeb}} 
 \index{controller\+::\+Login\+Controller@{controller\+::\+Login\+Controller}!login@{login}}
 \index{login@{login}!controller\+::\+Login\+Controller@{controller\+::\+Login\+Controller}}
 \subsubsection{\texorpdfstring{login()}{login()}}
-{\footnotesize\ttfamily String controller.\+Login\+Controller.\+login (\begin{DoxyParamCaption}\item[{Model}]{m,  }\item[{Http\+Servlet\+Response}]{response,  }\item[{Http\+Servlet\+Request}]{request }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+{\footnotesize\ttfamily String controller.\+Login\+Controller.\+login (\begin{DoxyParamCaption}\item[{Model}]{m,  }\item[{Http\+Servlet\+Response}]{response,  }\item[{Http\+Servlet\+Request}]{request,  }\item[{Web\+Request}]{wrequest }\end{DoxyParamCaption}) throws Exception\hspace{0.3cm}{\ttfamily [inline]}}
 
 This method will login a user and direct them depending on their type 
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & \\
+\hline
+\end{DoxyExceptions}
+
 
 The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
 \item 
-D\+:/\+Users/user/\+Documents/\+M\+O\+N\+D\+R\+A/3.\+M\+A\+I\+L\+A/\+P\+O\+P\+B\+L5/\+Programak/e\+Jkiva\+\_\+\+P\+O\+P\+B\+L5/\+Web application workspace/e\+Jkiva/src/main/java/controller/Login\+Controller.\+java\end{DoxyCompactItemize}
+D\+:/\+Users/user/\+Documents/\+M\+O\+N\+D\+R\+A/3.\+M\+A\+I\+L\+A/\+P\+O\+P\+B\+L5/\+G\+I\+T/e\+Jkiva\+\_\+\+P\+O\+P\+B\+L5/e\+Jkiva/src/main/java/controller/Login\+Controller.\+java\end{DoxyCompactItemize}

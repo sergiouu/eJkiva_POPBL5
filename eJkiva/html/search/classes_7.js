@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['segment',['Segment',['../classentity_1_1_segment.html',1,'entity']]]
+  ['product',['Product',['../classentity_1_1copy_1_1_product.html',1,'entity.copy.Product'],['../classentity_1_1_product.html',1,'entity.Product']]]
 ];

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['user',['User',['../classentity_1_1_user.html',1,'entity']]],
-  ['usertype',['Usertype',['../classentity_1_1_usertype.html',1,'entity']]]
+  ['segment',['Segment',['../classentity_1_1copy_1_1_segment.html',1,'entity.copy.Segment'],['../classentity_1_1_segment.html',1,'entity.Segment']]]
 ];
