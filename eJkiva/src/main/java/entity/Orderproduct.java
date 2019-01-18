@@ -24,11 +24,9 @@ public class Orderproduct implements java.io.Serializable {
 	private int orderProductId;
 	@MapsId @ManyToOne
 	@JoinColumn(name="orderID")
-	//@Column(name="orderID")
 	private Order order;
 	@MapsId @OneToMany
 	@JoinColumn(name="productID")
-	//@Column(name="productID")
 	private Product product;
 	@Column(name="quantity")
 	private short quantity;

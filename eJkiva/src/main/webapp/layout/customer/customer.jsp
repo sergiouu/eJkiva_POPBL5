@@ -43,6 +43,14 @@ img {
 <div class="row col-lg-12">
 	<div class="wrapper-shop-items col-lg-11">
 		<div class="mbr-gallery-row">
+			<div class="form-group text-center">
+				<c:if test="${not empty requestScope.message}">
+					<div class="alert success" role="alert">
+						<strong>Hey!</strong> ${requestScope.message}
+					</div>
+				</c:if>
+
+			</div>
 			<div>
 				<div class="shop-items">
 					<c:if test="${not empty requestScope.products}">
@@ -50,7 +58,8 @@ img {
 							<div class="form-group">
 								<div class="list-group list-group-flush" id="products">
 									<c:forEach items="${requestScope.products}" var="product">
-										<div class="mbr-gallery-item" id="product" style="display: flex; justify-content: center;">
+										<div class="mbr-gallery-item" id="product"
+											style="display: flex; justify-content: center;">
 											<div class="item_overlay" data-toggle="modal"></div>
 											<div class="galleryItem" data-toggle="modal">
 												<div class="style_overlay"></div>

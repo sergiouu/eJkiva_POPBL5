@@ -93,6 +93,13 @@ body {
 	justify-content: space-around;
 
 } 
+
+#buttonsProd{
+	
+	display:   flex;
+	justify-content: space-around;
+
+} 
 #ads .ad-btn:hover {
             background-color: #e6de08;
             color: #1e1717;

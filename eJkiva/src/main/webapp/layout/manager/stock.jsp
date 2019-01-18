@@ -41,7 +41,7 @@ img {
 
 </head>
 <div class="row col-lg-12">
-	<div class="wrapper-shop-items col-lg-11">
+	<div class="wrapper-shop-items col-lg-12">
 		<div class="mbr-gallery-row">
 			<div>
 				<div class="shop-items">
@@ -86,14 +86,5 @@ img {
 			<div class="clearfix"></div>
 		</div>
 	</div>
-	<div class="col-lg-1 sidebar">
-		<c:if test="${not empty sessionScope.cart}">
-			<div class="price-range mbr-section-btn" buttons="0">
-				<img src="img/cart.png"> <a class="btn btn-sm btn-secondary"
-					href="/eJkiva/customer/cart.html" value="cart">
-					${sessionScope.totalCart} </a>
-			</div>
-		</c:if>
-
-	</div>
+	
 </div>

@@ -1,14 +1,19 @@
 package repository;
 
 import java.math.BigDecimal;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 
 import org.hibernate.Session;
+import org.hibernate.Transaction;
 import org.hibernate.query.Query;
 
 import entity.Order;
+import entity.Orderproduct;
 import entity.Product;
 import entity.User;
 import utils.HibernateUtils;
@@ -69,6 +74,29 @@ public class CustomerRepository {
 				"where oT.userId='"+id+"'");
 		List<String> products=query.getResultList();	
 		return products;
+	}
+
+
+	/**
+     * Function used for data display
+     */
+	public void createOrder(List<Product> cart, List<Integer> nums, User user) {
+				
+		Session session=HibernateUtils.getSessionFactory().openSession();
+		Transaction tx= session.beginTransaction(); 
+		
+		DateFormat df = new SimpleDateFormat("yyyy-MM-dd");
+		Date dateobj = new Date();
+		System.out.println(df.format(dateobj));		
+		Order order = new Order(user, dateobj);		
+		session.save(order);
+		
+		for(int i=0;i<cart.size();i++) {
+			Orderproduct op = new Orderproduct(order, cart.get(i), nums.get(i).shortValue());
+			session.save(op);
+		}
+        tx.commit();
+		
 	}  
 	
 	

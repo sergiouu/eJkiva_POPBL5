@@ -34,6 +34,12 @@ public class Order implements java.io.Serializable {
 	public Order() {
 	}
 
+	public Order(User user, Date dateOrder) {
+		this.user = user;
+		this.dateOrder = dateOrder;
+		this.dateDelivered = dateDelivered;
+	}
+	
 	public Order(User user, Date dateOrder, Date dateDelivered) {
 		this.user = user;
 		this.dateOrder = dateOrder;

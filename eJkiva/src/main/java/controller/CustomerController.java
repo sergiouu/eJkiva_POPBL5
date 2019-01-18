@@ -78,10 +78,10 @@ public class CustomerController {
         	session.removeAttribute("addproduct");
             session.setAttribute("cart", cart);
             session.setAttribute("number", nums);
-            session.setAttribute("totalCart", getTotalCart());
         }
         
         User sessionUser = (User) request.getAttribute("user", WebRequest.SCOPE_SESSION);
+        if(cart!=null)session.setAttribute("totalCart", getTotalCart());
         Product[] products = urepo.getAllProducts();
         request.setAttribute("products", products, WebRequest.SCOPE_REQUEST);
                 
@@ -104,16 +104,15 @@ public class CustomerController {
         String addProductId = hrequest.getParameter("addProduct");
                 
         if(addProductId!= null) {
-        	System.out.println("PRODUCT ADDED!!!"+addProductId);
         	int num = Integer.parseInt(hrequest.getParameter("number"));
         	addProductToCart(repo.findProductById(Integer.parseInt(addProductId)) , num);
-        	hrequest.removeAttribute("number");
+        /*	hrequest.removeAttribute("number");
         	hrequest.removeAttribute("cart");
-        	hrequest.removeAttribute("addproduct");
+        	hrequest.removeAttribute("addproduct");*/
         	session.removeAttribute("addproduct");
             session.setAttribute("cart", cart);
             session.setAttribute("number", nums);
-            session.setAttribute("totalCart", getTotalCart());
+            if(cart!=null)session.setAttribute("totalCart", getTotalCart());
         	response.sendRedirect("/eJkiva/customer.html");
         }
         
@@ -174,6 +173,7 @@ public class CustomerController {
         HttpSession session = hrequest.getSession(true);
         
         String delete = hrequest.getParameter("delete");
+        String buy = hrequest.getParameter("buy");
         System.out.println(delete+"!!!!!!!!!!!!!!!!!!!!!!!!!!!");
         if(delete != null) {
         	int pos = -1;
@@ -194,10 +194,23 @@ public class CustomerController {
         	response.sendRedirect("/eJkiva/customer.html");
 
         }
-       
 
-        request.setAttribute("total", getTotalCart(), WebRequest.SCOPE_REQUEST);
-        request.setAttribute("numbers", nums, WebRequest.SCOPE_REQUEST);
+        if(buy!=null) {
+        	
+        	System.out.println("BUY!");
+        	repo.createOrder(cart, nums, sessionUser);
+        	cart = new ArrayList<>();
+        	nums = new ArrayList<>();
+        	session.setAttribute("cart", cart);
+        	session.setAttribute("number", nums);
+        	request.setAttribute("message", "Your order has been sent!", WebRequest.SCOPE_REQUEST);
+        	response.sendRedirect("/eJkiva/customer.html");
+        }
+
+        session.setAttribute("cart", cart);
+    	session.setAttribute("number", nums);
+        if(cart!=null)request.setAttribute("total", getTotalCart(), WebRequest.SCOPE_REQUEST);
+        request.setAttribute("number", nums, WebRequest.SCOPE_REQUEST);
         request.setAttribute("products", cart, WebRequest.SCOPE_REQUEST);
         return "cart";  
     }
