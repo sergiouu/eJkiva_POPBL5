@@ -3,9 +3,18 @@ package movimiento;
 import java.util.ArrayList;
 import java.util.List;
 
+import circuito.Robot;
 import circuito.Workstation;
-import objeto.Robot;
 
+/**
+*
+* <h2> Accion Class </h2>
+* <p>
+* Manages and changes the workstation destination</p>
+*
+* @author mbenoga 09/Jan/2018
+*
+*/
 public class Accion {
 	final static float MAX_LENGTH=5;
 	final static float MIN_LENGTH=0;
@@ -18,6 +27,17 @@ public class Accion {
     }
 
 	
+	/**
+*
+* <h2> jeitsi </h2>
+* <p>
+* Checks if can go down. If it is possible calls to cambiarWorkstationActual </p>
+*
+* @return Boolean
+*
+* @author mbengoa 20/Dec/2018
+*
+*/
 	public boolean jeitsi() {
 		if((robot.getWsActual().getPosX()%2)==0) {
 		//robot.setPosY(robot.getWorkstationActual().getPosY()-1);
@@ -25,7 +45,17 @@ public class Accion {
 		return true;}
 		return false;
 	}
-
+/**
+*
+* <h2> igo </h2>
+* <p>
+* Checks if can go up. If it is possible calls to cambiarWorkstationActual </p>
+*
+* @return Boolean
+*
+* @author mbengoa 20/Dec/2018
+*
+*/
 	public boolean igo() {
 		
 		if((robot.getWsActual().getPosX()%2)!=0) {
@@ -34,6 +64,17 @@ public class Accion {
 		return true;}
 		return false;
 	}
+/**
+*
+* <h2> aurrera </h2>
+* <p>
+* Checks if can go ahead. Checks the current Y position and if it is possible calls to cambiarWorkstationActual </p>
+*
+* @return Boolean
+*
+* @author mbengoa 20/Dec/2018
+*
+*/	
 	public boolean aurrera() {
 		if(robot.getWsActual().getPosY()==1) {
 		    if(robot.getWsActual().getPosX()==MIN_LENGTH) {cambiarWorkstationActual(false,false);}//robot.setPosY(robot.getWorkstationActual().getPosY()-1);}
@@ -51,7 +92,20 @@ public class Accion {
 	
 	//signo    true +      false -
 	//position true X      false Y
-
+/**
+*
+* <h2> cambiarWorkstationActual </h2>
+* <p>
+* Changes the workstation. Depending on signo(if it is true means that +1 if is false -1) and position (if it is true means X if it is Y means -1
+*  </p>
+*
+* @param signo
+* @param position
+*
+* @author mbengoa 20/Dec/2018
+* @modified mbengoa 7/Jan/2019 Filters and finds a Worktation
+*
+*/	
 	private void cambiarWorkstationActual(boolean signo,boolean position) {
 		int nextX = -1,nextY = -1;
 		
