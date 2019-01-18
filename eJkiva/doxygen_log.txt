@@ -21,7 +21,6 @@ Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/G
 Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java
 Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/controller
 Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity
-Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy
 Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/repository
 Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/utils
 Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/resources
@@ -42,7 +41,6 @@ Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/G
 Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/target/classes
 Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/target/classes/controller
 Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/target/classes/entity
-Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/target/classes/entity/copy
 Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/target/classes/repository
 Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/target/classes/utils
 Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/target/m2e-wtp
@@ -53,6 +51,7 @@ Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/G
 Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/target/m2e-wtp/web-resources/META-INF/maven/org.mondragon/eJkiva
 Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/target/test-classes
 Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/target/test-classes/customer
+Searching for files in directory D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/W3C
 Reading and parsing tag files
 Parsing files
 Reading D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/controller/CustomerController.java...
@@ -69,28 +68,6 @@ Reading D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/s
 Parsing file D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Carries.java...
 Reading D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/CarriesId.java...
 Parsing file D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/CarriesId.java...
-Reading D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Authomach.java...
-Parsing file D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Authomach.java...
-Reading D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Carries.java...
-Parsing file D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Carries.java...
-Reading D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/CarriesId.java...
-Parsing file D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/CarriesId.java...
-Reading D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Departament.java...
-Parsing file D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Departament.java...
-Reading D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Order.java...
-Parsing file D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Order.java...
-Reading D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Orderproduct.java...
-Parsing file D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Orderproduct.java...
-Reading D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Product.java...
-Parsing file D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Product.java...
-Reading D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Segment.java...
-Parsing file D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Segment.java...
-Reading D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/User.java...
-Parsing file D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/User.java...
-Reading D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Usertype.java...
-Parsing file D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Usertype.java...
-Reading D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Workstation.java...
-Parsing file D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Workstation.java...
 Reading D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Departament.java...
 Parsing file D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Departament.java...
 Reading D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Order.java...
@@ -99,8 +76,6 @@ Reading D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/s
 Parsing file D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Orderproduct.java...
 Reading D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Product.java...
 Parsing file D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Product.java...
-Reading D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Segment.java...
-Parsing file D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Segment.java...
 Reading D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/User.java...
 Parsing file D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/User.java...
 Reading D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Usertype.java...
@@ -182,49 +157,37 @@ Generating docs for compound controller::ManagerController...
 Generating docs for compound controller::OperatorController...
 Generating docs for compound customer::CustomerTest...
 Generating docs for compound entity::Authomach...
-warning: the dot tool could not be found at C:\Program Files (x86)\WinGraphviz
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/repository/OperatorRepository.java:13: warning: Compound repository::OperatorRepository is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/utils/HibernateUtils.java:7: warning: Compound utils::HibernateUtils is not documented.
+Generating docs for compound entity::Carries...
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/test/java/customer/CustomerTest.java:42: warning: Compound customer::CustomerTest is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/repository/ManagerRepository.java:15: warning: Compound repository::ManagerRepository is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/test/java/customer/CustomerTest.java:45: warning: Member testAddProductToCart() (function) of class customer::CustomerTest is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/test/java/customer/CustomerTest.java:54: warning: Member testGetTotalCart() (function) of class customer::CustomerTest is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Authomach.java:27: warning: Member Authomach(String machine) (function) of class entity::Authomach is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Authomach.java:31: warning: Member Authomach(Segment segment, String machine, String description, Boolean state, Set carrieses) (function) of class entity::Authomach is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Authomach.java:39: warning: Member getMachineId() (function) of class entity::Authomach is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Authomach.java:43: warning: Member setMachineId(int machineId) (function) of class entity::Authomach is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Authomach.java:47: warning: Member getSegment() (function) of class entity::Authomach is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Authomach.java:51: warning: Member setSegment(Segment segment) (function) of class entity::Authomach is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Authomach.java:55: warning: Member getMachine() (function) of class entity::Authomach is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Authomach.java:59: warning: Member setMachine(String machine) (function) of class entity::Authomach is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Authomach.java:63: warning: Member getDescription() (function) of class entity::Authomach is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Authomach.java:67: warning: Member setDescription(String description) (function) of class entity::Authomach is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Authomach.java:71: warning: Member getState() (function) of class entity::Authomach is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Authomach.java:75: warning: Member setState(Boolean state) (function) of class entity::Authomach is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Authomach.java:79: warning: Member getCarrieses() (function) of class entity::Authomach is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Authomach.java:83: warning:Generating docs for compound entity::Carries...
-Generating docs for compound entity::CarriesId...
- Member setCarrieses(Set carrieses) (function) of class entity::Authomach is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Carries.java:23: warning: Member Carries(CarriesId id, Orderproduct orderproduct) (function) of class entity::Carries is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Carries.java:28: warning: Member Carries(CarriesId id, Authomach authomach, Orderproduct orderproduct, Workstation workstationByDestinyWorkstationId, Workstation workstationByInitialWorkstationId) (function) of class entity::Carries is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Carries.java:37: warning: Member getId() (function) of class entity::Carries is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Carries.java:41: warning: Member setId(CarriesId id) (function) of class entity::Carries is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Carries.java:45: warning: Member getAuthomach() (function) of class entity::Carries is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Carries.java:49: warning: Member setAuthomach(Authomach authomach) (function) of class entity::Carries is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Carries.java:53: warning: Member getOrderproduct() (function) of class entity::Carries is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Carries.java:57: warning: Member setOrderproduct(Orderproduct orderproduct) (function) of class entity::Carries is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Carries.java:61: warning: Member getWorkstationByDestinyWorkstationId() (function) of class entity::Carries is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Carries.java:65: warning: Member setWorkstationByDestinyWorkstationId(Workstation workstationByDestinyWorkstationId) (function) of class entity::Carries is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Carries.java:69: warning: Member getWorkstationByInitialWorkstationId() (function) of class entity::Carries is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Carries.java:73: warning: Member setWorkstationByInitialWorkstationId(Workstation workstationByInitialWorkstationId) (function) of class entity::Carries is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Authomach.java:33: warning: Member Authomach(String description, Boolean state, Set carrieses) (function) of class entity::Authomach is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Authomach.java:38: warning: Member getMachineId() (function) of class entity::Authomach is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Authomach.java:42: warning: Member setMachineId(int machineId) (function) of class entity::Authomach is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Authomach.java:46: warning: Member getDescription() (function) of class entity::Authomach is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Authomach.java:50: warning: Member setDescription(String description) (function) of class entity::Authomach is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Authomach.java:54: warning: Member getState() (function) of class entity::Authomach is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Authomach.java:58: warning: Member setState(Boolean state) (function) of class entity::Authomach is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Carries.java:25: warning: Member Carries(CarriesId id, Orderproduct orderproduct) (function) of class entity::Carries is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Carries.java:30: warning: Member Carries(CarriesId id, Authomach authomach, Orderproduct orderproduct, Workstation workstationByDestinyWorkstationId, Workstation workstationByInitialWorkstationId) (function) of class entity::Carries is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Carries.java:39: warning: Member getId() (function) of class entity::Carries is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Carries.java:43: warning: Member setId(CarriesId id) (function) of class entity::Carries is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Carries.java:47: warning: Member getAuthomach() (function) of class entity::Carries is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Carries.java:51: warning: Member setAuthomach(Authomach authomach) (function) of class entity::Carries is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Carries.java:55: warning: Member getOrderproduct() (function) of class entity::Carries is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Carries.java:59: warning: Member setOrderproduct(Orderproduct orderproduct) (function) of class entity::Carries is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Carries.java:63: warning: Member getWorkstationByDestinyWorkstationId() (function) of class entity::Carries is not documented.
+D:Generating docs for compound entity::CarriesId...
+Generating docs for compound entity::Departament...
+/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Carries.java:67: warning: Member setWorkstationByDestinyWorkstationId(Workstation workstationByDestinyWorkstationId) (function) of class entity::Carries is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Carries.java:71: warning: Member getWorkstationByInitialWorkstationId() (function) of class entity::Carries is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Carries.java:75: warning: Member setWorkstationByInitialWorkstationId(Workstation workstationByInitialWorkstationId) (function) of class entity::Carries is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/CarriesId.java:18: warning: Member CarriesId(byte orderProductId) (function) of class entity::CarriesId is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/CarriesId.java:22: warning: Member CarriesId(byte orderProductId, Byte initialWorkstationId, Byte destinyWorkstationId, Byte machineId, Boolean state) (function) of class entity::CarriesId is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/CarriesId.java:31: warning: Member getOrderProductId() (function) of class entity::CarriesId is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/CarriesId.java:35: warning: Member setOrderProductId(int orderProductId) (function) of class entity::CarriesId is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/CarriesId.java:39: warning: Member getInitialWorkstationId() (function) of class entity::CarriesId is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/CarGenerating docs for compound entity::Departament...
-Generating docs for compound entity::Order...
-riesId.java:43: warning: Member setInitialWorkstationId(Byte initialWorkstationId) (function) of class entity::CarriesId is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/CarriesId.java:43: warning: Member setInitialWorkstationId(Byte initialWorkstationId) (function) of class entity::CarriesId is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/CarriesId.java:47: warning: Member getDestinyWorkstationId() (function) of class entity::CarriesId is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/CarriesId.java:51: warning: Member setDestinyWorkstationId(Byte destinyWorkstationId) (function) of class entity::CarriesId is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/CarriesId.java:55: warning: Member getMachineId() (function) of class entity::CarriesId is not documented.
@@ -234,38 +197,39 @@ D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/CarriesId.java:71: warning: Member equals(Object other) (function) of class entity::CarriesId is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/CarriesId.java:93: warning: Member hashCode() (function) of class entity::CarriesId is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Departament.java:29: warning: Member Departament(String departamentName) (function) of class entity::Departament is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Departament.java:33: warning: Member Departament(String departamentName, String description) (function) of class entity::Departament is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/jGenerating docs for compound entity::Order...
+Generating docs for compound entity::Orderproduct...
+ava/entity/Departament.java:33: warning: Member Departament(String departamentName, String description) (function) of class entity::Departament is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Departament.java:38: warning: Member getDepartamentId() (function) of class entity::Departament is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Departament.java:42: warning: Member setDepartamentId(int departamentId) (function) of class entity::Departament is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Departament.java:46: warning: Member getDepartamentName() (function) of class entity::Departament is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Departament.java:50: warning: Member setDepartamentName(String departamentName) (function) of class entity::Departament is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Departament.java:54: warning: Member getDescription() (function) of class entity::Departament is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Departament.java:58: warning: Member setDescription(String description) (function) of class entity::Departament is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Order.java:37: warning: Member Order(User user, Date dateOrder, Date dateDelivered) (function) of class entity::Order is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Order.java:43: warning: Member getOrderId() (function) of class entity::Order is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Order.java:47: warnGenerating docs for compound entity::Orderproduct...
-Generating docs for compound entity::Product...
-ing: Member setOrderId(int orderId) (function) of class entity::Order is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Order.java:51: warning: Member getUser() (function) of class entity::Order is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Order.java:55: warning: Member setUser(User user) (function) of class entity::Order is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Order.java:59: warning: Member getDateOrder() (function) of class entity::Order is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Order.java:63: warning: Member setDateOrder(Date dateOrder) (function) of class entity::Order is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Order.java:67: warning: Member getDateDelivered() (function) of class entity::Order is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Order.java:71: warning: Member setDateDelivered(Date dateDelivered) (function) of class entity::Order is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Orderproduct.java:39: warning: Member Orderproduct(Order order, Product product, short quantity) (function) of class entity::Orderproduct is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Orderproduct.java:45: warning: Member getOrderProductId() (function) of class entity::Orderproduct is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Orderproduct.java:49: warning: Member setOrderProductId(int orderProductId) (function) of class entity::Orderproduct is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Orderproduct.java:53: warning: Member getOrder() (function) of class entity::Orderproduct is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Orderproduct.java:57: warning: Member setOrder(Order order) (function) of class entity::Orderproduct is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Orderproduct.java:61: warning: Member getProduct() (function) of class entity::Orderproduct is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Orderproduct.java:65: warning: Member setProduct(Product product) (function) of class entity::Orderproduct is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Orderproduct.java:69: warning: Member getQuantity() (function) of class entity::Orderproduct is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Orderproduct.java:73: warning: Member setQuantity(short quantity) (function) of class entity::Orderproduct is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Order.java:37: warning: Member Order(User user, Date dateOrder) (function) of class entity::Order is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Order.java:43: warning: Member Order(User user, Date dateOrder, Date dateDelivered) (function) of class entity::Order is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Order.java:49: warning: Member getOrderId() (function) of class entity::Order is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Order.java:53: warning: Member setOrderId(int orderId) (function) of class entity::Order is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Order.java:57: warning: Member getUser() (function) of class entity::Order is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Order.java:61: warning: Member setUser(User user) (function) of class entity::Order is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Order.java:65: warning: Member getDateOrder() (function) of class entity::Order is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Order.java:69: warning: Member setDateOrder(Date dateOrder) (function) of class entity::Order is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Order.java:73: warning: Member getDateDelivered() (function) of class entity::Order is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Order.java:77: warning: Member setDateDelivered(Date dateDelivered) (function) of class entity::Order is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Orderproduct.java:37: warning: Member Orderproduct(Order order, Product product, short quantity) (function) of class entity::Orderproduct is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Orderproduct.java:43: warning: Member getOrderProductId() (function) of class entity::Orderproduct is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Orderproduct.java:47: warning: Member setOrderProductId(int orderProducGenerating docs for compound entity::Product...
+tId) (function) of class entity::Orderproduct is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Orderproduct.java:51: warning: Member getOrder() (function) of class entity::Orderproduct is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Orderproduct.java:55: warning: Member setOrder(Order order) (function) of class entity::Orderproduct is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Orderproduct.java:59: warning: Member getProduct() (function) of class entity::Orderproduct is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Orderproduct.java:63: warning: Member setProduct(Product product) (function) of class entity::Orderproduct is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Orderproduct.java:67: warning: Member getQuantity() (function) of class entity::Orderproduct is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Orderproduct.java:71: warning: Member setQuantity(short quantity) (function) of class entity::Orderproduct is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Product.java:45: warning: Member Product(String productName, float price) (function) of class entity::Product is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Product.java:50: warning: Member Product(Departament departament, String productName, String description, float price, String image) (function) of class entity::Product is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Product.java:59: warning: Member getProductId() (function) of class entity::Product is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Product.java:63: warning: Member setProductId(int productId) (function) of class entity::PrGenerating docs for compound entity::Segment...
-oduct is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Product.java:63: warning: Member setProductId(int productId) (function) of class entity::Product is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Product.java:67: warning: Member getDepartament() (function) of class entity::Product is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Product.java:71: warning: Member setDepartament(Departament departament) (function) of class entity::Product is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Product.java:75: warning: Member getProductName() (function) of class entity::Product is not documented.
@@ -275,25 +239,9 @@ D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Product.java:91: warning: Member getPrice() (function) of class entity::Product is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Product.java:95: warning: Member setPrice(float price) (function) of class entity::Product is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Product.java:109: warning: Member getImage() (function) of class entity::Product is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Product.java:113: warning: Member setImage(String image) (function) of class entity::Product is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5Generating docs for compound entity::User...
+/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Product.java:113: warning: Member setImage(String image) (function) of class entity::Product is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Product.java:118: warning: Member toString() (function) of class entity::Product is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Segment.java:28: warning: Member Segment(String segment, short posX, short posY) (function) of class entity::Segment is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Segment.java:34: warning: Member Segment(String segment, short posX, short posY, String description, Set authomaches, Set workstations) (function) of class entity::Segment is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Segment.java:43: warning: Member getSegmentId() (function) of class entity::Segment is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Segment.java:47: warning: Member setSegmentId(Byte segmentId) (function) of class entity::Segment is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Segment.java:51: warning: Member getSegment() (function) of class entity::Segment is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Segment.java:55: warning: Member setSegment(String segment) (function) of class entity::Segment is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Segment.java:59: warning: Member getPosX() (function) of class entity::Segment is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Segment.java:63: warning: Member setPosX(short posX) (function) of class entity::Segment is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Segment.java:67: warning: Member getPosY() (functionGenerating docs for compound entity::User...
-) of class entity::Segment is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Segment.java:71: warning: Member setPosY(short posY) (function) of class entity::Segment is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Segment.java:75: warning: Member getDescription() (function) of class entity::Segment is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Segment.java:79: warning: Member setDescription(String description) (function) of class entity::Segment is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Segment.java:83: warning: Member getAuthomaches() (function) of class entity::Segment is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Segment.java:87: warning: Member setAuthomaches(Set authomaches) (function) of class entity::Segment is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Segment.java:91: warning: Member getWorkstations() (function) of class entity::Segment is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Segment.java:95: warning: Member setWorkstations(Set workstations) (function) of class entity::Segment is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/User.java:45: warning: Member User(String username, String password, String name, String surname, String mail) (function) of class entity::User is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/User.java:53: warning: Member User(Usertype usertype, String username, String password, String name, String surname, String mail, Date bornDat) (function) of class entity::User is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/User.java:64: warning: Member getUserId() (function) of class entity::User is not documented.
@@ -306,15 +254,15 @@ D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/User.java:92: warning: Member setPassword(String password) (function) of class entity::User is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/User.java:96: warning: Member getName() (function) of class entity::User is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/User.java:100: warning: Member setName(String name) (function) of class entity::User is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/User.java:104: warning: Member getSurname() (Generating docs for compound entity::Usertype...
-Generating docs for compound entity::Workstation...
-function) of class entity::User is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/User.java:104: warning: Member getSurname() (function) of class entity::User is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/User.java:108: warning: Member setSurname(String surname) (function) of class entity::User is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/User.java:112: warning: Member getMail() (function) of class entity::User is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/User.java:116: warning: Member setMail(String mail) (function) of class entity::User is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/User.java:120: warning: Member getBornDat() (function) of class entity::User is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/User.java:124: warning: Member setBornDat(Date bornDat) (function) of class entity::User is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/User.java:129: warning: Member toString() (function) of class entity::User is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/User.java:129:Generating docs for compound entity::Usertype...
+Generating docs for compound entity::Workstation...
+ warning: Member toString() (function) of class entity::User is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Usertype.java:29: warning: Member Usertype(String usertype) (function) of class entity::Usertype is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Usertype.java:33: warning: Member Usertype(String usertype, String description) (function) of class entity::Usertype is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Usertype.java:38: warning: Member getUsertypeId() (function) of class entity::Usertype is not documented.
@@ -324,168 +272,17 @@ D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Usertype.java:54: warning: Member getDescription() (function) of class entity::Usertype is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Usertype.java:58: warning: Member setDescription(String description) (function) of class entity::Usertype is not documented.
 D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Usertype.java:62: warning: Member toString() (function) of class entity::Usertype is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Workstation.java:28: warning: Member Workstation(String workstationNam) (function) of class entity::Workstation is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Workstation.java:32: warning: Member Workstation(Segment segment, String workstationNam, String description, Boolean state, Set carriesesForDestinyWorkstationId, Set carriesesForInitialWorkstationId) (function) of class entity::Workstation is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Workstation.java:42: warning: Member getWorkstationId() (function) of class entity::Workstation is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Workstation.java:46: warning: Member setWorkstationId(int workstationId) (function) of class entity::Workstation is not documented.
-D:/Users/user/DocumenGenerating docs for compound entity::copy::Authomach...
-ts/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Workstation.java:50: warning: Member getSegment() (function) of class entity::Workstation is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Workstation.java:54: warning: Member setSegment(Segment segment) (function) of class entity::Workstation is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Workstation.java:58: warning: Member getWorkstationNam() (function) of class entity::Workstation is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Workstation.java:62: warning: Member setWorkstationNam(String workstationNam) (function) of class entity::Workstation is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Workstation.java:66: warning: Member getDescription() (function) of class entity::Workstation is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Workstation.java:70: warning: Member setDescription(String description) (function) of class entity::Workstation is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Workstation.java:74: warning: Member getState() (function) of class entity::Workstation is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Workstation.java:78: warning: Member setState(Boolean state) (function) of class entity::Workstation is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Workstation.java:82: warning: Member getCarriesesForDestinyWorkstationId() (function) of class entity::Workstation is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Workstation.java:86: warning: Member setCarriesesForDestinyWorkstationId(Set carriesesForDestinyWorkstationId) (function) of class entity::Workstation is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Workstation.java:90: warning: Member getCarriesesForInitialWorkstationId() (function) of class entity::Workstation is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Workstation.java:94: warning: Member setCarriesesForInitialWorkstationId(Set carriesesForInitialWorkstationId) (function) of class entity::Workstation is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Authomach.java:27: warning: Member Authomach(String machine) (function) of class entity::copy::Authomach is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Authomach.java:31: warning: Member Authomach(Segment segment, String machine, String description, Boolean state, Set carrieses) (function) of class entity::copy::Authomach is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Authomach.java:39: warning: Member getMachineId() (function) of class entity::copy::Authomach is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Authomach.java:43: warning: Member setMachineId(int machineId) (function) of class entity::copy::Authomach is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Authomach.java:47: warning: Member getSegment() (function) of class entity::copy::Authomach is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Authomach.java:51: warning: Member setSegment(Segment segment) (function) of class entity::copy::Authomach is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/Generating docs for compound entity::copy::Carries...
-main/java/entity/copy/Authomach.java:55: warning: Member getMachine() (function) of class entity::copy::Authomach is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Authomach.java:59: warning: Member setMachine(String machine) (function) of class entity::copy::Authomach is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Authomach.java:63: warning: Member getDescription() (function) of class entity::copy::Authomach is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Authomach.java:67: warning: Member setDescription(String description) (function) of class entity::copy::Authomach is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Authomach.java:71: warning: Member getState() (function) of class entity::copy::Authomach is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Authomach.java:75: warning: Member setState(Boolean state) (function) of class entity::copy::Authomach is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Authomach.java:79: warning: Member getCarrieses() (function) of class entity::copy::Authomach is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Authomach.java:83: warning: Member setCarrieses(Set carrieses) (function) of class entity::copy::Authomach is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Carries.java:23: warning: Member Carries(CarriesId id, Orderproduct orderproduct) (function) of class entity::copy::Carries is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Carries.java:28: warning: Member Carries(CarriesId id, Authomach authomach, Orderproduct orderproduct, Workstation workstationByDestinyWorkstationId, Workstation workstationByInitialWorkstationId) (function) of class entity::copy::Carries is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Carries.java:37: warning: Member getId() (function) of class entity::copy::Carries is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Carries.java:41: warning: Member setId(CarriesId id) (function) of class entity::copy::Carries is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Carries.java:45: warning: Member getAuthomach() (function) of class entity::copy::Carries is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Carries.java:49: warning: Member setAuthomach(Authomach authomach) (function) of class entity::copy::Carries is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Carries.java:53: warning: Member getOrderproduct() (function) of class entity::copy::Carries is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Carries.java:57: warning: Member setOrderproduct(Orderproduct orderproduct) (function) of class entity::copy::Carries is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Carries.java:61: warning: Member getWorkstationByDestinyWorkstationId() (function) of class entity::copy::Carries is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Carries.java:65: warning: Member setWorkstationByDestinyWorkstationId(Workstation workstationByDestinyWorkstationId) (function) of class entity::copy::Carries is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_Generating docs for compound entity::copy::CarriesId...
-Generating docs for compound entity::copy::Departament...
-POPBL5/eJkiva/src/main/java/entity/copy/Carries.java:69: warning: Member getWorkstationByInitialWorkstationId() (function) of class entity::copy::Carries is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Carries.java:73: warning: Member setWorkstationByInitialWorkstationId(Workstation workstationByInitialWorkstationId) (function) of class entity::copy::Carries is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/CarriesId.java:18: warning: Member CarriesId(byte orderProductId) (function) of class entity::copy::CarriesId is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/CarriesId.java:22: warning: Member CarriesId(byte orderProductId, Byte initialWorkstationId, Byte destinyWorkstationId, Byte machineId, Boolean state) (function) of class entity::copy::CarriesId is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/CarriesId.java:31: warning: Member getOrderProductId() (function) of class entity::copy::CarriesId is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/CarriesId.java:35: warning: Member setOrderProductId(int orderProductId) (function) of class entity::copy::CarriesId is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/CarriesId.java:39: warning: Member getInitialWorkstationId() (function) of class entity::copy::CarriesId is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/CarriesId.java:43: warning: Member setInitialWorkstationId(Byte initialWorkstationId) (function) of class entity::copy::CarriesId is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/CarriesId.java:47: warning: Member getDestinyWorkstationId() (function) of class entity::copy::CarriesId is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/CarriesId.java:51: warning: Member setDestinyWorkstationId(Byte destinyWorkstationId) (function) of class entity::copy::CarriesId is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/CarriesId.java:55: warning: Member getMachineId() (function) of class entity::copy::CarriesId is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/CarriesId.java:59: warning: Member setMachineId(Byte machineId) (function) of class entity::copy::CarriesId is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/CarriesId.java:63: warning: Member getState() (function) of class entity::copy::CarriesId is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/CarriesId.java:67: warning: Member setState(Boolean state) (function) of class entity::copy::CarriesId is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/CarriesId.java:71: warning: Member equals(Object other) (function) of class entity::copy::CarriesId is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/CarriesId.java:93: warning: Member hashCode() (function) of class entity::copy::CarriesId is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Departament.java:29: warning: Member Departament(String departamentName) (function) of class entity::copy::Departament is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Departament.java:33: warning: Member Departament(String departamentName, String description) (function) of class entGenerating docs for compound entity::copy::Order...
-Generating docs for compound entity::copy::Orderproduct...
-ity::copy::Departament is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Departament.java:38: warning: Member getDepartamentId() (function) of class entity::copy::Departament is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Departament.java:42: warning: Member setDepartamentId(int departamentId) (function) of class entity::copy::Departament is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Departament.java:46: warning: Member getDepartamentName() (function) of class entity::copy::Departament is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Departament.java:50: warning: Member setDepartamentName(String departamentName) (function) of class entity::copy::Departament is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Departament.java:54: warning: Member getDescription() (function) of class entity::copy::Departament is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Departament.java:58: warning: Member setDescription(String description) (function) of class entity::copy::Departament is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Order.java:35: warning: Member Order(User user, Date date) (function) of class entity::copy::Order is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Order.java:40: warning: Member getOrderId() (function) of class entity::copy::Order is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Order.java:44: warning: Member setOrderId(int orderId) (function) of class entity::copy::Order is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Order.java:48: warning: Member getUser() (function) of class entity::copy::Order is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Order.java:52: warning: Member setUser(User user) (function) of class entity::copy::Order is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Order.java:56: warning: Member getDate() (function) of class entity::copy::Order is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Order.java:60: warning: Member setDate(Date date) (function) of class entity::copy::Order is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Orderproduct.java:39: warning: Member Orderproduct(Order order, Product product, short quantity) (function) of class entity::copy::Orderproduct is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Orderproduct.java:45: warning: Member getOrderProductId() (function) of class entity::copy::Orderproduct is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Orderproduct.java:49: warning: Member setOrderProductId(int orderProductId) (function) of class entity::copy::Orderproduct is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Orderproduct.java:53: warning: Member getOrder() (function) of class entity::copy::Orderproduct is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Orderproduct.java:57: warning: Member setOrder(Order order) (function) of class entity::copy::Orderproduct is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/OrderGenerating docs for compound entity::copy::Product...
-Generating docs for compound entity::copy::Segment...
-product.java:61: warning: Member getProduct() (function) of class entity::copy::Orderproduct is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Orderproduct.java:65: warning: Member setProduct(Product product) (function) of class entity::copy::Orderproduct is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Orderproduct.java:69: warning: Member getQuantity() (function) of class entity::copy::Orderproduct is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Orderproduct.java:73: warning: Member setQuantity(short quantity) (function) of class entity::copy::Orderproduct is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Product.java:39: warning: Member Product(String productName, float price) (function) of class entity::copy::Product is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Product.java:44: warning: Member Product(Departament departament, String productName, String description, float price) (function) of class entity::copy::Product is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Product.java:52: warning: Member getProductId() (function) of class entity::copy::Product is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Product.java:56: warning: Member setProductId(int productId) (function) of class entity::copy::Product is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Product.java:60: warning: Member getDepartament() (function) of class entity::copy::Product is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Product.java:64: warning: Member setDepartament(Departament departament) (function) of class entity::copy::Product is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Product.java:68: warning: Member getProductName() (function) of class entity::copy::Product is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Product.java:72: warning: Member setProductName(String productName) (function) of class entity::copy::Product is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Product.java:76: warning: Member getDescription() (function) of class entity::copy::Product is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Product.java:80: warning: Member setDescription(String description) (function) of class entity::copy::Product is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Product.java:84: warning: Member getPrice() (function) of class entity::copy::Product is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Product.java:88: warning: Member setPrice(float price) (function) of class entity::copy::Product is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Product.java:101: warning: Member toString() (function) of class entity::copy::Product is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Segment.java:28: warning: Member Segment(String segment, short posX, short posY) (function) of class entity::copy::Segment is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Segment.java:34: warning: Member Segment(String segment, short posX, short posY, String description, Set authomachesGenerating docs for compound entity::copy::User...
-, Set workstations) (function) of class entity::copy::Segment is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Segment.java:43: warning: Member getSegmentId() (function) of class entity::copy::Segment is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Segment.java:47: warning: Member setSegmentId(Byte segmentId) (function) of class entity::copy::Segment is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Segment.java:51: warning: Member getSegment() (function) of class entity::copy::Segment is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Segment.java:55: warning: Member setSegment(String segment) (function) of class entity::copy::Segment is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Segment.java:59: warning: Member getPosX() (function) of class entity::copy::Segment is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Segment.java:63: warning: Member setPosX(short posX) (function) of class entity::copy::Segment is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Segment.java:67: warning: Member getPosY() (function) of class entity::copy::Segment is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Segment.java:71: warning: Member setPosY(short posY) (function) of class entity::copy::Segment is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Segment.java:75: warning: Member getDescription() (function) of class entity::copy::Segment is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Segment.java:79: warning: Member setDescription(String description) (function) of class entity::copy::Segment is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Segment.java:83: warning: Member getAuthomaches() (function) of class entity::copy::Segment is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Segment.java:87: warning: Member setAuthomaches(Set authomaches) (function) of class entity::copy::Segment is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Segment.java:91: warning: Member getWorkstations() (function) of class entity::copy::Segment is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Segment.java:95: warning: Member setWorkstations(Set workstations) (function) of class entity::copy::Segment is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/User.java:45: warning: Member User(String username, String password, String name, String surname, String mail) (function) of class entity::copy::User is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/User.java:53: warning: Member User(Usertype usertype, String username, String password, String name, String surname, String mail, Date bornDat) (function) of class entity::copy::User is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/User.java:64: warning: Member getUserId() (function) of class entity::copy::User is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/User.java:68: warning: Member setUserId(int userId) (function) of class entity::copy::User is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/Generating docs for compound entity::copy::Usertype...
-main/java/entity/copy/User.java:72: warning: Member getUsertype() (function) of class entity::copy::User is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/User.java:76: warning: Member setUsertype(Usertype usertype) (function) of class entity::copy::User is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/User.java:80: warning: Member getUsername() (function) of class entity::copy::User is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/User.java:84: warning: Member setUsername(String username) (function) of class entity::copy::User is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/User.java:88: warning: Member getPassword() (function) of class entity::copy::User is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/User.java:92: warning: Member setPassword(String password) (function) of class entity::copy::User is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/User.java:96: warning: Member getName() (function) of class entity::copy::User is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/User.java:100: warning: Member setName(String name) (function) of class entity::copy::User is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/User.java:104: warning: Member getSurname() (function) of class entity::copy::User is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/User.java:108: warning: Member setSurname(String surname) (function) of class entity::copy::User is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/User.java:112: warning: Member getMail() (function) of class entity::copy::User is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/User.java:116: warning: Member setMail(String mail) (function) of class entity::copy::User is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/User.java:120: warning: Member getBornDat() (function) of class entity::copy::User is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/User.java:124: warning: Member setBornDat(Date bornDat) (function) of class entity::copy::User is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/User.java:129: warning: Member toString() (function) of class entity::copy::User is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Usertype.java:29: warning: Member Usertype(String usertype) (function) of class entity::copy::Usertype is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Usertype.java:33: warning: Member Usertype(String usertype, String description) (function) of class entity::copy::Usertype is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Usertype.java:38: warning: Member getUsertypeId() (function) of class entity::copy::Usertype is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Usertype.java:42: warning: Member setUsertypeId(int usertypeId) (function) of class entity::copy::Usertype is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Usertype.java:46: warning: Member getUsertype() (function) of class entity::copy::Usertype is not documented.
-D:/Users/Generating docs for compound entity::copy::Workstation...
-user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Usertype.java:50: warning: Member setUsertype(String usertype) (function) of class entity::copy::Usertype is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Usertype.java:54: warning: Member getDescription() (function) of class entity::copy::Usertype is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Usertype.java:58: warning: Member setDescription(String description) (function) of class entity::copy::Usertype is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Usertype.java:62: warning: Member toString() (function) of class entity::copy::Usertype is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Workstation.java:28: warning: Member Workstation(String workstationNam) (function) of class entity::copy::Workstation is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Workstation.java:32: warning: Member Workstation(Segment segment, String workstationNam, String description, Boolean state, Set carriesesForDestinyWorkstationId, Set carriesesForInitialWorkstationId) (function) of class entity::copy::Workstation is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Workstation.java:42: warning: Member getWorkstationId() (function) of class entity::copy::Workstation is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Workstation.java:46: warning: Member setWorkstationId(int workstationId) (function) of class entity::copy::Workstation is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Workstation.java:50: warning: Member getSegment() (function) of class entity::copy::Workstation is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Workstation.java:54: warning: Member setSegment(Segment segment) (function) of class entity::copy::Workstation is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Workstation.java:58: warning: Member getWorkstationNam() (function) of class entity::copy::Workstation is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Workstation.java:62: warning: Member setWorkstationNam(String workstationNam) (function) of class entity::copy::Workstation is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Workstation.java:66: warning: Member getDescription() (function) of class entity::copy::Workstation is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Workstation.java:70: warning: Member setDescription(String description) (function) of class entity::copy::Workstation is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Workstation.java:74: warning: Member getState() (function) of class entity::copy::Workstation is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Workstation.java:78: warning: Member setState(Boolean state) (function) of class entity::copy::Workstation is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Workstation.java:82: warning: Member getCarriesesForDestinyWorkstationId() (function) of class entity::copy::Workstation is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Workstation.java:86: warning: Member setCarriesesForDestinyWorkstationId(Set Generating docs for compound repository::CustomerRepository...
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Workstation.java:33: warning: Member Workstation(String description, Boolean state) (function) of class entity::Workstation is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Workstation.java:38: warning: Member getWorkstationId() (function) of class entity::Workstation is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Workstation.java:42: warning: Member setWorkstationId(int workstationId) (function) of class entity::Workstation is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Workstation.java:46: warning: Member getDescription() (function) of class entity::Workstation is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Workstation.java:50: warning: Member setDescription(String description) (function) of class entity::Workstation is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Workstation.java:54: warning: Member getState() (function) of class entity::Workstation is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Workstation.java:58: warning: Member setState(Boolean state) (function) of class entity::Workstation is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Workstation.java:62: warning: Member getPosX() (function) of class entity::Workstation is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Workstation.java:66: warning: Member setPosX(int posX) (function) of class entity::Workstation is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Workstation.java:70: warning: Member getPosY() (function) of class entity::Workstation is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GGenerating docs for compound repository::CustomerRepository...
 Generating docs for compound repository::ManagerRepository...
 Generating docs for compound repository::OperatorRepository...
 Generating docs for compound repository::UserRepository...
@@ -508,236 +305,8 @@ Generating example index...
 finalizing index lists...
 writing tag file...
 Running dot...
-Generating dot graphs using 9 parallel threads...
-Running dot for graph 1/108
-Running dot for graph 2/108
-Running dot for graph 3/108
-Running dot for graph 4/108
-Running dot for graph 5/108
-Running dot for graph 6/108
-Running dot for graph 7/108
-Running dot for graph 8/108
-Running dot for graph 9/108
-carriesesForDestinyWorkstationId) (function) of class entity::copy::Workstation is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Workstation.java:90: warning: Member getCarriesesForInitialWorkstationId() (function) of class entity::copy::Workstation is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/entity/copy/Workstation.java:94: warning: Member setCarriesesForInitialWorkstationId(Set carriesesForInitialWorkstationId) (function) of class entity::copy::Workstation is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/repository/ManagerRepository.java:16: warning: Member getMonth(int month) (function) of class repository::ManagerRepository is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/repository/ManagerRepository.java:35: warning: Member getItemsOutValue(int day, int month) (function) of class repository::ManagerRepository is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/repository/ManagerRepository.java:51: warning: Member getItemsOutDate(int day, int month) (function) of class repository::ManagerRepository is not documented.
-D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/utils/HibernateUtils.java:25: warning: Member getSessionFactory() (function) of class utils::HibernateUtils is not documented.
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classcontroller_1_1_login_controller__coll__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classcontroller_1_1_login_controller__coll__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classcontroller_1_1_customer_controller__coll__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classcontroller_1_1_customer_controller__coll__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_authomach__inherit__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_authomach__inherit__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classcontroller_1_1_manager_controller__coll__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classcontroller_1_1_manager_controller__coll__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classcontroller_1_1_login_controller__coll__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classcontroller_1_1_login_controller__coll__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classcontroller_1_1_operator_controller__coll__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classcontroller_1_1_operator_controller__coll__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classcontroller_1_1_operator_controller__coll__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classcontroller_1_1_operator_controller__coll__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_carries__inherit__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_carries__inherit__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_carries__inherit__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_carries__inherit__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_authomach__inherit__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_authomach__inherit__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_authomach__coll__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_authomach__coll__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_authomach__coll__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_authomach__coll__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_carries_id__inherit__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_carries_id__inherit__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_carries_id__inherit__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_carries_id__inherit__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_carries__coll__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_carries__coll__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_carries__coll__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_carries__coll__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_carries_id__coll__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_carries_id__coll__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_departament__inherit__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_departament__inherit__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_departament__inherit__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_departament__inherit__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_carries_id__coll__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_carries_id__coll__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_order__inherit__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_order__inherit__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classcontroller_1_1_manager_controller__coll__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classcontroller_1_1_manager_controller__coll__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_departament__coll__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_departament__coll__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classcontroller_1_1_customer_controller__coll__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classcontroller_1_1_customer_controller__coll__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_departament__coll__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_departament__coll__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_order__inherit__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_order__inherit__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_orderproduct__inherit__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_orderproduct__inherit__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_order__coll__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_order__coll__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_orderproduct__inherit__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_orderproduct__inherit__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_order__coll__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_order__coll__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_orderproduct__coll__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_orderproduct__coll__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_product__coll__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_product__coll__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_orderproduct__coll__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_orderproduct__coll__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_product__coll__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_product__coll__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_segment__inherit__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_segment__inherit__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_product__inherit__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_product__inherit__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_product__inherit__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_product__inherit__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_segment__inherit__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_segment__inherit__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_segment__coll__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_segment__coll__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_segment__coll__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_segment__coll__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_usertype__coll__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_usertype__coll__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_user__inherit__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_user__inherit__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_user__inherit__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_user__inherit__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_user__coll__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_user__coll__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_user__coll__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_user__coll__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_usertype__inherit__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_usertype__inherit__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_usertype__inherit__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_usertype__inherit__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_usertype__coll__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_usertype__coll__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_workstation__inherit__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_workstation__inherit__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_workstation__inherit__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_workstation__inherit__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_authomach__inherit__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_authomach__inherit__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_authomach__inherit__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_authomach__inherit__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_workstation__coll__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1_workstation__coll__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_workstation__coll__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1_workstation__coll__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_authomach__coll__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_authomach__coll__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_authomach__coll__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_authomach__coll__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_carries__inherit__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_carries__inherit__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_carries__inherit__graph.dot" -Tpng -o "D:/UsersRunning dot for graph 10/108
-Running dot for graph 11/108
-Running dot for graph 12/108
-Running dot for graph 13/108
-Running dot for graph 14/108
-Running dot for graph 15/108
-Running dot for graph 16/108
-Running dot for graph 17/108
-Running dot for graph 18/108
-Running dot for graph 19/108
-Running dot for graph 20/108
-Running dot for graph 21/108
-Running dot for graph 22/108
-Running dot for graph 23/108
-Running dot for graph 24/108
-Running dot for graph 25/108
-Running dot for graph 26/108
-Running dot for graph 27/108
-Running dot for graph 28/108
-Running dot for graph 29/108
-Running dot for graph 30/108
-Running dot for graph 31/108
-Running dot for graph 32/108
-Running dot for graph 33/108
-Running dot for graph 34/108
-Running dot for graph 35/108
-Running dot for graph 36/108
-Running dot for graph 37/108
-Running dot for graph 38/108
-Running dot for graph 39/108
-Running dot for graph 40/108
-Running dot for graph 41/108
-Running dot for graph 42/108
-Running dot for graph 43/108
-Running dot for graph 44/108
-Running dot for graph 45/108
-Running dot for graph 46/108
-Running dot for graph 47/108
-Running dot for graph 48/108
-Running dot for graph 49/108
-Running dot for graph 50/108
-Running dot for graph 51/108
-Running dot for graph 52/108
-Running dot for graph 53/108
-Running dot for graph 54/108
-Running dot for graph 55/108
-Running dot for graph 56/108
-Running dot for graph 57/108
-Running dot for graph 58/108
-Running dot for graph 59/108
-Running dot for graph 60/108
-Running dot for graph 61/108
-Running dot for graph 62/108
-Running dot for graph 63/108
-Running dot for graph 64/108
-Running dot for graph 65/108
-Running dot for graph 66/108
-Running dot for graph 67/108
-/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_carries__inherit__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_carries__coll__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_carries__coll__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_carries_id__inherit__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_carries_id__inherit__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_carries_id__coll__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_carries_id__coll__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_carries_id__coll__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_carries_id__coll__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_carries_id__inherit__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_carries_id__inherit__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_departament__inherit__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_departament__inherit__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_carries__coll__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_carries__coll__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_departament__inherit__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_departament__inherit__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_departament__coll__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_departament__coll__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_orderproduct__inherit__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_orderproduct__inherit__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_order__inherit__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_order__inherit__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_order__coll__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_order__coll__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_departament__coll__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_departament__coll__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_orderproduct__inherit__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_orderproduct__inherit__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_order__inherit__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_order__inherit__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_orderproduct__coll__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_orderproduct__coll__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_order__coll__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_order__coll__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_orderproduct__coll__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_orderproduct__coll__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_product__inherit__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_product__inherit__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_product__inherit__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_product__inherit__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_product__coll__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_product__coll__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_product__coll__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_product__coll__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_segment__coll__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_segment__coll__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_segment__coll__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_segment__coll__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_segment__inherit__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_segment__inherit__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_segment__inherit__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_segment__inherit__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_user__inherit__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_user__inherit__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_user__inherit__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_user__inherit__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_usertype__inherit__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_usertype__inherit__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_user__coll__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_user__coll__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_user__coll__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_user__coll__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_usertype__inherit__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_usertype__inherit__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_workstation__inherit__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_workstation__inherit__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_workstation__inherit__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_workstation__inherit__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_usertype__coll__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_usertype__coll__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_usertype__coll__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classeRunning dot for graph 68/108
-Running dot for graph 69/108
-Running dot for graph 70/108
-Running dot for graph 71/108
-Running dot for graph 72/108
-Running dot for graph 73/108
-Running dot for graph 74/108
-Running dot for graph 75/108
-Running dot for graph 76/108
-Running dot for graph 77/108
-Running dot for graph 78/108
-Running dot for graph 79/108
-Running dot for graph 80/108
-Running dot for graph 81/108
-Running dot for graph 82/108
-Running dot for graph 83/108
-Running dot for graph 84/108
-Running dot for graph 85/108
-Running dot for graph 86/108
-Running dot for graph 87/108
-Running dot for graph 88/108
-Running dot for graph 89/108
-Running dot for graph 90/108
-Running dot for graph 91/108
-Running dot for graph 92/108
-Running dot for graph 93/108
-Running dot for graph 94/108
-Running dot for graph 95/108
-Running dot for graph 96/108
-Running dot for graph 97/108
-Running dot for graph 98/108
-Running dot for graph 99/108
-Running dot for graph 100/108
-Running dot for graph 101/108
-Running dot for graph 102/108
-Running dot for graph 103/108
-Running dot for graph 104/108
-Running dot for graph 105/108
-Running dot for graph 106/108
-Running dot for graph 107/108
-Running dot for graph 108/108
-Patching output file 1/53
-ntity_1_1copy_1_1_usertype__coll__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/graph_legend.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/graph_legend.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/inherit_graph_0.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/inherit_graph_0.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_workstation__coll__graph.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classentity_1_1copy_1_1_workstation__coll__graph.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/inherit_graph_1.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/inherit_graph_1.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_workstation__coll__graph.dot" -Tpdf -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/latex/classentity_1_1copy_1_1_workstation__coll__graph.pdf"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/inherit_graph_2.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/inherit_graph_2.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/inherit_graph_4.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/inherit_graph_4.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/inherit_graph_3.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/inherit_graph_3.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/inherit_graph_8.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/inherit_graph_8.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/inherit_graph_7.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/inherit_graph_7.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/inherit_graph_5.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/inherit_graph_5.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/inherit_graph_6.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/inherit_graph_6.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/inherit_graph_9.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/inherit_graph_9.png"'
-error: Problems running dot: exit code=-1, command='dot', arguments='"D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/inherit_graph_10.dot" -Tpng -o "D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/inherit_graph_10.png"'
-error: problems opening map file D:/Users/user/Documents/MONDRA/3.MAILPatching output file 2/53
-lookup cache used 283/65536 hits=1519 misses=364
+lookup cache used 179/65536 hits=849 misses=231
 finished...
-A/POPBL5/GIT/eJkiva_POPBL5/eJkiva/html/classcontroller_1_1_customer_controller__coll__graph.map for inclusion in the docs!
-If you installed Graphviz/dot after a previous failing run, 
-try deleting the output directory and rerun doxygen.
-error: problem writing FIG 0 figure!
+IT/eJkiva_POPBL5/eJkiva/src/main/java/entity/Workstation.java:74: warning: Member setPosY(int posY) (function) of class entity::Workstation is not documented.
+D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/utils/HibernateUtils.java:33: warning: Member getSessionFactory() (function) of class utils::HibernateUtils is not documented.
 *** Doxygen has finished

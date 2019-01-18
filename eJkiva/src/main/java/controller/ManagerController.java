@@ -23,7 +23,7 @@ import repository.UserRepository;
 /**
  * ManagerController contains the URL actions of the Manager user type
  * @author Leire
- * 
+ * @class ManagerController
  */
 @Controller  
 @SessionAttributes
@@ -33,7 +33,7 @@ public class ManagerController {
 	ManagerRepository repo = new ManagerRepository();
 
 	/**
-	 * This method will access the manager's main site. 
+	 * This method will access the manager's main site with the display of the warehouse. 
 	 * @throws IOException 
 	 */
 	@RequestMapping("/manager" ) 
@@ -69,7 +69,7 @@ public class ManagerController {
 		return "managerOrders";  
 	} 
 	/**
-	 * This method will show an
+	 * This method will show a specific order
 	 */
 	@RequestMapping("/manager/order" )  
 	public String order(Model m, WebRequest request, HttpServletRequest hrequest) {  
@@ -85,8 +85,7 @@ public class ManagerController {
 	} 
 
 	/**
-	 * This method will access the customer's 'orders' option, where the customer will be able to see the orders
-	 * made through their history.
+	 * This method will show a chart displaying the monthly behavior of the products selled.
 	 */
 	@RequestMapping("/manager/history" )  
 	public String history(Model m, WebRequest request) {
@@ -117,7 +116,7 @@ public class ManagerController {
 		return "warehouseHistory";  
 	} 
 	/**
-	 * This method will show an
+	 * This method will show all the products on stock.
 	 */
 	@RequestMapping("/manager/stock" )  
 	public String stock(Model m, WebRequest request, HttpServletRequest hrequest) {  

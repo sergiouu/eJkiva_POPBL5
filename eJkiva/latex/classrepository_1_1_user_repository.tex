@@ -3,6 +3,8 @@
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
+\mbox{\hyperlink{classentity_1_1_user}{User}} \mbox{\hyperlink{classrepository_1_1_user_repository_a56e9773c71b3fc00aa6589ebad411a87}{add\+User}} (\mbox{\hyperlink{classentity_1_1_usertype}{Usertype}} usertype, String uname, String password, String rname, String surname, String mail, String born\+Dat)  throws Exception 
+\item 
 \mbox{\hyperlink{classentity_1_1_user}{User}} \mbox{\hyperlink{classrepository_1_1_user_repository_adf10692a176bf2819fb70895530ef086}{check\+User}} (String uname, String password)
 \item 
 \mbox{\hyperlink{classentity_1_1_usertype}{Usertype}} \mbox{\hyperlink{classrepository_1_1_user_repository_a8e4a797c0eb806d34793295af70fd281}{check\+Usertype}} (\mbox{\hyperlink{classentity_1_1_user}{User}} user)
@@ -28,50 +30,136 @@ Leire
 
 
 \subsection{Member Function Documentation}
+\mbox{\Hypertarget{classrepository_1_1_user_repository_a56e9773c71b3fc00aa6589ebad411a87}\label{classrepository_1_1_user_repository_a56e9773c71b3fc00aa6589ebad411a87}} 
+\index{repository\+::\+User\+Repository@{repository\+::\+User\+Repository}!add\+User@{add\+User}}
+\index{add\+User@{add\+User}!repository\+::\+User\+Repository@{repository\+::\+User\+Repository}}
+\subsubsection{\texorpdfstring{add\+User()}{addUser()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classentity_1_1_user}{User}} repository.\+User\+Repository.\+add\+User (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classentity_1_1_usertype}{Usertype}}}]{usertype,  }\item[{String}]{uname,  }\item[{String}]{password,  }\item[{String}]{rname,  }\item[{String}]{surname,  }\item[{String}]{mail,  }\item[{String}]{born\+Dat }\end{DoxyParamCaption}) throws Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Adds a user to the database 
+\begin{DoxyParams}{Parameters}
+{\em usertype} & \\
+\hline
+{\em uname} & \\
+\hline
+{\em password} & \\
+\hline
+{\em rname} & \\
+\hline
+{\em surname} & \\
+\hline
+{\em mail} & \\
+\hline
+{\em born\+Dat} & ~\newline
+\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+User 
+\end{DoxyReturn}
 \mbox{\Hypertarget{classrepository_1_1_user_repository_adf10692a176bf2819fb70895530ef086}\label{classrepository_1_1_user_repository_adf10692a176bf2819fb70895530ef086}} 
 \index{repository\+::\+User\+Repository@{repository\+::\+User\+Repository}!check\+User@{check\+User}}
 \index{check\+User@{check\+User}!repository\+::\+User\+Repository@{repository\+::\+User\+Repository}}
 \subsubsection{\texorpdfstring{check\+User()}{checkUser()}}
 {\footnotesize\ttfamily \mbox{\hyperlink{classentity_1_1_user}{User}} repository.\+User\+Repository.\+check\+User (\begin{DoxyParamCaption}\item[{String}]{uname,  }\item[{String}]{password }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
-This method will check a user and its password on the database \mbox{\Hypertarget{classrepository_1_1_user_repository_a8e4a797c0eb806d34793295af70fd281}\label{classrepository_1_1_user_repository_a8e4a797c0eb806d34793295af70fd281}} 
+This method will check a user and its password on the database 
+\begin{DoxyParams}{Parameters}
+{\em uname} & \\
+\hline
+{\em password} & ~\newline
+\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+User 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classrepository_1_1_user_repository_a8e4a797c0eb806d34793295af70fd281}\label{classrepository_1_1_user_repository_a8e4a797c0eb806d34793295af70fd281}} 
 \index{repository\+::\+User\+Repository@{repository\+::\+User\+Repository}!check\+Usertype@{check\+Usertype}}
 \index{check\+Usertype@{check\+Usertype}!repository\+::\+User\+Repository@{repository\+::\+User\+Repository}}
 \subsubsection{\texorpdfstring{check\+Usertype()}{checkUsertype()}}
 {\footnotesize\ttfamily \mbox{\hyperlink{classentity_1_1_usertype}{Usertype}} repository.\+User\+Repository.\+check\+Usertype (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classentity_1_1_user}{User}}}]{user }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
-This method will return the usertype of the user given \mbox{\Hypertarget{classrepository_1_1_user_repository_a487c490af80c0a94477bfcfdbe7d288f}\label{classrepository_1_1_user_repository_a487c490af80c0a94477bfcfdbe7d288f}} 
+This method will return the usertype of the user given 
+\begin{DoxyParams}{Parameters}
+{\em user} & ~\newline
+\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Usertype 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classrepository_1_1_user_repository_a487c490af80c0a94477bfcfdbe7d288f}\label{classrepository_1_1_user_repository_a487c490af80c0a94477bfcfdbe7d288f}} 
 \index{repository\+::\+User\+Repository@{repository\+::\+User\+Repository}!find\+Order\+By\+Id@{find\+Order\+By\+Id}}
 \index{find\+Order\+By\+Id@{find\+Order\+By\+Id}!repository\+::\+User\+Repository@{repository\+::\+User\+Repository}}
 \subsubsection{\texorpdfstring{find\+Order\+By\+Id()}{findOrderById()}}
 {\footnotesize\ttfamily \mbox{\hyperlink{classentity_1_1_order}{Order}} repository.\+User\+Repository.\+find\+Order\+By\+Id (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
-This method will find an order by its ID \mbox{\Hypertarget{classrepository_1_1_user_repository_a56980daa937375f2c13ceb712a08aace}\label{classrepository_1_1_user_repository_a56980daa937375f2c13ceb712a08aace}} 
+This method will find an order by its ID 
+\begin{DoxyParams}{Parameters}
+{\em id} & ~\newline
+\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Order 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classrepository_1_1_user_repository_a56980daa937375f2c13ceb712a08aace}\label{classrepository_1_1_user_repository_a56980daa937375f2c13ceb712a08aace}} 
 \index{repository\+::\+User\+Repository@{repository\+::\+User\+Repository}!get\+All\+Orders@{get\+All\+Orders}}
 \index{get\+All\+Orders@{get\+All\+Orders}!repository\+::\+User\+Repository@{repository\+::\+User\+Repository}}
 \subsubsection{\texorpdfstring{get\+All\+Orders()}{getAllOrders()}}
 {\footnotesize\ttfamily \mbox{\hyperlink{classentity_1_1_order}{Order}} \mbox{[}$\,$\mbox{]} repository.\+User\+Repository.\+get\+All\+Orders (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classentity_1_1_user}{User}}}]{user }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
-This method will return all the orders of the user given \mbox{\Hypertarget{classrepository_1_1_user_repository_a91aaaa79a8c1be15fc6111a9467c981e}\label{classrepository_1_1_user_repository_a91aaaa79a8c1be15fc6111a9467c981e}} 
+This method will return all the orders of the user given 
+\begin{DoxyParams}{Parameters}
+{\em user} & ~\newline
+\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Order\mbox{[}\mbox{]} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classrepository_1_1_user_repository_a91aaaa79a8c1be15fc6111a9467c981e}\label{classrepository_1_1_user_repository_a91aaaa79a8c1be15fc6111a9467c981e}} 
 \index{repository\+::\+User\+Repository@{repository\+::\+User\+Repository}!get\+All\+Products@{get\+All\+Products}}
 \index{get\+All\+Products@{get\+All\+Products}!repository\+::\+User\+Repository@{repository\+::\+User\+Repository}}
 \subsubsection{\texorpdfstring{get\+All\+Products()}{getAllProducts()}}
 {\footnotesize\ttfamily \mbox{\hyperlink{classentity_1_1_product}{Product}} \mbox{[}$\,$\mbox{]} repository.\+User\+Repository.\+get\+All\+Products (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
-This method will creturn all the products available \mbox{\Hypertarget{classrepository_1_1_user_repository_a413de9a5357ced95cfe6524c47b98bee}\label{classrepository_1_1_user_repository_a413de9a5357ced95cfe6524c47b98bee}} 
+This method will return all the products available on stock \begin{DoxyReturn}{Returns}
+Product\mbox{[}\mbox{]} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classrepository_1_1_user_repository_a413de9a5357ced95cfe6524c47b98bee}\label{classrepository_1_1_user_repository_a413de9a5357ced95cfe6524c47b98bee}} 
 \index{repository\+::\+User\+Repository@{repository\+::\+User\+Repository}!get\+Products\+From\+Order@{get\+Products\+From\+Order}}
 \index{get\+Products\+From\+Order@{get\+Products\+From\+Order}!repository\+::\+User\+Repository@{repository\+::\+User\+Repository}}
 \subsubsection{\texorpdfstring{get\+Products\+From\+Order()}{getProductsFromOrder()}}
 {\footnotesize\ttfamily List$<$\mbox{\hyperlink{classentity_1_1_product}{Product}}$>$ repository.\+User\+Repository.\+get\+Products\+From\+Order (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
-This method will find an order by its ID \mbox{\Hypertarget{classrepository_1_1_user_repository_a7da3f6411186e8169f5730638e6a4032}\label{classrepository_1_1_user_repository_a7da3f6411186e8169f5730638e6a4032}} 
+This method will find the products of an order 
+\begin{DoxyParams}{Parameters}
+{\em id} & ~\newline
+\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+List$<$\+Product$>$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classrepository_1_1_user_repository_a7da3f6411186e8169f5730638e6a4032}\label{classrepository_1_1_user_repository_a7da3f6411186e8169f5730638e6a4032}} 
 \index{repository\+::\+User\+Repository@{repository\+::\+User\+Repository}!get\+Usertype\+By\+Id@{get\+Usertype\+By\+Id}}
 \index{get\+Usertype\+By\+Id@{get\+Usertype\+By\+Id}!repository\+::\+User\+Repository@{repository\+::\+User\+Repository}}
 \subsubsection{\texorpdfstring{get\+Usertype\+By\+Id()}{getUsertypeById()}}
 {\footnotesize\ttfamily \mbox{\hyperlink{classentity_1_1_usertype}{Usertype}} repository.\+User\+Repository.\+get\+Usertype\+By\+Id (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 This method will find a user and return its type 
+\begin{DoxyParams}{Parameters}
+{\em id} & ~\newline
+\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Usertype 
+\end{DoxyReturn}
+
 
 The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
 \item 
-D\+:/\+Users/user/\+Documents/\+M\+O\+N\+D\+R\+A/3.\+M\+A\+I\+L\+A/\+P\+O\+P\+B\+L5/\+G\+I\+T/e\+Jkiva\+\_\+\+P\+O\+P\+B\+L5/e\+Jkiva/src/main/java/repository/User\+Repository.\+java\end{DoxyCompactItemize}
+src/main/java/repository/User\+Repository.\+java\end{DoxyCompactItemize}

@@ -2,8 +2,13 @@
 \label{classcontroller_1_1_manager_controller}\index{controller.\+Manager\+Controller@{controller.\+Manager\+Controller}}
 
 
-Collaboration diagram for controller.\+Manager\+Controller\+:
-% FIG 0
+Collaboration diagram for controller.\+Manager\+Controller\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcontroller_1_1_manager_controller__coll__graph}
+\end{center}
+\end{figure}
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
@@ -14,6 +19,8 @@ String \mbox{\hyperlink{classcontroller_1_1_manager_controller_a59689dd37c44b329
 String \mbox{\hyperlink{classcontroller_1_1_manager_controller_a32dde55b16d1fb8e38f0a4f1cc0351be}{order}} (Model m, Web\+Request request, Http\+Servlet\+Request hrequest)
 \item 
 String \mbox{\hyperlink{classcontroller_1_1_manager_controller_a06fcd2a1ad144e711de97430841a804f}{history}} (Model m, Web\+Request request)
+\item 
+String \mbox{\hyperlink{classcontroller_1_1_manager_controller_a390147f47b5df4b5f24573f167067d71}{stock}} (Model m, Web\+Request request, Http\+Servlet\+Request hrequest)
 \end{DoxyCompactItemize}
 
 
@@ -30,7 +37,7 @@ Leire
 \subsubsection{\texorpdfstring{customer()}{customer()}}
 {\footnotesize\ttfamily String controller.\+Manager\+Controller.\+customer (\begin{DoxyParamCaption}\item[{Model}]{m,  }\item[{Web\+Request}]{request,  }\item[{Http\+Servlet\+Response}]{response,  }\item[{Http\+Servlet\+Request}]{hrequest }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
 
-This method will access the manager\textquotesingle{}s main site. 
+This method will access the manager\textquotesingle{}s main site with the display of the warehouse. 
 \begin{DoxyExceptions}{Exceptions}
 {\em I\+O\+Exception} & \\
 \hline
@@ -41,13 +48,13 @@ This method will access the manager\textquotesingle{}s main site.
 \subsubsection{\texorpdfstring{history()}{history()}}
 {\footnotesize\ttfamily String controller.\+Manager\+Controller.\+history (\begin{DoxyParamCaption}\item[{Model}]{m,  }\item[{Web\+Request}]{request }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
-This method will access the customer\textquotesingle{}s \textquotesingle{}orders\textquotesingle{} option, where the customer will be able to see the orders made through their history. \mbox{\Hypertarget{classcontroller_1_1_manager_controller_a32dde55b16d1fb8e38f0a4f1cc0351be}\label{classcontroller_1_1_manager_controller_a32dde55b16d1fb8e38f0a4f1cc0351be}} 
+This method will show a chart displaying the monthly behavior of the products selled. \mbox{\Hypertarget{classcontroller_1_1_manager_controller_a32dde55b16d1fb8e38f0a4f1cc0351be}\label{classcontroller_1_1_manager_controller_a32dde55b16d1fb8e38f0a4f1cc0351be}} 
 \index{controller\+::\+Manager\+Controller@{controller\+::\+Manager\+Controller}!order@{order}}
 \index{order@{order}!controller\+::\+Manager\+Controller@{controller\+::\+Manager\+Controller}}
 \subsubsection{\texorpdfstring{order()}{order()}}
 {\footnotesize\ttfamily String controller.\+Manager\+Controller.\+order (\begin{DoxyParamCaption}\item[{Model}]{m,  }\item[{Web\+Request}]{request,  }\item[{Http\+Servlet\+Request}]{hrequest }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
-This method will show an \mbox{\Hypertarget{classcontroller_1_1_manager_controller_a59689dd37c44b3294edc931668e57fb0}\label{classcontroller_1_1_manager_controller_a59689dd37c44b3294edc931668e57fb0}} 
+This method will show a specific order \mbox{\Hypertarget{classcontroller_1_1_manager_controller_a59689dd37c44b3294edc931668e57fb0}\label{classcontroller_1_1_manager_controller_a59689dd37c44b3294edc931668e57fb0}} 
 \index{controller\+::\+Manager\+Controller@{controller\+::\+Manager\+Controller}!orders@{orders}}
 \index{orders@{orders}!controller\+::\+Manager\+Controller@{controller\+::\+Manager\+Controller}}
 \subsubsection{\texorpdfstring{orders()}{orders()}}
@@ -58,8 +65,14 @@ This method will access the manager\textquotesingle{}s \textquotesingle{}orders\
 {\em I\+O\+Exception} & \\
 \hline
 \end{DoxyExceptions}
+\mbox{\Hypertarget{classcontroller_1_1_manager_controller_a390147f47b5df4b5f24573f167067d71}\label{classcontroller_1_1_manager_controller_a390147f47b5df4b5f24573f167067d71}} 
+\index{controller\+::\+Manager\+Controller@{controller\+::\+Manager\+Controller}!stock@{stock}}
+\index{stock@{stock}!controller\+::\+Manager\+Controller@{controller\+::\+Manager\+Controller}}
+\subsubsection{\texorpdfstring{stock()}{stock()}}
+{\footnotesize\ttfamily String controller.\+Manager\+Controller.\+stock (\begin{DoxyParamCaption}\item[{Model}]{m,  }\item[{Web\+Request}]{request,  }\item[{Http\+Servlet\+Request}]{hrequest }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
+This method will show all the products on stock. 
 
 The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
 \item 
-D\+:/\+Users/user/\+Documents/\+M\+O\+N\+D\+R\+A/3.\+M\+A\+I\+L\+A/\+P\+O\+P\+B\+L5/\+G\+I\+T/e\+Jkiva\+\_\+\+P\+O\+P\+B\+L5/e\+Jkiva/src/main/java/controller/Manager\+Controller.\+java\end{DoxyCompactItemize}
+src/main/java/controller/Manager\+Controller.\+java\end{DoxyCompactItemize}

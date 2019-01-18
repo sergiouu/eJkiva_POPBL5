@@ -2,8 +2,13 @@
 \label{classcontroller_1_1_operator_controller}\index{controller.\+Operator\+Controller@{controller.\+Operator\+Controller}}
 
 
-Collaboration diagram for controller.\+Operator\+Controller\+:
-% FIG 0
+Collaboration diagram for controller.\+Operator\+Controller\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcontroller_1_1_operator_controller__coll__graph}
+\end{center}
+\end{figure}
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
@@ -13,7 +18,7 @@ String \mbox{\hyperlink{classcontroller_1_1_operator_controller_a79b22da6d85dc47
 \item 
 String \mbox{\hyperlink{classcontroller_1_1_operator_controller_a1fcb7b5bea154a09eef4db21632bcc60}{order}} (Model m, Web\+Request request, Http\+Servlet\+Response response, Http\+Servlet\+Request hrequest)  throws I\+O\+Exception 
 \item 
-String \mbox{\hyperlink{classcontroller_1_1_operator_controller_a20f145b080521609c4513dc5544612a2}{stock}} (Model m, Web\+Request request, Http\+Servlet\+Response response, Http\+Servlet\+Request hrequest)  throws I\+O\+Exception 
+String \mbox{\hyperlink{classcontroller_1_1_operator_controller_ac1739e3ad5746eb50e72a79df2cd7aca}{warehouse}} (Model m, Web\+Request request, Http\+Servlet\+Response response, Http\+Servlet\+Request hrequest)  throws I\+O\+Exception 
 \end{DoxyCompactItemize}
 
 
@@ -30,7 +35,7 @@ Leire
 \subsubsection{\texorpdfstring{customer()}{customer()}}
 {\footnotesize\ttfamily String controller.\+Operator\+Controller.\+customer (\begin{DoxyParamCaption}\item[{Model}]{m,  }\item[{Web\+Request}]{request,  }\item[{Http\+Servlet\+Response}]{response,  }\item[{Http\+Servlet\+Request}]{hrequest }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
 
-This method will access the operator\textquotesingle{}s main site. 
+This method will access the operator\textquotesingle{}s main site with the display of the warehouse. 
 \begin{DoxyExceptions}{Exceptions}
 {\em I\+O\+Exception} & \\
 \hline
@@ -41,7 +46,7 @@ This method will access the operator\textquotesingle{}s main site.
 \subsubsection{\texorpdfstring{order()}{order()}}
 {\footnotesize\ttfamily String controller.\+Operator\+Controller.\+order (\begin{DoxyParamCaption}\item[{Model}]{m,  }\item[{Web\+Request}]{request,  }\item[{Http\+Servlet\+Response}]{response,  }\item[{Http\+Servlet\+Request}]{hrequest }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
 
-This method will access the customer\textquotesingle{}s \textquotesingle{}orders\textquotesingle{} option, where the customer will be able to see the orders made through their history. 
+This method will show an specific order. 
 \begin{DoxyExceptions}{Exceptions}
 {\em I\+O\+Exception} & \\
 \hline
@@ -52,18 +57,18 @@ This method will access the customer\textquotesingle{}s \textquotesingle{}orders
 \subsubsection{\texorpdfstring{orders()}{orders()}}
 {\footnotesize\ttfamily String controller.\+Operator\+Controller.\+orders (\begin{DoxyParamCaption}\item[{Model}]{m,  }\item[{Web\+Request}]{request,  }\item[{Http\+Servlet\+Response}]{response,  }\item[{Http\+Servlet\+Request}]{hrequest }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
 
-This method will access the customer\textquotesingle{}s \textquotesingle{}orders\textquotesingle{} option, where the customer will be able to see the orders made through their history. 
+This method will access the operator\textquotesingle{}s \textquotesingle{}orders\textquotesingle{} option showing all the orders done on e\+Jkiva\textquotesingle{}s history. 
 \begin{DoxyExceptions}{Exceptions}
 {\em I\+O\+Exception} & \\
 \hline
 \end{DoxyExceptions}
-\mbox{\Hypertarget{classcontroller_1_1_operator_controller_a20f145b080521609c4513dc5544612a2}\label{classcontroller_1_1_operator_controller_a20f145b080521609c4513dc5544612a2}} 
-\index{controller\+::\+Operator\+Controller@{controller\+::\+Operator\+Controller}!stock@{stock}}
-\index{stock@{stock}!controller\+::\+Operator\+Controller@{controller\+::\+Operator\+Controller}}
-\subsubsection{\texorpdfstring{stock()}{stock()}}
-{\footnotesize\ttfamily String controller.\+Operator\+Controller.\+stock (\begin{DoxyParamCaption}\item[{Model}]{m,  }\item[{Web\+Request}]{request,  }\item[{Http\+Servlet\+Response}]{response,  }\item[{Http\+Servlet\+Request}]{hrequest }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+\mbox{\Hypertarget{classcontroller_1_1_operator_controller_ac1739e3ad5746eb50e72a79df2cd7aca}\label{classcontroller_1_1_operator_controller_ac1739e3ad5746eb50e72a79df2cd7aca}} 
+\index{controller\+::\+Operator\+Controller@{controller\+::\+Operator\+Controller}!warehouse@{warehouse}}
+\index{warehouse@{warehouse}!controller\+::\+Operator\+Controller@{controller\+::\+Operator\+Controller}}
+\subsubsection{\texorpdfstring{warehouse()}{warehouse()}}
+{\footnotesize\ttfamily String controller.\+Operator\+Controller.\+warehouse (\begin{DoxyParamCaption}\item[{Model}]{m,  }\item[{Web\+Request}]{request,  }\item[{Http\+Servlet\+Response}]{response,  }\item[{Http\+Servlet\+Request}]{hrequest }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
 
-This method will access the customer\textquotesingle{}s \textquotesingle{}orders\textquotesingle{} option, where the customer will be able to see the orders made through their history. 
+This method will show the current status of the workstations on the warehouse. 
 \begin{DoxyExceptions}{Exceptions}
 {\em I\+O\+Exception} & \\
 \hline
@@ -72,4 +77,4 @@ This method will access the customer\textquotesingle{}s \textquotesingle{}orders
 
 The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
 \item 
-D\+:/\+Users/user/\+Documents/\+M\+O\+N\+D\+R\+A/3.\+M\+A\+I\+L\+A/\+P\+O\+P\+B\+L5/\+G\+I\+T/e\+Jkiva\+\_\+\+P\+O\+P\+B\+L5/e\+Jkiva/src/main/java/controller/Operator\+Controller.\+java\end{DoxyCompactItemize}
+src/main/java/controller/Operator\+Controller.\+java\end{DoxyCompactItemize}

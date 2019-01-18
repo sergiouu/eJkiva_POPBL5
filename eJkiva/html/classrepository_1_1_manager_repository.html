@@ -75,19 +75,19 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae52c653f3008bfa5bc0f5af8dab9db43"><td class="memItemLeft" align="right" valign="top"><a id="ae52c653f3008bfa5bc0f5af8dab9db43"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><b>getMonth</b> (int month)</td></tr>
+<tr class="memitem:ae52c653f3008bfa5bc0f5af8dab9db43"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrepository_1_1_manager_repository.html#ae52c653f3008bfa5bc0f5af8dab9db43">getMonth</a> (int month)</td></tr>
 <tr class="separator:ae52c653f3008bfa5bc0f5af8dab9db43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e915572c7802a1e4503c558cabab270"><td class="memItemLeft" align="right" valign="top"><a id="a0e915572c7802a1e4503c558cabab270"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>getItemsOutValue</b> (int day, int month)</td></tr>
+<tr class="memitem:a0e915572c7802a1e4503c558cabab270"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrepository_1_1_manager_repository.html#a0e915572c7802a1e4503c558cabab270">getItemsOutValue</a> (int day, int month)</td></tr>
 <tr class="separator:a0e915572c7802a1e4503c558cabab270"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a674b19911835ed9b14bc4e8ad6bbad95"><td class="memItemLeft" align="right" valign="top"><a id="a674b19911835ed9b14bc4e8ad6bbad95"></a>
-Date&#160;</td><td class="memItemRight" valign="bottom"><b>getItemsOutDate</b> (int day, int month)</td></tr>
+<tr class="memitem:a674b19911835ed9b14bc4e8ad6bbad95"><td class="memItemLeft" align="right" valign="top">Date&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrepository_1_1_manager_repository.html#a674b19911835ed9b14bc4e8ad6bbad95">getItemsOutDate</a> (int day, int month)</td></tr>
 <tr class="separator:a674b19911835ed9b14bc4e8ad6bbad95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa79e0ef0402a40bb0cc00694ca02adf2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classentity_1_1_order.html">Order</a> []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrepository_1_1_manager_repository.html#aa79e0ef0402a40bb0cc00694ca02adf2">getAllOrders</a> ()</td></tr>
 <tr class="separator:aa79e0ef0402a40bb0cc00694ca02adf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Manager Repository. Contains functions and sql queries to get information from database used by the customer.</p>
+<dl class="section author"><dt>Author</dt><dd>Leire </dd></dl>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="aa79e0ef0402a40bb0cc00694ca02adf2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa79e0ef0402a40bb0cc00694ca02adf2">&#9670;&nbsp;</a></span>getAllOrders()</h2>
 
@@ -110,12 +110,133 @@ Date&#160;</td><td class="memItemRight" valign="bottom"><b>getItemsOutDate</b> (
   </tr>
 </table>
 </div><div class="memdoc">
-<p>This method will return all the orders of the warehouse's history </p>
+<p>This method will return all the orders of the warehouse's history </p><dl class="section return"><dt>Returns</dt><dd>Order[] </dd></dl>
+
+</div>
+</div>
+<a id="a674b19911835ed9b14bc4e8ad6bbad95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a674b19911835ed9b14bc4e8ad6bbad95">&#9670;&nbsp;</a></span>getItemsOutDate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Date repository.ManagerRepository.getItemsOutDate </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>day</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>month</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Function that returns information for the Manager's chart. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">day</td><td></td></tr>
+    <tr><td class="paramname">month</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Date </dd></dl>
+
+</div>
+</div>
+<a id="a0e915572c7802a1e4503c558cabab270"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e915572c7802a1e4503c558cabab270">&#9670;&nbsp;</a></span>getItemsOutValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int repository.ManagerRepository.getItemsOutValue </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>day</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>month</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Function that returns information for the Manager's chart. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">day</td><td></td></tr>
+    <tr><td class="paramname">month</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>int </dd></dl>
+
+</div>
+</div>
+<a id="ae52c653f3008bfa5bc0f5af8dab9db43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae52c653f3008bfa5bc0f5af8dab9db43">&#9670;&nbsp;</a></span>getMonth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String repository.ManagerRepository.getMonth </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>month</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Function with a list of Months. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">month</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>String </dd></dl>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/repository/ManagerRepository.java</li>
+<li>src/main/java/repository/ManagerRepository.java</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

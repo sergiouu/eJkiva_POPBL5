@@ -23,7 +23,7 @@ import repository.UserRepository;
 /**
  * OperatorController contains the URL actions of the Operator user type
  * @author Leire
- * 
+ * @class OperatorController
  */
 @Controller  
 @SessionAttributes
@@ -33,7 +33,7 @@ public class OperatorController {
 	OperatorRepository repo = new OperatorRepository();
 
 	/**
-	 * This method will access the operator's main site. 
+	 * This method will access the operator's main site with the display of the warehouse. 
 	 * @throws IOException 
 	 */
 	@RequestMapping("/operator" ) 
@@ -48,8 +48,7 @@ public class OperatorController {
 	}  
 
 	/**
-	 * This method will access the customer's 'orders' option, where the customer will be able to see the orders
-	 * made through their history.
+	 * This method will access the operator's 'orders' option showing all the orders done on eJkiva's history.
 	 * @throws IOException 
 	 */
 	@RequestMapping("/operator/orders" )  
@@ -70,8 +69,7 @@ public class OperatorController {
 	} 
 
 	/**
-	 * This method will access the customer's 'orders' option, where the customer will be able to see the orders
-	 * made through their history.
+	 * This method will show an specific order.
 	 * @throws IOException 
 	 */
 	@RequestMapping("/operator/order" )  
@@ -87,8 +85,7 @@ public class OperatorController {
 	} 
 	
 	/**
-	 * This method will access the customer's 'orders' option, where the customer will be able to see the orders
-	 * made through their history.
+	 * This method will show the current status of the workstations on the warehouse.
 	 * @throws IOException 
 	 */
 	@RequestMapping("/operator/warehouse" )  

@@ -32,6 +32,7 @@ import utils.HibernateUtils;
  
 /**
  * CustomerController contains the URL actions of the Customer user type
+ * @class CustomerController
  * @author Leire
  * 
  */  
@@ -44,6 +45,7 @@ public class CustomerController {
 	List<Integer> nums= new ArrayList<>();
 	UserRepository urepo = new UserRepository();
 	CustomerRepository repo = new CustomerRepository();
+	
 	/**
      * This method will access the customer's main site. Here, the customer will be able to see all the 
      * products available on the store.
@@ -146,8 +148,7 @@ public class CustomerController {
     }  
 	
 	/**
-     * This method will access the customer's 'orders' option, where the customer will be able to see the orders
-     * made through their history.
+     * This method will access the customer's 'orders' option, where the customer will be able to seea concrete order.
      */
 	@RequestMapping("/customer/order" )  
 	public String order(Model m, WebRequest request) {  
@@ -217,7 +218,7 @@ public class CustomerController {
 	
 	
 	/**
-     * This method will show a chart showing...
+     * This method will show a chart showing the history of the products bought by the customer
      * 
      */
 	@RequestMapping("/customer/productHistory" )  

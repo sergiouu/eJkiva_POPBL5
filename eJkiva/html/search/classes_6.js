@@ -2,6 +2,6 @@ var searchData=
 [
   ['operatorcontroller',['OperatorController',['../classcontroller_1_1_operator_controller.html',1,'controller']]],
   ['operatorrepository',['OperatorRepository',['../classrepository_1_1_operator_repository.html',1,'repository']]],
-  ['order',['Order',['../classentity_1_1_order.html',1,'entity.Order'],['../classentity_1_1copy_1_1_order.html',1,'entity.copy.Order']]],
-  ['orderproduct',['Orderproduct',['../classentity_1_1_orderproduct.html',1,'entity.Orderproduct'],['../classentity_1_1copy_1_1_orderproduct.html',1,'entity.copy.Orderproduct']]]
+  ['order',['Order',['../classentity_1_1_order.html',1,'entity']]],
+  ['orderproduct',['Orderproduct',['../classentity_1_1_orderproduct.html',1,'entity']]]
 ];

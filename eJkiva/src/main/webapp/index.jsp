@@ -51,18 +51,18 @@
 					<div class="panel panel-login">
 						<div class="panel-heading">
 							<div class="row">
-								<div class="col-xs-6">
+								<div class="col-xs-12">
 									<a href="#" class="active" id="login-form-link">Login</a>
 								</div>
-								<div class="col-xs-6">
+								<!--  div class="col-xs-6">
 									<a href="#" id="register-form-link">Register</a>
-								</div>
+								</div-->
 							</div>
 							<hr>
 						</div>
 						<div class="panel-body">
 							<div class="row">
-								<div class="col-lg-12">
+								<div class="col-lg-12"><!--  
 									<form id="register-form" action="login.html" method="post"
 												role="form" style="display: none;">
 												<div class="form-group">
@@ -113,7 +113,7 @@
 													</div>
 												</div>
 											</form>
-										
+										-->
 									<form id="login-form" action="login.html" method="post" 
 												role="form" style="display: block;">
 												<div class="form-group">

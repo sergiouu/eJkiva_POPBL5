@@ -76,7 +76,10 @@ $(function() {
 Collaboration diagram for controller.ManagerController:</div>
 <div class="dyncontent">
 <div class="center"><img src="classcontroller_1_1_manager_controller__coll__graph.png" border="0" usemap="#controller_8_manager_controller_coll__map" alt="Collaboration graph"/></div>
-<!-- MAP 0 -->
+<map name="controller_8_manager_controller_coll__map" id="controller_8_manager_controller_coll__map">
+<area shape="rect" id="node2" href="classrepository_1_1_user_repository.html" title="repository.UserRepository" alt="" coords="5,5,177,32"/>
+<area shape="rect" id="node3" href="classrepository_1_1_manager_repository.html" title="repository.ManagerRepository" alt="" coords="202,5,397,32"/>
+</map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -89,6 +92,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a32dde55b16d1fb8e38f0a4f1cc0351be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06fcd2a1ad144e711de97430841a804f"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcontroller_1_1_manager_controller.html#a06fcd2a1ad144e711de97430841a804f">history</a> (Model m, WebRequest request)</td></tr>
 <tr class="separator:a06fcd2a1ad144e711de97430841a804f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a390147f47b5df4b5f24573f167067d71"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcontroller_1_1_manager_controller.html#a390147f47b5df4b5f24573f167067d71">stock</a> (Model m, WebRequest request, HttpServletRequest hrequest)</td></tr>
+<tr class="separator:a390147f47b5df4b5f24573f167067d71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classcontroller_1_1_manager_controller.html">ManagerController</a> contains the URL actions of the Manager user type </p><dl class="section author"><dt>Author</dt><dd>Leire </dd></dl>
@@ -138,7 +143,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>This method will access the manager's main site. </p><dl class="exception"><dt>Exceptions</dt><dd>
+<p>This method will access the manager's main site with the display of the warehouse. </p><dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
     <tr><td class="paramname">IOException</td><td></td></tr>
   </table>
@@ -180,7 +185,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>This method will access the customer's 'orders' option, where the customer will be able to see the orders made through their history. </p>
+<p>This method will show a chart displaying the monthly behavior of the products selled. </p>
 
 </div>
 </div>
@@ -223,7 +228,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>This method will show an </p>
+<p>This method will show a specific order </p>
 
 </div>
 </div>
@@ -281,8 +286,51 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a390147f47b5df4b5f24573f167067d71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a390147f47b5df4b5f24573f167067d71">&#9670;&nbsp;</a></span>stock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String controller.ManagerController.stock </td>
+          <td>(</td>
+          <td class="paramtype">Model&#160;</td>
+          <td class="paramname"><em>m</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">WebRequest&#160;</td>
+          <td class="paramname"><em>request</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">HttpServletRequest&#160;</td>
+          <td class="paramname"><em>hrequest</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>This method will show all the products on stock. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/controller/ManagerController.java</li>
+<li>src/main/java/controller/ManagerController.java</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

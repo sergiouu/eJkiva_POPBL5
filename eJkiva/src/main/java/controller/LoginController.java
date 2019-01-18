@@ -33,7 +33,7 @@ import utils.HibernateUtils;
 
 /**
  * Login class.
- * 
+ * @class LoginController
  * @author Leire
  *
  */
@@ -44,7 +44,7 @@ public class LoginController {
 		
 	UserRepository repo;
 	/**
-     * This method will login a user and direct them depending on their type
+     * This method will login or register a user and redirect them depending on their type 
 	 * @throws Exception 
      */
 	@RequestMapping("/login")  
@@ -105,8 +105,8 @@ public class LoginController {
 			        break; 
 				}
 				else if(pwd.equals(passwordRepeat)) {
-					User newUser = addUser(utype, uname, pwd, name, surname, email, borndate);
-					System.out.println(newUser);
+					User newUser = repo.addUser(utype, uname, pwd, name, surname, email, borndate);
+					session.removeAttribute("user");
 					session.setAttribute("user",newUser);
 					request.setAttribute("message", "register.successful");
 					response.sendRedirect("/eJkiva/customer.html");
@@ -126,25 +126,7 @@ public class LoginController {
 		return "login";
     }  	
 	
-	/**
-     * Adds a user to the database
-     */
-	public User addUser(Usertype usertype, String uname, String password, String rname, String surname, String mail,
-			String bornDat) throws Exception {
-
-		Session session=HibernateUtils.getSessionFactory().openSession();
-		Transaction tx= session.beginTransaction(); 
-		
-		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
-		Date date = simpleDateFormat.parse(bornDat);
-		System.out.println(date+"!!!!!!!!!");
-		
-		User newuser = new User(usertype, uname, password, rname, surname, mail, date);
-		
-		session.save(newuser);
-        tx.commit();
-		return newuser;
-	}
+	
 	
 	
 }

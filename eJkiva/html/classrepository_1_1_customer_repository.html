@@ -81,11 +81,63 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aaf10d05eb98d9995edda61c3fe5e04f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18f31c471b0a4adfacd1ea23499cb02b"><td class="memItemLeft" align="right" valign="top">List&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrepository_1_1_customer_repository.html#a18f31c471b0a4adfacd1ea23499cb02b">getProductList</a> (int id)</td></tr>
 <tr class="separator:a18f31c471b0a4adfacd1ea23499cb02b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf327e94b8e4245b19cb5f99963bb28e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrepository_1_1_customer_repository.html#abf327e94b8e4245b19cb5f99963bb28e">createOrder</a> (List&lt; <a class="el" href="classentity_1_1_product.html">Product</a> &gt; cart, List&lt; Integer &gt; nums, <a class="el" href="classentity_1_1_user.html">User</a> user)</td></tr>
+<tr class="separator:abf327e94b8e4245b19cb5f99963bb28e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>User Repository. Contains sql queries to get information from database.</p>
+<div class="textblock"><p>Customer Repository. Contains functions and sql queries to get information from database used by the customer.</p>
 <dl class="section author"><dt>Author</dt><dd>Leire </dd></dl>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="abf327e94b8e4245b19cb5f99963bb28e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf327e94b8e4245b19cb5f99963bb28e">&#9670;&nbsp;</a></span>createOrder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void repository.CustomerRepository.createOrder </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; <a class="el" href="classentity_1_1_product.html">Product</a> &gt;&#160;</td>
+          <td class="paramname"><em>cart</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; Integer &gt;&#160;</td>
+          <td class="paramname"><em>nums</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classentity_1_1_user.html">User</a>&#160;</td>
+          <td class="paramname"><em>user</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Function used to create a new order on the database. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cart</td><td></td></tr>
+    <tr><td class="paramname">nums</td><td></td></tr>
+    <tr><td class="paramname">user</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="ae640f52235917c0cc786c4a589f66298"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae640f52235917c0cc786c4a589f66298">&#9670;&nbsp;</a></span>findProductById()</h2>
 
@@ -109,7 +161,14 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>This method will find a product by its ID </p>
+<p>This method will find a product by its ID </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td><br />
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Product </dd></dl>
 
 </div>
 </div>
@@ -136,7 +195,13 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Function used for data display </p>
+<p>Function used for data display </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>List&lt;String&gt; </dd></dl>
 
 </div>
 </div>
@@ -173,12 +238,20 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Function used for data display </p>
+<p>Function used for data display </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td><br />
+</td></tr>
+    <tr><td class="paramname">listP</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>List&lt;Integer&gt; </dd></dl>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/repository/CustomerRepository.java</li>
+<li>src/main/java/repository/CustomerRepository.java</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -12,7 +12,19 @@ import entity.Order;
 import entity.User;
 import utils.HibernateUtils;
 
+/**
+ * Manager Repository. Contains functions and sql queries to get information from database used by the customer. 
+ * @class ManagerRepository
+ * @author Leire
+ *
+ */
 public class ManagerRepository {
+	
+	/**
+     * Function with a list of Months.
+     * @param month
+     * @return String
+     */
 	public String getMonth(int month) {
 		//for definitu hemen
 				
@@ -32,6 +44,12 @@ public class ManagerRepository {
 		        return map.get(month);
 	}
 	
+	/**
+     * Function that returns information for the Manager's chart.
+     * @param day
+     * @param month
+     * @return int
+     */
 	public int getItemsOutValue(int day, int month) {
 		Session session= HibernateUtils.getSessionFactory().openSession();
 			Query<Integer> query=session.createSQLQuery("select sum(o.quantity) as total \r\n" + 
@@ -48,6 +66,12 @@ public class ManagerRepository {
 		return value;
 	}
 	
+	/**
+     * Function that returns information for the Manager's chart.
+     * @param day
+     * @param month
+     * @return Date
+     */
 	public Date getItemsOutDate(int day, int month) {
 		Session session= HibernateUtils.getSessionFactory().openSession();
 			Query<Date> query=session.createSQLQuery("select distinct ot.dateOrder as fecha \r\n" + 
@@ -64,6 +88,7 @@ public class ManagerRepository {
 	
 	/**
      * This method will return all the orders of the warehouse's history
+     * @return Order[]
      */
 	public Order[] getAllOrders() {
 		Session session= HibernateUtils.getSessionFactory().openSession();

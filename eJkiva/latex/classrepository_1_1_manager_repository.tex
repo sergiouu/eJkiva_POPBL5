@@ -3,17 +3,22 @@
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\Hypertarget{classrepository_1_1_manager_repository_ae52c653f3008bfa5bc0f5af8dab9db43}\label{classrepository_1_1_manager_repository_ae52c653f3008bfa5bc0f5af8dab9db43}} 
-String {\bfseries get\+Month} (int month)
+String \mbox{\hyperlink{classrepository_1_1_manager_repository_ae52c653f3008bfa5bc0f5af8dab9db43}{get\+Month}} (int month)
 \item 
-\mbox{\Hypertarget{classrepository_1_1_manager_repository_a0e915572c7802a1e4503c558cabab270}\label{classrepository_1_1_manager_repository_a0e915572c7802a1e4503c558cabab270}} 
-int {\bfseries get\+Items\+Out\+Value} (int day, int month)
+int \mbox{\hyperlink{classrepository_1_1_manager_repository_a0e915572c7802a1e4503c558cabab270}{get\+Items\+Out\+Value}} (int day, int month)
 \item 
-\mbox{\Hypertarget{classrepository_1_1_manager_repository_a674b19911835ed9b14bc4e8ad6bbad95}\label{classrepository_1_1_manager_repository_a674b19911835ed9b14bc4e8ad6bbad95}} 
-Date {\bfseries get\+Items\+Out\+Date} (int day, int month)
+Date \mbox{\hyperlink{classrepository_1_1_manager_repository_a674b19911835ed9b14bc4e8ad6bbad95}{get\+Items\+Out\+Date}} (int day, int month)
 \item 
 \mbox{\hyperlink{classentity_1_1_order}{Order}} \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classrepository_1_1_manager_repository_aa79e0ef0402a40bb0cc00694ca02adf2}{get\+All\+Orders}} ()
 \end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Manager Repository. Contains functions and sql queries to get information from database used by the customer.
+
+\begin{DoxyAuthor}{Author}
+Leire 
+\end{DoxyAuthor}
 
 
 \subsection{Member Function Documentation}
@@ -23,8 +28,57 @@ Date {\bfseries get\+Items\+Out\+Date} (int day, int month)
 \subsubsection{\texorpdfstring{get\+All\+Orders()}{getAllOrders()}}
 {\footnotesize\ttfamily \mbox{\hyperlink{classentity_1_1_order}{Order}} \mbox{[}$\,$\mbox{]} repository.\+Manager\+Repository.\+get\+All\+Orders (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
-This method will return all the orders of the warehouse\textquotesingle{}s history 
+This method will return all the orders of the warehouse\textquotesingle{}s history \begin{DoxyReturn}{Returns}
+Order\mbox{[}\mbox{]} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classrepository_1_1_manager_repository_a674b19911835ed9b14bc4e8ad6bbad95}\label{classrepository_1_1_manager_repository_a674b19911835ed9b14bc4e8ad6bbad95}} 
+\index{repository\+::\+Manager\+Repository@{repository\+::\+Manager\+Repository}!get\+Items\+Out\+Date@{get\+Items\+Out\+Date}}
+\index{get\+Items\+Out\+Date@{get\+Items\+Out\+Date}!repository\+::\+Manager\+Repository@{repository\+::\+Manager\+Repository}}
+\subsubsection{\texorpdfstring{get\+Items\+Out\+Date()}{getItemsOutDate()}}
+{\footnotesize\ttfamily Date repository.\+Manager\+Repository.\+get\+Items\+Out\+Date (\begin{DoxyParamCaption}\item[{int}]{day,  }\item[{int}]{month }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Function that returns information for the Manager\textquotesingle{}s chart. 
+\begin{DoxyParams}{Parameters}
+{\em day} & \\
+\hline
+{\em month} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Date 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classrepository_1_1_manager_repository_a0e915572c7802a1e4503c558cabab270}\label{classrepository_1_1_manager_repository_a0e915572c7802a1e4503c558cabab270}} 
+\index{repository\+::\+Manager\+Repository@{repository\+::\+Manager\+Repository}!get\+Items\+Out\+Value@{get\+Items\+Out\+Value}}
+\index{get\+Items\+Out\+Value@{get\+Items\+Out\+Value}!repository\+::\+Manager\+Repository@{repository\+::\+Manager\+Repository}}
+\subsubsection{\texorpdfstring{get\+Items\+Out\+Value()}{getItemsOutValue()}}
+{\footnotesize\ttfamily int repository.\+Manager\+Repository.\+get\+Items\+Out\+Value (\begin{DoxyParamCaption}\item[{int}]{day,  }\item[{int}]{month }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Function that returns information for the Manager\textquotesingle{}s chart. 
+\begin{DoxyParams}{Parameters}
+{\em day} & \\
+\hline
+{\em month} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classrepository_1_1_manager_repository_ae52c653f3008bfa5bc0f5af8dab9db43}\label{classrepository_1_1_manager_repository_ae52c653f3008bfa5bc0f5af8dab9db43}} 
+\index{repository\+::\+Manager\+Repository@{repository\+::\+Manager\+Repository}!get\+Month@{get\+Month}}
+\index{get\+Month@{get\+Month}!repository\+::\+Manager\+Repository@{repository\+::\+Manager\+Repository}}
+\subsubsection{\texorpdfstring{get\+Month()}{getMonth()}}
+{\footnotesize\ttfamily String repository.\+Manager\+Repository.\+get\+Month (\begin{DoxyParamCaption}\item[{int}]{month }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Function with a list of Months. 
+\begin{DoxyParams}{Parameters}
+{\em month} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+String 
+\end{DoxyReturn}
+
 
 The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
 \item 
-D\+:/\+Users/user/\+Documents/\+M\+O\+N\+D\+R\+A/3.\+M\+A\+I\+L\+A/\+P\+O\+P\+B\+L5/\+G\+I\+T/e\+Jkiva\+\_\+\+P\+O\+P\+B\+L5/e\+Jkiva/src/main/java/repository/Manager\+Repository.\+java\end{DoxyCompactItemize}
+src/main/java/repository/Manager\+Repository.\+java\end{DoxyCompactItemize}

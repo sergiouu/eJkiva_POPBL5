@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['workstation',['Workstation',['../classentity_1_1_workstation.html',1,'entity.Workstation'],['../classentity_1_1copy_1_1_workstation.html',1,'entity.copy.Workstation']]]
+  ['warehouse',['warehouse',['../classcontroller_1_1_operator_controller.html#ac1739e3ad5746eb50e72a79df2cd7aca',1,'controller::OperatorController']]],
+  ['workstation',['Workstation',['../classentity_1_1_workstation.html',1,'entity']]]
 ];

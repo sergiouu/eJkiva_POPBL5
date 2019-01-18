@@ -45,7 +45,7 @@ This method will show the actual cart of the customer
 \subsubsection{\texorpdfstring{chart()}{chart()}}
 {\footnotesize\ttfamily String controller.\+Customer\+Controller.\+chart (\begin{DoxyParamCaption}\item[{Model}]{m,  }\item[{Web\+Request}]{request }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
-This method will show a chart showing... \mbox{\Hypertarget{classcontroller_1_1_customer_controller_a5496f4bf5f03f585ee223c0192d4fc85}\label{classcontroller_1_1_customer_controller_a5496f4bf5f03f585ee223c0192d4fc85}} 
+This method will show a chart showing the history of the products bought by the customer \mbox{\Hypertarget{classcontroller_1_1_customer_controller_a5496f4bf5f03f585ee223c0192d4fc85}\label{classcontroller_1_1_customer_controller_a5496f4bf5f03f585ee223c0192d4fc85}} 
 \index{controller\+::\+Customer\+Controller@{controller\+::\+Customer\+Controller}!customer@{customer}}
 \index{customer@{customer}!controller\+::\+Customer\+Controller@{controller\+::\+Customer\+Controller}}
 \subsubsection{\texorpdfstring{customer()}{customer()}}
@@ -62,7 +62,7 @@ This method will access the customer\textquotesingle{}s main site. Here, the cus
 \subsubsection{\texorpdfstring{order()}{order()}}
 {\footnotesize\ttfamily String controller.\+Customer\+Controller.\+order (\begin{DoxyParamCaption}\item[{Model}]{m,  }\item[{Web\+Request}]{request }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
-This method will access the customer\textquotesingle{}s \textquotesingle{}orders\textquotesingle{} option, where the customer will be able to see the orders made through their history. \mbox{\Hypertarget{classcontroller_1_1_customer_controller_af47f965b533083f4415c63f1065cbd64}\label{classcontroller_1_1_customer_controller_af47f965b533083f4415c63f1065cbd64}} 
+This method will access the customer\textquotesingle{}s \textquotesingle{}orders\textquotesingle{} option, where the customer will be able to seea concrete order. \mbox{\Hypertarget{classcontroller_1_1_customer_controller_af47f965b533083f4415c63f1065cbd64}\label{classcontroller_1_1_customer_controller_af47f965b533083f4415c63f1065cbd64}} 
 \index{controller\+::\+Customer\+Controller@{controller\+::\+Customer\+Controller}!orders@{orders}}
 \index{orders@{orders}!controller\+::\+Customer\+Controller@{controller\+::\+Customer\+Controller}}
 \subsubsection{\texorpdfstring{orders()}{orders()}}
@@ -88,4 +88,4 @@ This method will access the customer\textquotesingle{}s \textquotesingle{}produc
 
 The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
 \item 
-D\+:/\+Users/user/\+Documents/\+M\+O\+N\+D\+R\+A/3.\+M\+A\+I\+L\+A/\+P\+O\+P\+B\+L5/\+G\+I\+T/e\+Jkiva\+\_\+\+P\+O\+P\+B\+L5/e\+Jkiva/src/main/java/controller/Customer\+Controller.\+java\end{DoxyCompactItemize}
+src/main/java/controller/Customer\+Controller.\+java\end{DoxyCompactItemize}

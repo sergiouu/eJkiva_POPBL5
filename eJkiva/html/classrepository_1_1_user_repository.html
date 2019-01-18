@@ -75,6 +75,8 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a56e9773c71b3fc00aa6589ebad411a87"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classentity_1_1_user.html">User</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrepository_1_1_user_repository.html#a56e9773c71b3fc00aa6589ebad411a87">addUser</a> (<a class="el" href="classentity_1_1_usertype.html">Usertype</a> usertype, String uname, String password, String rname, String surname, String mail, String bornDat)  throws Exception </td></tr>
+<tr class="separator:a56e9773c71b3fc00aa6589ebad411a87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf10692a176bf2819fb70895530ef086"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classentity_1_1_user.html">User</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrepository_1_1_user_repository.html#adf10692a176bf2819fb70895530ef086">checkUser</a> (String uname, String password)</td></tr>
 <tr class="separator:adf10692a176bf2819fb70895530ef086"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e4a797c0eb806d34793295af70fd281"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classentity_1_1_usertype.html">Usertype</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrepository_1_1_user_repository.html#a8e4a797c0eb806d34793295af70fd281">checkUsertype</a> (<a class="el" href="classentity_1_1_user.html">User</a> user)</td></tr>
@@ -94,6 +96,86 @@ Public Member Functions</h2></td></tr>
 <div class="textblock"><p>User Repository. Contains sql queries to get information from database.</p>
 <dl class="section author"><dt>Author</dt><dd>Leire </dd></dl>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a56e9773c71b3fc00aa6589ebad411a87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56e9773c71b3fc00aa6589ebad411a87">&#9670;&nbsp;</a></span>addUser()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classentity_1_1_user.html">User</a> repository.UserRepository.addUser </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classentity_1_1_usertype.html">Usertype</a>&#160;</td>
+          <td class="paramname"><em>usertype</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>uname</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>password</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>rname</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>surname</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>mail</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>bornDat</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws Exception</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Adds a user to the database </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">usertype</td><td></td></tr>
+    <tr><td class="paramname">uname</td><td></td></tr>
+    <tr><td class="paramname">password</td><td></td></tr>
+    <tr><td class="paramname">rname</td><td></td></tr>
+    <tr><td class="paramname">surname</td><td></td></tr>
+    <tr><td class="paramname">mail</td><td></td></tr>
+    <tr><td class="paramname">bornDat</td><td><br />
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>User </dd></dl>
+
+</div>
+</div>
 <a id="adf10692a176bf2819fb70895530ef086"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adf10692a176bf2819fb70895530ef086">&#9670;&nbsp;</a></span>checkUser()</h2>
 
@@ -127,7 +209,15 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>This method will check a user and its password on the database </p>
+<p>This method will check a user and its password on the database </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">uname</td><td></td></tr>
+    <tr><td class="paramname">password</td><td><br />
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>User </dd></dl>
 
 </div>
 </div>
@@ -154,7 +244,14 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>This method will return the usertype of the user given </p>
+<p>This method will return the usertype of the user given </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">user</td><td><br />
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Usertype </dd></dl>
 
 </div>
 </div>
@@ -181,7 +278,14 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>This method will find an order by its ID </p>
+<p>This method will find an order by its ID </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td><br />
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Order </dd></dl>
 
 </div>
 </div>
@@ -208,7 +312,14 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>This method will return all the orders of the user given </p>
+<p>This method will return all the orders of the user given </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">user</td><td><br />
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Order[] </dd></dl>
 
 </div>
 </div>
@@ -234,7 +345,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>This method will creturn all the products available </p>
+<p>This method will return all the products available on stock </p><dl class="section return"><dt>Returns</dt><dd>Product[] </dd></dl>
 
 </div>
 </div>
@@ -261,7 +372,14 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>This method will find an order by its ID </p>
+<p>This method will find the products of an order </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td><br />
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>List&lt;Product&gt; </dd></dl>
 
 </div>
 </div>
@@ -288,12 +406,19 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>This method will find a user and return its type </p>
+<p>This method will find a user and return its type </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td><br />
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Usertype </dd></dl>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/Users/user/Documents/MONDRA/3.MAILA/POPBL5/GIT/eJkiva_POPBL5/eJkiva/src/main/java/repository/UserRepository.java</li>
+<li>src/main/java/repository/UserRepository.java</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

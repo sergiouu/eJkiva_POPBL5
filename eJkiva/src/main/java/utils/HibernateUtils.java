@@ -4,6 +4,12 @@ import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 
+/**
+ * HibernateUtils. Contains the configuration of Hibernate. 
+ * @class HibernateUtils
+ * @author Leire
+ *
+ */
 public class HibernateUtils {
 private static SessionFactory sessionFactory;
 	

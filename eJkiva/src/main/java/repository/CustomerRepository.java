@@ -19,8 +19,8 @@ import entity.User;
 import utils.HibernateUtils;
 
 /**
- * User Repository. Contains sql queries to get information from database. 
- * 
+ * Customer Repository. Contains functions and sql queries to get information from database used by the customer. 
+ * @class CustomerRepository
  * @author Leire
  *
  */
@@ -28,18 +28,22 @@ public class CustomerRepository {
 	
 	/**
      * This method will find a product by its ID
+     * @param id      
+     * @return Product
      */
 	public Product findProductById(int id) {
 		Session session= HibernateUtils.getSessionFactory().openSession();
 		Query<Product> query=session.createSQLQuery("SELECT * FROM product where productID = '"+id+"'").addEntity(Product.class);
 		Product product=query.uniqueResult();
 		return product;
-	}
-	
+	}	
 	
 		
 	/**
      * Function used for data display
+     * @param id     
+     * @param listP
+     * @return List<Integer>
      */
 	public List<Integer> getQuantityList(int id, List<String> listP) {
 		Session session= HibernateUtils.getSessionFactory().openSession();
@@ -63,6 +67,8 @@ public class CustomerRepository {
 	
 	/**
      * Function used for data display
+     * @param id
+     * @return List<String>
      */
 	@SuppressWarnings("deprecation")
 	public List<String> getProductList(int id) {
@@ -78,7 +84,10 @@ public class CustomerRepository {
 
 
 	/**
-     * Function used for data display
+     * Function used to create a new order on the database.
+     * @param cart
+     * @param nums
+     * @param user
      */
 	public void createOrder(List<Product> cart, List<Integer> nums, User user) {
 				
@@ -100,17 +109,4 @@ public class CustomerRepository {
 	}  
 	
 	
-	
-	/*
-	private HashMap<Integer, Product[]> getMappedOrders(Order[] orders) {
-		HashMap<Integer, Product[]> hmap = new HashMap<Integer, Product[]>();
-		Session session= HibernateUtils.getSessionFactory().openSession();
-		for(int i = 0; i<orders.length; i++) {
-			Query<Product> query=session.createSQLQuery("SELECT * FROM `order` WHERE userID = 1").addEntity(Product.class);
-			List<Product> products=query.getResultList();
-		}
-		return hmap;
-	}
-
-	 */
 }
