@@ -1,6 +1,7 @@
 package controller;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
@@ -20,7 +21,7 @@ import repository.ManagerRepository;
 import repository.UserRepository;
 
 /**
- * ManagerController
+ * ManagerController contains the URL actions of the Manager user type
  * @author Leire
  * 
  */
@@ -47,7 +48,7 @@ public class ManagerController {
     }  
 	
 	/**
-     * This method will access the customer's 'orders' option, where the customer will be able to see the orders
+     * This method will access the manager's 'orders' option, where the customer will be able to see the orders
      * made through their history.
 	 * @throws IOException 
      */
@@ -58,7 +59,7 @@ public class ManagerController {
         HttpSession session = hrequest.getSession(true);
         User user = (User) request.getAttribute("user", WebRequest.SCOPE_SESSION);
         
-        Order orders[] = urepo.getAllOrders(user);
+        Order orders[] = repo.getAllOrders();
         String orderId = hrequest.getParameter("order");
         if(orderId!=null) {
         	session.setAttribute("order", urepo.findOrderById(Integer.parseInt(orderId)));
@@ -68,12 +69,12 @@ public class ManagerController {
         return "managerOrders";  
     } 
 	/**
-     * This method will access the customer's 'orders' option, where the customer will be able to see the orders
-     * made through their history.
+     * This method will show an
      */
 	@RequestMapping("/manager/order" )  
 	public String order(Model m, WebRequest request, HttpServletRequest hrequest) {  
-        m.addAttribute("command", new User()); 
+        m.addAttribute("command", new User());
+        User user = (User) request.getAttribute("user", WebRequest.SCOPE_SESSION); 
 
         Order order = (Order) request.getAttribute("order", WebRequest.SCOPE_SESSION);
         List<Product> products = urepo.getProductsFromOrder(order.getOrderId());
@@ -88,12 +89,33 @@ public class ManagerController {
      * made through their history.
      */
 	@RequestMapping("/manager/history" )  
-	public String history(Model m, WebRequest request) {  
-        m.addAttribute("command", new User()); 
+	public String history(Model m, WebRequest request) {
+		m.addAttribute("command", new User()); 
         User user = (User) request.getAttribute("user", WebRequest.SCOPE_SESSION);
-        Order orders[] = urepo.getAllOrders(user);
-        //HashMap<Integer, Product[]> map = getMappedOrders(orders);
-        request.setAttribute("orders", orders, WebRequest.SCOPE_REQUEST);
+        
+		String monthP = request.getParameter("month");		
+		int month, day;
+		if(monthP == null) month=12;
+		else  month = Integer.parseInt(monthP);
+		
+		if(month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12) day = 31;
+		else if (month == 4 || month == 6 || month == 9 || month == 11) day = 30;
+		else day = 28;
+		
+		String value = repo.getMonth(month);
+        
+		List<Integer> listDatos = new ArrayList<>();
+		List<String> listFecha = new ArrayList<>();	
+        for(int i=1;i<=day;i++) {
+        	listDatos.add(repo.getItemsOutValue(i,month));
+        	listFecha.add(repo.getItemsOutDate(i,month).toString());
+        }
+           
+        request.setAttribute("mylistD", listDatos, WebRequest.SCOPE_REQUEST);
+        request.setAttribute("mylistF", listFecha, WebRequest.SCOPE_REQUEST);
+        request.setAttribute("monthName", value, WebRequest.SCOPE_REQUEST);
         return "warehouseHistory";  
     } 
+	
+	
 }

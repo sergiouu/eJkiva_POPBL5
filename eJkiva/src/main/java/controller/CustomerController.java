@@ -29,12 +29,12 @@ import entity.Usertype;
 import repository.CustomerRepository;
 import repository.UserRepository;
 import utils.HibernateUtils;
-
+ 
 /**
- * CustomerController
+ * CustomerController contains the URL actions of the Customer user type
  * @author Leire
  * 
- */
+ */ 
 @Controller  
 @SessionAttributes 
 public class CustomerController {
@@ -82,7 +82,7 @@ public class CustomerController {
         }
         
         User sessionUser = (User) request.getAttribute("user", WebRequest.SCOPE_SESSION);
-        Product[] products = repo.getAllProducts();
+        Product[] products = urepo.getAllProducts();
         request.setAttribute("products", products, WebRequest.SCOPE_REQUEST);
                 
         return "customer";  
@@ -114,6 +114,7 @@ public class CustomerController {
         	response.sendRedirect("/eJkiva/customer.html");
         }
         
+        User sessionUser = (User) request.getAttribute("user", WebRequest.SCOPE_SESSION);
         Product product = (Product) request.getAttribute("product", WebRequest.SCOPE_SESSION);
         request.setAttribute("product", product, WebRequest.SCOPE_REQUEST);
         return "product";  
@@ -122,13 +123,22 @@ public class CustomerController {
 	/**
      * This method will access the customer's 'orders' option, where the customer will be able to see the orders
      * made through their history.
+	 * @throws IOException 
      */
 	@RequestMapping("/customer/orders" )  
-	public String orders(Model m, WebRequest request) {  
-        m.addAttribute("command", new User()); 
+	public String orders(Model m, WebRequest request, HttpServletRequest hrequest, HttpServletResponse response) throws IOException {  
+		m.addAttribute("command", new User()); 
+        
+        HttpSession session = hrequest.getSession(true);
         User user = (User) request.getAttribute("user", WebRequest.SCOPE_SESSION);
+        
         Order orders[] = urepo.getAllOrders(user);
-        //HashMap<Integer, Product[]> map = getMappedOrders(orders);
+        String orderId = hrequest.getParameter("order");
+        if(orderId!=null) {
+        	session.setAttribute("order", urepo.findOrderById(Integer.parseInt(orderId)));
+        	response.sendRedirect("/eJkiva/manager/order.html");
+        }
+        
         request.setAttribute("orders", orders, WebRequest.SCOPE_REQUEST);
         return "customerOrders";  
     }  
@@ -139,27 +149,65 @@ public class CustomerController {
      */
 	@RequestMapping("/customer/order" )  
 	public String order(Model m, WebRequest request) {  
-        m.addAttribute("command", new User()); 
-        User user = (User) request.getAttribute("user", WebRequest.SCOPE_SESSION);
-        Order orders[] = urepo.getAllOrders(user);
-        //HashMap<Integer, Product[]> map = getMappedOrders(orders);
-        request.setAttribute("orders", orders, WebRequest.SCOPE_REQUEST);
-        return "customerOrder";  
-    } 
+		m.addAttribute("command", new User()); 
+		User sessionUser = (User) request.getAttribute("user", WebRequest.SCOPE_SESSION);
+		Order order = (Order) request.getAttribute("order", WebRequest.SCOPE_SESSION);
+		List<Product> products = urepo.getProductsFromOrder(order.getOrderId());
+		System.out.println(products+"hbujvbg,k vcaisvdbOLC");
+		request.setAttribute("product", products, WebRequest.SCOPE_REQUEST);
+		request.setAttribute("order", order, WebRequest.SCOPE_REQUEST);
+		return "customerOrder";  
+	} 
 	
 	/**
      * This method will show the actual cart of the customer
+	 * @throws IOException 
      * 
      */
 	@RequestMapping("/customer/cart" )  
-	public String cart(Model m, WebRequest request) {  
+	public String cart(Model m, WebRequest request, HttpServletRequest hrequest, HttpServletResponse response) throws IOException {  
         m.addAttribute("command", new User()); 
         User sessionUser = (User) request.getAttribute("user", WebRequest.SCOPE_SESSION);
+        HttpSession session = hrequest.getSession(true);
+        
+        String delete = hrequest.getParameter("delete");
+        System.out.println(delete+"!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+        if(delete != null) {
+
+        	int pos = cart.indexOf(delete);
+        	System.out.println(cart);
+        	System.out.println(pos);
+        	nums.remove(pos);
+        	cart.remove(pos);
+
+        	session.setAttribute("cart", cart);
+        	session.setAttribute("number", nums);
+        	response.sendRedirect("/eJkiva/customer.html");
+
+        }
+       
+        
         request.setAttribute("numbers", nums, WebRequest.SCOPE_REQUEST);
         request.setAttribute("products", cart, WebRequest.SCOPE_REQUEST);
         return "cart";  
     }
 	
+	
+	/**
+     * This method will show a chart showing...
+     * 
+     */
+	@RequestMapping("/customer/productHistory" )  
+	public String chart(Model m, WebRequest request) {  
+        m.addAttribute("command", new User()); 
+        User sessionUser = (User) request.getAttribute("user", WebRequest.SCOPE_SESSION);
+        List<String>listP = repo.getProductList(sessionUser.getUserId());
+        List<Integer>listC = repo.getQuantityList(sessionUser.getUserId(), listP);
+        request.setAttribute("myListP", listP, WebRequest.SCOPE_REQUEST);
+        request.setAttribute("myListC", listC, WebRequest.SCOPE_REQUEST);
+        return "productHistory";  
+    }
+
 	private void addProductToCart(Product p, int n) {
 		boolean isRepeated = false;
 		int pos = -1;
@@ -180,8 +228,6 @@ public class CustomerController {
 			nums.add(n);
 		}
 	
-		System.out.println("CART"+cart);
-		System.out.println("QUANTITIES"+nums);
 	}
 
 	private int getTotalCart() {
@@ -193,23 +239,5 @@ public class CustomerController {
 	}
 
 
-	/**
-     * This method will show a chart showing...
-     * 
-     */
-	@RequestMapping("/customer/productHistory" )  
-	public String chart(Model m, WebRequest request) {  
-        m.addAttribute("command", new User()); 
-        User sessionUser = (User) request.getAttribute("user", WebRequest.SCOPE_SESSION);
-        List<String>listP = repo.getProductList(sessionUser.getUserId());
-        List<Integer>listC = repo.getQuantityList(sessionUser.getUserId(), listP);
-        System.out.println(listP+"!!!!!!!!*****!!!!!!!!!!!!");
-		System.out.println(listC+"!!!*****!!!!!!!!!!!!!!!!!");
-        request.setAttribute("myListP", listP, WebRequest.SCOPE_REQUEST);
-        request.setAttribute("myListC", listC, WebRequest.SCOPE_REQUEST);
-        return "productHistory";  
-    }
-
-	
 		
 }

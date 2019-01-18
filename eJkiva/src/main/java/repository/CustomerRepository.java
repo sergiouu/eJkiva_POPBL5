@@ -31,19 +31,6 @@ public class CustomerRepository {
 		return product;
 	}
 	
-	/**
-     * This method will creturn all the products available
-     */
-	public Product[] getAllProducts() {
-		Session session= HibernateUtils.getSessionFactory().openSession();
-		Query<Product> query=session.createSQLQuery("SELECT * FROM product").addEntity(Product.class);
-		List<Product> products=query.getResultList();
-        Product[] allProducts = new Product[products.size()];
-        for(int i=0;i<products.size(); i++) {
-        	allProducts[i] = products.get(i);
-        }
-		return allProducts;
-	}
 	
 		
 	/**
@@ -83,6 +70,7 @@ public class CustomerRepository {
 		List<String> products=query.getResultList();	
 		return products;
 	}  
+	
 	
 	
 	/*

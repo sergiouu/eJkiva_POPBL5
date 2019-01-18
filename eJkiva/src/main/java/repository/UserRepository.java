@@ -19,6 +19,7 @@ import utils.HibernateUtils;
  * @author Leire
  *
  */
+
 public class UserRepository {
 
 	/**
@@ -57,9 +58,8 @@ public class UserRepository {
      * This method will return all the orders of the user given
      */
 	public Order[] getAllOrders(User user) {
-		System.out.println(user.getUsertype().getUsertypeId()+"!!!!!!!!!!!!!!!!!");
 		Session session= HibernateUtils.getSessionFactory().openSession();
-		Query<Order> query=session.createSQLQuery("SELECT * FROM `order` WHERE userID = '"+user.getUserId()+"'").addEntity(Order.class);
+		Query<Order> query=session.createSQLQuery("SELECT * FROM `order` WHERE userID = '"+user.getUserId()+"' ORDER BY dateOrder desc").addEntity(Order.class);
 		List<Order> orders=query.getResultList();
 		Order[] allOrders = new Order[orders.size()];
         for(int i=0;i<orders.size(); i++) {
@@ -91,7 +91,19 @@ public class UserRepository {
 		List<Product> products=query.getResultList();
 		return products;
 	}
-	
-	
-	
+		
+
+	/**
+     * This method will creturn all the products available
+     */
+	public Product[] getAllProducts() {
+		Session session= HibernateUtils.getSessionFactory().openSession();
+		Query<Product> query=session.createSQLQuery("SELECT * FROM product").addEntity(Product.class);
+		List<Product> products=query.getResultList();
+        Product[] allProducts = new Product[products.size()];
+        for(int i=0;i<products.size(); i++) {
+        	allProducts[i] = products.get(i);
+        }
+		return allProducts;
+	}
 }

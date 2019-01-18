@@ -57,7 +57,7 @@
     </definition>
     <definition name="sales" extends="manager">  
         <put-attribute name="title" value="Manager Orders" />   
-        <put-attribute name="body" value="/layout/orders.jsp" />   
+        <put-attribute name="body" value="/layout/manager/sales.jsp" />   
     </definition>
     <definition name="warehouseHistory" extends="manager">  
         <put-attribute name="title" value="Manager Orders" />   
@@ -78,11 +78,11 @@
     </definition>
     <definition name="operatorOrder" extends="operator">  
         <put-attribute name="title" value="Operator Order" />   
-        <put-attribute name="body" value="/layout/order.jsp" />   
+        <put-attribute name="body" value="/layout/operator/order.jsp" />   
     </definition>
     <definition name="operatorStock" extends="operator">  
         <put-attribute name="title" value="Stock" />   
-        <put-attribute name="body" value="/layout/orders.jsp" />   
+        <put-attribute name="body" value="/layout/operator/stock.jsp" />   
     </definition>
     <definition name="warehouseState" extends="operator">  
         <put-attribute name="title" value="Warehouse State" />   

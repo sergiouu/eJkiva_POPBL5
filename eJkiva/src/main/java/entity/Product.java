@@ -23,10 +23,10 @@ public class Product implements java.io.Serializable {
 	@Id
 	@Column(name="productID")
 	private int productId;
-	@MapsId //@ManyToOne
-	@ManyToOne( cascade = {CascadeType.PERSIST, CascadeType.MERGE}, targetEntity=Departament.class )
-    @JoinColumn(name="departamentID")
-	//@JoinColumn(name="departamentID")
+	@ManyToOne
+	//@ManyToOne( cascade = {CascadeType.PERSIST, CascadeType.MERGE}, targetEntity=Departament.class )
+    //@JoinColumn(name="departamentId")
+	@JoinColumn(name="departamentID")
 	//@Column(name="departamentID")
 	private Departament departament;
 	@Column(name="product_name")

@@ -1,7 +1,7 @@
 
   <!-- <nav class="navbar navbar-expand-md navbar-dark navbar-fixed-top bg-dark"> -->
   <nav class="navbar navbar-expand-md navbar-dark navbar-fixed-top bg-dark">
-    <a class="navbar-brand" href="#">eJkiva</a>
+    <a class="navbar-brand" href="/eJkiva/operator.html">eJkiva</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -11,11 +11,8 @@
 		</fmt:bundle>
 	</c:if>
     <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav mr-auto">  
         <li class="nav-item active">
-          <a class="nav-link" href="/eJkiva/operator.html">Home <span class="sr-only">(current)</span></a>
-        </li>        
-        <li class="nav-item">
           <a class="nav-link" href="/eJkiva/operator/orders.html">Orders</a>
         </li>
         <li class="nav-item">

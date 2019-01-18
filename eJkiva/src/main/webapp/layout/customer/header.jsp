@@ -15,7 +15,7 @@
 </head-->
   <!-- <nav class="navbar navbar-expand-md navbar-dark navbar-fixed-top bg-dark"> -->
   <nav class="navbar navbar-expand-md navbar-dark navbar-fixed-top bg-dark">
-    <a class="navbar-brand" href="#">eJkiva</a>
+    <a class="navbar-brand" href="/eJkiva/customer.html">eJkiva</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -26,17 +26,16 @@
 	</c:if>
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mr-auto">
+      
+        <li class="nav-item">
+          <a class="nav-link disabled" href="/eJkiva/customer/cart.html"><img src="../img/cart.png">Cart</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/eJkiva/customer/orders.html"><img src="img/history.png">History</a>
+        </li>
         <li class="nav-item active">
-          <a class="nav-link" href="/eJkiva/customer.html">Home <span class="sr-only">(current)</span></a>
-        </li>        
-        <li class="nav-item">
+        	
           <a class="nav-link" href="/eJkiva/customer/productHistory.html">Product history</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="/eJkiva/customer/cart.html">My cart</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/eJkiva/customer/orders.html">My orders history</a>
         </li>
       </ul>
       <c:if test="${not empty sessionScope.user}">
