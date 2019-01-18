@@ -8,6 +8,7 @@ import org.hibernate.query.Query;
 import entity.Order;
 import entity.Product;
 import entity.User;
+import entity.Workstation;
 import utils.HibernateUtils;
 
 public class OperatorRepository {
@@ -23,5 +24,12 @@ public class OperatorRepository {
         	allOrders[i] = orders.get(i);
         }
 		return allOrders;
+	}
+
+	public List<Workstation> getAllWorkstations() {
+		Session session= HibernateUtils.getSessionFactory().openSession();
+		Query<Workstation> query=session.createSQLQuery("SELECT * FROM workstation").addEntity(Workstation.class);
+		List<Workstation> ws=query.getResultList();
+		return ws;
 	}
 }

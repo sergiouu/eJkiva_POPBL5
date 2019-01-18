@@ -16,6 +16,7 @@ import org.springframework.web.context.request.WebRequest;
 import entity.Order;
 import entity.Product;
 import entity.User;
+import entity.Workstation;
 import repository.OperatorRepository;
 import repository.UserRepository;
 
@@ -93,7 +94,8 @@ public class OperatorController {
 	@RequestMapping("/operator/warehouse" )  
 	public String warehouse(Model m, WebRequest request, HttpServletResponse response, HttpServletRequest hrequest) throws IOException {  
 		m.addAttribute("command", new User()); 
-		
+		List<Workstation> workstations = repo.getAllWorkstations();
+		request.setAttribute("workstations", workstations, WebRequest.SCOPE_REQUEST);
 		return "warehouseState";  
 	} 
 

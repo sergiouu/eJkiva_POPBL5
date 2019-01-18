@@ -4,7 +4,9 @@ package entity;
 import java.util.HashSet;
 import java.util.Set;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
@@ -13,30 +15,24 @@ import javax.persistence.Table;
 @Entity
 @Table(name="workstation")
 public class Workstation implements java.io.Serializable {
-
+	@Id
+	@Column(name="workstationID")
 	private int workstationId;
-	private Segment segment;
-	private String workstationNam;
+	@Column(name="description")
 	private String description;
+	@Column(name="posX")
+	private int posX;
+	@Column(name="posY")
+	private int posY;
+	@Column(name="state")
 	private Boolean state;
-	private Set carriesesForDestinyWorkstationId = new HashSet(0);
-	private Set carriesesForInitialWorkstationId = new HashSet(0);
 
 	public Workstation() {
 	}
 
-	public Workstation(String workstationNam) {
-		this.workstationNam = workstationNam;
-	}
-
-	public Workstation(Segment segment, String workstationNam, String description, Boolean state,
-			Set carriesesForDestinyWorkstationId, Set carriesesForInitialWorkstationId) {
-		this.segment = segment;
-		this.workstationNam = workstationNam;
+	public Workstation(String description, Boolean state) {
 		this.description = description;
 		this.state = state;
-		this.carriesesForDestinyWorkstationId = carriesesForDestinyWorkstationId;
-		this.carriesesForInitialWorkstationId = carriesesForInitialWorkstationId;
 	}
 
 	public int getWorkstationId() {
@@ -45,22 +41,6 @@ public class Workstation implements java.io.Serializable {
 
 	public void setWorkstationId(int workstationId) {
 		this.workstationId = workstationId;
-	}
-
-	public Segment getSegment() {
-		return this.segment;
-	}
-
-	public void setSegment(Segment segment) {
-		this.segment = segment;
-	}
-
-	public String getWorkstationNam() {
-		return this.workstationNam;
-	}
-
-	public void setWorkstationNam(String workstationNam) {
-		this.workstationNam = workstationNam;
 	}
 
 	public String getDescription() {
@@ -79,20 +59,22 @@ public class Workstation implements java.io.Serializable {
 		this.state = state;
 	}
 
-	public Set getCarriesesForDestinyWorkstationId() {
-		return this.carriesesForDestinyWorkstationId;
+	public int getPosX() {
+		return posX;
 	}
 
-	public void setCarriesesForDestinyWorkstationId(Set carriesesForDestinyWorkstationId) {
-		this.carriesesForDestinyWorkstationId = carriesesForDestinyWorkstationId;
+	public void setPosX(int posX) {
+		this.posX = posX;
 	}
 
-	public Set getCarriesesForInitialWorkstationId() {
-		return this.carriesesForInitialWorkstationId;
+	public int getPosY() {
+		return posY;
 	}
 
-	public void setCarriesesForInitialWorkstationId(Set carriesesForInitialWorkstationId) {
-		this.carriesesForInitialWorkstationId = carriesesForInitialWorkstationId;
+	public void setPosY(int posY) {
+		this.posY = posY;
 	}
 
+	
+	
 }

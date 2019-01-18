@@ -8,29 +8,17 @@
             <column name="workstationID" />
             <generator class="identity" />
         </id>
-        <many-to-one name="segment" class="entity.Segment" fetch="select">
-            <column name="segmentID" />
-        </many-to-one>
-        <property name="workstationNam" type="string">
-            <column name="workstationNam" length="20" not-null="true" />
-        </property>
         <property name="description" type="string">
             <column name="description" length="20" />
+        </property>
+        <property name="posX" type="java.lang.Byte">
+            <column name="posX" />
+        </property>
+        <property name="posY" type="java.lang.Byte">
+            <column name="posY" />
         </property>
         <property name="state" type="java.lang.Boolean">
             <column name="state" />
         </property>
-        <set name="carriesesForDestinyWorkstationId" table="carries" inverse="true" lazy="true" fetch="select">
-            <key>
-                <column name="destinyWorkstationID" />
-            </key>
-            <one-to-many class="entity.Carries" />
-        </set>
-        <set name="carriesesForInitialWorkstationId" table="carries" inverse="true" lazy="true" fetch="select">
-            <key>
-                <column name="initialWorkstationID" />
-            </key>
-            <one-to-many class="entity.Carries" />
-        </set>
     </class>
 </hibernate-mapping>

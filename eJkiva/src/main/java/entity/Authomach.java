@@ -4,7 +4,10 @@ package entity;
 import java.util.HashSet;
 import java.util.Set;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 /**
@@ -13,27 +16,23 @@ import javax.persistence.Table;
 @Entity
 @Table(name="automatch")
 public class Authomach implements java.io.Serializable {
-
+	@Id
+	@Column(name="machineID")
 	private int machineId;
-	private Segment segment;
-	private String machine;
+	@Column(name="description")
 	private String description;
+	@Column(name="state")
 	private Boolean state;
-	private Set carrieses = new HashSet(0);
+	@OneToOne
+	@Column(name="workstationActual")
+	private Workstation workstationActual;
 
 	public Authomach() {
 	}
 
-	public Authomach(String machine) {
-		this.machine = machine;
-	}
-
-	public Authomach(Segment segment, String machine, String description, Boolean state, Set carrieses) {
-		this.segment = segment;
-		this.machine = machine;
+	public Authomach(String description, Boolean state, Set carrieses) {
 		this.description = description;
 		this.state = state;
-		this.carrieses = carrieses;
 	}
 
 	public int getMachineId() {
@@ -42,22 +41,6 @@ public class Authomach implements java.io.Serializable {
 
 	public void setMachineId(int machineId) {
 		this.machineId = machineId;
-	}
-
-	public Segment getSegment() {
-		return this.segment;
-	}
-
-	public void setSegment(Segment segment) {
-		this.segment = segment;
-	}
-
-	public String getMachine() {
-		return this.machine;
-	}
-
-	public void setMachine(String machine) {
-		this.machine = machine;
 	}
 
 	public String getDescription() {
@@ -74,14 +57,6 @@ public class Authomach implements java.io.Serializable {
 
 	public void setState(Boolean state) {
 		this.state = state;
-	}
-
-	public Set getCarrieses() {
-		return this.carrieses;
-	}
-
-	public void setCarrieses(Set carrieses) {
-		this.carrieses = carrieses;
 	}
 
 }

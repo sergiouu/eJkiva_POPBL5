@@ -8,23 +8,13 @@
             <column name="machineID" />
             <generator class="identity" />
         </id>
-        <many-to-one name="segment" class="entity.Segment" fetch="select">
-            <column name="segmentID" />
-        </many-to-one>
-        <property name="machine" type="string">
-            <column name="machine" length="20" not-null="true" />
-        </property>
+        <one-to-one name="workstationActual" class="entity.Workstation" fetch="select">
+        </one-to-one>
         <property name="description" type="string">
             <column name="description" />
         </property>
         <property name="state" type="java.lang.Boolean">
             <column name="state" />
         </property>
-        <set name="carrieses" table="carries" inverse="true" lazy="true" fetch="select">
-            <key>
-                <column name="machineID" />
-            </key>
-            <one-to-many class="entity.Carries" />
-        </set>
     </class>
 </hibernate-mapping>

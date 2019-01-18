@@ -1,7 +1,9 @@
 package entity;
 // Generated 15-ene-2019 0:02:31 by Hibernate Tools 5.1.0.Alpha1
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
@@ -10,7 +12,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name="carries")
 public class Carries implements java.io.Serializable {
-
+	
 	private CarriesId id;
 	private Authomach authomach;
 	private Orderproduct orderproduct;

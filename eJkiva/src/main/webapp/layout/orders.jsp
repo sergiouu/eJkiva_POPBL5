@@ -33,12 +33,10 @@
 							<div class="card">
 								<div class="card-header" id="headingOne">
 									<div class="form-group">
-										<button type="submit" id="register-submit" tabindex="4"
+										<!-- button type="submit" id="register-submit" tabindex="4"
 											class="btn btn-primary float-right display-7" name="order"
-											value="${order.orderId}">More</button>
-										<p class="display-4">${order.dateOrder}<!--a href="order.html"
-											class='btn btn-primary float-right display-7' name="order" value="${order.orderId}">More</a-->
-										</p>
+											value="${order.orderId}">More</button-->
+										<p class="display-4">${order.dateOrder}</p>
 										<p style="color: red;">
 											<c:if test="${order.dateDelivered != null}">Delievered</c:if>
 										</p>
@@ -49,15 +47,6 @@
 						</div>
 
 					</c:forEach>
-					<div>
-						<ul class="pagination">
-							<li class="page-item"><a class="page-link" href="#">Previous</a></li>
-							<li class="page-item"><a class="page-link" href="#">1</a></li>
-							<li class="page-item active"><a class="page-link" href="#">2</a></li>
-							<li class="page-item"><a class="page-link" href="#">3</a></li>
-							<li class="page-item"><a class="page-link" href="#">Next</a></li>
-						</ul>
-					</div>
 				</div>
 			</form:form>
 		</c:when>

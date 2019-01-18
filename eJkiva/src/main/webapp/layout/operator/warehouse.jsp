@@ -25,7 +25,7 @@
 								<tr>
 									<td>${workstation.workstationId}</td>
 									<td>${workstation.description}</td>
-									<td>${workstation.state}</td>
+									<td><c:if test="${workstation.state == true}">Full</c:if><c:if test="${workstation.state == false}">Empty</c:if></td>
 								</tr>
 
 							</c:forEach>
