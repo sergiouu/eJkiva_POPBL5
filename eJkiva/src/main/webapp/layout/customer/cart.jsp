@@ -32,8 +32,8 @@
 											<div class="col-lg-12">
 												<div class="card rounded">
 													<div class="card-image">
-														<span class="card-notify-badge">Low KMS</span> <span
-															class="card-notify-year">2018</span> 
+														<span
+															class="card-notify-year">New!</span> 
 															<img class="img-fluid" alt="No image" src="../img/${product.image}"/>
 													</div>
 													<div class="card-image-overlay m-auto">
@@ -51,7 +51,7 @@
 													<div class="card-body text-center">
 														<button type="submit" id="login-submit" tabindex="4"
 															class="form-control btn btn-login" name="delete"
-															value="${product}">Delete</button>
+															value="${product.productId}">Delete</button>
 													</div>
 												</div>
 											</div>
@@ -87,7 +87,7 @@
 			<div class="price-range mbr-section-btn" buttons="0">
 				Cart 
 				<a class="btn btn-sm btn-primary"
-					href="/eJkiva/customer/cart.html">${fn:length(sessionScope.cart)}</a>
+					href="/eJkiva/customer/cart.html">${requestScope.total}</a>
 
 			</div>
 		

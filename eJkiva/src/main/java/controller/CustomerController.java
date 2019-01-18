@@ -176,8 +176,14 @@ public class CustomerController {
         String delete = hrequest.getParameter("delete");
         System.out.println(delete+"!!!!!!!!!!!!!!!!!!!!!!!!!!!");
         if(delete != null) {
-
-        	int pos = cart.indexOf(delete);
+        	int pos = -1;
+        	for(Product pr: cart) {
+    			if(pr.getProductId() == Integer.parseInt(delete)) {
+    				System.out.println("SAME!");
+    				pos = cart.indexOf(pr);
+    				break;
+    			}
+    		}
         	System.out.println(cart);
         	System.out.println(pos);
         	nums.remove(pos);
@@ -189,7 +195,8 @@ public class CustomerController {
 
         }
        
-        
+
+        request.setAttribute("total", getTotalCart(), WebRequest.SCOPE_REQUEST);
         request.setAttribute("numbers", nums, WebRequest.SCOPE_REQUEST);
         request.setAttribute("products", cart, WebRequest.SCOPE_REQUEST);
         return "cart";  
@@ -221,7 +228,6 @@ public class CustomerController {
 				break;
 			}
 		}
-		
 		if(isRepeated) {
 			int i = nums.get(pos) + n;
 			nums.set(pos, i);
@@ -243,7 +249,5 @@ public class CustomerController {
 		}
 		return total;
 	}
-
-
 		
 }
