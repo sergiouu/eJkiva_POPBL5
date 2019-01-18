@@ -37,7 +37,7 @@
 															<img class="img-fluid" alt="No image" src="../img/${product.image}"/>
 													</div>
 													<div class="card-image-overlay m-auto">
-														<span class="card-detail-badge">${product.price}</span> 
+														<span class="card-detail-badge">${product.price}&euro;</span> 
 													</div>
 													<div class="card-body text-center">
 														<div class="ad-title m-auto">
