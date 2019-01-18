@@ -34,7 +34,7 @@ import utils.HibernateUtils;
  * CustomerController contains the URL actions of the Customer user type
  * @author Leire
  * 
- */ 
+ */  
 @Controller  
 @SessionAttributes 
 public class CustomerController {
@@ -106,11 +106,14 @@ public class CustomerController {
         if(addProductId!= null) {
         	System.out.println("PRODUCT ADDED!!!"+addProductId);
         	int num = Integer.parseInt(hrequest.getParameter("number"));
-        	for(int i=0; i<num; i++) {
-        		cart.add(repo.findProductById(Integer.parseInt(addProductId)));
-        	}
-        	session.setAttribute("cart", cart);
+        	addProductToCart(repo.findProductById(Integer.parseInt(addProductId)) , num);
+        	hrequest.removeAttribute("number");
+        	hrequest.removeAttribute("cart");
+        	hrequest.removeAttribute("addproduct");
+        	session.removeAttribute("addproduct");
+            session.setAttribute("cart", cart);
             session.setAttribute("number", nums);
+            session.setAttribute("totalCart", getTotalCart());
         	response.sendRedirect("/eJkiva/customer.html");
         }
         
@@ -228,6 +231,9 @@ public class CustomerController {
 			nums.add(n);
 		}
 	
+		System.out.println(cart);
+		System.out.println(nums);
+
 	}
 
 	private int getTotalCart() {
