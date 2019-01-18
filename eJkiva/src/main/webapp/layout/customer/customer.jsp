@@ -50,7 +50,7 @@ img {
 							<div class="form-group">
 								<div class="list-group list-group-flush" id="products">
 									<c:forEach items="${requestScope.products}" var="product">
-										<div class="mbr-gallery-item" id="product">
+										<div class="mbr-gallery-item" id="product" style="display: flex; justify-content: center;">
 											<div class="item_overlay" data-toggle="modal"></div>
 											<div class="galleryItem" data-toggle="modal">
 												<div class="style_overlay"></div>
@@ -71,8 +71,8 @@ img {
 														${product.description}<br> <br>
 													</div>
 
-													<div class="form-group">
-														<div class="row">
+													<div class="form-group" id="#buttonsCust">
+														<div class="row" id="buttons">
 															<div class="col-sm-2 col-sm-offset-3">
 																<button type="submit" id="register-submit" tabindex="4"
 																	class="btn btn-secondary" name="addProduct"

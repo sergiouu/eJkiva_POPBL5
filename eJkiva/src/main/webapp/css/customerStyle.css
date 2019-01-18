@@ -20,7 +20,6 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 	}
-	
 	#buttons {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
@@ -29,14 +28,13 @@
 		display: grid;
 		grid-template-columns: 1fr;
 	}
-	#buttonsProd{
-		diplay:grid;
-		grid-template-columns:1fr;
-	
+	#buttonsProd {
+		diplay: grid;
+		grid-template-columns: 1fr;
 	}
-	#anadirX{	
-		display:grid;
-		grid-template-columns:1fr 1fr;
+	#anadirX {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
 	}
 }
 
@@ -45,14 +43,8 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 	}
-	#productsCarta {
-		display: grid;
-		
-		grid-template-columns: 1fr 1fr 1fr;
-	}
 	#productsCart {
 		display: grid;
-		grid-template-columns: 1fr 1fr;
-
+		grid-template-columns: 1fr 1fr 1fr;
 	}
 }

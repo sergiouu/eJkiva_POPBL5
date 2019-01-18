@@ -5,6 +5,7 @@
 
 <head>
    <link rel="stylesheet" href="css/unitProduct.css" >
+   <link rel="stylesheet" href="../css/customerStyle.css" />
    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -30,9 +31,9 @@
 					</div>
 
 				</div>
-				<div id="buttons">
+				<div id="buttonsProd">
 					<div class="form-group">
-						<div class="row">
+						<div class="row" id="anadirX">
 							<div class="col-sm-6 col-sm-offset-3">
 								<button type="submit" id="register-submit" tabindex="4"
 									class="btn btn-outline-success my-2 my-sm-0" name="addProduct"

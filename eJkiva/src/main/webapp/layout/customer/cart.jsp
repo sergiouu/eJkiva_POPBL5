@@ -7,7 +7,7 @@
 <head>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <link rel="stylesheet" href="../css/customerStyle.css" />
-   <link rel="stylesheet" href="../css/unitProduct.css" />
+ <link rel="stylesheet" href="../css/unitProduct.css" />
 <link
 	href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
 	rel="stylesheet" id="bootstrap-css">
@@ -17,14 +17,14 @@
 	src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <div class="row col-lg-12">
-	<div class="wrapper-shop-items col-lg-9">
+	<div class="wrapper-shop-items col-lg-11">
 		<div class="mbr-gallery-row">
 			<div>
 				<div class="shop-items">
 					<c:if test="${not empty requestScope.products}">
 						<form:form method="post" action="cart.html">
 							<div class="form-group">
-								<div class="list-group list-group-flush" id="products">
+								<div class="list-group list-group-flush" id="productsCart">
 									<c:forEach items="${requestScope.products}" var="product">
 
 
@@ -82,7 +82,7 @@
 		</div>
 	</div>
 	<c:if test="${not empty sessionScope.cart}">
-	<div class="col-xl-3 sidebar">
+	<div class="col-lg-1 sidebar">
 		
 			<div class="price-range mbr-section-btn" buttons="0">
 				Cart 

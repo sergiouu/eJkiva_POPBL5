@@ -84,5 +84,17 @@ public class OperatorController {
 		request.setAttribute("order", order, WebRequest.SCOPE_REQUEST);
 		return "operatorOrder";  
 	} 
+	
+	/**
+	 * This method will access the customer's 'orders' option, where the customer will be able to see the orders
+	 * made through their history.
+	 * @throws IOException 
+	 */
+	@RequestMapping("/operator/warehouse" )  
+	public String warehouse(Model m, WebRequest request, HttpServletResponse response, HttpServletRequest hrequest) throws IOException {  
+		m.addAttribute("command", new User()); 
+		
+		return "warehouseState";  
+	} 
 
 }

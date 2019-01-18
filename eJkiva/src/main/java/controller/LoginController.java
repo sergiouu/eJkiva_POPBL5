@@ -8,6 +8,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.Locale;
 import java.util.Set;
 
 import javax.servlet.http.HttpServletRequest;
@@ -106,6 +107,8 @@ public class LoginController {
 				else if(pwd.equals(passwordRepeat)) {
 					User newUser = addUser(utype, uname, pwd, name, surname, email, borndate);
 					System.out.println(newUser);
+					session.setAttribute("user",newUser);
+					request.setAttribute("message", "register.successful");
 					response.sendRedirect("/eJkiva/customer.html");
 				}else {
 					System.out.println("Passwords don't match!");
@@ -132,9 +135,10 @@ public class LoginController {
 		Session session=HibernateUtils.getSessionFactory().openSession();
 		Transaction tx= session.beginTransaction(); 
 		
-		DateFormat df = DateFormat.getDateInstance();
-		Date date;
-		date = df.parse(bornDat);
+		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
+		Date date = simpleDateFormat.parse(bornDat);
+		System.out.println(date+"!!!!!!!!!");
+		
 		User newuser = new User(usertype, uname, password, rname, surname, mail, date);
 		
 		session.save(newuser);

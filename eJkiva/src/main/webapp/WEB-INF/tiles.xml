@@ -78,7 +78,7 @@
     </definition>
     <definition name="warehouseState" extends="operator">  
         <put-attribute name="title" value="Warehouse State" />   
-        <put-attribute name="body" value="/layout/orders.jsp" />   
+        <put-attribute name="body" value="/layout/operator/warehouse.jsp" />   
     </definition>
     
     
