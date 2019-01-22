@@ -1,4 +1,4 @@
--- --------------------------------------------------------
+﻿-- --------------------------------------------------------
 -- Host:                         127.0.0.1
 -- Versión del servidor:         5.6.39-log - MySQL Community Server (GPL)
 -- SO del servidor:              Win64
@@ -32,12 +32,12 @@ CREATE TABLE IF NOT EXISTS `departament` (
 DELETE FROM `departament`;
 /*!40000 ALTER TABLE `departament` DISABLE KEYS */;
 INSERT INTO `departament` (`departamentID`, `departament_name`, `description`) VALUES
-	(1, 'Electronic', 'Electronic equipment'),
-	(2, 'Sport', 'Sport equipment'),
-	(3, 'Music', 'CDs, merchandise'),
-	(4, 'Books', 'Book collection'),
-	(5, 'Clothes', 't-shirts, jackets, suits, sweatshirt...'),
-	(6, 'Shoes', 'sneakers, boots...');
+	(12, 'Electronic', 'Electronic equipment'),
+	(10, 'Sport', 'Sport equipment'),
+	(8, 'Music', 'CDs, merchandise'),
+	(7, 'Books', 'Book collection'),
+	(6, 'Clothes', 't-shirts, jackets, suits, sweatshirt...'),
+	(5, 'Shoes', 'sneakers, boots...');
 /*!40000 ALTER TABLE `departament` ENABLE KEYS */;
 
 
@@ -607,15 +607,7 @@ INSERT INTO `order` (`orderID`, `dateOrder`, `dateDelivered`, `userID`) VALUES
 	(547, '2018-12-22','2018-12-24', 38),
 	(548, '2018-12-22','2018-12-26', 39),
 	(549, '2018-12-23','2018-12-26', 40),
-	(550, '2018-12-24','2018-12-27', 36),
-	(551, '2018-12-25',null, 37),
-	(552, '2018-12-26',null, 38),
-	(553, '2018-12-26','2018-12-28', 5),
-	(554, '2018-12-27',null, 35),
-	(555, '2018-12-28',null, 34),
-	(556, '2018-12-29',null, 33),
-	(557, '2018-12-30',null, 32),
-	(558, '2018-12-31',null, 31);
+	(550, '2018-12-24','2018-12-27', 36);
 /*!40000 ALTER TABLE `order` ENABLE KEYS */;
 
 
@@ -637,38 +629,38 @@ CREATE TABLE IF NOT EXISTS `product` (
 DELETE FROM `product`;
 /*!40000 ALTER TABLE `product` DISABLE KEYS */;
 INSERT INTO `product` (`productID`, `product_name`, `description`, `price`, `image`, `departamentID`) VALUES
-	(1, 'Nokia 112', 'Patatofonoa', 12, 'image1.png', 1),
-	(2, 'Samsung SWO2000', 'Punta puntako teknologiya', 500, 'image2.png',1),
-	(3, 'Iphone 6', 'Apple mobile phone', 300,'image3.png', 1),
-	(4, 'Wireless headphones', 'Good audio', 37,'image4.png', 1),
-	(5, 'Samsung tv', 'Perfect tv toenjoy with the family', 400, 'image5.png',1),
-	(6, 'PlayStation 4', 'Good console', 400,'image6.png', 1),
-	(7, 'Digital camera', 'It takes ncredible photos', 250, 'image7.png',1),
-	(8, 'GPS', 'To move in the road', 99, 'image8.png',1),
-	(9, 'Levis Jeans', 'Very comfortable', 65,'image9.png', 5),
-	(10, 'Denim Jacket', 'Beautiful new jacket', 40,'image10.png', 5),
-	(11, 'Red socks', 'Ideal to wear at home', 8,'image11.png', 5),
-	(12, 'Short skirt', 'Beautiful skirt', 22,'image12.png', 5),
-	(13, 'Blue T-shirt', 'Basic t-shirt', 15,'image13.png', 5),
-	(14, 'Black suit', 'Perfect for a wedding', 50,'image14.png', 5),
-	(15, 'Flip-flop', 'Comfortable', 13,'image15.png', 6),
-	(16, 'Black boot', 'Perfect for a rainy day', 55,'image16.png', 6),
-	(17, 'White sneaker', 'Fits with everything', 70,'image17.png', 6),
+	(1, 'Nokia 112', 'Patatofonoa', 12, 'image1.png', 12),
+	(2, 'Samsung SWO2000', 'Punta puntako teknologiya', 500, 'image2.png',12),
+	(3, 'Iphone 6', 'Apple mobile phone', 300,'image3.png', 12),
+	(4, 'Wireless headphones', 'Good audio', 37,'image4.png', 12),
+	(5, 'Samsung tv', 'Perfect tv toenjoy with the family', 400, 'image5.png',12),
+	(6, 'PlayStation 4', 'Good console', 400,'image6.png', 12),
+	(7, 'Digital camera', 'It takes ncredible photos', 250, 'image7.png',12),
+	(8, 'GPS', 'To move in the road', 99, 'image8.png',12),
+	(9, 'Levis Jeans', 'Very comfortable', 65,'image9.png', 6),
+	(10, 'Denim Jacket', 'Beautiful new jacket', 40,'image10.png', 6),
+	(11, 'Red socks', 'Ideal to wear at home', 8,'image11.png', 6),
+	(12, 'Short skirt', 'Beautiful skirt', 22,'image12.png', 6),
+	(13, 'Blue T-shirt', 'Basic t-shirt', 15,'image13.png', 6),
+	(14, 'Black suit', 'Perfect for a wedding', 50,'image14.png', 6),
+	(15, 'Flip-flop', 'Comfortable', 13,'image15.png', 5),
+	(16, 'Black boot', 'Perfect for a rainy day', 55,'image16.png', 5),
+	(17, 'White sneaker', 'Fits with everything', 70,'image17.png', 5),
 	(18, 'Red Jacket', 'Really warm', 30,'image18.png', 5),
-	(19, 'Samsung s8', 'Very good model', 350,'image19.png', 1),
-	(20, 'LG G6', 'Good model', 350,'image20.png', 1),
-	(21, 'Ratón inalambrico', 'Usefull', 15,'image21.png', 1),
-	(22, 'Lenovo Tablet', 'Anyone can use it', 150,'image22.png', 1),
-	(23, 'Kindle', 'Can have housand books', 130,'image23.png', 4),
-	(24, 'Nike sweatshirt', 'Very useful for everything', 70,'image24.png', 5),
-	(25, 'Katu hankak', 'Eskalatzeko katu hankak', 15.8, 'image25.png',2),
-	(26, 'CD Negu Gorriak', 'Klasiko bat', 15,'image26.png', 3),
-	(27, 'Txomin komunean', 'Txominen esperientziak komunean', 10.5,'image27.png', 4),
-	(28, 'Magnesioa', 'Eskalatzeko magnesioa', 7.9, 'image28.png',2),
-	(29, 'Iphone 3', 'Modaz ta prezioz pasauta', 100,'image29.png', 1),
-	(30, 'Brigade Loco kamixet', 'Manexen talde faboritoa', 10,'image30.png', 3),
-	(31, 'Capitalismo en crisi', 'Gia erabilgarri bat', 15.8,'image31.png', 4),
-	(32, 'Arnesa', 'Eskalatzeko arnesa', 40.6,'image32.png', 2);
+	(19, 'Samsung s8', 'Very good model', 350,'image19.png', 12),
+	(20, 'LG G6', 'Good model', 350,'image20.png', 12),
+	(21, 'Ratón inalambrico', 'Usefull', 15,'image21.png', 12),
+	(22, 'Lenovo Tablet', 'Anyone can use it', 150,'image22.png', 12),
+	(23, 'Kindle', 'Can have housand books', 130,'image23.png', 7),
+	(24, 'Nike sweatshirt', 'Very useful for everything', 70,'image24.png', 6),
+	(25, 'Katu hankak', 'Eskalatzeko katu hankak', 15.8, 'image25.png',10),
+	(26, 'CD Negu Gorriak', 'Klasiko bat', 15,'image26.png', 8),
+	(27, 'Txomin komunean', 'Txominen esperientziak komunean', 10.5,'image27.png', 7),
+	(28, 'Magnesioa', 'Eskalatzeko magnesioa', 7.9, 'image28.png',10),
+	(29, 'Iphone 3', 'Modaz ta prezioz pasauta', 100,'image29.png', 12),
+	(30, 'Brigade Loco kamixet', 'Manexen talde faboritoa', 10,'image30.png', 8),
+	(31, 'Capitalismo en crisi', 'Gia erabilgarri bat', 15.8,'image31.png', 7),
+	(32, 'Arnesa', 'Eskalatzeko arnesa', 40.6,'image32.png', 10);
 /*!40000 ALTER TABLE `product` ENABLE KEYS */;
 
 
